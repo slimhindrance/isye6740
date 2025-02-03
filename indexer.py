@@ -29,7 +29,7 @@ index_to_docstore_id = {}
 vectorstore = FAISS(embedding_function, index, docstore, index_to_docstore_id)
 
 # Path to the folder containing text files
-folder_path = "ed/threads"
+folder_path = "ed/clean_threads"
 
 # Iterate through each file in the folder
 for filename in os.listdir(folder_path):
@@ -49,9 +49,16 @@ for filename in os.listdir(folder_path):
             print(f"\n\nCHNK:\n{type(chunk)}\n{chunk.page_content}\n\n")
             chunk_embedding = generate_embeddings(chunk.page_content)
             print(f"Embedding shape: {chunk_embedding.shape}\n\n")
-            chunk_embedding = chunk_embedding.reshape(1, -1)  # Reshape to (1, d)
-            vectorstore.add_documents(chunks)
             
+            # Ensure the embedding is a 2D array
+            if len(chunk_embedding.shape) == 1:
+                chunk_embedding = chunk_embedding.reshape(1, -1)
+            
+            # Check the shape of the embedding before adding
+            print(f"Reshaped Embedding shape: {chunk_embedding.shape}\n\n")
+            
+            #vectorstore.add_texts([chunk])
+            vectorstore.add_embeddings((chunk, chunk_embedding))
             # Free up unused CUDA memory
             torch.cuda.empty_cache()
 
