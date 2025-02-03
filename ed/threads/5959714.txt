@@ -1,7 +1,0 @@
-Thread ID: 5959714
-User 670341 (Parent Post) says:
-<document version="2.0"><paragraph>Hi everyone,</paragraph><paragraph>I’m currently looking for <bold>1-2 teammates to</bold> collaborate <bold>on</bold> the course project. </paragraph><list style="unordered"><list-item><paragraph><bold>Location:</bold> I’m based <bold>in</bold> Atlanta (EST, UTC-5).</paragraph></list-item><list-item><paragraph><bold>Communication:</bold> Email <bold>or</bold> Teams works great for <bold>me.</bold></paragraph></list-item><list-item><paragraph><bold>Experience:</bold> I’m currently <bold>a</bold> student with experience <bold>SQL, R, Python, Java.</bold> </paragraph></list-item><list-item><paragraph><bold>Project Topic</bold>: I’m flexible and happy to brainstorm with the team to find something exciting for everyone.</paragraph></list-item></list></document>
-
-Comment from User 896413:
-Please use the designated thread for project teams. #6 
-

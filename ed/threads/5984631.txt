@@ -1,9 +1,0 @@
-Thread ID: 5984631
-User 1230133 (Parent Post) says:
-<document version="2.0"><paragraph>Do you have any guidance on calculating silhouette score in a computationally efficient way? Every way that I've been able to think of requires looping through individual pixels and calculating the distance to every other pixel, which takes forever.</paragraph></document>
-
-Answer from User 300188:
-There are packages for this, but if you're worried about this for the gradescope submission then one thing you can do is vectorize your code. You can use matrix operations in Python instead of loops for things like this. 
-
-
-

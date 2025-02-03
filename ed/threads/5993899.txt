@@ -1,9 +1,0 @@
-Thread ID: 5993899
-User 1133909 (Parent Post) says:
-<document version="2.0"><paragraph>When I submit the pdf report and zip file... Do the answers for the coding questions also need to be in the Latex report, or can those answers just live in the jupyter notebook?</paragraph></document>
-
-Answer from User 896413:
-If it is one of the deliverables for the question like your iterations, run time, and image outputs, then yes. It needs to be in the report. You cannot write something like "see code output" in your report.
-
-Your exploratory data analysis on the inputs, scratch work code, the actual centroids values (these are not a deliverable), etc. can all live in your code.
-

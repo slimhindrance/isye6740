@@ -1,7 +1,0 @@
-Thread ID: 5989906
-User 1026001 (Parent Post) says:
-<document version="2.0"><paragraph>Hi All, </paragraph><paragraph>I did submit the pdf and zip for my homework 1, do I have to submit all the codes to the gradescope as well ?</paragraph><paragraph>Thanks, </paragraph><paragraph>Winson Jiang </paragraph></document>
-
-Answer from User 134876:
-This semester gradescope submission will be purely for bonus points, not a requirement.
-

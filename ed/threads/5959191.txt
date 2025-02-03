@@ -1,9 +1,0 @@
-Thread ID: 5959191
-User 1332979 (Parent Post) says:
-<document version="2.0"><paragraph>Hi I saw that there is some useful code in kmeans_digit.py for the kmeans implemmentation. May I use it for my homework 1?</paragraph><paragraph/></document>
-
-Answer from User 896413:
-Yes, you may use any part of the demo code with citation.
-
-You may also use any code that you have written yourself in a previous course. You may not use code provided by instructors of a previous course.
-

@@ -1,7 +1,0 @@
-Thread ID: 5994082
-User 1512062 (Parent Post) says:
-<document version="2.0"><paragraph>Hi team,<break/><break/>When I tried to submit my report and ZIP file for the second time, I noticed the Canvas appends a postfix to my submission. Will this cause me to be penalised?<break/><break/>For example, I got a report called "Georgia3_HW1_report.pdf" and when I submitted it to Canvas for the second time, I noticed it becomes "Georgia3HW1_report-1.pdf" displayed on Canvas after I submitted it<break/><break/>Thanks team</paragraph></document>
-
-Answer from User 134876:
-This is automated behavior for canvas, it won't cause an issue. The primary reason we require the naming convention is to ensure we keep students straight, especially when they have very similar / the same exact name (Happens more often than you'd think!)
-

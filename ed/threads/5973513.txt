@@ -1,9 +1,0 @@
-Thread ID: 5973513
-User 1332979 (Parent Post) says:
-<document version="2.0"><paragraph>Hi TAs,</paragraph><paragraph>In the demo code, I saw that sklearn.cluster import KMeans is used. May I ask if we can use this package for Qn 4? Thanks!</paragraph></document>
-
-Answer from User 896413:
-Yes. Please use the appropriate homework thread #16 
-
-
-

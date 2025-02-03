@@ -1,9 +1,0 @@
-Thread ID: 5988058
-User 1323477 (Parent Post) says:
-<document version="2.0"><paragraph>Is the gradescope submission still valid after tomorrow if we use an extra day? Additionally, do you have any tips about implementing mismatch rate? For literally cannot do it for the life of me</paragraph></document>
-
-Answer from User 217529:
-You can use extra days and receive credit as if you had submitted by the due date
-
-
-

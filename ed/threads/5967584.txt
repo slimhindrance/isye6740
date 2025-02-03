@@ -1,9 +1,0 @@
-Thread ID: 5967584
-User 1512062 (Parent Post) says:
-<document version="2.0"><paragraph>Hi TAs<break/><break/>I have a habit of always writing out my words or latex math proof in Juyter markdown first. Can I take a screenshot of the math proof which I coded out in markdown and paste it into my report?<break/><break/>Rationale is that in my line of work, we do not submit reports to our bosses and usually it is just the Jupyter notebook. However for this course, for the report, I write out the math proof in markdown first (Say Q2) and what I do is to take a screenshot and paste the relevant section answer into the report</paragraph><paragraph>Thanks and appreciate some clarity on the guidelines of the report</paragraph></document>
-
-Answer from User 213547:
-Either is fine
-
-
-

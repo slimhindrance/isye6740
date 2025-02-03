@@ -1,7 +1,0 @@
-Thread ID: 5966470
-User 1144014 (Parent Post) says:
-<document version="2.0"><paragraph>Hi, </paragraph><paragraph>For Concept Question 1 problem 3, I referenced the LP_review slides from the Canvas Reference Module for Linear Algebra for the vector operation identities used in the derivation. Do I need to reference that I used the slides or do we assume that's a given? And if I do have to list the ppt as a reference, do I need to provide slide numbers? Apologies if this should've been posted in the main thread; I'm not sure if this would be giving too much information away.</paragraph><paragraph>Thank you!</paragraph><paragraph/></document>
-
-Answer from User 896413:
-You don't have to reference the lecture. If you want to reference the provided reference textbooks on Canvas, you can do that.
-

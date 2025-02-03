@@ -1,9 +1,0 @@
-Thread ID: 5994019
-User 1133909 (Parent Post) says:
-<document version="2.0"><paragraph>for the map{} that gets returned. Is the image (map["img"]) supposed to be a 3D image? Or a column vector of size(pixels, 3)?</paragraph></document>
-
-Answer from User 896413:
-Please use the appropriate thread #15.
-
-Could you provide more context? Are you referring to the demo code? Does Paresh's answer help?
-

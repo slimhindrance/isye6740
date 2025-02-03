@@ -1,5 +1,6 @@
 from edapi import EdAPI
 from dotenv import load_dotenv
+import time
 
 # Load environment variables
 load_dotenv()
@@ -48,6 +49,7 @@ def doc_from_threads(thread_ids):
     :param thread_ids: List of thread IDs to process
     """
     for thread_id in thread_ids:
+        time.sleep(.2)
         # Fetch the full thread content
         thread_content = ed.get_thread(thread_id)
 
@@ -81,7 +83,7 @@ def doc_from_threads(thread_ids):
             print(f"Skipping 'anonymous_comments' for thread {thread_id} as it is not a list.")
 
         # Save to a file
-        filename = f"threads/{thread_id}.txt"
+        filename = f"/home/lindeman/isye6740/ed/threads/{thread_id}.txt"
         with open(filename, "w", encoding="utf-8") as file:
             file.write(content)
 

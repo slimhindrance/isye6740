@@ -1,9 +1,0 @@
-Thread ID: 5984316
-User 1323477 (Parent Post) says:
-<document version="2.0"><paragraph>Hi, I'm considering using an elbow plot to determine my best k. I have decided to graph the elbow plot for clusters [3, 6, 12, 24, 48, 96]. I added 96 in order to compare cluster #48. My elbow plot is as follows:<break/></paragraph><figure><image src="https://static.us.edusercontent.com/files/m03kVngMRRzBZmA5Ogr0nbxh" width="340" height="285"/></figure><paragraph>My issue here is that I understand that interpreting an elbow plot is a relatively subjective. In this case, I'd say that my best cluster looks to be 24 or 48, leaning towards 24. If I explain my process and reasoning for choosing an elbow plot and best k, will that be sufficient for points? I'm not quite sure what to do here.</paragraph><paragraph>I was also thinking about using silhouette score to determine best k but I think that is relatively subjective as well</paragraph><paragraph/></document>
-
-Answer from User 300188:
-I don't think subjective is necessarily the right word to use here. You could try to determine the point where the reduction in distortion score is marginal to the point where you don't need to increase K.
-
-But to answer your original question, as long as you explain your process and reasoning and it makes sense then you'll get full points. 
-

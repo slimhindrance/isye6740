@@ -1,7 +1,0 @@
-Thread ID: 5999676
-User 669958 (Parent Post) says:
-<document version="2.0"><paragraph>Hello, </paragraph><paragraph>For Q4 of HW 1, i want to double check that i have the formatting correct for what is expected.</paragraph><paragraph>If k=3, should majority_index show as {majority_index: 0, mismatch_rate:}, {majority_index:1}, {majority_index:2}, {majority_index:3}? Or should it show the majority label of the cluster (ie, majority_index:0, majority_index:0, majority_index: 1, and so forth? </paragraph><paragraph/><figure><image src="https://static.us.edusercontent.com/files/AIs0Cfn0yexlYS2UIglk1Pqk" width="658" height="72.8169014084507"/></figure><paragraph>The screenshot is how i have it set up but it doesn't show the majority true label for the cluster is why I am a little confused on what is expected.</paragraph><paragraph>Thanks</paragraph><paragraph/></document>
-
-Answer from User 213547:
-it should be by majority label 0 or 1
-

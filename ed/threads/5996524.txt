@@ -1,9 +1,0 @@
-Thread ID: 5996524
-User 1323477 (Parent Post) says:
-<document version="2.0"><paragraph>1. I plan to submit my PDF via google doc (instead of latex). For the math intensive questions, I did them by hand and intend to paste them into the google doc. Is this fine for submission?</paragraph><paragraph>2. The ipynb file within the zip folder doesn't need to be named anything special, right?</paragraph><paragraph>3. For question 3 of HW1, I understand that one of the requirements for submission is that the extra photo should be 200x150. My photo (according to an online website) is 192x362. Is that fine?</paragraph></document>
-
-Answer from User 134876:
-Pasting into your google doc is fine. No naming requirements for the ipynb, just make it make sense.
-
-For the file size, our main goal is to ensuire students don't try to game their algorithm by using an excessively small image. This file size is fine.
-
