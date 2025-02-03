@@ -1,0 +1,5 @@
+How to run this thing
+
+1. ed_download.py           gets content from Ed API
+2. thread_cleaner.py        regex to clean up text
+3. indexer.py               takes clean text and creates vector database
