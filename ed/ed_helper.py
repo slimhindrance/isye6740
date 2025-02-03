@@ -9,7 +9,10 @@ ed = EdAPI()
 # authenticate user through the ED_API_TOKEN environment variable
 ed.login()
 
-year = os.getenv("ED_YEAR")
+try:
+    year = os.getenv("ED_YEAR")
+except:
+    print("Add ED_YEAR variable to .env file")
 
 def welcome():
     # retrieve user information; authentication is persisted to next API calls
