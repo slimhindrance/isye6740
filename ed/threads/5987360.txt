@@ -1,0 +1,21 @@
+Thread ID: 5987360
+User 896440 (Parent Post) says:
+<document version="2.0"><paragraph>I'm trying to implement the demo code to calculate adjacency matrix and running into an issue where row index exceeds matrix dimensions. n is the number of rows after removing nodes that are not connected to any other nodes (n= 1224). Shouldn't the first code of A give me a symmetrical matrix?</paragraph><pre># spectral clustering
+n = len(nodes.index)
+# k = 13
+
+a = import_edges()
+i = a[:, 0]-1
+j = a[:, 1]-1
+v = np.ones((a.shape[0], 1)).flatten()
+<bold>A = sparse.coo_matrix((v, (i, j)), shape=(n, n))</bold>
+A = (A + np.transpose(A))
+A = sparse.csc_matrix.todense(A) # ## convert to dense matrix
+
+D = np.diag(1/np.sqrt(np.sum(A, axis=1)).A1)
+L = D @ A @ D
+L = np.array(L) # ## convert to array</pre><paragraph/><paragraph/></document>
+
+Answer from User 672141:
+I would  check the i and j parameters. It sounds like you are trying to add values that are out of bounds from the nxn matrix. 
+

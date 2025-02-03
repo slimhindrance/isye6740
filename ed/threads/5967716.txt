@@ -1,0 +1,12 @@
+Thread ID: 5967716
+User 1332979 (Parent Post) says:
+<document version="2.0"><paragraph>Hi tutors, for qn 3, I tried to check for empty clusters and then reduce to smaller number of clusters but I got this error: IndexError: index 23 is out of bounds for axis 1 with size 23.</paragraph><paragraph>Is there any other ways I can account for this?</paragraph><pre># K-Means algorithm<break/>        for iter in range(max_iterations):<break/>            print(f"--Iteration {iter + 1}--")<break/><break/>            # Compute norm squared of the centroids<break/>            c2 = np.sum(np.power(c, 2), axis=0, keepdims=True)<break/>            tmpdiff = (2 * np.dot(x.T, c) - c2)<break/>            labels = np.argmax(tmpdiff, axis=1)<break/><break/>            P = csc_matrix(<break/>                (np.ones(m), (np.arange(0, m, 1), labels)), shape=(m, cno))<break/>            count = P.sum(axis=0)<break/><break/>            # Empty clusters: Automatically decrement to a smaller number of clusters.<break/>            empty_clusters = np.where(count == 0)[0]<break/><break/>            if len(empty_clusters) &gt; 0:<break/>                c = np.delete(c, empty_clusters, axis=1)<break/>                cno -= len(empty_clusters)<break/>                break
+                
+</pre><paragraph/></document>
+
+Answer from User 213547:
+We not debug the code. 
+
+  Comment from User 1332979:
+  okay, thanks neepa
+

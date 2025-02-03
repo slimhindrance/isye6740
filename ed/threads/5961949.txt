@@ -1,0 +1,9 @@
+Thread ID: 5961949
+User 1512041 (Parent Post) says:
+<document version="1.0"><paragraph>In Q3.2, when implementing KMeans with the L1 (Manhattan) norm, I am using:</paragraph><paragraph>np.linalg.norm(c - c_old, ord = [enter ord here]) &gt; 1e-6</paragraph><paragraph><break/>as the condition for the while loop to run the algorithm. I'm doing the same for the L2 (Euclidean) norm implementation, using 'fro' for the 'ord' parameter, as my understanding is that the Frobenius norm is the matrix version of the Euclidean norm. For the L1 norm implementation, I tried both 1 (Manhattan) and 'fro' (Euclidean) for the 'ord' parameter for k = 3, 5, 48 and found that they take the same # of iterations and run += 1s, so the results seem very similar. Logically I figured that I should be using the Manhattan norm for the Manhattan distance, but since the results are very similar with the Frobenius, I am wondering if one is correct/why. Thanks!<break/></paragraph></document>
+
+Answer from User 213547:
+You can do so with ord=1 for manhattan distance. 
+
+You can also use SciPy’s cityblock() function. 
+

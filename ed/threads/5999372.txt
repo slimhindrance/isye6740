@@ -1,0 +1,20 @@
+Thread ID: 5999372
+User 1230153 (Parent Post) says:
+<document version="2.0"><paragraph>Jupyter Notebook newbie here. With regards to the requirements for relative data paths when calling files, can we assume TAs will load all data in our data folder along with the .ipynb file into their jupyter environment, or do I need to call on the name of my folder structure in the my code?</paragraph><paragraph>I have the files loaded into my jupyter directory, so my references are currently just things like data = 'file.csv'.</paragraph><paragraph>Would I have to modify that in anyway to something like 'data/file.csv', with data being the name of the folder with all my coding files, for it to be easily processed by the TA?</paragraph><paragraph>Appreciate the input.</paragraph></document>
+
+Answer from User 134876:
+Your TA will run your ipynb from the directory that it is inside. For example, If you have your homework setup as:
+
+Data folder
+
+file.csv
+
+HW1.ipynb
+
+Then in your HW1.ipynb, you should use data/file.csv as your path. 
+
+
+
+  Comment from User 1230153:
+  Thx
+

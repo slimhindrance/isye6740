@@ -1,0 +1,13 @@
+Thread ID: 6021218
+User 1493072 (Parent Post) says:
+<document version="2.0"><paragraph>Hi, </paragraph><paragraph>I’ve noticed that in our lectures, the data is set up with <bold>rows as features</bold> and <bold>columns as data points</bold>, which seems different from the usual convention where rows represent data points and columns represent features.</paragraph><paragraph>I’m curious if there’s a specific reason for this—does it make certain calculations easier, or is it just a preference?</paragraph><paragraph>Thanks!</paragraph></document>
+
+Answer from User 284691:
+Your intuition is correct — it both makes certain calculations easier (or easier to think about) and it is also a preference. 
+
+There is online discussion about this, e.g., https://www.reddit.com/r/deeplearning/comments/1avpbrj/feature_vectors_as_rows_or_columns_in_machine/
+
+And this: https://community.deeplearning.ai/t/are-examples-in-columns-and-features-in-rows/370988
+
+
+

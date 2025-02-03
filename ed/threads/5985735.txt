@@ -1,0 +1,7 @@
+Thread ID: 5985735
+User 1321162 (Parent Post) says:
+<document version="2.0"><paragraph>How many times can we submit on gradescope?</paragraph><paragraph/></document>
+
+Answer from User 300188:
+As of this moment, there is not a limit. 
+

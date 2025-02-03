@@ -1,0 +1,12 @@
+Thread ID: 5960074
+User 962372 (Parent Post) says:
+<document version="2.0"><paragraph>Hello TA team,</paragraph><paragraph>It is okay to run the code in Jupyter and include jupyter source file (.ipynb) files in the zip file for HW1 submission. Is that correct?</paragraph><paragraph>As an example, I'm planning to have 3 separate files for Q3 coding part as below.</paragraph><paragraph>xyz_HW1_Q3.3.ipynb</paragraph><paragraph>xyz_HW1_Q3.4.ipynb</paragraph><paragraph>xyz_HW1_Q3.5.ipynb</paragraph><paragraph>Hope that is acceptable.</paragraph><paragraph>Thank you.</paragraph></document>
+
+Answer from User 962232:
+Yes this is acceptable.
+
+  Comment from User 962372:
+  Thank you.
+
+
+

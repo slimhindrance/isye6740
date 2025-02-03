@@ -1,0 +1,10 @@
+Thread ID: 5960517
+User 1230133 (Parent Post) says:
+<document version="2.0"><figure><image src="https://static.us.edusercontent.com/files/Ubom1lx8aXuglVe9OcutfgLq" width="392" height="310"/></figure><paragraph/><paragraph>On slide 33 of lecture 2, it seems that the second grouping is formed (g13) because the distance between "Pietro" and "Pedro" is smallest (0.9). Does that mean we <bold><italic>don't</italic></bold> calculate a new distance between the newly formed "Petros + Pietro" grouping (g12) and "Pedro"? We still use the distances between other strings and the original, separate "Petros" and "Pietro" strings? </paragraph><paragraph>In other words - do we calculate a new value (like the average which = 3.55) for the g12 grouping and then calculate new distances, or just stick with distances among individual strings?</paragraph></document>
+
+Answer from User 962232:
+Just stuck with the distances between individual strings.
+
+Answer from User 1128157:
+Isn't this technically a question of linkage? To calculate the distance between a pair of clusters, you would use the individual strings which give the largest distance when using Complete Linkage. Single Linkage is similar, but you use the smallest distance between any two individual strings from each cluster. Average Linkage, compute all pairwise distances between the two clusters and use the average of those distances. Centroid Linkage, compute the centroid for each cluster and then take the distance between the centroids. These are valid options depending on the situation, correct? This is my understanding from ISL.
+

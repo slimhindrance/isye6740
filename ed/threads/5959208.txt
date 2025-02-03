@@ -1,0 +1,12 @@
+Thread ID: 5959208
+User 1230185 (Parent Post) says:
+<document version="2.0"><paragraph>Hi,</paragraph><paragraph>I understand we can use Jupyter notebook for coding questions. Since the code has execution time SLA, can we do all coding questions in single notebook?</paragraph><paragraph>Thanks.</paragraph></document>
+
+Answer from User 896413:
+Yes, you can do all of them in a single notebook. This holds for all homework assignments.
+
+Please make sure to restart your kernel and rerun your entire code before submitting.
+
+  Comment from User 1230185:
+  Thank you for clarifying.
+

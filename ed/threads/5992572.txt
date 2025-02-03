@@ -1,0 +1,14 @@
+Thread ID: 5992572
+User 1127932 (Parent Post) says:
+<document version="2.0"><paragraph>Hi,</paragraph><paragraph>I was wondering if we have to put all of the outputs in the pdf report? Since there's a lot of them, I felt that they would clog up the report. I saved them in a separate folder within the zip file and alluded to them in the pdf report, is that okay?</paragraph></document>
+
+Answer from User 896413:
+No, the report needs to have all images in the report itself. You can resize them smaller. If you are using LaTeX, here is code to put two images side by side to save space.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.49\textwidth]{my_first_image.png}
+        \includegraphics[width=0.49\textwidth]{my_second_image.png}
+    \end{figure}
+
+

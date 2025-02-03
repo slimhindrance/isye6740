@@ -1,0 +1,10 @@
+Thread ID: 5970129
+User 1325755 (Parent Post) says:
+<document version="2.0"><paragraph>Is it okay if we use Poetry as a package and dependency manager for our homework?</paragraph></document>
+
+Answer from User 213547:
+yes you may
+
+  Comment from User 1325755:
+  When we upload our zip, is it preferable to delete the virtual environment so the file is smaller? Or would you prefer I keep it intact?
+

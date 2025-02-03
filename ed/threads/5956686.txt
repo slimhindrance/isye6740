@@ -1,0 +1,7 @@
+Thread ID: 5956686
+User 896256 (Parent Post) says:
+<document version="2.0"><paragraph>For citing code that we are allowed to use in our homeworks, such as the demo code provided by the class, any particular convention we should be using? Should this be cited in our .py or .ipynb files or in the report write up? </paragraph></document>
+
+Answer from User 134876:
+You can follow standard citation practices at the end of your report write up.
+

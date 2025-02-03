@@ -1,0 +1,60 @@
+Thread ID: 5941356
+User 134876 (Parent Post) says:
+<document version="2.0"><paragraph>Please ask all questions related to HW1 Q5 in this thread.</paragraph></document>
+
+Comment from User 1232296:
+I'm guessing these are typos?
+
+  Reply from User 962232:
+  Yes both of those words should be "correctly".
+
+
+
+Comment from User 1498558:
+For this question, are we expected to report the purity scores on the test set, the training set, or both?
+
+  Reply from User 213547:
+  training
+
+Comment from User 307595:
+ Regarding the returned dictionary entries what should "true_label" be?  We have 10 clusters (0 to 9), each cluster after running kmeans contains a mix of correct and incorrect assignments, and each cluster is assigned a majority-based prediction label.  If I predict 1 for cluster 0 do I report "true_label=0" in the dictionary or do I have a bigger problem?
+
+Also, what if more than one cluster has the same prediction?
+
+  Reply from User 217529:
+  Example:
+{0:1,1:3,2:2,4:6,5:5,6:4,…}
+A cluster should be unique across ks 
+
+Comment from User 1497720:
+For 5.2 it says if the pixel values are above 128 they are assigned as '1'. 
+
+However shouldn't [128,255] inclusive be 1 and [0,127] inclusive be 0 if we were to make this an even split? Is there a reason why we tilt the odds towards 0? 
+
+
+
+  Reply from User 134876:
+  This was more just for simplicity in wording sake, and realistically won't have a material impact on the data, but you're correct in actuality it should be an exact inclusive split.
+
+Comment from User 1128057:
+Since the manhattan distance is equivalent to the hamming distance for binary features, I am planning on using my kmeans implementation using manhattan distance for 5.2. Is anything flawed in this approach ? Thank you.
+
+
+
+  Reply from User 1133602:
+  Following because also interested. Are you using SciKit Learn to do your clustering here? I'm wondering how easy it is to do this Manhattan distance or other custom distance function. For the Gradescope submission, we are even more restricted on what packages we can use. If you don't mind me asking, are you importing additional SciKit Learn packages to do this? 
+
+Comment from User 307595:
+PSA:  gradescope is requiring the large .mat file to be uploaded with each submission.  Figured the TAs may want to change this so hundreds of large files aren't placed on the grading server.
+
+  Reply from User 979414:
+  Thats a fair callout and will not be a problem for future gradescope questions. 
+
+Comment from User 896256:
+Trying to adapt my kmeans implementation from Q3 for Part 2 of this question since the kmeans scikit package only seems to use Euclidian. Do we initialize random centers that are either zero or 1 in this case? My implementation initialized k centers based on random sample of data. Getting some weird errors trying to run my implementation so just trying to look for things that might be wrong when inputting an array of only 0's or 1's.
+
+  Reply from User 799310:
+  Centroids are generally initialized with random values at which the points are then assigned based on the distance metric. Since the homework states that the kmeans package can be used for this question, consider checking out the inner workings of the package to see how they do it. 
+
+
+

@@ -1,0 +1,12 @@
+Thread ID: 5976719
+User 1512058 (Parent Post) says:
+<document version="2.0"><paragraph>Hello TAs,</paragraph><paragraph>I had a question on one of the more theoretical questions in the homework. I was able to complete 2.1 in the homework by taking the partial derivative of the objective function with respect to mu_j as suggested and successfully prove the end result as was provided.</paragraph><paragraph>Now looking at 2.2, I don't think we can perform a similar partial derivative for r_ij because this value will be either 0 or 1 dependent on if the data point is within the specified cluster. My only thoughts here would be to compare the cases when r = 0  or r=1 in an attempt to minimize the distortion function using the logic that a minimized Euclidean distance will make r=1 and it will be r=0 when it is not minimized for the data point based on the fixed centroid.</paragraph><paragraph>After this explanation, I am struggling to find a way to "derive mathematically" these assignments provided for r_ij. Am I thinking about this problem the correct way or is there a method similar to 2.1 where I am able to show a mathematical proof to derive an answer here?</paragraph><paragraph>Thank you for your help!</paragraph></document>
+
+Answer from User 215365:
+You are on the right track. It will just be important to show mathematically what you are describing in the second paragraph and to state why this is true in your answer.
+
+
+
+  Comment from User 1512058:
+  Great, thank you for your feedback!
+

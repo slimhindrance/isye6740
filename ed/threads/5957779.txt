@@ -1,0 +1,83 @@
+Thread ID: 5957779
+User 979414 (Parent Post) says:
+<document version="2.0"><paragraph>Vectorization for ML Models class notebook can be located here. <break/><break/>https://github.gatech.edu/pages/ISYE6740/CDA-handbook/ta_handouts/vectorization.html</paragraph></document>
+
+Comment from User 814300:
+Hi Paresh. I found this session very well explained and super helpful. I have a few questions on the code in the GradientDescentLinearRegression class.
+
+
+Your implementation is based directly off of this formula for gradient dissent, correct?
+
+
+
+
+In the return line of the gradient function below, where does the 2 come from?
+
+    def _gradient(self, theta, X, Y):
+        """ Gets the gradient  
+          theta : 
+              R^(n+1) dim vector
+          X :       
+              R^(n+1,m) dim matrix
+          Y :
+              R^m vector
+        """
+        return 2* (Y - self._predict(theta, X))@X.T / Y.shape[0]
+
+
+
+
+
+In the line where theta is updated in the solve function below,
+
+Where does the 2 come from?
+
+When dividing by m, hasn't that step already been complete in the gradient function above when dividing by Y.shape[0]?
+
+Also, the m in the below code isn't defined anywhere in the class and it looks to be using a value of m that is assigned earlier in the notebook in the "Matrix tricks" portion
+
+    def solve(self, X, Y, lr = 1e-4, threshold = 1e-2, max_itr = 500):
+        """ Gets the theta which minimizes the loss function for Linear Regression.
+          X :       
+              R^(n,m) dim matrix         
+          Y :
+              R^m
+        """     
+        
+        n = X.shape[0]
+        
+        X_aug = np.vstack([np.ones(X.shape[1], dtype=np.int32), X])
+        theta = np.ones(n+1)
+        
+        losses = []
+        gradient = self._gradient(theta, X_aug, Y)
+        
+        while (np.linalg.norm(gradient) > threshold and len(losses) < max_itr):
+            theta += (2 * lr * gradient) / m
+            gradient = self._gradient(theta, X_aug, Y)
+            losses.append(self._loss(theta, X_aug, Y))
+        
+        self._plot_results(losses)
+        
+        return theta
+
+  Reply from User 979414:
+  Hi Christian,
+
+Please find attached responses to your questions.
+
+Where does the 2 come from?
+
+The loss function is MSE which is $\frac{\sum {{y_i}^j - \theta_j.T{y_i}^j }^2}{m}$
+The derivative of this function by chain rule will add a 2. It was missing in gradient descent formula. 
+
+
+When dividing by m, hasn't that step already been complete in the gradient function above when dividing by Y.shape[0]?
+
+Yes that is baked into the gradient calculation of gradient calculation. 
+
+
+Also, the m in the below code isn't defined anywhere in the class and it looks to be using a value of m that is assigned earlier in the notebook in the "Matrix tricks" portion
+
+m is equivalent to number of training examples / data points. y.shape[0] is equivalent. 
+

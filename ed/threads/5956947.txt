@@ -1,0 +1,10 @@
+Thread ID: 5956947
+User 121859 (Parent Post) says:
+<document version="2.0"><paragraph>Does anyone know what actually do we have to do to set PATH environment variable as required by the Latex workshop extension for VSCode?</paragraph><paragraph>Went through their docs and could not find a command line to add what they are asking.</paragraph></document>
+
+Answer from User 134876:
+Honestly, the easiest method for using LaTeX is overleaf. Sign in with your gatech account and you get free overleaf pro, and it’s already a fully setup and functional LaTeX environment. I’ve heard nothing but problems with local setups.
+
+  Comment from User 121859:
+  amazing! thanks a lot Mark!
+

@@ -1,0 +1,14 @@
+Thread ID: 5996842
+User 1323477 (Parent Post) says:
+<document version="2.0"><paragraph>If I don't do the gradescope submission, I don't have to submit the gradescope scaffolding requirements, correct? I ask because I see that the output for the gradescope submission is very specific in requesting how outputs are formatted, however, I can format my outputs differently if I just submit through canvas?</paragraph></document>
+
+Answer from User 672141:
+That's correct, the submission to Gradescope has very specific requirements. For the code submission to Canvas, you can choose how you want to format/display the outputs.
+
+
+
+  Comment from User 1323477:
+  
+
+Thanks, however, I am confused by the "img" output here in gradescope. Are you asking for our height*width? Or is this even required for the canvas submission if I choose to void gradescope?
+

@@ -1,0 +1,60 @@
+Thread ID: 5996558
+User 134876 (Parent Post) says:
+<document version="2.0"><paragraph>Please ask all questions related to HW2 Q3 here.</paragraph><list style="bullet"><list-item><paragraph>There are no runtime requirements for this question, however please keep it reasonable (&lt;10min).</paragraph></list-item><list-item><paragraph>See #130 for additional notes.</paragraph></list-item><list-item><paragraph>PCA package can be used as part of the ISOMAP algorithm. ISOMAP packages are not permitted for this question.</paragraph></list-item></list></document>
+
+Comment from User 568225:
+I am confused by the shape of the data in isomap.dat. When I retrieve the images, the shape is (4096, 698). The question states that each datapoint is represented by 4096 features based on luminosity. Based on the shape, this indicates that the rows of the matrix are the features and the columns corresponds to each image. However, the question says that "This vector is stored as a row in the file." Am I missing something obvious? Or do we need to transpose the original data?
+
+
+
+  Reply from User 979414:
+  I suggest trying to plot image for first face in dataset and it should make things clearer
+
+  Reply from User 307528:
+  The eigenvalues should correspond to the covariance matrix derived from 698 samples, not 4096 features.
+
+Comment from User 1127985:
+For the first question on Problem3 on ISOMAP, it specifies that we can show the adjacency matrix as an image, but how can we formulate the adjacency matrix if we don't know the tuned epsilon parameter to achieve the most reasonable performance. My assumption is that we have to look at the low-dimensional embedding (Question 2) to determine the performance of epsilon.
+
+So for Question 1 in Problem 3, based on the value of points (5points), are we visualizing the adjacency matrix with a large epsilon where matrix is fully populated? 
+
+
+
+  Reply from User 896413:
+  No, the adjacency matrix is not meant to be fully connected. Part of your task is to tune your epsilon to produce a meaningful adjacency matrix. If you need a hint on the value range you should try, please see Neepa's office hours. I also highly recommend looking up the paper referenced for this problem for contextual and theoretical background.
+
+Comment from User 1131595:
+To clarify the wording in part 1 of this question, if we’re showing an adjacency matrix, then we don’t need to illustrate a few images? That’s only for the scatter plots of the embeddings/principal components for part 2 and 3 where we also show images?
+
+  Reply from User 134876:
+  You should display a few images for both methods, whether scatter plot or adjacency matrix. 
+
+Comment from User 1131595:
+When performing PCA (on both this question and the food consumption one), I had been scaling the data which I know is common practice and is done in the demo code. However I realized in part 3 of this question, I can replicate the results in the lecture notes only when I don’t scale the data. For the purposes of grading, does it matter whether we scale or not, as long as the implementation is otherwise correct and we accurately interpret our results?
+
+  Reply from User 215365:
+  Since all the features (pixel values) are within the same range, scaling is not necessary. Creating the closest reproduction of the plot from the ISOMAP paper and the plot shown on slide 19 of the lecture will be most important.
+
+Comment from User 1232296:
+The provided scaffolding file suggests that epsilon is an integer, shouldn't the distance be a float? we are only doing e-ISOMAP not k-ISOMAP, right?
+
+  Reply from User 1232296:
+  Unless epsilon here is the number of points we need to check to determine the shortest distance? This part of the paper was a bit unclear, I thought we test against all points and determine the smallest.
+
+If that's the case, then the distance $\epsilon$ should still be a float and is also tunable, right?
+
+  Reply from User 215365:
+  We are doing $\epsilon$-ISOMAP and $\epsilon$ will be a float that can be tuned. The Science paper mentions that either $\epsilon$-ISOMAP or $k$-ISOMAP can be used for constructing the neighborhood graph. $\epsilon$ is more of a threshold to determine the neighborhood for each data point as shown on slide 6 of the Nonlinear Dimensionality Reduction slides.
+
+Comment from User 1316216:
+I’ve been thinking about ways to pick a good (optimal?) epsilon and the adjacency matrix has a similar feel to the graph laplacian from the first assignment.  Theoretically we could construct a graph laplacian utilizing the adjacency matrix and count the zero eigenvalues to determine the number of disconnected components.  If we search for the smallest epsilon where the graph laplacian has only one zero eigenvalue, is this optimal?
+
+Feels like a cool idea but am I making a bad assumption that connectedness with minimal connections is an optimal way to think of how we represent the manifold for ISOMAP?
+
+  Reply from User 672141:
+  Considering this from a graph point of view, epsilon is a threshold to connect nodes. Less connections leads to more isolated nodes and a more sparse graph.
+
+Now, the next part of the algorithm asks for traversing the nodes through the edges. As you are reducing the connections, you are reducing the roads to traverse, therefore unable to compute certain distances. In short, it can cause the algorithm to fail, but your intuition is correct about reducing epsilon.
+
+
+

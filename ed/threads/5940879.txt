@@ -1,0 +1,67 @@
+Thread ID: 5940879
+User 134876 (Parent Post) says:
+<document version="2.0"><paragraph>During this course, you will be responsible for delivering a research style final project report. This will involve a Project Proposal, The Final Project itself, and professional peer reviews on both.</paragraph><paragraph>All official guidelines are posted on canvas, feel free to use this space to ask administrative questions related to the project.</paragraph><figure><image src="https://static.us.edusercontent.com/files/DP6QBZQH8GSp51WT4YYyv1nR" width="536" height="420"/></figure><paragraph/><paragraph>Some initial notes below:</paragraph><paragraph>1. All students, whether completing the project individually or as part of a team (up to 3 students) must join a project group on canvas. This can be done by going to the left-hand navigation bar and clicking people -&gt; Term Project Groups then selecting an empty team to join. Be sure to join the same team as your group mates should you be doing the project together with other students. See #29 for more details.</paragraph><paragraph>2. For project submission, only the report itself is required. Code and data do not need to be submitted for the final project.</paragraph></document>
+
+Comment from User 814300:
+It looks like the link above, # 125, directs to a different course.
+
+
+
+  Reply from User 134876:
+  Good catch. That's linking to a post that has not been made yet, It will be updated in the next few days though.
+
+  Reply from User 134876:
+  Link now updated.
+
+Comment from User 1325753:
+A few questions on the project:
+
+Can the project be something related to a project I'm doing at work?
+
+That is, assuming I can get my manager's approval, can I write a report on a data science/analytics project I did at work for this class' project.
+
+I'm working on a task right now and with some additional effort it would be a nice study that explores data science in a very relevant to me task.
+
+Can I do the project in R or does it need to be in Python or Matlab.
+
+The project I'm working on is being done in R, but I can convert if needed, I'd just rather not if possible
+
+  Reply from User 213547:
+  Yes for both the questions. You do not need to submit the code for the project. 
+
+Comment from User 136318:
+Can I use deep learning / LLMs for my project (i.e., doing some CV /.NLP things)
+
+
+
+  Reply from User 896413:
+  Sure, just make sure it is compliant with the AI Policy outlined in the course syllabus. If you want to talk through your idea with more specific guidance, feel free to make a private Ed post or ask during office hours.
+
+
+
+Comment from User 799272:
+thanks for the info - if I decide to go on project solo, how will I get scores for the peer review? 
+
+  Reply from User 896413:
+  It will be the same as everyone else. Every person will have 3 peer reviews, so a 1-person group will have 3 peer reviews. In a 3-person group, their project will have 9 reviews in total.
+
+Comment from User 1230089:
+this may be silly question, but may double confirm each group only has to produce 1 report? or would each of us have to do 1 report for perhaps different methods we have undertaken to analyze the data? 
+
+In a group, if we have 3 members, would it then mean, 3 different method of analyzing the same dataset? or probably 3 steps (one person, does the EDA, one does feature selection and one analysis?) 
+
+TIA
+
+  Reply from User 896413:
+  Correct, only one person needs to submit the report. After the person submits, I recommend the other group members go to Canvas and check to see the submission. All group members should be able to see the submission in Canvas.
+
+You may split the work as you want, as long as the rubric and guidelines are followed and the scope of the project is sufficient for a larger group. The sample project should provide some idea of the scope. If you are unsure, feel free to drop into office hours or make an Ed post and we can give you a general idea of whether your plans are reasonably in scope.
+
+Comment from User 1325702:
+Hi , where can I find the timelines for the project deliverables , like the proposal and the final report ? 
+
+  Reply from User 672141:
+  You can find this information in the Syllabus, snapshot of the course schedule below:
+
+
+

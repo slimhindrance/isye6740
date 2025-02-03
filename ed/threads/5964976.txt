@@ -1,0 +1,7 @@
+Thread ID: 5964976
+User 962322 (Parent Post) says:
+<document version="2.0"><paragraph>Hi, I'm trying to tune my k to find the number of clusters to achieve a smaller mismatch rate for each cluster. However, even when I increase my k, there is always one cluster that has at least a 90% mismatch rate. Is this normal, or should I go back and look at my spectral clustering algorithm? Thank you!</paragraph></document>
+
+Answer from User 213547:
+Please look at your spectral clustering algoritnm
+

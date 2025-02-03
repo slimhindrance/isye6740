@@ -1,0 +1,7 @@
+Thread ID: 5990203
+User 1128189 (Parent Post) says:
+<document version="2.0"><paragraph>Hello! </paragraph><paragraph>I'm finding that as I increase k, the number of iterations of the kmeans algorithm and the algorithm runtime are increasing. </paragraph><paragraph>My thinking is: </paragraph><paragraph>When there are more clusters, there are more distance calculations to do (distance between point and more clusters) but that the algorithm would converge faster because with more clusters, there's less distance from the point to the centers. So each iteration would take longer to compute but there would be less iterations, resulting in shorter run time as K increases.</paragraph><paragraph/><paragraph>Any idea why this may be happening? Is my thinking wrong?</paragraph><paragraph/></document>
+
+Answer from User 217529:
+An increasing K doesn’t necessarily mean that convergence will happen with more or fewer iterations. That all depends on the spread of the data and the initialization of the centroids. For instance, if you have widely dispersed data set, and very closely clustered centroids, it’s gonna take a lot of effort to move the mean of each centroid out enough to Create meaningful distances between them. On the other hand, if you have widely spread out centroids that aren’t going to move very much, it will take few iterations. As with most things in machine, learning, in practice, it comes down to your data set. 
+

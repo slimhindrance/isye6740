@@ -1,0 +1,12 @@
+Thread ID: 5941260
+User 1230185 (Parent Post) says:
+<document version="2.0"><paragraph>Hi </paragraph><paragraph>The onboarding quiz is asking me access code. I'm using google chrome browser and reinstalled the honorlock plugin. I just finished honorlock based onboarding quiz for another course 7643 on same browser though. Tried from different laptop as well. Any help is appreciated.</paragraph><paragraph>Thanks. </paragraph><paragraph>Edit: Checked with honorlock support, they mentioned that exam is currently not completely setup in their system.</paragraph></document>
+
+Answer from User 134876:
+Please see #18 this should now be resolved.
+
+
+
+  Comment from User 1230185:
+  Resolved. Thank you.
+

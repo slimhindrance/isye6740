@@ -1,0 +1,10 @@
+Thread ID: 5962261
+User 1489130 (Parent Post) says:
+<document version="2.0"><paragraph>I've discovered that some rows in edges.txt appear multiple times, indicating a duplicate connection between two blogs, which leads to an adjacency matrix with entries greater than 1.  However, my understanding is that an adjacency matrix is supposed to consist of only binary values.  If my understanding is correct, then removing all but one instance of each duplicate row before constructing the adjacency matrix seems appropriate, but I wanted to clarify whether that approach is valid before proceeding.</paragraph><paragraph>Are adjacency matrices allowed to have values larger than 1?  If not, is my approach of removing all but one instance of these duplicate rows a valid preprocessing step?</paragraph><paragraph>I'd appreciate any guidance you can offer.</paragraph><paragraph>Thanks!</paragraph><paragraph/></document>
+
+Answer from User 213547:
+The only preprocessing needed is removing the isolated nodes. The number of nodes will go down from 1490 to 1224
+
+  Comment from User 1489130:
+  Thanks for clarifying!
+

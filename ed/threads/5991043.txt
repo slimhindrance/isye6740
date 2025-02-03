@@ -1,0 +1,10 @@
+Thread ID: 5991043
+User 1230103 (Parent Post) says:
+<document version="2.0"><paragraph>Hi, </paragraph><paragraph>Each time I run the code, Jupyter Notebook generates different results, such as the running time for each k in Q3 and the mismatch rate in Q4. My report includes screenshots from the Jupyter Notebook output. Is it acceptable that the results in my report are slightly different from those in the Jupyter Notebook, as I have rerun the code?</paragraph><paragraph>Thanks!</paragraph></document>
+
+Answer from User 134876:
+You should set your random seed to ensure the same results for each run.
+
+  Comment from User 1230103:
+  I did set the random seed, and the iteration counts are the same. However, the run time for each k is slightly different, such as 0.2051 seconds versus 0.2632 seconds. Similarly, for Q4, the mismatch rate fluctuates in the third decimal place. 
+

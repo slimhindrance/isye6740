@@ -1,0 +1,400 @@
+Thread ID: 5941354
+User 134876 (Parent Post) says:
+<document version="2.0"><paragraph>Please ask all questions related to HW1 Q3 in this thread.</paragraph><list style="bullet"><list-item><paragraph>All demo code walkthroughs are on #10 </paragraph></list-item></list><paragraph/></document>
+
+Comment from User 1325753:
+For Part 3 of Question 3, it asks us to describe a method to find the best k. It also asks what is my best k? Am I just supposed to describe how to identify the best k or is it asking me to calculate and show which one is the best k? If I am to calculate it, for which image should it be calculated for?
+
+  Reply from User 896413:
+  You may use any analytical methods or heuristics to find the best $k$ and provide a value for the best $k$ based on your method. You can mention visual quality, but that alone is not quite rigorous enough as a method. You may choose any image to evaluate, although some choose to use all 3 images because you may have different $k$ values for each image.
+
+Comment from User 814148:
+For Q1.3, I'm not understanding how the demo code for the classification of ones and zeros is transferable to the RGB classification. I see that it's recommended we use the demo code to meet the expectations for the question solution. Some guidance on how to translate these two would be appreciated. Thanks.
+
+  Reply from User 962232:
+  Instead of using distances between two numerical values for the grayscale of the pixel, try using the distances between two tuples each containing a vector of numerical values for the R, G, B pixels.
+
+Comment from User 1489130:
+Q3's formatting instructions suggest a particular input/output signature.  Reading from the assignment:
+
+class: cluster assignment of each data point in pixels.  The assignment should be 1, 2, 3, etc...The output should be a column vector with size(pixels, 1) elements.
+
+centroid: location of k centroids...the output should be a matrix with K rows and 3 columns...
+
+Will we penalized if my output doesn't follow these guidelines exactly?  I know it says the input/output signature is suggested, but I just want to confirm the following:
+
+Can I used a 0 based index for the cluster assignments, i.e. instead of 1, 2, 3, ... use 0, 1, 2, ...
+
+Does the class output have to be a 2-D column vector?  Could it instead be 1-D, such as size(pixels, )?
+
+Can the location of my k centroids be the transpose of what's suggested, meaning it would have 3 rows and K columns?
+
+  Reply from User 134876:
+  The suggestions in the assignment are only suggested structure. If you are using the code scaffolding provided for the gradescope bonus, it is required to match the inputs/outputs in the scaffolding.
+
+Comment from User 962322:
+For Q3, there's a note that says that all images for the L2 norm must run in less than 10 minutes total. How long should it take for the football image for the L1 norm? I notice it's taking a lot longer than 10 minutes for me personally.
+
+  Reply from User 134876:
+  In a good implementation, it’s possible to have everything, both L2 and L1, for all images running in less than 5 minutes. Do keep in mind you can use distance functions from numpy and some let you easily switch between L2 and L1 with minimal impact to your code.
+
+Keep in mind that TAs need to run every students code individually, so runtime needs to be reasonable. 
+
+Comment from User 1512041:
+1. Referencing the demo code, I've figured out an implementation for Kmeans for Q3 that uses 'csc_matrix' from the SciPy library - however, SciPy isn't in requirements.txt. Does this mean that we can't use 'csc_matrix' for our solutions, like the demo code does?
+
+2. Also, requirements.txt has 'pillow', whereas the starter code has 'from PIL import image' - my understanding is that Pillow and PIL are the same package (or one is a new/updated version of the other), is this correct?
+
+Thanks!
+
+  Reply from User 962232:
+  1. You can use scipy.sparse.csc_matrix. It does not matter what is in the requirements.txt for the assignment, you can install it yourself.
+
+2. Pillow is a fork of PIL. Either are acceptable for the assignment.
+
+
+
+  Reply from User 134876:
+  Scipy's csc_matrix is allowed to be used. It will be added to the gradescope requirements.txt file so there will be no penalties for using it.
+
+Comment from User 896256:
+Struggling with adapting demo code to the image input data structure. Presently I am importing the image and ending up with a nx3 matrix, where n is total number of pixles and 3 represents the R, G, B values.  My starting centers are a 3xC matrix where C is the number of clusters. As a hint am I on the right track or is some additional manipulation of the demo code necessary? I can get it to converge using portions of the demo code but my final centers matrix has 0 values for all but the first cluster so wondering if I am missing something further I need to adapt in the demo code to accommodate 3 dimensions instead of 2. 
+
+
+
+  Reply from User 962232:
+  Yes you will need to adapt the demo code to accommodate for the RGB dimension of your images.
+
+Comment from User 121859:
+Q3.1
+I noticed the load_image() function provided in the scaffold code can return transparence in addition to the RGB. The formatting instructions say: "For image dataset, it contains 3 columns". Should we ignore the transparence? if yes, would you be able to confirm if transparence is the first or the last element of the array?
+
+In the Paresh OH, they mention that we can/sould treat the pixels param as (a,b,c) instead of (a,b,3) as in the code sample. But thats goes a little different from the exercise.
+
+  Reply from User 962232:
+  Yes please ignore the alpha layer/transparency column. It should be the last element in the array as the first 3 should be the R, G, B values.
+
+Comment from User 578087:
+Appreciate clarification on 
+
+Run your k-means implementation (with squared-ℓ2 norm) with random initialization centroids. Due
+to the nature of randomness, Please try multiple times and report the only the best seed (in terms of
+image quality).
+
+
+
+My understanding is that, for each value of K, we want to run k-means with random centroids multiple times, but did not follow how we choose the "best" one. Seems to suggest "in terms of image quality" but not sure what this is alluding to? Are we looking at the compressed file size with the smallest being the "best"?
+
+
+
+Regards
+
+Pankaj 
+
+  Reply from User 979414:
+  The best image is subjective here. The factors that could play in your implementation could be your centroid initiation, algorithm cut off condition. 
+
+Comment from User 568225:
+Is there a convergence criteria that we have to use for the distance between the new and old cluster to consider the implementation to be converged? I don't see this being mentioned in the lecture. Would a small number (e.g. 0.1) be sufficient?
+
+
+
+  Reply from User 979414:
+  You can use a very small number for that. 
+
+Comment from User 121859:
+Q3.1
+
+Should the "image" attribute of the map output in pixels or it needs to be a file path?
+
+
+
+  Reply from User 979414:
+  I am assuming you mean *img* attribute on scaffolding code. It would be the image pixels of shape (l, b, 3) in range (0-255) 
+
+Comment from User 979414:
+
+
+    def load_image(self, image_name="1.jpeg"):
+        """
+        Returns the image numpy array.
+        It is important that image_name parameter defaults to the choice image name.
+        """
+        pass
+
+
+
+If you are using scaffolding code , replace the image_name with the name of your selected and submitted image. 
+
+Comment from User 307528:
+Hello TAs - I am running my codes on Spyder (Anaconda). I am getting below output and error messages. Can you guide me what mistake I am making again and again? Next question - for Analyzing Manhattan distance, do I need to do all 3 images, or just 1 is good enough to complete HQ1Q3? Do we need to resize the football.bmp image into 400x225?
+
+
+
+
+
+  Reply from User 979414:
+  Now adjust your k-means implementation to use the Manhattan distance (ℓ1 norm) metric. Please provide all of the same above deliverables for only the football.bmp image.
+
+This is very clearly mentioned in the homework question. 
+
+
+- There should not be any resize of image needed. For sea turtle you can ignore the 4th channel though. 
+
+
+
+  Reply from User 962196:
+  I ran into this as well. It looks like the sea turtle image is coded as RGBA. So it's a 225x400x4 image instead of a 225x400x3. The 4th dimension is the transparency, which is 255 for the entire thing. You should be able to safely remove that 4th dimension to get a 225x400x3 image.
+
+Comment from User 814300:
+If I use a reference from Stack Overflow for some minor portion in my code, do I need to cite it in the PDF or is a comment in the code with the URL sufficient?
+
+For example, I looked up someone converting a np array to a PIL image
+
+
+
+  Reply from User 979414:
+  A comment in code should be sufficient. 
+
+Comment from User 1229955:
+For Q3.3, are we supposed to find the best k from Q3.1, Q3.2 or both?
+
+  Reply from User 979414:
+  A sound objective method of finding your best K is most important. 
+reporting the best K for both 3.1, 3.2 should be ideal. 
+
+Comment from User 307528:
+Is "sklearn.metrics" library acceptable for HW1Q3?
+
+  Reply from User 979414:
+  for this Question no library should be used. 
+
+Comment from User 307595:
+I'm using the scaffolding code for my implementations to submit to Gradescope and to Canvas.  Can we add "import random" to our package requirements to randomize centroid starting points?  Meaning how do we know Gradescope will have this or not?
+
+  Reply from User 307595:
+  Nm, I see numpy has a random function and numpy is already imported. 
+
+Comment from User 805441:
+I have a basic question about the problem set up. 
+
+The homework states that the output should be a column vector with size(pixels, 1) elements. Based on my understanding, this is not right. 
+
+Shouldn't the dimension be size(pixels, 0)? (== # of pixels)
+
+A quick reply would be helpful.
+
+
+
+  Reply from User 213547:
+  The dimension of the column vector will be  ( pixels, 1)
+
+Comment from User 1512053:
+Q3.1 - are we expected to include all 15 images in the PDF report or will the printed result in the notebook suffice? 
+
+
+
+  Reply from User 799310:
+  Yes, you should include them in the report.
+
+Per the Homework Policies: "Your homework report must contain all plots, images, analysis, and question answers in the PDF report. Anything present in code/files in your zip but not in your report will not receive points." 
+
+Comment from User 307595:
+Q5 tells us to normalize pixel values (divide by 255) prior to running kmeans; do we need to do that in Q3?
+
+  Reply from User 215365:
+  You do not need to change the pixel values for this question.
+
+Comment from User 1512040:
+For question 3.3, do we need to mathematically define a method for finding the best k or is a qualitative method based on our metrics (iterations, time to convergence, quality of photo) ok?
+
+
+
+  Reply from User 215365:
+  Anna's answer is relevant to this question.
+
+
+
+Comment from User 962021:
+ Hi, I'm starting with the Q3.1 and in confusion -   compress() function takes pixels as (a,b,3) format, but the formatting instruction says  - Each row contains one data point (pixel). 
+
+Should we reshape the input to (n_pixels, 3) for processing and then reshape back? or should we keep it in (a,b,3) format throughout the implementation?
+
+Any help would be appreciated.
+
+
+
+  Reply from User 672141:
+  Your intuition is correct, you should reshape the image to (n_pixels, 3) for input to the model, then reshape it back to see the image output. 
+
+
+
+Comment from User 1512062:
+Hi team, for Q3, I got a few questions:
+
+1. Are we allowed to use the Demo-Code Kmeans_v1.zip (https://gatech.instructure.com/courses/437944/files/57418671?module_item_id=4604652) as a skeleton code first and we build upon there? Meaning we copy but make modifications to our liking and so to answer the question
+2. Are we allowed to use Scipy packages (E.g. Cdist) to calculate L2 and L1 distance metrics?
+
+Thanks team
+
+  Reply from User 1497720:
+  If this helps - I tried doing this however when I saw the gradescope skeleton I realised that the skeleton is much clearer to work with and also scipy is not allowed for gradescope so I suggest not looking at the democode at all because it wont really help in fact it might confuse you more than anything - its output plotting/reconstruction is somewhat different to what is expected on this assignment, plus the stopping condition is k=200 however the assignment requires us to implement a better stopping condition. Also the democode doesnt account for if one of the clusters 'dies' i.e. has no more associated nodes to it.  
+
+I spent time to understand what's going on in the democode sparse matrix section as well and I don't see how its runtime complexity is any better than if you did it sort of from first principles. It saves a few lines of code for sure but in terms of runtime I'm not sure. 
+
+correction: the democode even without using the scipy part does give a significant speed-up. Would like to understand why exactly as a part of next OH! 
+
+  Reply from User 896413:
+  Yes you may use cdist and demo code. You just cannot use is a kmeans package since that is the primary algorithm.
+
+Comment from User 1230103:
+Do we need to export (save) the compressed images to the zip folder, or is printing them in the Jupyter notebook sufficient?
+
+  Reply from User 284691:
+  Please be sure that all of the material to be graded, including the compressed images, appears in the .pdf report, which can be generated from your notebook. 
+
+You are not required to save the compressed images separately in the zip folder. We'll run the script in the zip folder, and the script should generate the images. 
+
+Comment from User 897194:
+For "sea-turtle-400x225.png" can we convert the image from .png to .bmp which will drop the forth channel or do you want us to handle this is in the code?  
+
+  Reply from User 284691:
+  I'd recommend dropping the fourth channel in the code, as conversion could potentially introduce other issues. You can safely ignore the fourth channel. 
+
+
+
+Comment from User 1230133:
+Apologies if someone has already asked this, but when I submit to Gradescope, I get this error (No module named 'scipy') -- here's how I load it in my script: from scipy.sparse import csc_matrix. I know this is supposed to be added to requirements.txt so that it's allowed to be used but does this mean it hasn't been added yet?
+
+  Reply from User 979414:
+  We will add scipy support to gradescope in 2 hours. 
+
+Comment from User 1133602:
+I tried setting my seed and running my algorithm with fixed k and a fixed image (say k = 48 and the sea turtle image). Is it normal to get slightly different times each time you run? For example, I'll get like 52.4 seconds, 54.3 seconds, 58.1 seconds on different runs, but I'll still have the same number of iterations for convergence each time (i.e., 214 total iterations). If so, what number should we report for total time elapsed in our report if there's nothing we can do to keep it static? 
+
+
+For reference, I am using the technique used in the KMeans MNIST Demo: 
+
+
+
+
+And I'm also using the "while np.linalg.norm(c - c_old, ord='fro') > 1e-6:" line from the KMeans Animation Demo as my stopping criteria.
+
+  Reply from User 284691:
+  Getting slightly different times in the range you've shown is perfectly normal and can depend on many factors --- processes running on your machine, etc. Just report the time for the last run.
+
+Comment from User 1271302:
+Is it a concern if the number of iterations or runtime is too small or too fast? Will that be a grading consideration? The image quality at each k looks good to me, but I am not sure if I am approaching the problem correctly. Thanks.
+
+  Reply from User 134876:
+  A properly vectorized approach can run very efficiently, so this isn't immediately a concern unless your iterations are like 2. As long as your final images are looking good, I would say this is alright.
+
+
+
+Comment from User 780084:
+Sorry i have a basic question, how come the third dimension of the turtle image is 4 ? Shouldnt it be 3 ? shall i just drop the fourth column ? 
+
+  Reply from User 1133602:
+  Yes, for this image, you drop the last column. 
+
+  Reply from User 672141:
+  Certain image formats have an additional channel besides the 3 channels for RGB. The 4th channel is the alpha channel for pixel transparency. 
+
+Comment from User 652074:
+I submitted Q3 to gradeScope, for the third image it said No such file or directory:'1.jpeg'. I used the same code for my other images. It worked, and I got result locally. 
+
+
+
+  Reply from User 672141:
+  The name '1.jpeg' is the default image name saved in the provided code. You need to update the code to the image file name you provide or edit your custom image to this default name. Here are more details. 
+
+
+
+Comment from User 1133602:
+I know that Gradescope will clearly check our request outputs for "class" (i.e., the cluster assignment vector) and the "centroid" matrix, but how exactly will the original Canvass submission test this? I'm asking because I am currently looping over all of my k-values, images, and types of norm to use (i.e, L1 vs L2 norm), and these variables are treated as local variables within this loop. In my script, I print out the rendered compressed image as well as the number of iterations and time to convergence for each image/value of k/type of norm combination. 
+
+Does this really matter as long as I am reporting what is requested in the .PDF report? I just wanted to know if the TA needed to be able to directly access the "class" and "centroid" outputs from our script without editing any of it on their end to be able to view those objects. 
+
+  Reply from User 672141:
+  If your code outputs all the images (displayed or saved to folder), iterations and runtimes without the need of altering the code, that meets the requirements for the code submission to Canvas. 
+
+We are not necessarily going to review classes or centroid outputs, but we will read through the code and ask questions if necessary. Hope this helps. 
+
+Comment from User 780084:
+Is it normal if i reduce the cluster size whenever encountering an empty cluster, my total number of cluster will keep reducing to a much smaller number ?
+this is very apparent when using L1 norm where my total cluster tend to reduce to single digit.
+
+  Reply from User 307595:
+  Curious as well!  For one of my tests I start with 24 clusters and it slowly reduces to 12.  In another test if I keep all 24 sometimes a cluster will become un-empty later in the processing.  Some guidance on removing empty clusters during processing versus at the end as a clean-up action would be great!
+
+Comment from User 896416:
+I can't get my algorithm to complete in under 10 minutes. I'm computing distances using numpy on matrices, so I don't see why it's taking so long. any tips or suggestions on how to calculate distances and assign labels efficiently?
+
+  Reply from User 672141:
+  You can take a look at the week 2 demo code and other notebooks the TAs wrote on vectorization examples here. 
+
+Besides these resources, you can isolate parts of the algorithm into helper functions or code blocks and time each section to identify where your code is running slow. 
+
+
+
+Comment from User 1080381:
+Hello - just wanted to clarify if the deliverables of questions 3.1 & 3.2 should be included in the PDF write up or as separate files in the zip file submission?
+
+  Reply from User 672141:
+  For 3.1 and 3.2, all reconstructed images should be included as part of the PDF report as well as time to convergence and number of iterations. If the images are not included in the report and you write instead "refer to code" or "refer to folder", this will lead to point deductions. 
+
+
+
+Comment from User 1519483:
+Can k-means converge faster with higher initial centroids? The reason I ask is because I'm noticing for every seed I test out, the time and # of iterations is lower at 48 centroids vs. 24 centroids. Which is counter-intuitive for me at first glace. I figured more clusters mean more computations are required.
+
+  Reply from User 672141:
+  This is likely dependent on the dataset (type of image) you are using. You may find varying runtime results by seed and image, so I would not be too hung up on this. Try testing different images with varying pixel saturation (simple vs. complex images) and see how the trend is. This other post mentions this topic. 
+
+Comment from User 1128222:
+I apologize if I've missed something here. For Question 3 part 2, are we implementing the k medoids algorithm? Specifically, are we starting out with randomly chosen data points in our data set (not just randomly chosen in the RGB space [0, 255]^3), then updating the cluster medoids by taking the point in the dataset (in the cluster) which has the closest L1 squared distance to all other points in the cluster? From Question 2 part 1 we know that updating with the mean of the cluster minimizes the sum of the squared L2 distances to all points in the dataset, but it is not obvious to me that the same is true for the squared L1 norm (and I'm not convinced that this is the case). Thank you.
+
+  Reply from User 672141:
+  1. The centroids are randomly initialized in the N dataset space, not in the RGB space[0,255]. Then you assign datapoints to clusters based on each datapoint's distance to each centroid. 
+
+2. You are right, the L2 and L1 norm behave slightly different in the algorithm. For the L1 norm, you are updating the centroid's location based on the median. 
+
+
+
+Comment from User 307048:
+Hi! When I set my output variable to "class" I get a syntax error because the code is seeing it as trying to define a class rather than assigning a variable. If I submit to Gradescope, if I call the output variable a different name, will that break the grader? I assume submitting normally would be fine to change it to "class_vector" or something like that. 
+
+  Reply from User 979414:
+  you might want to wrap it as string "class"
+
+Comment from User 1230051:
+Do we get points off if our k-means algorithm converges early? For example, I set my max iterations at a certain number but it converges early at k=24.
+
+  Reply from User 672141:
+  The k-means algorithm should converge on its own and shouldn't need to reach a max iteration number. Points will be taken off if the stopping criteria is max iterations. Consider instead setting a threshold where the centroids are barely changing as a stopping criteria for convergence (an example of this is shown in the demo code).
+
+
+
+Comment from User 307048:
+I have two different algorithms implemented that work, but they're very slow. I'm using a nested for loop to calculate distance for every pair of pixels/centroids using linalg.norm (which I figured would be best in order to switch between Euclidean and Manhattan). But looping through each is slowing it down and I'm struggling to figure out a way to convert this to a matrix calculation. I already examined the demo code and don't really see how to apply it to this example. Is there an operation I'm missing that can compute pair-wise distance without using nested loops? 
+
+Edit: When I run linalg.norm on the full 3D vectors, there's a dim problem which made me think it's not possible to compute pair-wise with this method. I can run it when comparing two points, like one RGB set of pixels to one centroid, but I am at a loss for making it more efficient and computing all at once... 
+
+  Reply from User 672141:
+  By using the dimensions as a guide, you can certainly reduce the nested loop to one loop at least. Your thinking is in the right direction when considering the vector and matrix dimensions to compute these operations. Check the documentation of linalg.norm as some of these features are embedded into the function. 
+
+
+
+Comment from User 1128057:
+Hello,
+
+According to the HW1 Q3 instructions, our code must run across all k values and all three images for the L2 norm in less than 10 minutes total. What about the L1 norm runs , Is there a time limit we have to worry about? Thank you.
+
+
+
+  Reply from User 799310:
+  There is no specific time limit for the L1 norm runs, but it's good practice to ensure an efficient implementation
+
+  Reply from User 134876:
+  While there isn't a specific limit stated, Your code still is expected to run efficiently, and you are expected to utilize an appropriate stopping criteria based on knowledge from the lectures. Code that runs for an excessive amount of time, or that uses overly lenient stopping criteria to support inefficient code, may be subject to point penalties at the discretion of your grading TA. The goal here is for students to learn proper vectorization for algorithm development, not force a for loop to run and make a solution.
+

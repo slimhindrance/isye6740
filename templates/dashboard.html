@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Welcome, {{ user }}!</h1>
+    <h2>Your Groups:</h2>
+    <ul>
+        {% for group in groups %}
+        <li>{{ group }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/admin">Go to Admin Page</a><br>
+    <a href="/logout">Logout</a>
+</body>
+</html>

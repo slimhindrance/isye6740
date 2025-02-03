@@ -1,0 +1,10 @@
+Thread ID: 5999990
+User 1229972 (Parent Post) says:
+<document version="2.0"><paragraph>This being the first homework, I would appreciate if a TA can confirm my submission is formatted correctly and runs as expected. I tested the code on two separate machines but I am still anxious. </paragraph><paragraph>Edit: student ID is ahaun6</paragraph></document>
+
+Answer from User 213547:
+We cannot pre grade your submission, But if you have tested on different machines it should be fine
+
+  Comment from User 896413:
+  I see the correct pdf report and zip files in Canvas, so it's fine so far. The rest is up to your grading TA.
+

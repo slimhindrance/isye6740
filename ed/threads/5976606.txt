@@ -1,0 +1,15 @@
+Thread ID: 5976606
+User 1327290 (Parent Post) says:
+<document version="2.0"><paragraph>Good evening! I believe a TA mentioned during one of the office hours that there was a linear algebra refresher session at some point. I wanted to ask when this was or if it had already been recorded</paragraph></document>
+
+Answer from User 215365:
+It has not been recorded yet and check TA Office Hours in the future to see if it has been announced.
+
+
+
+  Comment from User 1327290:
+  Thanks!
+
+Answer from User 134876:
+Our TA that normally hosts this office hour is having some administrative issues. We are working on an alternative and will post when this becomes available. Until then, the resources we've shared on canvas do cover all necessary topics, and the LA review is usually just a refresher session covering these same topics.
+

@@ -1,0 +1,28 @@
+Thread ID: 5983315
+User 896256 (Parent Post) says:
+<document version="2.0"><paragraph>Working on Question 4 of the homework I am borrowing code from the test_football.py demo code to read in the edges and create the Adjacency matrix. Using the following code to create the matrix:</paragraph><pre>a = import_graph()
+idx2name = read_nodes()
+n = len(idx2name)
+
+i = a[:, 0]-1
+j = a[:, 1]-1
+v = np.ones((a.shape[0], 1)).flatten()
+
+A = sparse.coo_matrix((v, (i, j)), shape=(n, n))
+A = (A + np.transpose(A))
+A = sparse.csc_matrix.todense(A) # ## convert to dense matrix
+
+D = np.diag(1/np.sqrt(np.sum(A, axis=1)).A1)
+L = D @ A @ D
+L = np.array(L) # ## covert to array</pre><paragraph>Moving forward to create the subsequent degree and Laplacian matrices I am getting a divide by zero error when trying to normalize (RuntimeWarning: divide by zero encountered in divide
+  row_sums = np.where(row_sums == 0, 0, 1/np.sqrt(row_sums)). This was indicating that I have some rows in A that the sum is zero. I can't seem to figure out why I am getting rows that have zero entries. Any tips for what I can look at? </paragraph></document>
+
+Answer from User 284691:
+You seem to be on the right track. The instructions state, "You may remove isolated nodes (nodes that are not connected to any other nodes) in the pre-processing." 
+
+  Comment from User 896256:
+  Thanks! Quick follow-up. Can you tell me if I remove the rows and columns from the sparse matrix A that have zero sums if that screws up indexing for the later steps in the spectral clustering? In other words, the labels that I will be an output of the kmeans is vector of the cluster assignments. I would use the index of the cluster to map to the nodes. Will that index from the cluster labels still map accurately to the nodes vector I read in?  
+
+Comment from User 896256:
+Thinking about this further I am now realizing there could be nodes that are completely disconnected (i.e. have no edges) and it just so happened that in the demo example test_football there were no disconnected nodes so accounting for dividing by zero was not needed. Am I on the right track? 
+

@@ -1,0 +1,11 @@
+Thread ID: 5988190
+User 1512070 (Parent Post) says:
+<document version="2.0"><paragraph>I know this is outside the scope of the homework problem but one thing I don't like about the metrics in the HW1 Q5 is that the 1 digit could be drawn a couple pixels to the left and you would get very little or zero credit even though to the human eye the characters are visibly similar.  So I would like to propose the following similarity metric:  For each pixel that is a different color between the two images, go to the other image and find out how far it is to the nearest pixel of that color.  Then sum up all those distances, both from image A to B and B to A, and that is how far one picture is from another.  The nice part is that it's a lot easier to compute and parallelize, and we don't have to try and allocate one part of one image to another.  Another nice part is for each color of each image, you can precompute the distance to that color independently of any other image, probably pretty efficiently with something similar to a shortest path algorithm.   I have a feeling it would perform a lot better when it comes to how far we would have to move one written MNIST digit to get to another.  I just don't have time to code it up right now.</paragraph></document>
+
+Answer from User 217529:
+You are correct that this is not a good example of advanced capabilities. The purpose is to introduce you to the concept in the ways that these algorithms have been applied in an engaging way. I hope we have succeeded in That goal. Admittedly , This is a rather elementary implementation compared to more recent developments.
+Modern image recognition systems employ object detection and use that to help with centering and interpretation. 
+
+  Comment from User 110195:
+  Yep agree - this homework question is “made-up” to demonstrate the effect of different similarity metrics; but it is not the best metric. Other metrics like you suggested might lead to better “results” depending on how you define it. 
+

@@ -1,0 +1,10 @@
+Thread ID: 5994695
+User 1325816 (Parent Post) says:
+<document version="2.0"><paragraph>Hi TAs,</paragraph><paragraph>I have submitted report for HW1. I had issue exporting Jupyter notebook to pdf without code block. So, exported the notebook to html and inspected to manipulate css to hide code blocks and converted that to pdf separately. Can you confim if this is acceptable?</paragraph></document>
+
+Answer from User 962232:
+I took a glance at your submission and it looks good to me.
+
+  Comment from User 1325816:
+  Thanks for checking.
+

@@ -1,0 +1,14 @@
+Thread ID: 5980448
+User 1133909 (Parent Post) says:
+<document version="2.0"><paragraph>On this part of the lecture, there is the [1/sqrt(2)] piece added for both eigenvector Laplace multiplication. I don't really understand why you do this or why it's allowed. It seems like it's just there so when you square the eigenvector you force it to equal 1. But for different eigenvectors would you be able to just pick a different term for each one? ... If so, just to make sure i understand, when you multiply eigenvector 1 by eigenvector 2 to check that they equal zero, do you still multiply them by their respective terms?<break/></paragraph><figure><image src="https://static.us.edusercontent.com/files/AXtGsChhmma255sENu8hNjnm" width="658" height="373.46986541837333"/></figure><paragraph/></document>
+
+Answer from User 896413:
+The coefficients ${1}/{\sqrt(2)}$  are needed to ensure that the eigenvectors have unit norms. Here's a video that goes through the details.
+
+https://www.youtube.com/watch?v=Wvsf21dRrZs
+
+
+
+  Comment from User 1512035:
+  Should we do that on the homework or can we leave it as floats?
+

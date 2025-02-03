@@ -1,0 +1,28 @@
+Thread ID: 5941485
+User 1321233 (Parent Post) says:
+<document version="2.0"><paragraph>I am unable to take the ID verification onboarding quiz for Step 5. It is asking me for the access code. The prompt says this is either due to honorlock not being installed or the quiz is not being opened in google chrome. I have both honorlock and am using google chrome.</paragraph><paragraph>I was able to do this ID verification onboarding quiz for CSE 6242 right before trying this step for 6740.</paragraph><paragraph>Is anyone else experiencing this issue?</paragraph><paragraph>And how should I proceed?</paragraph><paragraph>Thank you.</paragraph></document>
+
+Answer from User 1512054:
+Hi, I am also having this problem. Honorlock is enabled and quiz is accessed in Chrome.
+
+  Comment from User 1230189:
+  #3 here
+
+  Comment from User 1321162:
+  I am having the same issue
+
+Answer from User 134876:
+I've reached out to our canvas IT to figure out what's going on here with the access code, but, since our course doesn't actively use honor lock if you are facing this issue you "should" be able to just click next on the canvas quiz page and skip over the honorlock quiz, going straight to the syllabus quiz.
+
+I will update here when I hear back from canvas IT.
+
+Update:
+Our IT Guy says try it again now, it should be fixed.
+
+  Comment from User 1321233:
+  Thank you, Mark. 
+
+It is working for me now. 
+
+Appreciate the speedy resolution!
+

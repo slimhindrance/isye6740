@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Folder</title>
+</head>
+<body>
+    <h1>Upload a Folder</h1>
+    <input type="file" id="folderInput" webkitdirectory directory multiple>
+    <button onclick="uploadFolder()">Upload</button>
+
+    <p id="status"></p>
+
+    <script>
+        async function uploadFolder() {
+            const input = document.getElementById("folderInput");
+            const files = input.files;
+            const status = document.getElementById("status");
+
+            if (files.length === 0) {
+                status.textContent = "No folder selected.";
+                return;
+            }
+
+            const formData = new FormData();
+
+            // Append all files to the FormData object
+            for (const file of files) {
+                formData.append("files", file, file.webkitRelativePath);
+            }
+
+            try {
+                const response = await fetch("http://192.168.1.159:8000/upload/", {
+                    method: "POST",
+                    body: formData,
+                });
+
+                const result = await response.json();
+                status.textContent = "Upload successful: " + JSON.stringify(result);
+            } catch (error) {
+                console.error(error);
+                status.textContent = "Error uploading files.";
+            }
+        }
+    </script>
+</body>
+</html>

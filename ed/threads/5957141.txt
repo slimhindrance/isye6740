@@ -1,0 +1,10 @@
+Thread ID: 5957141
+User 1325823 (Parent Post) says:
+<document version="2.0"><paragraph>Hello, <break/>I am sorry if this has already been discussed. <break/>For the coding aspect of the Homework, would it be possible to submit it in the Jupyter Notebook Format (.ipynb) <break/><break/>If we export the notebook as our pdf report would it be alright to leave the code in the printout? </paragraph><paragraph/></document>
+
+Answer from User 979414:
+In general it is ideal not to include any code in the report pdf. 
+Jupyter export has ways to exclude code in the generated pdf. 
+
+
+

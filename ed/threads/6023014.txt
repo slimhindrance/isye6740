@@ -1,0 +1,11 @@
+Thread ID: 6023014
+User 1325690 (Parent Post) says:
+<document version="2.0"><paragraph>I have just noticed that there are three .py files with boilerplate Python classes for questions 2, 3, and 4.</paragraph><paragraph>Are we required to use them, or are we allowed to use our own jupyter notebook files and our own functions?</paragraph></document>
+
+Answer from User 672141:
+For the code submission to Canvas, you can use your own Jupyter Notebook.
+
+The code submission to Gradescope is optional and extra credit. That submission requires the use of the .py files provided. 
+
+
+

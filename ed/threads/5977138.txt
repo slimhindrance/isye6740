@@ -1,0 +1,12 @@
+Thread ID: 5977138
+User 616963 (Parent Post) says:
+<document version="2.0"><paragraph>Just like you posted past projects, is there any way you post past HW submissions that are no longer being used, will be used in the future, or will help us with current assignments this semester to compare the thoroughness of our answers for the HW assignments this semester?  </paragraph></document>
+
+Answer from User 1133850:
+Ditto
+
+Answer from User 300188:
+More than likely won't happen. As a general guideline (this is not absolute, just because you hit a certain word/sentence count doesn't mean your answer is correct), you can answer most of the analysis/conceptual questions in a couple of sentences. If you're concise and actually putting in the right information, I wouldn't imagine most questions taking more than maybe a paragraph and a half to answer with most probably being on the shorter side. Do remember though that the homework is where you need to demonstrate that you know what you're talking about to your TA -- so if you feel like you need to go in depth more then go ahead.
+
+For proofs, a little bit more detail is probably needed to avoid something being seen as "hand-wavy". So for example, you can combine a couple of algebra steps in to one-line, but every algebra step in one-line would be too hard to follow. Another thing, is that you can't just state conclusions without really explaining why that particular conclusion is valid. We should be able to see a step by step process on how you arrived to that particular conclusion. 
+

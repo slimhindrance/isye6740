@@ -1,0 +1,26 @@
+Thread ID: 5953365
+User 896440 (Parent Post) says:
+<document version="2.0"><paragraph>Hello,</paragraph><paragraph>I'm having a bit of trouble figuring out the linear combination. This is on page 22 of the LA_Review pdf file. As I understand linear combination, I would scale each cash flow (c1 and c2) by some constants and sum them. So c = ac1 + bc2 = (a, -1.1a+b, -1.1b). Could you help walk through how one can arrive to c1+1.1c2 = (1,0,-1.21)?</paragraph><figure><image src="https://static.us.edusercontent.com/files/wzahGg3T6l0EmvSPk9msFRAT" width="658" height="393.1861761426979"/></figure><paragraph/></document>
+
+Answer from User 300188:
+Grace,
+
+I think you're kind of overthinking it. This example is just illustrating a linear combination where the constants are 1 for $c_1$ (implied) and 1.1 for $c_2$.  Now, we would just do as you say: scale each cash flow and sum them. 
+
+1(1) + 1.1(0) = 1 
+
+1(-1.1) + 1.1(1) = 0
+
+1(0) + 1.1(-1.1) = -1.21 
+
+or if it helps to see it this way
+
+(1, -1.1, 0) + 1.1(0, 1, -1.1) = (1, -1.1, 0) + (0, 1.1, -1.21) = (1, 0, -1.21)
+
+
+
+
+
+  Comment from User 896440:
+  Thanks so much!
+

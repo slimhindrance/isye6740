@@ -1,0 +1,10 @@
+Thread ID: 5994939
+User 1002886 (Parent Post) says:
+<document version="2.0"><paragraph>Hello,<break/><break/>Hope all is well. <break/><break/>I was wonder where can I find who my TA is, I had some questions around the HW. </paragraph></document>
+
+Answer from User 672141:
+You can go to People -> Groups -> Homework TA Grading Groups.  I believe your grading TA is Samuel Hood. 
+
+Answer from User 1002886:
+I don't seem to have that option 
+

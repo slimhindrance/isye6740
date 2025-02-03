@@ -1,0 +1,296 @@
+Thread ID: 5940954
+User 1512035 (Parent Post) says:
+<document version="2.0"><paragraph>I'm looking to start a study group or find a few people for the group project. If you're interested, reply here with a little about yourself and hopefully we can all find good teammates who are a great match. About me: </paragraph><list style="bullet"><list-item><paragraph><bold>Time Zone</bold>: PST, live near Portland Oregon</paragraph></list-item><list-item><paragraph><bold>Communication</bold>: Discord, text, or email preferred</paragraph></list-item><list-item><paragraph><bold>Experience</bold>: math professor (also biology/coding/art teacher), web developer, artist, ran a zoology lab (mostly marine), ran a manufacturing business</paragraph></list-item><list-item><paragraph><bold>Skills</bold>: strong math background (not amazing at statistics, but great at everything else), midrange Python (did well in CSE 6040), amazing at LaTeX, Jupyter, Desmos, great at writing/formatting and making everything look very nice, inexperienced at MATLAB</paragraph></list-item><list-item><paragraph> <bold>Effort</bold>: I plan on putting a lot of effort into the project, finishing deliverables early, and helping my teammates. I would like to find a project we're all interested in, split up responsibilities, and mostly work independently on our sections.</paragraph></list-item><list-item><paragraph><bold>Project Topic</bold>: I am interested in a biology or biomedicine topic, something related to education, gaming, recreational math, or open to suggestions.</paragraph></list-item></list><paragraph>edit: There is a main thread for finding a project group, but I'm leaving this here in case people want to find study groups.</paragraph><paragraph>edit: For anyone in PST time zone, I made a <link href="https://docs.google.com/document/d/1j26npJAPevS0-laUexXHZXUpTyapN93kJk3Bq_AvQVc/edit?usp=sharing">calendar</link> (<link href="https://docs.google.com/document/d/17hMdZmcL4EKPrCOfh89X6vWIzxIuN9xCEgwS04nIL1Q/edit?usp=sharing">dark mode</link>) with due dates/times. Feel free to make yourself a copy, change anything, and share with others. <bold>How about we start a Discord group for anyone wanting to study together, brainstorm some project ideas, and break off into groups based off which sounds interesting? Send me a friend request and I'll add you to the group chat, username: cnidaria0402.</bold> </paragraph></document>
+
+Answer from User 1489130:
+Hey Lauren,
+
+I think we took DO together last semester. You helped me on Piazza in the last module on branching and bounding ;)
+
+Anyways, I was already in the process of putting together a PST study group. I have two people confirmed at the moment, and I'm talking with 3-4 others about possibly joining. I don't have their bios, but if it's helpful, here's mine:
+
+Time Zone: PST, I live in the California Bay Area
+
+Communication: Discord, text, or email preferred
+
+Experience: former high school math teacher.  I taught statistics and calculus, and I recently re-took a linear algebra and differential equations course before starting OMSA. I'm very comfortable with calculus and pretty comfortable with linear algebra and statistics. 
+
+Skills: very, very similar to you: strong math background, midrange Python (did well in CSE 6040, and I have been using Python in personal projects for 2-3 years), solid at LaTeX (used it extensively in DO, iAM, and when I was teaching to make my own class materials), Jupyter, Desmos (love Desmos), great at writing/formatting and making everything look very nice, never used MATLAB before
+
+Effort: full-time OMSA student. I plan to put a lot of effort into all the work I do, especially for a fundamental class like CDA. I've heard CDA is tough to do alone, so I'm really motivated to find others who can support each other.
+
+Project Topic: Unsure at the moment.  I’m open to ideas!
+
+Let me know if you're interested, we'd love to have another math person on board!
+
+
+  Comment from User 1512035:
+  I found a group, but if you're taking DVA next semester I'm definitely interested. Thank you for getting the Discord PST study group running. 
+
+Answer from User 1521559:
+Hi Lauren, nice to meet you here!
+
+I look forward to working with you as well!
+
+Time Zone: PST, I live in California ( LA area)
+
+Communication: Discord, text, or email preferred - aguseinova3@gatech.edu
+
+Skills: comfortable with Math, statistics, Python
+
+Effort: full-time OMSA student
+
+Project Topic: we can decide when an entire team been formed
+
+Let me know if you want to get connected any soon!
+
+Best,
+Aya :)
+
+
+
+
+  Comment from User 1325800:
+  Hi Lauren,
+
+I'm Sadhana, working as a Senior Bioinformatician. This is my 4th semester and 5th course. I have experience with python (did well in CSE6040 and worked on a project in CSE6242) and used LaTex (in CSE6242). Good at math and MATLAB during my undergrad but haven't worked on it recently. I'm also interested in working on a project related to biomedical science or biology. Time zone : PST, I live in bay area, California. 
+
+Best,
+
+Sadhana
+
+Answer from User 1512069:
+Hi Lauren (and everyone else in the tread!), looking forward to the semester and would also be interested in forming a study group!
+
+Time Zone: I live in Richmond, VA (EST) working remotely for team based in San Diego, CA.
+
+Communication: Discord and text preferred but email is fine.
+
+Experience: Former industrial engineer turned full-time data analyst, United States Postal Service (undergrad in ISE).
+
+Skills: Strong Python and SQL (use both daily at work, did very well in 6040) comfortable with R as needed. Solid math background from undergrad and SIM but definitely had to grind some rust off when I started OMSA. This is my 6th class (IaM, 6040, MGT6203, SIM, REG)
+
+Effort: Part time student, CDA is my only class this semester along with the 9 to 5. Really hoping to dig into the fundamentals and give it the attention it deserves.
+
+Project Topic: Open to suggestions but would be interested in diving into routing/network optimization (Traveling Salesman, Vehicle Routing Problems, etc). I use them extensively at work but would like to do more work with the underlying theory and less piping data back and forth to API endpoints.
+
+Cheers,
+
+Malcolm 
+
+
+
+  Comment from User 1127985:
+  Hi Malcolm,
+
+Is there room in your group? Although network and routing optimization isn't my forte, is it an interesting topic i'll like to dive into. 
+
+Time Zone: Atlanta, GA (EST), work remotely in CA as well.
+
+Communication: text and email (personal)
+
+Experience: structural analyst, 2nd masters
+
+Skills: matlab, python, latex, R (intermediate)
+
+Effort: Part time student as well, CDA is my only course.
+
+Project Topic: expertise is acoustics and dynamics loading but your topic is cool too.
+
+Please let me know if you want to connect. My email is pnguyen363@gatech.edu
+
+Answer from User 1323477:
+Hey Lauren, nice to meet ya! I'm super interested in forming a study group.
+
+Time Zone: I'm also PST. San Francisco, CA.
+
+Communication: I'm up for any communication platform.
+
+Experience: Completed my undergrad in data, dived straight into this program.
+
+Skills: Relatively strong coding background in languages like Python, R, and SQL. Did well in 6040. I've completed several data-driven projects both in-class and for different firms. I have experience in implementing NLP and other machine learning models. Decent math and statistics background. Excited to do my best in this class!
+
+Effort: Full-time student so I'll be putting my all into this class!
+
+Project Topic: I'm flexible, though I already have a teammate and am more-so interested in the study group aspect.
+
+Best,
+
+Richard
+
+  Comment from User 1127985:
+  Hi Richard,
+
+Is your group looking for a third or are you just looking for a study group? 
+I am down for both. 
+
+Answer from User 1230089:
+Hi Lauren,
+
+Nice to meet you! I'm also looking for project team mates and study group mates.  
+
+Time Zone: PST, California (bay area)
+
+Communication: Discord, whatsapp
+
+Skills: decent math background (quick learner, so I'll catch up), great with writing and formatting
+
+Classes taken: 6501 (A), 6414 (A), 8803(A), 6040 (A)
+
+Background: Used to be a pharmacist, completed research based masters in in-vivo research. 
+
+Effort: Full-Time OMSA student
+
+Project Topic: Happy to work with any data / fields for more exposure, biased towards healthcare dataset due to previous exposure to it.
+
+There is a whatsapp community for OMSA and there is a CDA community there, if anyone is interested. 
+
+Whatsapp group: https://chat.whatsapp.com/K1VRd8X4t9wJTZDYpDmZ4T
+
+Best, 
+Michele
+
+  Comment from User 1493073:
+  Thank you for the CDA community group link!
+
+Answer from User 1128057:
+Thanks Michele for sharing the WhatsApp link.
+
+
+
+Answer from User 1271303:
+Hello everyone!
+
+I am also looking for group project team mates
+
+Time Zone: CST. Wouldnt have any issues working with EST or PST team mates.
+
+Communication: Discord, whatsapp, slack
+
+Skills: Data Scientist with coding background in languages like Python, R, and SQL.
+
+Classes taken: Basic and Advanced courses
+
+Background: Data Scientist in Pharma industry. 8 years of experience
+
+Effort: Part-Time OMSA student with a 9-5, but I can meet at any time during the day and every day.
+
+Project Topic: Im good with anything you might be interested in. I have knowledge in clinical trials data.
+
+Best, 
+
+David
+
+Answer from User 1142020:
+Hi everyone, I’m also looking for group members. If you’re interested, reply here or email me at my gt email: snanduri8@gatech.edu
+
+About me:
+
+Time Zone: MST(Denver)
+Communication: Open to text, WhatsApp, or email
+
+Education:
+I’m currently pursuing my Master of Science in Analytics (computational track) at Georgia Tech. I got a BBA in Information Systems from the University of Georgia, specialized in applying machine learning, AI, and advanced analytics to real-world problems in healthcare and finance. I’ve also completed certifications in Applied Data Science, Informatics, and Lean Six Sigma.
+
+Experience:
+Currently, I work as a Healthcare Analyst, my previous roles include finance (BlackRock), IT Auditor/risk management (Frazier & Deeter), and software development. I’ve also collaborated on healthcare-focused mobile app development during my time at UGA.
+
+Technical Skills:
+
+Languages: Python, SQL, Java, C++, R, JavaScript, Shell scripting
+
+Data Tools: Power BI, Databricks, JMP, Aladdin, AWS/GCP/Azure
+
+Specializations: Machine learning, cloud computing, BPMN modeling, data visualization, and simulation tools (ARENA)
+
+Soft Skills: Strong in writing, formatting, UI design
+
+Project Topic:
+I’m pretty interested in working on projects related to healthcare, finance, or anything involving predictive modeling and advanced analytics. I’m open to other fields if the topic is interesting.
+
+
+
+Answer from User 1232296:
+Time Zone: AEST, Sydney, Australia
+
+Communication: Discord, WhatsApp, or email
+
+Experience: 18 years Electrical Engineer
+
+Classes taken: 6501 (A), 6414 (B), HDDA (A), 6040 (A), DO (A), 6203 (A)
+
+Skills: Strong math background, proficient in Python, SQL and LaTeX.
+
+Effort: I put a lot of effort into my assignments and projects, and I usually try to start as soon as possible so I can have enough time to refine my work. 
+
+Project Topic: I'm open to suggestions, but lately my preferences have been heavily influenced by the topics covered in HDDA. Anything related to image and signal processing (including voice) would be of high interest to me. I have recently used some of the tools we learnt in HDDA for a personal project on classifying physical activity based on accelerometer and gyroscope data from mobile phones, you can have a look here https://github.com/amoughnieh/Human-Activity-Recognition. Using wavelets for feature extraction is something I'm looking to explore, their math is also interesting, we can write a ton about it. If these sort of topics are of interest to you please reach out 😀
+
+
+
+Answer from User 1230189:
+Time Zone: Salt Lake City, Utah, MT
+
+Communication: Discord, Twitter, Slack
+
+Experience: Statistical Analyst--Market Research. Undergraduate in Mathematics--Statistics
+
+Classes taken: All five generals and simulation. Currently in Military Gaming and Regression along with this class. 
+
+Skills: Strong math background, R, SQL, Python. Mostly R.
+
+Effort: I love me a good late night coding session, I put in appropiate effort for the program.
+
+Project Topic: I have a strong background in sports analytics and have access to numerous sets of data there. I am constantly working on personal projects in that realm and would love to continue with that work.
+
+
+
+Thanks again, I would love a discord invite!
+
+Answer from User 1230001:
+Hey Lauren,
+
+I would love to join a potential study group if still available!
+
+Time Zone: PST, I live in Portland, OR!
+
+Communication: Any, discord/teams/text preferred
+
+Experience/skills: My experience comes primarily from the classes that I have taken, I have a decent math background and did well in 6040, no current experience to matlab but would be open to learning. 
+
+Classes Taken: All basic level courses, DAB, Regression, and Simulation; currently taking this course and HDDA.
+
+Effort: I am currently working part-time (~20 hours/week) and can dedicate my free time outside of that to schoolwork and can usually work with others schedules.
+
+Project Topic: I am up for anything but would be very interested in something potentially related to HDDA as it would be fun to relate the two courses I am taking, or something to do with biology/biopsychology, as that was my undergraduate background!
+
+
+
+Thanks for reading, and I would love a discord invite if possible: Discord: whltney, email: wsnead6@gatech.edu!
+
+Answer from User 682243:
+Hi All,
+
+This is my 9th class in OMSA. I previously have a Masters in the geospatial science from Georgia State University. I am open to any group that is EST or CST, however, would prefer an Atlanta based group if there is any. email: rrimal3@gatech.edu
+
+·Time Zone: EST, Atlanta based
+
+·Communication: WhatsApp, Text, Slack, Teams
+
+·Experience: Working as a Geospatial Intelligence Lead in Retail Industry
+
+·Skills: SQL, Python, R, Tableau, PowerBI, Azure ML
+
+·Effort: I put huge effort into the project and task. Taking only one course so that I can fully focus on this one. A Team player and always love feedback and sharing ideas.
+
+·Project Topic: Open to creative IDEAS. After all it is a teamwork. Otherwise, I also have a few ideas in mind we can discuss and brainstorm. 
+
+Thank You!
+
+Answer from User 134876:
+This thread appears to have originally started as a request for study groups, which is why it was left up. It's now looking as if students may be confusingly using it as an additional project group thread, so I will lock this thread and direct students to use the primary #6 Finding a Project team thread.
+
+
+
+Comment from User 663378:
+Hi Lauren, I sent a friend request for your Discord study group, my username is barley_whine
+

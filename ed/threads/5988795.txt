@@ -1,0 +1,18 @@
+Thread ID: 5988795
+User 307048 (Parent Post) says:
+<document version="2.0"><paragraph>Hi! I was having trouble understanding how we go from the first red box equation to the second red box equation, specifically how <bold>theta^T</bold>*xi*xi becomes xi*<bold>xi^T</bold>*theta. I was refreshing on vector multiplication and don't recall any sort of commutative property for the transpose. Is there an obvious math rule I'm missing? Thank you!</paragraph><paragraph/><figure><image src="https://static.us.edusercontent.com/files/TiP8gYltyuYzCHQCiItnCJ5r" width="654" height="372.03592814371257"/></figure><paragraph/></document>
+
+Answer from User 1493072:
+Dot product between two vectors is commutative. 
+
+Let's say a = [1,2] and b= [3,4]:
+
+a.b = 1*3+2*4  = 11
+
+b.a = 3*1 + 4*2 = 11
+
+Therefore, theta^T . xi = xi^T.theta and it gives a scalar value. And multiplication between this scalar value (xi^T.theta) and a vector (xi) is also commutative, since it is just scaling the vector. 
+
+  Comment from User 307048:
+  Thank you so much!
+

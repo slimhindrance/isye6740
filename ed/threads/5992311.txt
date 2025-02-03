@@ -1,0 +1,12 @@
+Thread ID: 5992311
+User 1271302 (Parent Post) says:
+<document version="2.0"><paragraph>Hi, is it ok if I submit multiple programs .py for different questions in the GTUsername_HWx.zip file? Do we have specific naming requirements for the .py programs? Is it ok if we simply name it Q3.1.py, Q3.2.py?<break/><break/>Thanks!</paragraph></document>
+
+Answer from User 896413:
+As long as we know which .py files are which, your file names are fine. If you'd like, you can include a readme file to explain the files and which ones to run.
+
+  Comment from User 1491916:
+  Hi Anna, may I ask what does readme txt file look like? I do have some package like sklearn, matplotlib, scipy are using. I'm not sure if these packages need read me and I don't know how to make this txt file. Thank you!
+
+
+

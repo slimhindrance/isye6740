@@ -1,0 +1,14 @@
+Thread ID: 5994981
+User 616963 (Parent Post) says:
+<document version="2.0"><paragraph>Hi All,</paragraph><paragraph>I hit submit on my HW at 11:59 PM but got posted at 12 AM exactly.  Any chance that that could not eat into my contingency days?</paragraph><paragraph>While I am at it, one question.  If you submit a day after the official due date/time of the HW, can you keep resubmitting until midnight (EST) of that day that you submit?</paragraph><paragraph>I'm asking because if I'm going to lose one of my days I might as well recheck everything one more time since I have 24 hrs before I got into a second day late.</paragraph><paragraph>Thanks,</paragraph><paragraph>Roberto</paragraph></document>
+
+Answer from User 134876:
+Generally, we round all extension day usage up based on what we see in canvas as the submission time (I.e. if canvas tells us .3 days late, it's rounded up to 1 day.)
+
+We are usually flexible if it's submitted right around the deadline though.
+
+Regarding multiple submissions, yes, once you've used a day you can submit as many times as you want on that day.
+
+  Comment from User 616963:
+  Thanks Mark.   So when it comes to mine, should I assume you will count it on time since it was recorded exactly at 12:00 AM EST?  That way I won't spend the rest of the day looking at it again.  :)
+

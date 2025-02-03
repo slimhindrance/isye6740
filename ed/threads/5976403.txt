@@ -1,0 +1,10 @@
+Thread ID: 5976403
+User 301842 (Parent Post) says:
+<document version="2.0"><paragraph>Hi, I know we are told to not use personal file path in code. How exactly do I refer to the files then so that it runs for the TA as well? Thank you.</paragraph></document>
+
+Answer from User 962232:
+If your file is in a path like "C:/Users/gburdell/isye6740/hw1/data/data.mat" and your Python file or notebook is in a location like "C:/Users/gburdell/isye6740/hw1/hw1.py" you would refer to the file within a code using what is called a relative path that would look something like "./data/data.mat" where the "." is the location that you are actively in when running the Python code file (i.e. if you were to run the command "$ pwd" in that directory). So you would use that relative path in your code so that no matter where the code is ran, as long as there is a "data" folder in the same directory as the Python file, it will be able to be accessed.
+
+  Comment from User 1323477:
+  I'm using jupyter notebook meaning no file path necessary. So just reading "football.bmp" is fine, right?
+
