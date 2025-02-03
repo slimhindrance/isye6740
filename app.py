@@ -9,6 +9,17 @@ from starlette.requests import Request
 from starlette.middleware.sessions import SessionMiddleware
 from helpers.usergroup import *
 from helpers.llm_loader import *
+from fastapi import Request
+from fastapi.templating import Jinja2Templates
+from fastapi.responses import HTMLResponse
+from pydantic import BaseModel
+
+class GenerateRequest(BaseModel):
+    prompt: str
+    max_length: int = 3000  # Default value if not provided
+
+# Ensure templates directory is set
+templates = Jinja2Templates(directory="templates")
 
 # Initialize FastAPI app
 app = FastAPI()
@@ -60,26 +71,12 @@ async def login(username: str = Form(...), password: str = Form(...), request: R
     request.session["user"] = user["username"]
     return RedirectResponse(url="/dashboard", status_code=302)
 
-# Chat interface
-from fastapi import Request
-from fastapi.templating import Jinja2Templates
-from fastapi.responses import HTMLResponse
-
-# Ensure templates directory is set
-templates = Jinja2Templates(directory="templates")
-
 # Route to serve the chat interface
 @app.get("/chat", response_class=HTMLResponse)
 async def serve_chat(request: Request):
     return templates.TemplateResponse("chat.html", {"request": request})
 
 # Route to serve the LLM
-from pydantic import BaseModel
-
-class GenerateRequest(BaseModel):
-    prompt: str
-    max_length: int = 3000  # Default value if not provided
-
 @app.post("/generate")
 async def generate_text(request: GenerateRequest):
     """
@@ -186,10 +183,6 @@ async def get_routes(request: Request, user: str = Depends(get_current_user)):
     return templates.TemplateResponse(
         "admin.html", {"request": request, "user": user, "routes": routes}
     )
-
-# Base upload directory
-UPLOAD_DIR = "/home/lindeman/uploads"
-os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 @app.post("/upload/")
 async def upload_files(files: list[UploadFile] = File(...)):
