@@ -1,0 +1,13 @@
+Thread ID: 6065379
+User 1133909 (Parent Post) says:
+<document version="2.0"><paragraph>Hello,</paragraph><paragraph>I have a question about transforming the datapoints to their 2-PCA component points:<break/><break/>I see this in the lecture: w^T (x-mu) / sqrt(sigma)<break/><break/>Could you explain why we divide by the root of the eigenvalue? When i check my work by running the numpy PCA package, it seems like it is not doing that step?<break/></paragraph><paragraph/></document>
+
+Answer from User 1497720:
+https://edstem.org/us/courses/70719/discussion/5996551?comment=13940610
+
+Answer from User 672141:
+By dividing the eigenvector by its corresponding eigenvalue, we are normalizing the eigenvectors to be on the same scale. To put it simply, since the first principal components represent the greatest dimensions of variance the data contains, the first vs the second vs the third can contain different orders of magnitude in terms of variance. 
+
+  Comment from User 1133909:
+  So, if you use the linalg.eigh function to calculate the eigenvectors and values, do you then need to normalize the eigenvectors by thos values? Or is the function returning them already normalized?
+

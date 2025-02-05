@@ -1,0 +1,19 @@
+Thread ID: 6024567
+User 1325755 (Parent Post) says:
+<document version="2.0"><paragraph>Hi! I'm working on the first part of question 3 and I am a bit confused by the wording of the prompt. </paragraph><paragraph>Is it an acceptable answer to return a heatmap, and a snippet (15x15) of adjacency matrix, both as separate images? I attempted to get a full table for the adjacency matrix as an image but it was illegible. </paragraph><paragraph>Also - if we go the above route - do we still need to "llustrate a few images corresponds to nodes at different parts of the<break/>graph", or is that only required for the Gephi option? </paragraph><paragraph/><paragraph>Thank you for your help!  </paragraph></document>
+
+Answer from User 1497720:
+Also is there a particular value of epsilon for which we should plot this or is that upto us? Unless you want us to complete all parts, find a 'good' epsilon value in the rest of the parts and then come back and do this part. 
+
+  Comment from User 300188:
+  Up to you. And the approach you mentioned afterwards is fine for this problem. 
+
+Answer from User 300188:
+You can visualize the adjacency matrix as a heat map and then illustrate some images associated with the points in the heatmap
+
+OR
+
+You can plot the graph and illustrate what the nodes are. 
+
+Either way, you have to illustrate a few images on both options. 
+

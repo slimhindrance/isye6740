@@ -1,0 +1,10 @@
+Thread ID: 6029459
+User 1332979 (Parent Post) says:
+<document version="2.0"><paragraph>Hi, in qn4, it says that  'In this question, you can implement your own code or call packages'. Can i import from sklearn.decomposition import PCA?</paragraph></document>
+
+Answer from User 799310:
+Yes, that is allowed
+
+  Comment from User 1497720:
+  It looks like the autograder will not accept this right? Its not in the requirements.txt file 
+

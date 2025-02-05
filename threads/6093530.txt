@@ -1,0 +1,7 @@
+Thread ID: 6093530
+User 1307967 (Parent Post) says:
+<document version="2.0"><paragraph>HI I am confused on what needs to go into our zip file </paragraph><figure><image src="https://static.us.edusercontent.com/files/hJnQoleK8gcNBbe24LhRrjpp" width="658" height="101.48927477017365"/></figure><paragraph>this all that is in my zip file, is this ok?</paragraph></document>
+
+Answer from User 134876:
+You also should include the original data, so your python files can be ran. Your grading TA should be able to open your zip and run your python files purely with what's included.
+

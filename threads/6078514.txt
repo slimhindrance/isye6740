@@ -1,0 +1,7 @@
+Thread ID: 6078514
+User 1323477 (Parent Post) says:
+<document version="2.0"><paragraph>Hi there, </paragraph><paragraph>So sometimes when I run my 3.2 isomap I get different graphs. I'm pretty sure this is the correct one:</paragraph><figure><image src="https://static.us.edusercontent.com/files/0HQws88bkc8Uc7koZ7tFDZye" width="301" height="276"/></figure><paragraph/><paragraph>But then sometimes my eigenvectors seem to flip or go wonky because of scaling and my image turns into something like:</paragraph><figure><image src="https://static.us.edusercontent.com/files/x1AHAjnslYbUdbIXTUMNeeDv" width="324" height="330"/></figure><paragraph>As you can see, it's like my faces flipped from facing outwards on the left and right sides to facing inwards. Is this alright? If not, do you have a recommendation for a fix since I really wouldn't know how to set the scalars</paragraph><paragraph>Is this fine because it should be the shape that ultimately matters?</paragraph></document>
+
+Answer from User 896413:
+Yes, it's fine. As long as the shape and the image embeddings are correct relative to each other, it's fine.
+

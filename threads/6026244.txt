@@ -1,0 +1,22 @@
+Thread ID: 6026244
+User 1230236 (Parent Post) says:
+<document version="2.0"><paragraph>Hi,</paragraph><paragraph>Does adding the lagrangian multiplier to the objective function allow the L2 norm of w to be &gt; 1?   </paragraph><figure><image src="https://static.us.edusercontent.com/files/RNGjFDsvsL8T9BrhKaY7NUtS" width="318" height="37"/></figure><paragraph>I can't understand if the second term is penalizing us for using a w where the L2 norm is &gt; 1, or if it is rewarding us for finding a w where the L2 norm is less than 1.</paragraph><paragraph>If we are allowed to break the original constraint of L2 norm of w &lt;= 1, wouldn't that inflate the true value of the features of our data that we project onto w?</paragraph><paragraph/></document>
+
+Answer from User 799386:
+My calculus is rusty so I have to watch some basic examples of Lagrange Multiplier: https://www.youtube.com/watch?v=5-CUqogfPLY. My understanding is the second part of this equation is basically a constraint we have placed on the OG L2-norm equation, not really a "penalty" term. Using the Lagrange multiplier is a technique: we are trying to solve this L2-norm equation with the constraint applied. Lambda just helps the process of solving the equation. (It's weird thinking adding stuff on top of stuffs will help solve anything, but watch the video...)
+
+Same as homework 1, we want to maintain pretty much the same color groupings of the image, but now we have a constraint such as brightness. The second part of the equation is adjusting the brightness of the image, which also ranges from 0 to 255.
+
+Hope this helps.
+
+Answer from User 300188:
+So, technically the second part is a penalty. The idea is that it changes the objective function such that it penalizes deviations that are away from w = 1. It's presented as <= 1 because without the upper bound on w it can become arbitrarily large (I think this is mentioned in the lecture, also addresses your second question). After optimization hopefully the norm of w is equal to 1 or very close to it. If ||w|| > 1 the second term penalizes the objective function function. 
+
+
+
+  Comment from User 1133909:
+  Couldn't there be a scenario where ||w|| is > 1 but the penalty ends up not being big enough to prevent w from being the maximizing value for the Langrangian?
+
+  Comment from User 1230236:
+  So this is a "soft" constraint? In my mind, if ||w|| is anything other than 1, then we are scaling the data to be greater than or less than its true value. Is that ok, as long as we are maximizing the variance along the principal component axis?
+

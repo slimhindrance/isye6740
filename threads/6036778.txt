@@ -1,0 +1,7 @@
+Thread ID: 6036778
+User 1230093 (Parent Post) says:
+<document version="2.0"><paragraph>Hello!</paragraph><paragraph>I was wondering if anyone could give a quick look and let me know if the following is a complete enough answer to get full credit for question 1.2? This seems to be all that is said about additional principle components in the lecture, but a different thread in the HW2 Q&amp;A alluded to there being some sort of mathematical formulation.</paragraph><figure><image src="https://static.us.edusercontent.com/files/y3BvGxkoGw7VN7ehr3u3c7UC" width="659" height="70.26971326164875"/></figure><paragraph/></document>
+
+Answer from User 896413:
+We cannot pre-grade your answer, however I recommend considering the relationship between the principle components.
+

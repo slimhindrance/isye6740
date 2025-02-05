@@ -1,0 +1,10 @@
+Thread ID: 5999739
+User 209912 (Parent Post) says:
+<document version="2.0"><paragraph>Hi,</paragraph><paragraph>I submitted multiple times for the HW1 assignment. It appears each time when i submitted the files, if the file name is the same, then there would be "_x" added to the file name. See screenshot below as example. Because of this, the naming convection does not follow exactly the name convection requirement in the  syllabus. Is there a way for me to fix this? I did not see a way to delete my old submission. Will be ok (without point deduction) if i just leave as it is? </paragraph><paragraph>Thanks!</paragraph><paragraph>William</paragraph><paragraph/><paragraph/><figure><image src="https://static.us.edusercontent.com/files/jfsc2aj2wh3EfCLOlHDe24AF" width="658" height="416.80819112627984"/></figure><paragraph/></document>
+
+Answer from User 213547:
+We will only be seeing the final or latest one. So no worries
+
+  Comment from User 209912:
+  Great, thanks!
+

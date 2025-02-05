@@ -58,7 +58,7 @@ for filename in os.listdir(folder_path):
             print(f"Reshaped Embedding shape: {chunk_embedding.shape}\n\n")
             
             #vectorstore.add_texts([chunk])
-            vectorstore.add_embeddings((chunk, chunk_embedding))
+            vectorstore.add_embeddings()
             # Free up unused CUDA memory
             torch.cuda.empty_cache()
 

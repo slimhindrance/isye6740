@@ -1,0 +1,7 @@
+Thread ID: 6020107
+User 1323477 (Parent Post) says:
+<document version="2.0"><paragraph>Is all the demo code for this homework in PCA_demo_code_v2.zip? Meaning as a python user, we only have PCA_demo.py to help us through this homework?</paragraph></document>
+
+Answer from User 672141:
+Yes, that's correct.
+

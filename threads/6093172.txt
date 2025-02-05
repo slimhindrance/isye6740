@@ -1,0 +1,17 @@
+Thread ID: 6093172
+User 134876 (Parent Post) says:
+<document version="2.0"><paragraph>Please ask questions related to HW3 Q1 here.</paragraph><paragraph/></document>
+
+Comment from User 1133602:
+I'm finding the wording of question 1.1 below to be a little confusing. I just want to confirm - are we essentially being asked here to list one advantage and one disadvantage for both histograms and KDE? 
+
+
+
+  Reply from User 799310:
+  Yes, that's correct
+
+Comment from User 1498558:
+for part (4) of this question, can we begin the derivation from the expectation f(\theta) provided in the lecture? or are we expevted to also write the full derivation for f(\theta)?
+
+
+

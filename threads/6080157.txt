@@ -1,0 +1,10 @@
+Thread ID: 6080157
+User 1230259 (Parent Post) says:
+<document version="2.0"><paragraph>Hi TA's,</paragraph><paragraph>I was working on question 3, and I think I managed to turn the algorithm into the correct code, however there is one small speed bump. When I output the graph, this is my result:</paragraph><figure><image src="https://static.us.edusercontent.com/files/xDadgdU0jx75Dxn5B93NSKWD" width="639" height="309.515625"/></figure><paragraph>I have successfully managed to plot the images on the graph, and the faces are grouped correctly, but they are flipped? Meaning the faces on the right are looking to the left and the faces on the left are looking to the right. The faces in the center are correct.  Is this acceptable, or do I have to go back to the drawing board?</paragraph><paragraph><break/>Many thanks for any clarification you can provide,</paragraph><paragraph>Marco Vittozzi</paragraph></document>
+
+Answer from User 896413:
+The face orientation is fine. What matters is the shape of the plot and that the image embeddings are correct relative to each other.
+
+  Comment from User 1230259:
+  Cool, thank you for the reply. Another (maybe stupid) question, but this resulting plot is for question 3.2. For question 3.1, we need to visualize the nearest neighbor graph, but do we also need to plot the images on the nodes similar to above, or do we just need to show the nodes and their connectivity? And if we instead end up showing the adjacency matrix as an image, do we need to plot the images on the adjacency matrix?
+

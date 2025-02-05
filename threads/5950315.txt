@@ -1,0 +1,244 @@
+Thread ID: 5950315
+User 134876 (Parent Post) says:
+<document version="2.0"><paragraph>Hello Students, </paragraph><paragraph>This semester our team is working on introducing new GradeScope grading for specific coding questions. Because this is in very early stages, we do not want to overwhelm students and punish them for our testing, so it is an optional additional step. We have decided to offer students that participate in this GradeScope testing 5 bonus points. Any submission to gradescope will receive half points, and submissions that pass all of the GradeScope tests will receive the full 5 points.</paragraph><paragraph>Submitting to Gradescope will involve setting up your code in a specific format to support the autograder. It's important to know that this is an ADDITIONAL submission, your primary submission will still be through canvas, and your PDF and code submitted to canvas still must include all of your answers.</paragraph><paragraph>For this first assignment, we will share the required code scaffolding here in this thread. This code scaffolding will assist students in setting up their algorithms in the way that the GradeScope autograder will require. This means also using only the specific packages listed in the requirements.txt for each question. The provided requirements.txt will exactly match the gradescope environment, any packages not in this will not work. Additionally, Students must submit the files with specific file names, I've listed below the specific file needs of each question.</paragraph><paragraph>Paresh will host a 30 minute office hour to review this code scaffolding and answer questions tomorrow, January 9th, 1PM EST. This session will be recorded, and of course any further questions can be posted to ED.</paragraph><file url="https://static.us.edusercontent.com/files/IFBUP8Bd2vPrdUbT3Kbzmddc" filename="hw1 scaffolding.zip"/><paragraph>HW1Q3 - Image Compression</paragraph><paragraph/><paragraph>KMeans.py</paragraph><paragraph>football.bmp</paragraph><paragraph>sea-turtle-400x225.png</paragraph><paragraph>custom image</paragraph><paragraph>HW1Q4 - Political Blogs</paragraph><paragraph/><paragraph>political_blogs_clustering.py</paragraph><paragraph>edges.txt</paragraph><paragraph>nodes.txt</paragraph><paragraph>HW1Q5 - MNIST Clustering</paragraph><paragraph/><paragraph>mnist_clustering.py</paragraph><paragraph>mnist_10digits.mat</paragraph><paragraph>Clarifying breakdown of potential bonus points for HW1:</paragraph><paragraph/><paragraph>Q3: 2 Points (Submission worth 1, Correct tests worth 1)</paragraph><paragraph>Q4: 2 Points (Submission worth 1, Correct tests worth 1)</paragraph><paragraph>Q5: 1 Points (Submission worth 0.5, Correct Tests worth 0.5)</paragraph><callout type="warning">Important Notices</callout><list style="bullet"><list-item><paragraph>Passing the Gradescope questions tests is only an indication that your code is running successfully within the parameters of our tests. It does not necessarily mean that your assignment is correct, and it will still be graded by your TA. This is an initial test, and we have the long term goal of integrating more tests to assist us with the tedious grading of coding questions.</paragraph></list-item><list-item><paragraph>Gradescope submission will be allowed until the end of the 7 day extension period and  it <bold>will</bold> use your homework extension days.</paragraph></list-item><list-item><paragraph>There are situations that a students code can "Pass" Gradescope even with an improper algorithm. While unintentional situations will not be penalized, any students caught intentionally trying to cheat the Gradescope system to pass the tests without doing the work will receive a -5 point penalty on their assignment.</paragraph></list-item></list></document>
+
+Comment from User 962372:
+Hello Mark, I will be using Pycharm IDE for HW. Can someone post a sample Pycharm project to support the HW1Q3, HW1Q4 structure. 
+
+A screen shot from Pycharm IDE with above HW package structure would be really helpful.
+
+Thank you.
+
+  Reply from User 134876:
+  We do not have any recommended IDE project structures. I am unfamiliar with Pycharms project structure, as I use VSCode myself. 
+
+For gradescope here, These individual files must be submitted when submitting the the gradescope grader. The data files themselves should exist in the same folder location as the .py files for each question, in a single directory, so your code can successfully utilize relative pathing easily.
+
+  Reply from User 1324673:
+  Do you mean like the file structure? I just make sure when I'm opening the project, I select the immediate folder that it's in (not the .py file). Also, change/select the python interpreter in the lower right if you have problems. 
+
+And use the package manager to install any packages. 
+
+
+
+Comment from User 962372:
+Demo Code Qn: Will there be a link to download the demo code at some point. Thank you
+
+
+
+  Reply from User 134876:
+  Demo code is all available on canvas under the modules.
+
+Comment from User 962039:
+Would you be able to clarify on bonus points? If I submit for Q3, but it's not fully correct, would it be 0.5 pts? If I submit for Q3 and it's correct, would Q4 and Q5 have to be submitted and be correct to get the 5 pts?
+
+  Reply from User 134876:
+  This is a reasonable clarification. For this assignment, We will consider the following breakdown:
+
+Q3: 2 Points (Submission worth 1, Correct tests worth 1)
+
+Q4: 2 Points (Submission worth 1, Correct tests worth 1)
+
+Q5: 1 Points (Submission worth 0.5, Correct Tests worth 0.5)
+
+I've added this information to the post above.
+
+
+
+Comment from User 307528:
+Regarding "Custom Image" file for HW1Q3 :
+
+How many files are we expecting for "custom image"? 
+
+Are we expecting 5 files for "custom image" as a zip file to upload in gradescope?
+
+
+
+  Reply from User 979414:
+  It will be a single image
+
+Comment from User 301842:
+Just to clarify, this gradescope submission is the same code we will write for the pdf report and zip files? Is the reason for this bonus the ask to debug our code ourselves? A bit confused on this redundant initiative.
+
+  Reply from User 134876:
+  Yes you can use this same code structure with your pdf report as well. If you are to participate in this, I would recommend starting your code initially from the scaffolding.
+
+The purpose of this is an initial test, with the long term goal of more automated grading as an option. Currently our grading is a very manual process and a TA needs to run every students code to verify it’s running and generating the proper results. A properly functioning gradescope grader can handle the process of running the code and ensuring it is correct so the TAs can focus their time grading students analysis instead. In its end state, yes this could be used to assist in debugging your code or providing verification that you have output in the same format expected. It’s important to note currently that it is only checking that your output is in the accepted format, it is not checking the actual content of your output for correctness, that will be done by a TA during grading.
+
+Comment from User 896251:
+Hello - Where can I find the link to download the scaffolding codebase files? Sorry but I could not find, thanks for the help.
+
+  Reply from User 134876:
+  It seems to have been accidentally removed from the post. I have just readded it, and for backup I will also add it to canvas under Module 1.
+
+Comment from User 1133015:
+Can we add variables to the functions? For example for Q3 KMeansImpl class __init__, can I add an additional input variable to the function?
+
+  Reply from User 979414:
+  you can add a class parameter or default parameters. But the tests will not pass those parameters. 
+
+Comment from User 1325815:
+Will there be MATLAB code scaffolding too if we choose to use MATLAB?
+
+  Reply from User 979414:
+  No we currently only have plans for python support
+
+Comment from User 1316826:
+My test cases for Q3 on everything but my custom image passed. It looks like it is expecting the custom image to be named 1.jpeg. Is that expected? I didn't see a mention that it needed a specific filename.
+
+  Reply from User 134876:
+  In the scaffolding, there should be a variable where you can modify that to reference the name of your custom image. 1.jpeg is the default, but you can modify this variable accordingly.
+
+  Reply from User 805441:
+  Were you able to pass the tests for your choice image?
+
+Mine passes the other two, but does not find the choice image. I removed the spaces and chose several different names. Not sure what is happening. 
+
+Comment from User 896445:
+Hi team, thanks for this opportunity! I noted a small issue when trying out Q4 gradescope submission: I noticed that the sample code scaffolding gave the name "find_majority_labels", but when I first submitted my code using this naming convention, it failed the test cases, and the error was something along the lines of "get_majority_labels" is not found. I updated my code to "get_majority_labels" instead, and it passed the cases. Hence, seems like either the sample code given or the test cases need to be changed to avoid failure of test cases due to name of function. 
+
+Just a heads up in case others are failing the Q4 test cases but can't figure out why
+
+  Reply from User 213547:
+  Thank you. Noted
+
+Comment from User 1325816:
+Hi TAs, 
+
+If all of my test cases are passed for Q3, 4 and 5, is it safe to assume that the mismatch rate or purity score I have calculated for the data are also correct? Or the criteria for passing test score only checks the input and output parameter format instead of actual value? Let me know if I need to run any additional checks to make sure that my calculated scores are right.
+
+  Reply from User 799310:
+  Passing the gradescope tests only indicate that the format of the code and output are correct. Does not mean that your code itself is correct
+
+Comment from User 1512040:
+Will these bonus points be available for all homeworks or just this first one?
+
+  Reply from User 284691:
+  We are working on integrating GradeScope into this course for the first time this semester.  We intend to make the bonus points available for additional homework assignments, but we cannot confirm that bonus points will be available for all homework assignments at this time.  
+
+Comment from User 0:
+
+
+  Reply from User 979414:
+  Time is provided by python library 
+
+Comment from User 1133602:
+The demos use "find" from scipy.sparse in addition to "csc_matrix". (Copied below:)
+
+from scipy.sparse import csc_matrix, find
+
+Will the requirements.txt file for all 3 questions also allow "find"? Will it actually just allow "scipy.sparse" entirely?
+
+  Reply from User 979414:
+  This is resolved now
+
+Comment from User 307595:
+Can we get the due date in Gradescope changed to match the assignment?  Gradescope says Jan 19 1:13am EST and Assignment page says Jan 19 11:59pm EST.
+
+  Reply from User 300188:
+  Done.
+
+Comment from User 1489130:
+In this post, Mark Patrick stated we can use kmeans from the scipy library for Q4.  However, the Q4 requirements.txt in the Gradescope scaffolding doesn't include scipy.  Perhaps it's just an oversight since Gradescope is still in the testing phase, but it seems unfair to allow a library in the regular submission and not allow it in the Gradescope submission.  
+
+Is it possible for a TA to adjust the requirements.txt file through Gradescope to include scipy?  
+
+  Reply from User 979414:
+  The scaffolding shared was not updated. Gradescope for Q4,5 allows KMeans libraries
+
+Comment from User 1133602:
+Sorry I keep asking so many questions today, TAs! But wondering how Gradescope specifically is going to handle cases if there are empty clusters for Q3. I imagine that it's probably expecting a specific number/order of cluster assignments from the "class" output variable. If there are empty clusters, one has several options on how to deal with them. Let's say for a certain image (e.g., "sea turtle") we run K-means using L2 norm distance function with k=48 and we get 3 empty clusters. Do we then set k=45 and try running again until we have absolutely no empty clusters? What will Gradescope do then if it gets a "class" output variable that has less than k=48 distinct values in it? Just trying to understand the best practice for dealing with these annoying empty clusters as they pop up if we want to submit through Gradescope for the bonus points.
+
+  Reply from User 134876:
+  Currently, Gradescope is focused primarily on checking that results are in the correct format and things are running within the appropriate runtimes. This post by Anna has some great tips for handling empty clusters:
+https://edstem.org/us/courses/70719/discussion/5941354?comment=13860906 
+
+Comment from User 121859:
+Hi there!
+
+Trying to upload Q5 and getting this error message here:
+
+It is working for the other 2 questions so Im assuming it is something with my code.
+Here are the files I tried to upload:
+
+
+
+
+The input of my function is still the original from the scaffold code.
+
+The output is a List of dictionaries containing the keys: "true_label" and "purity_score". where "true_lable" value is an integer and "purity_score" is a float:
+
+
+
+Here is the URL as requested in the error message:
+https://gatech.instructure.com/courses/437944/external_tools/23345 
+
+Any idea? Thanks for the help, I really need these extra points LOL...
+
+
+
+
+
+
+
+  Reply from User 121859:
+  I made it work. For some reason the distance calculation I was using cause some error on Gradescope. Interesting part is that I was using the same one I used for the Image compressing exercise. It would be very useful if Gradescope could show the error message, I had some classes that allowed errors to be displayed, even the test code itself. It was tremendously useful for learning and of course finding the correct answer. 
+
+Anyways, I hope the solution I came up with is valid.
+
+Thanks 
+
+Comment from User 1230103:
+Does this mean I passed the tests? If so, why is the total score 0?
+
+
+
+  Reply from User 979414:
+  This doesn't mean your answer is correct. It means your code output is returned in format as expected. 
+
+Comment from User 896256:
+For the scaffolding provided for gradescope are we just writing out the class and gradescope is passing the inputs into it once we submit or do we need to write additional code outside of the class to invoke the class and pass the necessary inputs?  
+
+  Reply from User 979414:
+  no that is not how it should be used. 
+you are still required to submit a fully working code in your canvas assignment submission. 
+Gradescope is still very much relying on your code completely working.
+
+  Reply from User 896256:
+  I am going to try this question one more time. Apologies if I am not being clear enough. I am not very experienced with working with Python classes. It looks like based on scaffolding we are to code our solution within the class structure. My question is when we submit the files for Q4, for example: 
+
+
+political_blogs_clustering.py
+
+edges.txt
+
+nodes.txt
+
+HW1Q5 - MNIST Clustering
+
+Is gradescope just looking at the class in political_blogs_clustering.py and passing the required inputs as detailed in the scaffolding. OR within political_blogs_clustering.py do we need to be invoking the class function within the body of the code (e.g. writing lines to create the class and run the calculations using the input files edges.txt and nodes.txt). 
+
+Comment from User 1230051:
+Are we still able to submit via Gradescope to get the 5 bonus points or did we need to do that before the deadline for HW 1?
+
+  Reply from User 134876:
+  Gradescope submission will be allowed until the end of the 7 day extension period, just be aware that it does still use your extension days.
+
+Comment from User 1230146:
+Hello-- I just want to confirm that this is not a requirement for the course, and we will not be penalized for only submitting to canvas?
+
+  Reply from User 213547:
+  Yes, this is entirely for bonus points. No penalty for not submitting.
+
+
+
+Comment from User 121859:
+Hi team! 
+
+I had to upload multiple times to debug why I was getting an error message on Gradescope and in order to do that I had to comment out part of my code and "fake" the output to make find where exactly it was failing, this because Gradescope was not even returning what was wrong. I explained it here, after I found it I fixed it and uploaded the complete solution.
+My question: Is that consider cheating the Gradescope? since my last submission was complete. 
+Thanks
+
+  Reply from User 134876:
+  As long as that isn't in your final solution, that's fine and expected with gradescope to submit multiple times until you meet the requirements. By faking the output we mean we have some students who very clearly intentionally found what the grader was looking for to pass the tests, then instead of making an algorithm returned only objects that matched those properties, So their question is clearly wrong but it "passes" the tests. These are the cases that we would penalize.
+

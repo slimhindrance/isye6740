@@ -1,0 +1,33 @@
+Thread ID: 6093176
+User 134876 (Parent Post) says:
+<document version="2.0"><paragraph>Please ask questions related to HW3 Q2 here.</paragraph><list style="bullet"><list-item><paragraph>See Alfie's post #213</paragraph></list-item></list></document>
+
+Comment from User 896123:
+For Q2.1, I want to clarify the wording of the question "Form the 1-dimensional histogram and KDE to estimate the distributions of amygdala and acc, respectively." Does this mean form a 1-D histogram of the amygdala variable and a 1-D KDE of the acc variable? Or should we form a 1-D histogram and a 1-D KDE for each variable?
+
+
+
+  Reply from User 1128373:
+  I interpreted it as the latter, so 4 graphs:
+
+1-D histogram for amygdala
+
+1-D histogram for acc
+
+1-D KDE for amygdala
+
+1-D KDE for acc
+
+Comment from User 1497720:
+Why does the K function exist since it looks like the normal distribution notation N(xi,h^2) makes the (1/h)*K((xi-x)/h) term redundant? Can't we just write p(x) = 1/m sig_{i=1}^m N(xi,h) ? 
+
+  Reply from User 799310:
+  I wouldn't necessarily call it redundant. You make a good point about the normal distribution notation, however keeping K the way it is emphasizes its general, nonparametric aspect and allows for different kernel choices beyond gaussian (although I believe this problem is just Gaussian)
+
+
+
+Comment from User 1497720:
+For 2.1 can the h be different for each? I know that in 2.2 this is not physically possible however in the 1D case should we tune individually for better results? 
+
+(edit: I think it is physically possible to have different 1/Delta1 and 1/Delta2 for the histogram and even h1 and h2 for the KDE however I think the KDE in the assingment is a special case of h1 = h2  ? Is this true? )
+

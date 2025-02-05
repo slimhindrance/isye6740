@@ -1,0 +1,9 @@
+Thread ID: 6048303
+User 896440 (Parent Post) says:
+<document version="2.0"><paragraph>Hello, I'm working on part 1 of Q3 and am running into a run time error when I implement the code below. I calculated the pairwise_distance and am trying to loop through all pairwise distances to find the optimal epsilon for my adjacency matrix. I think I'm struggling to think of how to connect the nodes once I find the optimal epsilon. Could you help provide some insight here?</paragraph><paragraph>Thanks,</paragraph><paragraph/><figure><image src="https://static.us.edusercontent.com/files/HTbU8IE9wxsHpajBMTQceGkh" width="475" height="252"/></figure><paragraph/></document>
+
+Answer from User 215365:
+We unfortunately cannot debug code; however, the demo code, test_tworings.py, in the Spectral Clustering module, does have the formation of an adjacency matrix, and some concepts from this code could be adapted.
+
+
+

@@ -1,0 +1,13 @@
+Thread ID: 6079317
+User 1512070 (Parent Post) says:
+<document version="2.0"><paragraph>img=Image.open(myimagefile) </paragraph><paragraph>img.size gives (320, 243) </paragraph><paragraph>np.array(img).shape gives (243, 320)</paragraph><paragraph>Maybe I don't have an appreciation for all the hardware platforms and computer languages that the authors of these libraries are trying to support, but this seems backwards.  The default behavior should be to preserve the indexing order.  I guess I'll just remember to transpose the image every time I go between PIL and numpy.  And then there's the issue of transposing a 1D numpy array having no effect.  The five points of extra credit for Gradescope is a nice bonus, but it's really tempting to start using MATLAB for HW3 and beyond.  Maybe a good Python IDE would solve my problem because then I could see the dimensions and set breakpoints more easily than using IDLE and printing stuff.  If I start using Jupyter, how easy is it to export the code for use with Gradescope? </paragraph><paragraph/><paragraph/></document>
+
+Comment from User 1512070:
+oh I just looked at the autograder results...  they expect me to not transpose it as described above.  that's fine too.
+
+Comment from User 962232:
+Jupyter is the recommended environment for developing your code.
+
+Comment from User 1316826:
+PIL gives you the size in the format width x height. As a numpy array, dimension 0 is the height/y dimension and dimension 1 is the width/x dimension. So it gives you same shape either way, numpy shape just gives you size in the dimension order instead of "standard image" order.
+

@@ -1,0 +1,16 @@
+Thread ID: 6025949
+User 1323477 (Parent Post) says:
+<document version="2.0"><paragraph>For question 2, I used the PCA demo code to get (m, 2), but also the scatter plots. This is what my scatter plot currently looks like...I plan to manually label the points:</paragraph><figure><image src="https://static.us.edusercontent.com/files/ep4LAq6XCcIMsUJtnkoJVLdT" width="219" height="209"/></figure><paragraph>but sometimes it also looks different...like this for example:</paragraph><figure><image src="https://static.us.edusercontent.com/files/iq1JuEzZSKqeOn5bmislKPYL" width="219" height="209"/></figure><paragraph>This seems to be the graph, just flipped. This one too:</paragraph><figure><image src="https://static.us.edusercontent.com/files/m645e6eb3VOEWt3VezDN9nk7" width="225" height="213"/></figure><paragraph>From my understanding, I think PCA allows for some variation based on how the eigenvectors/values are formed, so I believe this makes sense? The absolute values of the eigenvalues pretty much stay the same. Please correct me if I'm wrong.<break/><break/>Following this logic, the scatter plots flipping is not that big of a deal. What IS a big deal is how the axes change. If the graph simply flips across the x axis, y axis, or origin, the domain and range should not change...but they do...so what's going on here? How can I correct this? Hopefully my points are plotted correctly haha</paragraph></document>
+
+Answer from User 300188:
+I think you're overthinking this. It's just as you mentioned, multiply an eigenvector by a scalar is a still a valid eigenvector. The scalar could be -1, 1, -2, -1/2, 1/2, etc....  
+
+What you have looks fine. 
+
+
+
+  Comment from User 1323477:
+  Thank you! 
+
+
+

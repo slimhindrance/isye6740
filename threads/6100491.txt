@@ -1,0 +1,10 @@
+Thread ID: 6100491
+User 814154 (Parent Post) says:
+<document version="2.0"><paragraph>Hello,</paragraph><paragraph>I was just wondering whether the code we submit in Canvas requires the same classes, functions, libraries, output, and/or file names as the scaffolding code templates provided for Gradescope. I did not use them for Homework 1, and I wonder if this was a mistake since I have not received a grade yet.</paragraph><paragraph>Thanks,</paragraph><paragraph>Victor</paragraph><paragraph/></document>
+
+Answer from User 213547:
+No you do not need the follow the gradescope template for any of the homeworks
+
+  Comment from User 814154:
+  Thank you!
+

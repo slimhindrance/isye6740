@@ -1,0 +1,19 @@
+Thread ID: 6001472
+User 1151756 (Parent Post) says:
+<document version="2.0"><paragraph>Hi teaching staff,</paragraph><paragraph>I really struggled with the math in assignment one. I have taken classes in linear algebra and statistics in my undergrad but it has been a while. I did spend a fair bit of time trying to learn/research but I have not been able to make much progress in terms of being able to derive functions or complete proofs. (I'm not even sure where to begin)</paragraph><paragraph>Are there any additional resources that might be able to help get my math up to speed?  I was a bit embarrassed to attend office hours and say I had basically no idea on how to get started with most of the questions but if that could help me navigate assignment 2 onwards I will do that. I do want to give this my best shot but also want to know if realistically there is any chance I pass this class.</paragraph><paragraph>Thank you,</paragraph><paragraph>Pranav</paragraph><paragraph> </paragraph></document>
+
+Answer from User 307599:
+ Hi Pranav,
+
+Thank you for reaching out and sharing your concerns—it's great that you're being proactive about improving your understanding. Here are a few steps and resources that might help:
+
+Revisit the Basics for linear algebra and statistics. There are many online resources which can help to explains concepts in an approachable and practical way.
+
+Begin with simpler examples or exercises before tackling more complex problems in the assignment. Breaking down tasks into smaller steps can make them feel more manageable.
+
+Attending office hours is one of the best ways to get personalized guidance. You’re not alone in feeling unsure—office hours are designed to help students navigate challenges like this. Feel free to let us know your concerns in advance if it helps you feel more comfortable.
+
+Please don’t hesitate to reach out with more questions or concerns—we’re here to help you every step of the way.
+
+Reeti
+

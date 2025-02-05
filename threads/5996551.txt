@@ -1,0 +1,139 @@
+Thread ID: 5996551
+User 134876 (Parent Post) says:
+<document version="2.0"><paragraph>Please ask all questions related to HW2 Q2 here.</paragraph><list style="bullet"><list-item><paragraph>There are no runtime requirements for this question, however please keep it reasonable (&lt;10min).</paragraph></list-item></list></document>
+
+Comment from User 1232296:
+I'm assuming for this question we are allowed to use packages that can perform eigendecomposition? or are we expected to code that part too?
+
+  Reply from User 213547:
+  Yes you may use package for eigendecompostion
+
+Comment from User 1316216:
+For both the problems themselves and gradescope, I wanted to confirm:
+
+2.1:  Perform PCA "on countries", meaning we reduce the number of food features to 2 principal components.  We will have a scatter plot with points labeled with country names, and submit the code in gradescope as food_pca().
+
+2.2:  Perform PCA "on foods"; reduce the number of countries to 2 principal components.  Scatter plot is labeled with food names, code in gradescope is named countries_pca()
+
+Is that correct?  I think maybe the gradescope method naming is throwing me based on what it seems to expect as an upload.
+
+Thanks!
+
+
+
+  Reply from User 215365:
+  Your understanding of the PCA procedure and the format of the scatter plots appears correct. I believe you submit food_consumption.py to Gradescope which includes both of the methods, food_pca and  country_pca.  This Post in Ed further describes the Gradescope procedures for HW2.
+
+Comment from User 1133015:
+do we need to standardize the data?
+
+  Reply from User 215365:
+  The values of this data set are within the same general range, so you will not need to divide by the standard deviation of the feature values to preprocess the data. It will depend on your implementation (also, whether you use packages) if you subtract by some mean, $\mu$.
+
+Comment from User 1512055:
+I'm having some trouble to understand exactly how to implement the algorithm. For what I understood from the lecture, the covariance matrix is equivalent to $\frac{1}{m}X X^T$, where $X = [x^1 - \mu, ..., x^m - \mu]$, and by applying the SVD on it we conclude that the eigenvectors of $C$ will be the left singular vectors of $X$ and the eigenvalues will be the squared singular values obtained by the decomposition. With that, we have enough information to perform PCA.
+
+However, in the slide 28 (lecture 4) we have:
+
+"Eigenvectors of 𝐶 corresponds to left singular vectors of 𝑋
+Find the weight vectors {𝑤 ! , 𝑤 " , ⋯ , 𝑤 1 } as the 𝑟 left singular vectors
+of the data matrix 𝑋 (𝑟 is the number of principle components)"
+
+With that in mind, I'm confused. Should I perform the SVD on $X$ itself or on $\frac{1}{m}X X^T$?
+
+
+
+  Reply from User 672141:
+  Eigendecomposition and SVD are two different ways to perform PCA on the data. For the purposes of this question, you will perform eigendecomposition using the covariance matrix C. 
+
+About SVD, the slide mentions the input to be X but through derivation you can connect it to C= $\frac{1}{m}XX^T$ .
+
+
+
+Comment from User 1324673:
+I'm having trouble understanding this part of the lecture. Are we supposed to do this for output for question 2? It's looking better to me when I plot the w vectors instead of the z vectors. And what about for question 3?
+
+
+
+  Reply from User 1497720:
+  The w vectors are the principal vectors/eigenvectors onto which we intend to project each original datapoint xi. We normalize them by dividing them by the sqrt(lamda). The mean-centered xi is xi - mu. To find the projection of our mean centred datapoints onto the principal vectors we do the above dot products. Its like if you had a datapoint in x,y plane lets say v = [5,2] to find its projection on the x-axis i.e. the [1,0] vector we dot them to get [5,0] which makes sense since 5 is the x-coordinate of v. In that sense instead of the x-coordinate of v we want to find the wi-coordinate of v where v = xi - mu (and wi are orthonormal to each other just how x,y and z axis are) 
+
+Comment from User 652074:
+Are we allow to use code from PCA_demo.py from class? Do we need to add it as reference?
+
+  Reply from User 300188:
+  You can use the demo code, and to avoid any confusion just mention that you used it. 
+
+Comment from User 814300:
+Is there a reason the number of dimensions is an input to food_pca() and not country_pca()?
+
+
+
+
+
+  Reply from User 979414:
+  Hi Christian,
+
+Scaffolding is WIP. 
+You can ignore this parameter. 
+
+Comment from User 307906:
+for part 1 of this question, will each country have it's own color in the scatter plot? 
+
+
+
+  Reply from User 896413:
+  You don't need to color the points differently, but you can if you want to.
+
+Comment from User 1230259:
+Hello! I'm trying to understand the dataset a little bit more, and I was just wondering what the units were for the data? For example, real coffee is 90 for Germany. What is 90 in this context? Thank you!
+
+  Reply from User 213547:
+  https://openmv.net/info/food-consumption
+
+This is the link to the dataset. The numbers represent the percentage of the population consuming that food type. 
+
+Comment from User 1133909:
+Are we supposed to subtract the mean and divide by the standard deviation for each feature of the dataset before calculating the covariance matrix?
+
+  Reply from User 672141:
+  The equation is subtract the mean and divide by m observations, see below:
+
+
+
+Comment from User 1512040:
+Hi, I am getting slightly different results for my PCA when I rerun it for both the first part and second part of this question. Is this to be expected? I am standardizing my data when this perhaps isn't necessary, but am mostly using the demo code provided from class
+
+Upon further investigation, it seems that the magnitude of the primary components is staying the same, but only the sign changes. for example (made up numbers) if my primary components for Switzerland were 1.0 and 0.5 for one iteration, they might be 1 and -0.5, of -1 and -0.5 the next.
+
+  Reply from User 300188:
+  Yes. Multiplying an eigenvector by a scalar is still a valid eigenvector. So orientation doesn't matter as much -- just where the points are at in relation to each other.
+
+
+
+Comment from User 962021:
+I have normalized the data (zero mean & unit variance) , although the range is 1 to 99  before PCA. I thought it shouldn't hurt to normalize and went ahead with it as in the PCA_demo.py. 
+
+Any thoughts ? Should we use the data as is ? 
+
+  Reply from User 284691:
+  A range of approaches are possible; see this post for an earlier question and answer. 
+
+What you've described sounds like a reasonable approach. 
+
+Comment from User 307048:
+What shape is the leaf.mat data in when you first ingest it? I can't open the file so just making sure I'm projecting the right direction using the demo code. Are the 16 leaf attributes the rows or columns in the demo code?
+
+leaf = spio.loadmat('leaf.mat',squeeze_me=True)['M']
+
+# extract attributes from raw data
+Anew = leaf[:,2:17]
+m,n = Anew.shape
+
+Just trying to double check where I should/shouldn't transpose. Thanks!
+
+
+
+  Reply from User 962232:
+  Looks like you are doing it correctly. There should be 16 leaf features as columns (which you will reduce using PCA).
+

@@ -1,0 +1,30 @@
+Thread ID: 5941353
+User 134876 (Parent Post) says:
+<document version="2.0"><paragraph>Please ask all questions related to HW1 Q2 in this thread.</paragraph></document>
+
+Comment from User 1324673:
+Not a question, but here is a fun visualization that I got from another class that is a demonstration of k-means.
+
+
+
+  Reply from User 1497720:
+  Thanks for sharing this! Hitting "new" lets us change the initial state of each cluster! 
+
+Comment from User 1497720:
+$$For\ 2.2\ we\ know\ that\ x^{i\ }and\ \mu^j\ are\ given.$$
+
+Thus we can treat them as constants. Doesn't that make the problem trivial? Am I missing something? 
+
+  Reply from User 962232:
+  u^j is a fixed centroid, x^j is a variable of the given point. Knowing what you know about J and how to find the cluster assignments, how would you determine r^{ij}?
+
+
+
+Comment from User 898337:
+Hi, the distortion function J in Q2 has the coefficient 1/(mk) that I am not seeing on other sources. The lecture notes state that the k-means objective has 1/m as the coefficient, which I assume is a way to normalize the score across the whole data set. The Introduction to Statistical Learning presents the objective function with the coefficient 1/(number of points in cluster j) as a way to derive the centroid. I'm having trouble connecting the dots, or figuring out the intention behind the 1/(mk). Could someone provide an explanation as to why this is added?
+
+
+
+  Reply from User 213547:
+  It is a normalization constant. 
+

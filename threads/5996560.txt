@@ -1,0 +1,270 @@
+Thread ID: 5996560
+User 134876 (Parent Post) says:
+<document version="2.0"><paragraph>Please ask all questions related to HW2 Q4 here.</paragraph><list style="bullet"><list-item><paragraph>There are no runtime requirements for this question, however please keep it reasonable (&lt;10min).</paragraph></list-item></list></document>
+
+Comment from User 307528:
+
+
+Hello TAs - Q5 is supposed to be Q4 from the homework 2 instruction pdf file, correct?
+
+  Reply from User 896413:
+  Correct, it's a misprint. It is Q4.
+
+Comment from User 1511251:
+Hi TAs, just wanted to confirm in this question we can call PCA package?
+
+  Reply from User 215365:
+  Yes. This is from the homework:
+
+In this question, you can implement your own code or call packages.
+
+
+
+Comment from User 1230189:
+I am an avid backgammon player and have the world leading software for backgammon study on my laptop. I had this issue with the extra credit on HW1 but ignored it because it was just extra credit. But now that it is a real question, can someone help me understand what type of data this is and how I might potentially load it in? Because it just keeps trying to open my backgammon software and I can't quite get it into Python. 
+
+
+
+  Reply from User 300188:
+  One is a .dat file and the other is a .mat file. Just open up the .mat file in Python using scipy.io.loadmat or something similar.
+
+
+
+Comment from User 1128044:
+I'm getting the opposite results that I would expect from my projection residuals. I.e. the numbers lead to the conclusion that eigenface 1 matches to test image 2 and vice versa.
+
+
+
+Any tips for debugging or verifying these results?
+
+Will I still receive credit for reporting and discussing my thoughts on the results and how they could be improved? 
+
+  Reply from User 300188:
+  Couple of things. 1) Make sure you're making the right comparisons according the paper. If you take a closer look at the paper and look at the way $s_{i,j}$ is defined you'll know exactly which ones to compare. 2) Make sure the comparisons are fair. Are you using the correct subject for centering when you're doing your projection residuals and comparisons? 
+
+Comment from User 1324673:
+The first part says to plot the eigenfaces. Am I supposed to put them on a plot somehow or do I just show a table of their images?
+
+
+
+  Reply from User 300188:
+  There are two subjects in this particular dataset. You should be able to treat the pictures for each subject as two small datasets and perform PCA on them.
+
+The eigenfaces then represent the weights obtained from these decompositions. From there you should be able to plot. 
+
+Comment from User 1232296:
+My understanding is that the eigenfaces are the principal components of the images, not the images themselves. The first question is asking to plot the eigenfaces, which cannot be reshaped to the original size because their dimension is different. Is it actually asking to plot the projection onto the principal components? and which image should we project?
+
+  Reply from User 1232296:
+  I think I got myself confused. What I was describing is the eigenvectors of the matrix of vectorized images, whereas for PCA we're working with the eigenvectors of the covariance matrix, which is 16x16 not 12x16. All good now
+
+Comment from User 1232296:
+I'm using sklearn for PCA and standardizing, are we not supposed to use them?
+
+
+
+  Reply from User 979414:
+  We are fixing the gradescope right now. 
+
+Comment from User 814148:
+I'm hitting this error while extracting HW2 zip file. It seems to be in relation to the naming convention used for the images. What's the recommended workaround? I can't rename the files before extraction, and the image files won't extract because the paths aren't writable. I haven't seen anyone else mention this issue which is surprising. 
+
+
+
+  Reply from User 979414:
+  Is it possible you are downloading this to a subfolder which has a long path already ?
+Can you try downloading / extracting to your downloads folder ?
+
+Comment from User 1512062:
+I would like to clarify about Q4.2 about test scores and Sij
+1. We only need the top eigenfaces for Subject 1 and Subject 2? Meaning for each Subject1, we just take the first eigenface? If thats the case, does i=1 mean first Eigenface for Subject 1 and i=2 mean first Eigenface for Subject 2?
+2. Do we need to center the test image when we are computing the projection residuals? I see https://edstem.org/us/courses/70719/discussion/5996560?comment=13958705 stating we need to center while doing projection residuals
+-> To this, I tried finding in lecture notes but they dont mention on calculating projection residuals. Can anyone guide me on how we should center them please?
+
+Thanks team
+
+
+  Reply from User 497513:
+  1. That's correct
+
+2. You need to center the test image w.r.t. the data mean of the current eigenface. Keep in mind, PCA provides a new set of coordinates centered at the corresponding data mean. Thus, all projection with PCA must be shifted accordingly.
+
+3. The projection residual definition is provided in the hw description. Simply follow the formula as it is.
+
+Comment from User 1316216:
+Should residuals be reproducible?  Every time I run my code I get something different, despite setting seeds inside the gradescope class, the gradescope methods, and outside where I run the code.  The overall decisions are the same as to where things match/don't match.
+
+My residuals are often on the order of 10^-20 or even smaller; could it be machine epsilon interfering?
+
+  Reply from User 497513:
+  Technically, your reported result in the report should match the output from your code.
+
+I can't be sure about the random result issue as you described. It shouldn't be difference since there is no randomness in this problem, thus the result should be deterministic too. Please double-check your implementation at this point.
+
+The residual magnitude doesn't sound quite right to me. (Even though it could be quite different based on your scaling strategy.)
+
+Comment from User 1325815:
+Remark: You will have to perform downsampling of the image by a factor of 4 to turn them into a lower
+resolution image as a preprocessing (e.g., reduce a picture of size 16-by-16 to 4-by-4). In this question, you
+can implement your own code or call packages.
+
+Is there a preferred technique for the downsampling?
+
+  Reply from User 497513:
+  The easiest way is to save every forth row/column and discard the rest.
+
+Comment from User 898337:
+Hi, "subject02-surprised.gif" file seems to be missing in the 'yalefaces' folder inside HW2 scaffolding. Was this intended? Otherwise, there's a mismatch of 11 subject 1 images to 10 subject 2 images.
+
+  Reply from User 896413:
+  That is correct, there are a total of 11 images for subject01 and 10 images for subject02. It is intentional.
+
+Comment from User 1512044:
+For part 2, it instructs us to take the top eigenfaces of Subject 1 and Subject 2. Does this mean the first 6 eigenfaces, like in part 1, or just the first (1) eigenface  for each subject?
+
+  Reply from User 213547:
+  You can do either ( all 6 or the first one)
+
+Comment from User 814148:
+We learned in the lecture that eigenvectors are ortho-normal, so wouldn't we always simplify the " (eigenface)_i(eigenface)^T_i" portion of Q4.2's formula to a constant of 1, thus always returning the projection residual of 0? i.e ||(test image) - 1(test image)||^2_2
+
+I'm assuming we want to project (test image)_j against (eigenface)^T_i first and then solve for the residual but it seems to go against the intuitive structure of the formula. 
+
+Any advice/commentary here is appreciated. 
+
+  Reply from User 215365:
+  With linear algebra operations, you will want to move from right to left with the calculations. So the first calculation will be $(eigenface)^{T}_{i}(test image)_j$, then you will take this result and multiply with $(eigenface_i)$. Also, the question states to vectorize each image, producing a column vector $(test image)_j$, so the expression that you are subtracting will also be a column vector with the same length as $(test image)_j$ (the eigenfaces are also column vectors). You are correct in general that the inner product of a orthonormal eigenvector with itself will be 1.
+
+
+
+  Reply from User 1497720:
+  The way I thought about it was that eigenfacei is a column vector not a row vector. In this case eigenfacei*eigenfaceiT is a nxn matrix.
+
+Comment from User 1230103:
+Can we use cv2 module for this question?
+
+
+
+  Reply from User 672141:
+  Yes.
+
+Comment from User 1128222:
+Are the eigenfaces the eigenvectors which have been scaled by the reciprocal of the square root of the variance of the data in that direction (the square root of the eigenvalue)? In the usual PCA setup, from my understanding we scale by the reciprocal of the eigenvalues so that the resulting data has variance 1 in each of the coordinate directions, and this is what is outlined in the lecture slides on page 6. Are we following the same convention here?
+
+  Reply from User 672141:
+  Yes, you can follow the same convention as slide 6. 
+
+Comment from User 1512055:
+In question 2:
+
+1) Before applying the formula, I'm centering the data in test image (after vectorizing it) considering the mean of the vector. Is that correct?
+
+2) In the formula, calling eigenface_1 is equivalent to getting the vector corresponding to the first eigenface obtained in PCA for the first set of images (something like U_1[: , 0]), right? 
+
+My results are not making a lot of sense so I think I'm missing something here.
+
+
+
+  Reply from User 672141:
+  1) Yes, you are subtracting the mean from the test image (mean centering).
+
+2) Yes, first eigenface -> first PCA eigenvector.
+
+Check if you are plugging the right variables into the formula (processed and scaled images, right test subject, etc). The order of operations is important inside the formula as noted by Brent here.
+
+Comment from User 898337:
+I was reading TA Brent's response about doing (eigenface)T*​(testimage) first before multiplying with (eigenface) regarding Q4 part 2. This got me wondering about how to translate a math formula that involves multiple sequential matrix multiplications into Python.
+
+For example, if I want to write ISOMAP's C = -1/2 * H (D)^2 H in Python, should I do C = -1/2 * H @ ((D)^2 @ H) instead of -1/2 * H @ (D)^2 @ H because the latter matrices get multiplied first? 
+
+  Reply from User 1489130:
+  I was under the impression that matrix multiplication is associative, therefore the order in which multiplication occurs doesn't matter, i.e.:
+
+$(AB)C = A(BC)$
+
+ On the other hand, matrix multiplication is not commutative, therefore:
+
+$AB \neq BA$
+
+but Brent's comment seems to center around the associative property.  
+
+Brent, could you please elaborate further on why we have to multiply from right to left when the associative property says multiplying from left to right should produce the same result?
+
+Comment from User 1230051:
+For Q4.1, we are supposed to get 6 different images correct? The first two for subject 1 appear to  be the same for me. Same thing for subject 2 for two photos.
+
+  Reply from User 672141:
+  Yes, you plot the first 6 eigenfaces. About the first two eigenfaces, they should not be the same if you consider principal components are projections of variance in the data. There are some notable differences between them. If this is not the case, check the steps of computing the eigenface. 
+
+
+
+Comment from User 1325815:
+When I take the standard deviation, some dimensions have no deviation, resulting in 0. Then when I divide my standard deviation matrix by my data matrix to standardize the data, I get an error. So I add machine epsilon to those values but the end result it seems to mess up the eigenfaces, especially the first one. (Or I think it does? I don't know, I"m second guessing myself now. I've also tried setting the 0 values to 1 and they look better).
+
+I had done this without standardizing and was getting good results. I looked back at my code and realized I wasn't doing standardizing and opened a whole can of worms.
+
+  Reply from User 962067:
+  I'm also facing this issue. I centered my data and got good results but when I go back and try standardizing it brings up errors. Do we need to standardize the data for this question? 
+
+  Reply from User 300188:
+  You don't have to scale by the standard deviation if all your data is on the same scale (which is the case here)...remember while mean centering is absolutely necessary for PCA, scaling isn't.
+
+Comment from User 898337:
+Hi, I'm sure it's a small detail, but I noticed that the way I downsampled my data for Q4 results in having one more row of values than Gradescope's rubric expects (I added an extra row of values because the total number was not exactly divisible by 4). I think the justification for my method isn't necessarily wrong, but does this mean I won't get the full credit on Gradescope unless I revise my code, or is there a process where TA's will take a look at the Gradescope errors and give credit when reasonable? Thanks!
+
+  Reply from User 962232:
+  What is the extra row that you added? Is it a blank row as in like a margin for the image or is it an additional row that was previously removed in the downsampling? Either way, you can downsample the image to the nearest value if it's not divisible by 4.
+
+Comment from User 1325774:
+I am confused about how we are calculating Sij in 4.2. When I try and follow the formula listed in the question, I get a (61, 80) matrix, but the question indicates that we should get a single-number score for reporting. Thank you so much for your help!
+
+  Reply from User 962232:
+  If your image is (61, 80) you will first want to deconstruct that into a (1x4880) vector and then find the squared L2 norm of that vector to be your Sij.
+
+Comment from User 1325798:
+Hi I have a question about the intuition behind the projection residual. My understanding of it, after reading through the comments here, is: 
+
+A low residual indicates a good result. 
+
+It's essentially the difference between the original image and a reconstructed image, which comes from projected the original image onto the eigenvector and then expanding it back to the original space. 
+
+So if the original image and reconstructed image are similar, it's a good match and the residual is low. 
+
+Thinking in terms of the dot product, if the original image and eigenface are orthogonal and hence very different, the dot product (eigenface)iT​(testimage)j​ will be zero, and then the second term in the projection residual equation becomes zero, leaving just the vector of the original image itself. 
+
+Following the same train of thought, under what scenario would I get the lowest residual, say close to zero? Would that be when the original test image and the reconstructed image are almost equal, and hence their difference is almost zero, giving a very small residual? 
+
+If that is so then ​(testimage)j  ≈ (eigenface)i(eigenface)iT​(testimage)j 
+
+One way I can think of making this true is for ​(testimage)j  ≈ (eigenface)I, and then (eigenface)iT​(testimage)j ≈ 1. 
+
+For (eigenface)iT​(testimage)j ≈ 1,  the formula of the dot product is r.s = |r| |s| cos(theta).
+
+Since eigenface  and testimage are very similar, theta is 0 or close to 0, so cos(theta) is about 1.
+
+Eigenface is a eigenvector in PCA so it's of length 1. 
+
+That leaves the length of testimage. Going by this, it should be 1 too. Does that mean we should be normalising our test images before using them?
+
+
+Would really appreciate any help in pointing out any flaws in my logic along this whole train of thought when trying to figure out the intuition of what a low residual means for the relationship between two vectors and how the math works out with regard to the formula. Thank you very much for reading this and your time!
+
+  Reply from User 799310:
+  Your intuition is on the right track - a low residual means the projection of the test image onto the eigenface space is very similar to the original image, indicating that the test image lies well within that space. This would happen when the test image is almost entirely captured by the eigenfaces, so the difference between the original and its projection is small. Normalizing the images can help ensure the dot products (and hence the projections) are comparable across images, so it's good to preprocess consistently in that way
+
+Comment from User 307048:
+For the projection residuals, I'm getting values in the 100millions/low billions. Does that magnitude sound right or should I revisit my equation? For 4.2 the equation given, do you square everything after calculating test_image - (eigenface)(eigenface.T)(test_image) ? 
+
+  Reply from User 213547:
+  We are interested in the relative numbers of S11, S12, S21, S22,. Magnitude in the range is acceptable. 
+
+
+
+Comment from User 1133909:
+I cant seem to get the residual values to classify correctly. The subject 1 eigenspace has lower values for both of the test pictures than the subject 2 eigenspace. Im not sure what i am missing here.
+
+
+
+  Reply from User 799310:
+  It's hard to say for sure just based on the description, but I would recommend checking that your preprocessing steps are consistent and also to verify any eigenface/residual calculations 
+

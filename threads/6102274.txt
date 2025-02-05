@@ -1,0 +1,7 @@
+Thread ID: 6102274
+User 962283 (Parent Post) says:
+<document version="2.0"><paragraph>Hi TAs,</paragraph><paragraph>I would like to know whether we are allowed to work on textual dataset (NLP, text classification) or image dataset (object detection, segmentation) as part of our course project?</paragraph><paragraph>Thanks,</paragraph><paragraph>Karthikeyan</paragraph></document>
+
+Answer from User 134876:
+You can work on any type of data for your project.
+

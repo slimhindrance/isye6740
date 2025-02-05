@@ -1,0 +1,7 @@
+Thread ID: 6079079
+User 1323477 (Parent Post) says:
+<document version="2.0"><paragraph>Hi there, I'm trying to decide what makes more sense when analyzing 4.2. Comparing s11 to s21 and s12 to s22 or comparing s11 to s12 and s21 to s22.</paragraph><paragraph>Comparing s11 to s21 would examine which set of top eigenfaces (subject 1 or 2) would converge on the subject 1 test image. Like which eigenfaces would more correctly classify subject 1 test image</paragraph><paragraph>On the other hand, comparing s11 to s12 makes less intuitive sense to me. Comparing a set of top eigenfaces to both test images and seeing how well it classifies to both? There seems to be a less direct conclusion</paragraph><paragraph>I'm just trying to kind of determine at what angle am I supposed to take this analysis. Or if my interpretation is completely wrong. Or if it's more open-ended than I think haha</paragraph><paragraph/></document>
+
+Answer from User 300188:
+Your understanding of the first comparison is the correct one. 
+

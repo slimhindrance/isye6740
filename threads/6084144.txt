@@ -1,0 +1,7 @@
+Thread ID: 6084144
+User 814026 (Parent Post) says:
+<document version="2.0"><paragraph>Hi,</paragraph><paragraph>Just a question with respect to HW2 Question 3. It it okay to use the NetworkX package for Q3Part1? And if I leave the networkx code in my .py file that I will submit? I saw that there was a similar question previously asked, but I wanted to confirm.</paragraph><paragraph>Thank you.</paragraph><paragraph/><paragraph/></document>
+
+Answer from User 300188:
+https://edstem.org/us/courses/70719/discussion/5996558?comment=14088407
+

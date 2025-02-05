@@ -1,0 +1,4 @@
+Thread ID: 5996564
+User 134876 (Parent Post) says:
+<document version="2.0"><paragraph>Please ask all questions related to HW2 Q5 here.</paragraph><list style="bullet"><list-item><paragraph>This is a mathematical proof. Code will not be accepted as a proof.</paragraph></list-item></list></document>
+

@@ -1,0 +1,26 @@
+Thread ID: 6037655
+User 497513 (Parent Post) says:
+<document version="2.0"><paragraph>2/3/25 udpate:<break/>The recording of review p2 has been uploaded to the media gallery. Please let me know if you have any question.</paragraph><paragraph>Hi Class,</paragraph><paragraph>I will give a brief review to linear algebra (LA) in my OH session.It will cover the basics of LA tailored to our course. Please find the attached slides for your reference.</paragraph><paragraph>My OH: Sunday 10pm ET</paragraph><paragraph/><paragraph>update the slides for broken images.</paragraph><file url="https://static.us.edusercontent.com/files/50zMalI7T0xc99Ba8FcoLuHX" filename="LinearAlgebraReview.pdf"/></document>
+
+Comment from User 1512035:
+Thank you for the resource! I noticed the images are broken on the pdf.
+
+  Reply from User 497513:
+  Thanks for pointing it out! Trying to fix it and will update it shortly.
+
+  Reply from User 497513:
+  Slides fixed.
+
+Comment from User 134876:
+These slides are now hosted on our course website as well!
+https://github.gatech.edu/pages/ISYE6740/CDA-handbook/LA_review/LinAlgSlides_copy.html
+
+Comment from User 1133909:
+I can't find the recording for the linear algebra review. Do you have it posted somewhere?
+
+Comment from User 1491916:
+Thanks for your course! Is the recording link available for the class?
+
+  Reply from User 213547:
+  This OH has not yet happened
+

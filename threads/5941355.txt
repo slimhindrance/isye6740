@@ -1,0 +1,316 @@
+Thread ID: 5941355
+User 134876 (Parent Post) says:
+<document version="2.0"><paragraph>Please ask all questions related to HW1 Q4 in this thread.</paragraph><list style="bullet"><list-item><paragraph>For <bold>spectral clustering</bold> <bold>specifically</bold> you can use the sklearn kmeans package for the kmeans portion <bold>only</bold>, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.</paragraph></list-item></list></document>
+
+Comment from User 1131595:
+In the demo code for spectral clustering, k means was implemented using existing packages. Is that okay for Q4 or should we implement from scratch like we did in Q3?
+
+  Reply from User 962039:
+  Had this same question and was just about to post
+
+  Reply from User 1321233:
+  I would also like to know! Specifically regarding the KMeans from sklearn and sparse from scipy.
+
+  Reply from User 962232:
+  You are allowed to use the scipy.sparse package and whatever packages the demo code uses. You are not allowed to use the sklearn.cluster.KMeans package or any other package that does the entire KMeans algorithm for you.
+
+
+
+Comment from User 568225:
+There are cases where the clusters are empty for larger k values (e.g. k=10 and above), how do we report the mismatch rate in such scenarios? The error message I get is "Number of distinct clusters (7) found smaller than n_clusters (10). Possibly due to duplicate points in X."
+
+  Reply from User 979414:
+  you can ignore any empty clusters. 
+
+Comment from User 962322:
+When calculating the mismatch rate, do we only consider the nodes that are not isolated? 
+
+  Reply from User 979414:
+  The dataset edges.txt contains edges between the vertices. You may remove isolated nodes (nodes that are not connected to any other nodes) in the pre-processing.
+
+
+
+Comment from User 1230146:
+Do we need to manually calculate eigenvectors/ values or can we use a package for that? This is for the first part of the question
+
+  Reply from User 979414:
+  you can use np.linalg for calculating the eigen vectors / values.
+
+Comment from User 962039:
+For part 1 of this question for the report aspect are we mainly looking to display a table of sorts highlighting the mismatch rate for each cluster in each k iterations? (e.g
+
+             k=2          |       k =5         | ...
+
+1    mismatch           mismatch   
+
+2    mismatch           mismatch 
+
+3                                 mismatch 
+
+...)
+
+  Reply from User 213547:
+  Yes, also the overall weighted average mismatch rate for each k. 
+
+Comment from User 962322:
+Silly question, but when considering the overall weighted average mismatch rate for each k, do we disregard the empty clusters? 
+
+
+
+  Reply from User 213547:
+  If k=2, and there are a total of 11 modes. 
+
+cluster 1 has 7 nodes and mismatch rate of 30% and cluster 2 has 4 nodes and mismatch rate of 20% then weighted average is 
+
+(7 x 0.3+ 4 x 0.2)/11
+
+You should not disregard empty clusters
+
+Comment from User 1229896:
+I found that the same vertex [24, 24] and the edge [24, 23]  appeared twice in edge.txt. If I construct coo_matrix similar to test_football Demo Code, do I need to clean or process the adjacent matrix to handle these duplicates?  Is this expected? Thanks
+
+  Reply from User 213547:
+  No you do not need to clean
+
+Comment from User 1316826:
+My understanding is that the k values to explore just refer to the number of clusters in the kmeans component of the algorithm, not the number of the smallest eigenvalues to use. Is that correct? The lecture video uses k in regards to eigenvalues as well, but it doesn't seem like there is a specific connection between the number of eigenvalues and clusters.
+
+If that's correct, do you have recommendations for choosing the number of eigenvalues? I was surprised that none of the subquestions mention reporting on that. I don't see an obvious eigengap, so I'm considering some kind of seed + j grid search per k value where j is the number of eigenvalues. Wanted to see if I'm missing something before going down that road.
+
+  Reply from User 213547:
+  v, s, _=np.linalg.svd(L)
+v = np.flip(v, 1)
+
+K = 2
+v = v[:, 0:K].real
+kmeans = KMeans(n_clusters=K).fit(v)
+
+Please refer to this demo code. 
+
+K refers to the number of clusters and eigenvectors. 
+Hope this helps. 
+
+
+
+Comment from User 1229955:
+In the football demo code, after the function definitions, n and k are defined as specific integers (321 and 13 respectively). I understand there are 13 groups, but how does n get determined?
+
+  Reply from User 799310:
+  321 is the number of nodes. If you open up nodes.csv, you will see 321 of them.
+
+Comment from User 307595:
+Seeing opposing answers from Neepa and Paresh below regarding ignoring empty clusters.  Can we get clarification?
+
+  Reply from User 213547:
+  You will get the same weighted average whether you ignore or do not ignore the empty clusters. Hence both our answers are correct. 
+
+Comment from User 1512040:
+are we expected to treat this as a weighted graph? meaning, if there are duplicate edges in the dataset, should our adjacency matrix have values > 1?
+
+  Reply from User 672141:
+  Whether you treat it as a weighted or unweighted graph for this dataset, I don't think it will impact the results for this question (there may be one instance of a duplicate edge). You can choose either approach. 
+
+
+
+Comment from User 1316826:
+I seem to be running into an issue and can't figure out why. I load the edges, build an adjacency matrix, then degree matrix, then laplacian. I compute the eigenvalues and eigenvectors and use the first/smallest k for clustering.
+
+No matter how I vary k, almost all the nodes fall into a single cluster. Things I've considered are:
+
+1. Maybe there aren't clusters? But plotting the adjacency matrix makes it look like there are some clear patterns.
+
+2. Maybe the first eigenvector (or few) are trivial and messing things up? I see some near zero eigenvalues, and the corresponding eigenvectors are nearly constant. This could be because there is not perfect separation between blocks, but the seeming patterns make that surprising. I would expect kmeans to handle it anyways and just ignore those dimensions, but even if I make it skip the first few eigenvectors, I see the same behavior.
+
+3. Maybe there's a standardization step I'm missing somewhere that makes some eigenvectors get overwhelm everything else? I tried throwing in a normalization step to test with no change.
+
+The eigenvectors aren't matching my intuition, but the steps leading up to them, including np.linalg.eigh, seem pretty straightforward and the intermediate matrices all look good. Any tips would be great! I think I need a break from beating my head on this, too. Thanks!
+
+
+
+  Reply from User 1512040:
+  If you remove nodes that don't have any edges, this should help
+
+
+
+  Reply from User 962039:
+  I think I was running into the same issue, also not positive why, but trying the variant of spectral clustering in lecture helped me 
+
+  Reply from User 672141:
+  As noted in the replies, there are two variants of the demo code for spectral clustering. One is normalizing D while the other is not. You can try either and see if that helps your results. 
+
+Comment from User 898337:
+In the spectral clustering sample code, why are the columns of the edges matrix being subtracted by 1 to define i and j? They don't seem to be used as indices, but rather entries of a sparse matrix. So wouldn't altering the values affect the result?
+
+
+
+  Reply from User 300188:
+  Everything in python is 0-based while the data is based on using 1 as the smallest number. To make sure they align properly, you have to subtract one. So i and j define the row and column indices while v is the actual value. 
+
+(If you know a little bit of matlab, if you see the matlab version this subtraction of 1 isn't present because matlab and this particular dataset are both using 1-based indexing) 
+
+
+
+Comment from User 1133602:
+Will SciKit Learn's kmeans then be added to the requirements.txt file for this problem in Gradescope?
+
+  Reply from User 979414:
+  It is already updated in gradescope. You can add it manually to your local file 
+
+Comment from User 1230103:
+During office hours (January 07, 47:30), Neepa mentioned that we also need to calculate the weighted mismatch rate for each k, but this wasn't mentioned in the homework. The homework states: "We will treat the network as an undirected graph."
+
+Additionally, we don't have the information for weighted edges, correct? Could you please clarify whether we are required to calculate the weighted mismatch rate? 
+
+
+
+  Reply from User 979414:
+  I am assuming she meant, the weighted mismatch rate based on the size of the clusters 
+
+Comment from User 1512070:
+should we care about the last column in nodes.txt?  if so, what is it?  seems to be a list of what blog platforms or frameworks they use like "Blogarama", but I don't see any parts of the homework requiring us to use that
+
+  Reply from User 284691:
+  You can safely ignore the last column of notes.txt; it is not required for any part of the homework. 
+
+Comment from User 1497720:
+Is it okay if we do not remove isolated nodes in preprocessing? If one of them does become a centroid it would just mean that its a cluster of nodes that are either fully isolated or almost isolated however as the algo progresses this centroid would stabilize  ? However I was also thinking that if they do not form their own cluster then they would move the bar of other clusters by reducing their avg so to speak but at the same time a loosely connected node could have near zero values in the eigenvectors so its not like we are defining a connectivity threshold below which we exclude nodes... Is there a critical flaw with including these?  
+
+  Reply from User 300188:
+  In spectral clustering you typically want to identify communities in a graph, so including them wouldn't necessarily help with that and increase noise. So unless there's some niche domain reason to keep them, you probably want to remove them. 
+
+Comment from User 652074:
+Hello, 
+
+I need some help for my Q4. I submitted the Q4 documents by gradescope and I got result like link shows below.
+
+https://gatech.instructure.com/courses/437944/external_tools/23345
+
+It doesn't have any issue when I run my code locally and I got my result. 
+
+  Reply from User 300188:
+  Not going to do any debugging since this is a bonus, but based off your tests. You need to make sure you're formatting your code to the appropriate structure and only using the packages found in the requirements text file. 
+
+
+
+Comment from User 896437:
+Are we allowed to use the collections library to find the majority label? specifically the Counter function or should I find a different method to do so?
+
+  Reply from User 300188:
+  yes, you can use the counter function. 
+
+Comment from User 1497720:
+If the number of labels are equal for a cluster for both 0s and 1s then should we randomly pick one or do we prefer one over another? 
+
+  Reply from User 300188:
+  Free to randomly pick one
+
+Comment from User 1497720:
+When np generates eigenvalues and corresponding eigenvectors is there a way to find out how many eigenvectors are generated for each eigenvalue? 
+
+
+
+  Reply from User 300188:
+  You'll have to do some extra coding to figure out multiplicity. 
+
+Comment from User 1318186:
+Hi guys, 
+While performing kmeans, I'm getting a value error stating that the numbers are too complex. The eigen values and eigen vectors have numbers that are complex. Can anyone help me on how to fix this issue?
+
+  Reply from User 1497720:
+  Are you sure that the complex part is non-zero? you can check the real value by doing variable.real and the complex part by doing variable.complex
+
+I would first check if the complex part is actually non-zero. For a positive semi definite matrix the complex part should be 0. If you did your Laplacian computation correctly the above should hold. 
+
+Comment from User 1128057:
+I am getting a very high value for the number of cluster needed to achieve a small mismatch rate. Am I on the right track? Thank you.
+
+
+
+  Reply from User 300188:
+  I mean it's possible. Your best k shouldn't be so high though that it's almost the the number of points in the dataset. 
+
+Comment from User 1230089:
+for 4.2, are we supposed to do eigengap heuristic or something like that? or just select the lowest mismatch rate based on 4.1's output? 
+
+  Reply from User 799310:
+  It's asking for you to tune your k based off the mismatch rate, so consider what would be the best way to do that. Keep in mind you must also explain your thought process and discuss what your answer says about the network community structure
+
+Comment from User 1230051:
+Do the values in edges.txt consist of the identifiers of the nodes that are connected to each other? For example, the first value appears to be 267, 1394. Does this mean that node 267 is connected to 1394 and vice versa? 
+
+If so, is it safe to assume that the node identifiers are the same ones in nodes.txt? I believe the answer to this question is yes but just want to double check.
+
+  Reply from User 672141:
+  Yes, the edges.txt represent the connections between nodes. The identifiers (index) are the same as nodes.txt.
+
+Comment from User 1512025:
+What does this line from the football demo code do? Is it normalizing x?
+
+  Reply from User 1133602:
+  Following because I also had this question.
+
+Comment from User 896430:
+In this question, true label is 0 or 1.  I have one question for the majority_index. 
+
+For example, k =5, 
+
+The majority_index = 0,1,2,3, or 4 (This is my approach)? 
+
+Or, majority_index = 0 or 1 same as in the True labels (in this one, I need combine all mismatches from each k value 0 to 5 to majority_index 0 or 1)? 
+
+Thanks!
+
+
+
+  Reply from User 962232:
+  The majority index should be {0, ..., k-1}. The True label is a boolean of {0, 1} if the point is in clustered into that particular majority index element.
+
+Comment from User 1333011:
+Hi TAs, 
+
+I am using spectral clustering variant for my analysis: 
+
+$$B\ =D^{-\frac{1}{2}}A\ D^{-\frac{1}{2}}$$
+
+When I calculate the eigenvalues, I get negative values as well as B can be non-positive definite.
+Am I suppose to take the max k based on the absolute values of eigenvalues or should I consider sign as well. Thanks. 
+
+
+
+Nikhil Raj 
+
+  Reply from User 962232:
+  It should be the maximum with the signs accounted for.
+
+Comment from User 1230089:
+did we need to calculated the weighted average of the overall mismatch rate? because i didn't see that statement in the homework.
+
+
+
+  Reply from User 962232:
+  You do not need to calculate the weighted average of the overall mismatch rate.
+
+Comment from User 1080381:
+For 4.1 should we add in the pdf the table with all the mismatch rates for each cluster for each k? Or just the overall mismatch rate? I started adding it and realized it would take up a lot of space. 
+
+  Reply from User 962232:
+  Yes, please include the mismatch rate for each cluster and the overall in the report PDF.
+
+
+
+Comment from User 1230051:
+Just want to confirm that for Q4, you are looking for the following:
+
+2 mismatch rates for k=2,
+5 mismatch rates for k=5,
+10 mismatch rates for k=10,
+30 mismatch rates for k=30,
+50 mismatch rates for k=50
+
+as well as 
+
+5 weighted overall mismatch rates for each K (2,5,10,30,50)?
+
+  Reply from User 962232:
+  Yes this is correct.
+

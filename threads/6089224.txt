@@ -1,0 +1,14 @@
+Thread ID: 6089224
+User 1333021 (Parent Post) says:
+<document version="2.0"><list style="ordered"><list-item><paragraph>Does anyone have a good way to resolve these issues for question 3? </paragraph></list-item></list><paragraph/><list style="ordered"><list-item><paragraph><link href="https://www.gradescope.com/courses/945893/assignments/5637453/submissions/304420627#Verifies%20the%20adjacency%20matrix%20with%20epsilon%20very%20high">3.1) Verifies the adjacency matrix with epsilon very high (0/0.25)</link></paragraph><paragraph/><pre>Data type of images: float64
+Shape of images: (698, 4096)
+
+Test Failed: Image data of dtype object cannot be converted to float
+</pre></list-item><list-item><paragraph><link href="https://www.gradescope.com/courses/945893/assignments/5637453/submissions/304420627#Verifies%20the%20adjacency%20matrix%20with%20small%20epsilon">3.2) Verifies the adjacency matrix with small epsilon (0/0.25)</link></paragraph><paragraph/><pre>Data type of images: float64
+Shape of images: (698, 4096)
+
+Test Failed: Image data of dtype object cannot be converted to float</pre></list-item></list></document>
+
+Answer from User 962232:
+Try casting the image values in the images matrix to float()
+
