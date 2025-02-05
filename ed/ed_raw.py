@@ -2,7 +2,7 @@ from edapi import EdAPI
 import os
 from dotenv import load_dotenv
 import time
-import requests
+import json
 
 # Load environment variables from .env file
 load_dotenv()
@@ -127,40 +127,10 @@ def doc_from_threads(thread_ids):
         time.sleep(.2)
         # Fetch the full thread content
         thread_content = ed.get_thread(thread_id)
-        print(thread_content)
-        # Start the document with the parent thread content
-        content = f"Thread ID: {thread_id}\n"
-        content += f"User {thread_content['user_id']} (Parent Post) says:\n{thread_content['content']}\n\n"
-
-        # Process all answers
-        for answer in thread_content.get('answers', []):
-            content += f"Answer from User {answer['user_id']}:\n{answer['document']}\n\n"
-            # Include nested comments for each answer
-            for sub_comment in answer.get('comments', []):
-                content += f"  Comment from User {sub_comment['user_id']}:\n  {sub_comment['document']}\n\n"
-
-        # Process regular comments
-        for comment in thread_content.get('comments', []):
-            content += f"Comment from User {comment['user_id']}:\n{comment['document']}\n\n"
-            # Include nested comments
-            for sub_comment in comment.get('comments', []):
-                content += f"  Reply from User {sub_comment['user_id']}:\n  {sub_comment['document']}\n\n"
-
-        # Process anonymous comments
-        anon_comments = thread_content.get('anonymous_comments', [])
-        if isinstance(anon_comments, list):
-            for anon_comment in anon_comments:
-                content += f"Anonymous Comment (User ANON):\n{anon_comment['document']}\n\n"
-                # Include nested anonymous comments
-                for sub_comment in anon_comment.get('comments', []):
-                    content += f"  Reply from User ANON:\n  {sub_comment['document']}\n\n"
-        else:
-            print(f"Skipping 'anonymous_comments' for thread {thread_id} as it is not a list.")
-
-        # Save to a file
-        filename = os.path.join(output_dir, f"{thread_id}.txt")
+        
+        filename = os.path.join(output_dir, f"raw_{thread_id}.json")
         with open(filename, "w", encoding="utf-8") as file:
-            file.write(content)
+            json.dump(thread_content, file, indent=4)
 
         #print(f"Thread {thread_id} saved to {filename}")
 
