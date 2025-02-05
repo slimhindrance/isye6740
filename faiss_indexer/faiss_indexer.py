@@ -5,9 +5,23 @@ from langchain_community.vectorstores import FAISS
 from dotenv import load_dotenv
 from langchain_core.documents import Document
 import pickle  # Required for saving metadata
+from dotenv import load_dotenv
+import os
+import torch
+from text_utils import clean_text
 
-# Load environment variables
-load_dotenv()
+torch.cuda.empty_cache()  # ✅ Frees up unused memory
+torch.cuda.memory_allocated()  # ✅ Shows allocated memory
+
+# Find the root directory where .env is stored
+base_dir = os.path.dirname(os.path.abspath(__file__))  # Get current script's folder
+root_dir = os.path.abspath(os.path.join(base_dir, ".."))  # Go up to the root folder
+
+
+# Load .env from root
+dotenv_path = os.path.join(root_dir, ".env")
+load_dotenv(dotenv_path)
+
 input_dir = os.getenv("INPUT_DIR", "./data")  # Default to ./data if not set
 faiss_index_path = os.getenv("FAISS_INDEX_PATH", "./faiss_index")  # Default save path
 
@@ -46,7 +60,8 @@ else:
         file_path = os.path.join(input_dir, filename)
         with open(file_path, "r", encoding="utf-8") as file:
             text = file.read()
-            doc = Document(page_content=text, metadata={"source": filename})
+            cleaned_text = clean_text(text)
+            doc = Document(page_content=cleaned_text, metadata={"source": filename})
             documents.append(doc)
 
     # Add documents to FAISS vector store
