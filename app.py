@@ -13,6 +13,7 @@ from fastapi import Request
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
+from helpers.rag_helper import generate_rag_response
 
 class GenerateRequest(BaseModel):
     prompt: str
@@ -80,24 +81,11 @@ async def serve_chat(request: Request):
 @app.post("/generate")
 async def generate_text(request: GenerateRequest):
     """
-    Generate text using a Hugging Face LLM.
+    Generate text using a RAG-enabled LangChain LLM.
     """
     try:
-        # Tokenize input and move to device
-        input_ids = tokenizer(request.prompt, return_tensors="pt").input_ids.to(device)
-
-        # Generate text
-        output_ids = model.generate(
-            input_ids,
-            max_length=request.max_length,
-            do_sample=True
-        )
-
-        # Decode output
-        generated_text = tokenizer.decode(output_ids[0], skip_special_tokens=True)
-
-        return {"generated_text": generated_text}
-
+        response = generate_rag_response(request.prompt)
+        return {"generated_text": response}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
