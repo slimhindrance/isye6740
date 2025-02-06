@@ -15,3 +15,8 @@ for part (4) of this question, can we begin the derivation from the expectation 
 
 
 
+  Reply from User 215365:
+  The first points of Slide 16 of the Density Estimation lecture (Module 3 in Canvas) outlines the beginning of this type of derivation. Slide 16 outlines the approach with samples, $x^i$ being real numbers, whereas with the homework question, $x^i$ represents samples that are vectors (n-dimensional observations). It would be good to show substantial detail for the derivation, as the question notes:
+
+Please show the work for your derivations in full detail.
+

@@ -1,11 +1,18 @@
 from edapi import EdAPI
 import os
 from dotenv import load_dotenv
-import time
-import requests
+import json
+from tqdm import tqdm
 
-# Load environment variables from .env file
-load_dotenv()
+# Find the root directory where .env is stored
+base_dir = os.path.dirname(os.path.abspath(__file__))  # Get current script's folder
+root_dir = os.path.abspath(os.path.join(base_dir, ".."))  # Go up to the root folder
+
+
+# Load .env from root
+dotenv_path = os.path.join(root_dir, ".env")
+load_dotenv(dotenv_path)
+
 
 # initialize Ed API
 ed = EdAPI()
@@ -19,7 +26,9 @@ if not api_token:
 
 # Ensure output directory exists
 output_dir = os.getenv("OUTPUT_DIR", "/app/threads")  # Default to /app/threads in Docker
+json_output_dir = os.getenv("JSON_THREADS_DIR", "/app/json_threads")
 os.makedirs(output_dir, exist_ok=True)  # ✅ Creates directory if missing
+os.makedirs(json_output_dir, exist_ok=True)  # ✅ Creates directory if missing
 
 # Initialize EdAPI instance with token
 ed = EdAPI()
@@ -123,11 +132,11 @@ def doc_from_threads(thread_ids):
     The output is structured to match the natural flow of the thread.
     :param thread_ids: List of thread IDs to process
     """
-    for thread_id in thread_ids:
-        time.sleep(.2)
+    # Initialize tqdm to wrap the iterable
+    for i, thread_id in enumerate(tqdm(thread_ids, desc="Processing Threads", unit="thread")):
         # Fetch the full thread content
         thread_content = ed.get_thread(thread_id)
-        print(thread_content)
+        
         # Start the document with the parent thread content
         content = f"Thread ID: {thread_id}\n"
         content += f"User {thread_content['user_id']} (Parent Post) says:\n{thread_content['content']}\n\n"
@@ -155,16 +164,27 @@ def doc_from_threads(thread_ids):
                 for sub_comment in anon_comment.get('comments', []):
                     content += f"  Reply from User ANON:\n  {sub_comment['document']}\n\n"
         else:
-            print(f"Skipping 'anonymous_comments' for thread {thread_id} as it is not a list.")
+            print("continue")  # Skip if 'anonymous_comments' is not a list
 
-        # Save to a file
+        # Save text to a file
         filename = os.path.join(output_dir, f"{thread_id}.txt")
+
+        # Ensure the file is writable and remove if it exists
+        if os.path.exists(filename):
+            os.remove(filename)
+
         with open(filename, "w", encoding="utf-8") as file:
             file.write(content)
 
-        #print(f"Thread {thread_id} saved to {filename}")
+        # Save json to a file
+        filename = os.path.join(json_output_dir, f"{thread_id}.json")
 
-
+        # Ensure the file is writable and remove if it exists
+        if os.path.exists(filename):
+            os.remove(filename)
+        
+        with open(filename, "w", encoding="utf-8") as file:
+            json.dump(thread_content, file, indent=4)
 
 
 try:
