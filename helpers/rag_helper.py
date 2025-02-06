@@ -30,7 +30,7 @@ def load_faiss_index():
     print("🔄 Loading FAISS vector store...")
     try:
         vector_store = FAISS.load_local(faiss_index_path, embeddings, allow_dangerous_deserialization=True)
-        retriever = vector_store.as_retriever(search_kwargs={"k": 5})  # Retrieve top k relevant docs
+        retriever = vector_store.as_retriever(search_kwargs={"k": 2})  # Retrieve top k relevant docs
         print("✅ FAISS vector store loaded successfully!")
         return retriever
     except Exception as e:
@@ -72,11 +72,19 @@ def generate_rag_response(query):
         return "❌ ERROR: RAG pipeline is not initialized."
 
     try:
-        # ✅ Step 1: Retrieve relevant documents
-        retrieved_docs = retriever.invoke(query)
+        # Step 1: Retrieve relevant documents
+        retrieved_docs = retriever.get_relevant_documents(query)
+        
+        # 🔍 DEBUG: Print retrieved documents to verify retrieval
+        print("\n--- Retrieved Documents ---")
+        for doc in retrieved_docs:
+            print(doc.page_content[:500])  # Print the first 500 characters of each document
+        print("\n---------------------------")
 
         if not retrieved_docs:
             return "I don't have enough information to answer this question."
+
+        
 
         # ✅ Step 2: Check if authoritative documents directly answer the query
         high_authority_docs = [doc for doc in retrieved_docs if doc.metadata.get("authority_level", 0) >= 3]
