@@ -98,7 +98,7 @@ def generate_rag_response(query):
         with torch.no_grad():
             output = model.generate(
                 **inputs,
-                max_new_tokens=150,  # Increased tokens for more comprehensive responses
+                max_new_tokens=80,  # Increased tokens for more comprehensive responses
                 pad_token_id=tokenizer.eos_token_id
             )
 
@@ -126,3 +126,4 @@ def generate_rag_response(query):
         del inputs, output
         torch.cuda.empty_cache()
         gc.collect()
+        

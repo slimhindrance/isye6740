@@ -26,17 +26,8 @@ templates = Jinja2Templates(directory="templates")
 # Initialize FastAPI app
 app = FastAPI()
 
-# Cleanup function for graceful shutdown
-def cleanup_and_exit(signum, frame):
-    print("Releasing GPU memory and exiting...")
-    torch.cuda.empty_cache()
-    gc.collect()
-    sys.exit(0)
-
-
-# Catch termination signals
-signal.signal(signal.SIGINT, cleanup_and_exit)
-signal.signal(signal.SIGTERM, cleanup_and_exit)
+torch.cuda.empty_cache()
+gc.collect()
 
 # Set up session middleware
 app.add_middleware(SessionMiddleware, secret_key="your_secret_key")
