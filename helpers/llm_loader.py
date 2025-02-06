@@ -30,5 +30,13 @@ generator = lambda prompt, max_length: model.generate(
     **tokenizer(prompt, return_tensors="pt").to(device), 
     max_length=max_length
 )
+def chat(prompt, max_new_tokens=200):
+    inputs = tokenizer(prompt, return_tensors="pt").to(device)
+    output = model.generate(**inputs, max_new_tokens=max_new_tokens)
+    response = tokenizer.decode(output[0], skip_special_tokens=True)
 
+    # ✅ Clean unnecessary text
+    response = response.replace("Answer concisely:", "").strip()
+
+    return response
 print("Model loaded successfully on", device)

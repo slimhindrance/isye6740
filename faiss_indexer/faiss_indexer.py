@@ -37,10 +37,11 @@ embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-b
 # Check if FAISS index exists
 index_file = os.path.join(faiss_index_path, "index.faiss")
 
-if os.path.exists(index_file):
+"""if os.path.exists(index_file):
     print("🔄 Loading existing FAISS index...")
     vector_store = FAISS.load_local(faiss_index_path, embeddings, allow_dangerous_deserialization=True)
-else:
+else:"""
+if 1==1:
     print("🆕 FAISS index not found. Creating a new one...")
     os.makedirs(faiss_index_path, exist_ok=True)  # Ensure save directory exists
 
