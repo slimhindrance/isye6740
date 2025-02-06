@@ -4,6 +4,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.docstore.in_memory import InMemoryDocstore
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.documents import Document
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 import faiss
 from dotenv import load_dotenv
 from tqdm import tqdm
@@ -14,7 +15,7 @@ load_dotenv()
 
 # Define paths
 json_folder = os.getenv("JSON_THREADS_DIR", "/app/json_threads")
-faiss_index_path = os.getenv("JSON_FAISS_INDEX_PATH", "/app/faiss")
+faiss_index_path = os.getenv("FAISS_INDEX_PATH", "/app/faiss")
 docx_folder = os.getenv("DOCX_DIR", "/app/json_threads")
 pdf_folder = os.getenv("PDF_DIR", "/app/json_threads")
 
@@ -35,8 +36,14 @@ vector_store = FAISS(
     index_to_docstore_id={},
 )
 
+# Initialize the text splitter
+text_splitter = RecursiveCharacterTextSplitter(
+    chunk_size=1000,  # Adjust the size depending on your needs
+    chunk_overlap=200,  # Overlap between chunks for better context continuity
+)
+
 # Process JSON, DOCX, and PDF files
-documents = []
+json_documents = []
 for filename in tqdm(os.listdir(json_folder), desc="Processing JSON Files", unit="file"):
 
     # Processing JSON Threads
@@ -60,9 +67,9 @@ for filename in tqdm(os.listdir(json_folder), desc="Processing JSON Files", unit
                     thread_content += f"  Comment from User {sub_comment['user_id']}:\n  {sub_comment.get('document', '')}\n"
 
             # Add JSON threads with medium authority
-            documents.append(Document(page_content=thread_content, metadata={"source": filename, "authority_level": 1}))
+            json_documents.append(Document(page_content=thread_content, metadata={"source": filename, "authority_level": 1}))
 
-documents = []
+docx_documents = []
 for filename in tqdm(os.listdir(docx_folder), desc="Processing DOCX Files", unit="file"):
     # Processing DOCX Files
     if filename.endswith(".docx"):
@@ -72,11 +79,13 @@ for filename in tqdm(os.listdir(docx_folder), desc="Processing DOCX Files", unit
         # Extract text from all paragraphs
         docx_text = "\n".join([para.text for para in docx.paragraphs if para.text.strip() != ""])
 
-        # Add DOCX files with the highest authority
-        documents.append(Document(page_content=docx_text, metadata={"source": filename, "authority_level": 3}))
+        # Split DOCX text into manageable chunks
+        chunks = text_splitter.split_text(docx_text)
+        for chunk in chunks:
+            docx_documents.append(Document(page_content=chunk, metadata={"source": filename, "authority_level": 3}))
 
-documents = []
-for filename in tqdm(os.listdir(pdf_folder), desc="Processing DOCX Files", unit="file"):
+pdf_documents = []
+for filename in tqdm(os.listdir(pdf_folder), desc="Processing PDF Files", unit="file"):
     # Processing PDF Files
     if filename.endswith(".pdf"):
         pdf_path = os.path.join(pdf_folder, filename)
@@ -88,14 +97,28 @@ for filename in tqdm(os.listdir(pdf_folder), desc="Processing DOCX Files", unit=
 
         pdf_doc.close()
 
-        # Add PDF files with the highest authority
-        documents.append(Document(page_content=pdf_text.strip(), metadata={"source": filename, "authority_level": 3}))
+        # Split PDF text into chunks
+        chunks = text_splitter.split_text(pdf_text.strip())
+        for chunk in chunks:
+            pdf_documents.append(Document(page_content=chunk, metadata={"source": filename, "authority_level": 3}))
 
 # Add documents to FAISS and save index
-if documents:
-    vector_store.add_documents(documents)
+if json_documents:
+    vector_store.add_documents(json_documents)
     vector_store.save_local(faiss_index_path)
-    print(f"✅ FAISS index updated with {len(documents)} documents!")
+    print(f"✅ FAISS index updated with {len(json_documents)} JSON documents!")
+
+# Add documents to FAISS and save index
+if docx_documents:
+    vector_store.add_documents(docx_documents)
+    vector_store.save_local(faiss_index_path)
+    print(f"✅ FAISS index updated with {len(docx_documents)} DOCX documents!")
+
+# Add documents to FAISS and save index
+if pdf_documents:
+    vector_store.add_documents(pdf_documents)
+    vector_store.save_local(faiss_index_path)
+    print(f"✅ FAISS index updated with {len(pdf_documents)} PDF documents!")
 
 else:
     print("❌ No documents found to add.")

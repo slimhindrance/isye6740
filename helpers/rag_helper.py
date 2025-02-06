@@ -9,6 +9,7 @@ from helpers.prompt_helper import format_rag_prompt
 from helpers.llm_loader import chat
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import gc
+import difflib
 
 
 torch.cuda.empty_cache()
@@ -63,6 +64,8 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 
 # Function to handle RAG-based queries efficiently
+import gc  # For garbage collection
+import difflib  # For comparing text similarity
 
 def generate_rag_response(query):
     if not retriever:
@@ -70,42 +73,53 @@ def generate_rag_response(query):
 
     try:
         # ✅ Step 1: Retrieve relevant documents
-        retrieved_docs = retriever.get_relevant_documents(query)
+        retrieved_docs = retriever.invoke(query)
 
         if not retrieved_docs:
             return "I don't have enough information to answer this question."
 
-        # ✅ Step 2: Try extracting a direct answer **before** using the LLM
-        for doc in retrieved_docs:
-            text = doc.page_content.strip()
-            if query.lower() in text.lower():
-                return text  # ✅ Return exact answer if found
+        # ✅ Step 2: Check if authoritative documents directly answer the query
+        high_authority_docs = [doc for doc in retrieved_docs if doc.metadata.get("authority_level", 0) >= 3]
 
-        # ✅ Step 3: Format the query properly
+        for doc in high_authority_docs:
+            if query.lower() in doc.page_content.lower():
+                return f"🔒 Authoritative Source:\n{doc.page_content.strip()}"  # Return authoritative source immediately
+
+        # ✅ Step 3: Extract any exact match before using LLM
+        for doc in retrieved_docs:
+            if query.lower() in doc.page_content.lower():
+                return doc.page_content.strip()
+
+        # ✅ Step 4: Format the query and context for the LLM
         prompt = format_rag_prompt(query, retrieved_docs)
 
-        # ✅ Step 4: Tokenize, send to model, and generate response
+        # ✅ Step 5: Tokenize and generate LLM response
         inputs = tokenizer(prompt, return_tensors="pt").to(device)
-
         with torch.no_grad():
             output = model.generate(
-                **inputs, 
-                max_new_tokens=50,  # ✅ Limit token generation
-                pad_token_id=tokenizer.eos_token_id  # ✅ Prevents infinite padding
+                **inputs,
+                max_new_tokens=100,  # Increased tokens for more comprehensive responses
+                pad_token_id=tokenizer.eos_token_id
             )
 
-        # ✅ Step 5: Decode response
+        # ✅ Step 6: Decode and clean LLM response
         response = tokenizer.decode(output[0], skip_special_tokens=True).strip()
+        response_cleaned = response.split('Answer concisely and accurately:')[-1].strip()
 
-        # ✅ Step 6: Remove prompt from response
-        response = response.replace("Provide a direct, concise, and factual answer using only the context above.", "").strip()
-        response = response.replace("If the context does not contain the answer, respond with:", "").strip()
+        # ✅ Step 7: Post-processing validation against authoritative documents
+        for doc in high_authority_docs:
+            similarity = difflib.SequenceMatcher(None, response_cleaned.lower(), doc.page_content.lower()).ratio()
+            if similarity > 0.85:  # High similarity threshold
+                return f"🔒 Verified with Authoritative Source:\n{doc.page_content.strip()}"
 
-        # ✅ Step 7: Clean memory to prevent CUDA crashes
+        # ✅ Step 8: If no authoritative match, return LLM's response
+        return response_cleaned if response_cleaned else "I don't have enough information to answer this question."
+
+    except Exception as e:
+        return f"❌ ERROR: {str(e)}"
+    
+    finally:
+        # ✅ Step 9: Clear memory to prevent CUDA memory issues
         del inputs, output
         torch.cuda.empty_cache()
         gc.collect()
-
-        return str(response.split('Answer concisely and accurately:')[-1]) if response else "I don't have enough information to answer this question."
-    except Exception as e:
-        return f"❌ ERROR: {str(e)}"
