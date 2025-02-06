@@ -1,0 +1,15 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 652074:
+I submitted Q3 to gradeScope, for the third image it said No such file or directory:'1.jpeg'. I used the same code for my other images. It worked, and I got result locally.
+
+  Comment from User 672141:
+  The name '1.jpeg' is the default image name saved in the provided code. You need to update the code to the image file name you provide or edit your custom image to this default name. Here are more details.
+
+    Comment from User 652074:
+    Thank you! I was testing my image and wonder if I need some code to resize the image based on assignment required.
+

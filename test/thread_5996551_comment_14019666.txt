@@ -1,0 +1,14 @@
+Thread ID: 5996551
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q2 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1230259:
+Hello! I'm trying to understand the dataset a little bit more, and I was just wondering what the units were for the data? For example, real coffee is 90 for Germany. What is 90 in this context? Thank you!
+
+  Comment from User 213547:
+  https://openmv.net/info/food-consumption
+
+This is the link to the dataset. The numbers represent the percentage of the population consuming that food type.
+

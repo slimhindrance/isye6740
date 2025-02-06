@@ -1,0 +1,16 @@
+Thread ID: 5996558
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q3 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+See #130 for additional notes.
+
+PCA package can be used as part of the ISOMAP algorithm. ISOMAP, MDS, and cmdscale (MATLAB) packages are not permitted for this question.
+
+Comment from User 1128222:
+On several occasions now I've noticed that numpy isn't producing symmetric matrices when it should be (for instance, a product of three symmetric matrices C = (-1/2) H ((D)^2) H; all of the inputs were verified to be symmetric). In this case, can we just force the symmetry by replacing C with (C + C.T)/2? Here is a github link to the same issue (with np.dot instead of np.linalg.multi_dot): https://github.com/numpy/numpy/issues/12218
+
+  Comment from User 896413:
+  Yes, that is permitted. You are aiming for results similar to the ISOMAP paper.
+

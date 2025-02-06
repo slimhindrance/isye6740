@@ -1,0 +1,27 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 1489130:
+Q3's formatting instructions suggest a particular input/output signature.  Reading from the assignment:
+
+class: cluster assignment of each data point in pixels.  The assignment should be 1, 2, 3, etc...The output should be a column vector with size(pixels, 1) elements.
+
+centroid: location of k centroids...the output should be a matrix with K rows and 3 columns...
+
+Will we penalized if my output doesn't follow these guidelines exactly?  I know it says the input/output signature is suggested, but I just want to confirm the following:
+
+Can I used a 0 based index for the cluster assignments, i.e. instead of 1, 2, 3, ... use 0, 1, 2, ...
+
+Does the class output have to be a 2-D column vector?  Could it instead be 1-D, such as size(pixels, )?
+
+Can the location of my k centroids be the transpose of what's suggested, meaning it would have 3 rows and K columns?
+
+  Comment from User 134876:
+  The suggestions in the assignment are only suggested structure. If you are using the code scaffolding provided for the gradescope bonus, it is required to match the inputs/outputs in the scaffolding.
+
+    Comment from User 1489130:
+    Thanks for clarifying!
+

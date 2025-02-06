@@ -1,0 +1,14 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 898337:
+In the spectral clustering sample code, why are the columns of the edges matrix being subtracted by 1 to define i and j? They don't seem to be used as indices, but rather entries of a sparse matrix. So wouldn't altering the values affect the result?
+
+  Comment from User 300188:
+  Everything in python is 0-based while the data is based on using 1 as the smallest number. To make sure they align properly, you have to subtract one. So i and j define the row and column indices while v is the actual value. 
+
+(If you know a little bit of matlab, if you see the matlab version this subtraction of 1 isn't present because matlab and this particular dataset are both using 1-based indexing)
+

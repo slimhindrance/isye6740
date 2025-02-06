@@ -1,0 +1,44 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1491907:
+Hi Everyone, I am looking for a teammate. 
+
+My Email: frashid30@gatech.edu
+
+LinkedIn: https://www.linkedin.com/in/faaiza-r-329390124/
+
+Time Zone: PST(San Diego) or Any
+
+Communication: Text/email/discord/Whatsapp
+
+Experience: I have 4 years of experience as a full stack developer (Backend,Frontend and databases)
+
+Skills: R, SQL, Python, C#, Azure, PowerBI. 
+
+Previous Courses: CSE 6040, ISYE 6501.. And got A in both courses and now taking 2 courses this semester.
+
+Availability: I don't work full time right now so can have meetings anytime
+
+  Comment from User 962326:
+  Hi Faaiza, we are currently a team of two and we have decided to meet for the project around 10:30 am to 1:30 pm EST (weekdays preferred). If this time works for you, can we form a team? sabraham68@gatech.edu
+

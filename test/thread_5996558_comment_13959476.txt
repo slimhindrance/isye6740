@@ -1,0 +1,16 @@
+Thread ID: 5996558
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q3 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+See #130 for additional notes.
+
+PCA package can be used as part of the ISOMAP algorithm. ISOMAP, MDS, and cmdscale (MATLAB) packages are not permitted for this question.
+
+Comment from User 1497720:
+For plotting the faces can we just pick 18 or so random points and plot the faces by the points or does it have to be fixed 18 points? Meaning is it okay if on each run we plot on random 18 points or does reproducible results dictate the same 18 which will be in the report?
+
+  Comment from User 300188:
+  You could just set a seed so the results are reproducible and any analysis you make will be consistent (though it's totally possible  to draw conclusions if the orientation of plots and etc change).
+

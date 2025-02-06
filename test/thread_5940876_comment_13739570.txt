@@ -1,0 +1,64 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1229905:
+Hi,
+
+I'm Omar - this is my 4th semester and CDA is my 6th course. I am based in the EST time zone. I am pretty flexible in terms of communication. I am comfortable with both Python and R. My email is omasood3@gatech.edu.
+
+  Comment from User 1512049:
+  Hello Omar, My name is Thushar Garipalli. I am interested in joining a team for the group project. 
+
+We can chat through whatever chat you use (GroupMe, WhatsApp, or regular Messages). If interested, provide me with your phone number and I will add it to whatever chat you use (GroupMe, WhatsApp, or regular Messages). Here is some info about me if you are interested:
+
+I live in Atlanta, GA
+
+I am certified in both Python and Tableau
+
+I make sure myself and everyone is doing their fair share when it comes to projects
+
+I am very through and a perfectionist/completionist and I also make sure the project is submitted (in case the group member is busy or computer crashes or forgot to do it)
+
+I always make reminders on what/when to do things
+
+  Comment from User 896205:
+  Hello Omar and Thushar Vikram,
+
+My name is Soyadev Devadoss. I currently reside in Atlanta, GA.
+Email: sdevadoss6@gatech.edu
+Time Zone: EST (My schedule is flexible).
+
+Experience:
+I am a full-time OMSA student, and this is my 6th course. I have previously taken MGT 8803, CSE 6040, and ISYE 6501. Additionally, I am currently enrolled in CSE 6242 (Data and Visual Analytics) and MGT 6203 (Data Analytics for Business).
+
+Skills:
+Python, R, SQL, Tableau, and Excel.
+
+Communication Preference:
+I’m comfortable with WhatsApp, Teams, or Email for communication, no specific preference.
+
+Other:
+I am open to any project topic and willing to invest ample time to contribute effectively to the group project. Looking forward to working with the team and collaborating for a successful project outcome!
+
+Thank you,
+Soyadev
+

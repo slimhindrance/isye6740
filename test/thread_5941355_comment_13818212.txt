@@ -1,0 +1,18 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 962322:
+Silly question, but when considering the overall weighted average mismatch rate for each k, do we disregard the empty clusters?
+
+  Comment from User 213547:
+  If k=2, and there are a total of 11 modes. 
+
+cluster 1 has 7 nodes and mismatch rate of 30% and cluster 2 has 4 nodes and mismatch rate of 20% then weighted average is 
+
+(7 x 0.3+ 4 x 0.2)/11
+
+You should not disregard empty clusters
+

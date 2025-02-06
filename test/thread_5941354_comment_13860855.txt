@@ -1,0 +1,12 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 1271302:
+Is it a concern if the number of iterations or runtime is too small or too fast? Will that be a grading consideration? The image quality at each k looks good to me, but I am not sure if I am approaching the problem correctly. Thanks.
+
+  Comment from User 134876:
+  A properly vectorized approach can run very efficiently, so this isn't immediately a concern unless your iterations are like 2. As long as your final images are looking good, I would say this is alright.
+

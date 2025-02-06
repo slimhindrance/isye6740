@@ -1,0 +1,24 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 1512025:
+What does this line from the football demo code do? Is it normalizing x?
+
+  Comment from User 1133602:
+  Following because I also had this question.
+
+    Comment from User 672141:
+    Yes, it is normalizing the eigenvectors.
+
+      Comment from User 1133602:
+      Is this step really necessary? I noticed that in the Two Rings demo, the code doesn't do this.
+
+        Comment from User 672141:
+        It's not necessary, as you pointed, the two ring demo can run the algorithm and produce results without a problem. This may vary depending on the output of the eigen decomposition. By normalizing the eigenvectors, it is easier to visualize a larger dataset in a 2D plot.
+
+          Comment from User 1133602:
+          That makes perfect sense. Thank you, Patricia!
+

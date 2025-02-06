@@ -1,0 +1,72 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 962158:
+Hello! I am looking for a group interested in using machine learning for drone detection or perhaps another defense related topic.
+
+Time Zone: CST (flexible)
+
+Communication: Email, Phone, Slack
+
+Background: B.S. in Operations Research. This is my 8th course in OMSA.  Currently work in defense/gov
+
+Project topic: Drone detection or other defense related topics
+
+  Comment from User 814286:
+  Hi Reese,
+
+I’d love to team up with you! Machine learning for drone detection or other defense-related topics sounds like a fascinating area to explore. I’m a data scientist based in Arizona, with experience working on projects involving big data and machine learning. I’ve worked extensively with tools like Python, Spark, Databricks, and Azure Data Factory, applying advanced analytics to solve real-world problems.
+
+This is my 8th course in the program, and I’m excited to contribute my skills to a meaningful project like this. Let me know how we can coordinate. I’m happy to connect via email, Slack, or any method that works best for you.
+
+Looking forward to collaborating!
+
+    Comment from User 962158:
+    Sounds good! What's your email?
+
+      Comment from User 814286:
+      cgonzalez303@gatech.edu
+
+  Comment from User 0:
+  
+
+    Comment from User 1232277:
+    Hey Kriti, 
+
+It is NOT Nice to exactly copy-paste my profile description from CSE6242 class and deceive others. Incase your experience 100% resembles then still plz write in your own words.
+
+      Comment from User 1512037:
+      Hi Kshitij
+
+Sorry, I thought your format looks good and I have experience working in the same technologies. Apologies I will update it.
+
+  Comment from User 1232277:
+  Hello Reese and Carlos, 
+
+I am Kshitij Gurung based in Minneapolis, MN and I would be happy to join your team if you still have a room. 
+
+I have 4.5 plus years of professional experience in Data domain building end-to-end BI reports (Power BI, SSRS, Azure, Python), Data warehousing & Engineering (Azure Data Factory, SSIS), DBA (SQL and Azure SQL Land). I also have quantitative research experience with computational genomics (R) and statistics analysis (peer reviewed paper). I also have Microsoft: Azure Data Scientist Associate, and Microsoft: Power BI Data Analyst certifications. I have okay exposure in C#, C++, JavaScript. 
+
+This is my 4th class and have completed ISYE 6501, MGT 8803, and CSE 6040 so far. I hold B.S in Mathematics & Economics Majors and Statistics & Data Science concentration from St. Olaf College, MN, where I was involved in many quantitative research projects mostly in R. Btw, I am taking this semester (spring) off from profession work solely to focus OMSA 😊.
+
+Here is my email and LinkedIn: kgurung8@gatech.edu, https://www.linkedin.com/in/kshitij-gurung-7866ab136/ .
+

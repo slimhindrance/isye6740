@@ -1,0 +1,19 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 896256:
+Struggling with adapting demo code to the image input data structure. Presently I am importing the image and ending up with a nx3 matrix, where n is total number of pixles and 3 represents the R, G, B values.  My starting centers are a 3xC matrix where C is the number of clusters. As a hint am I on the right track or is some additional manipulation of the demo code necessary? I can get it to converge using portions of the demo code but my final centers matrix has 0 values for all but the first cluster so wondering if I am missing something further I need to adapt in the demo code to accommodate 3 dimensions instead of 2.
+
+  Comment from User 962232:
+  Yes you will need to adapt the demo code to accommodate for the RGB dimension of your images.
+
+    Comment from User 896256:
+    When trying to use the show_image.py demo code I keep getting an assert failure for N not equaling 1 or 3. It looks like i need to specify a height and width in addition to the centroids to show the image and that the ratio has to either be 3 or 1. Is this the height and width of the original photo? So for example the football image is 620x412. Would that be the H and W I submit as an argument along with the centroids? Thanks in advance for any hints! I am having trouble figuring out how to specify the correct inputs outside the context of the kmeans_digits.py demo code.
+
+      Comment from User 979414:
+      The show_image.py is displaying a set of datapoints instead of single image. 
+You can use that function as a reference, but displaying a single image is much simpler using `matplotlib.pyplot`
+

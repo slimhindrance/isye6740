@@ -1,0 +1,19 @@
+Thread ID: 5996558
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q3 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+See #130 for additional notes.
+
+PCA package can be used as part of the ISOMAP algorithm. ISOMAP, MDS, and cmdscale (MATLAB) packages are not permitted for this question.
+
+Comment from User 1498558:
+Hi instructors, is this supposed to be inf instead of 0 otherwise? I have difficulty understanding why we should reduce the distance to 0 if it exceeds the epsilon threshold.
+
+  Comment from User 799310:
+  I believe the image is correct. Setting it to 0 indicates no edge when the distance exceeds epsilon. Using infinity could suggest an existing edge with a very large weight, which is not what we want.
+
+    Comment from User 1512070:
+    Most shortest path algorithms I've worked with would consider this an arc with zero weight, so you'd have to put a special case for this application.  Furthermore, if a zero weight means no arc then that makes the behavior of the algorithm discontinuous when you get close to zero.  In the ISOMAP paper referenced in this module, Table 1 step 2 defines an infinite distance as having no arc.   Is there some practical reason for wanting it to be zero?
+

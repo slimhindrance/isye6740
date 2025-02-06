@@ -1,0 +1,37 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1325798:
+Hi I have a question about the intuition behind the projection residual. My understanding of it, after reading through the comments here, is: 
+
+A low residual indicates a good result. 
+
+It's essentially the difference between the original image and a reconstructed image, which comes from projected the original image onto the eigenvector and then expanding it back to the original space. 
+
+So if the original image and reconstructed image are similar, it's a good match and the residual is low. 
+
+Thinking in terms of the dot product, if the original image and eigenface are orthogonal and hence very different, the dot product (eigenface)iT​(testimage)j​ will be zero, and then the second term in the projection residual equation becomes zero, leaving just the vector of the original image itself. 
+
+Following the same train of thought, under what scenario would I get the lowest residual, say close to zero? Would that be when the original test image and the reconstructed image are almost equal, and hence their difference is almost zero, giving a very small residual? 
+
+If that is so then ​(testimage)j  ≈ (eigenface)i(eigenface)iT​(testimage)j 
+
+One way I can think of making this true is for ​(testimage)j  ≈ (eigenface)I, and then (eigenface)iT​(testimage)j ≈ 1. 
+
+For (eigenface)iT​(testimage)j ≈ 1,  the formula of the dot product is r.s = |r| |s| cos(theta).
+
+Since eigenface  and testimage are very similar, theta is 0 or close to 0, so cos(theta) is about 1.
+
+Eigenface is a eigenvector in PCA so it's of length 1. 
+
+That leaves the length of testimage. Going by this, it should be 1 too. Does that mean we should be normalising our test images before using them?
+
+
+Would really appreciate any help in pointing out any flaws in my logic along this whole train of thought when trying to figure out the intuition of what a low residual means for the relationship between two vectors and how the math works out with regard to the formula. Thank you very much for reading this and your time!
+
+  Comment from User 799310:
+  Your intuition is on the right track - a low residual means the projection of the test image onto the eigenface space is very similar to the original image, indicating that the test image lies well within that space. This would happen when the test image is almost entirely captured by the eigenfaces, so the difference between the original and its projection is small. Normalizing the images can help ensure the dot products (and hence the projections) are comparable across images, so it's good to preprocess consistently in that way
+

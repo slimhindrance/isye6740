@@ -1,0 +1,85 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 896437:
+Hi everyone! I am looking for teammates or to join a team! Here is some information about me:
+
+Time Zone: CST - Dallas-Fort Worth, Texas
+
+Communication: Discord, Teams, Email - my email is rlalani8@gatech.edu
+
+Skills: Python, R, SQL, Data Engineering, Math background (Bachelors Degree)
+
+Experience: I am currently working as a Data Engineer in the Telecommunications Industry and previously worked in the financial industry with the same title.
+
+OMSA Program: This is my 9th class in the OMSA program.
+
+Project Topic: I am open to any topic that can be done, would love to do something with sports if that is feasible!
+
+  Comment from User 1230031:
+  Hi Rahim, it looks like there are some common interest we both share in terms of sports and timezone and I would love to form a group with you! 
+
+My name is Ye Ban and I have experience in the sports media industry, mainly focused on esports. 
+
+Time Zone: CST (Austin, Texas)
+
+Communication: Slack, Discord, Teams, Email  (ychoi450@gatech.edu)
+
+Skills: Python, R, SQL, Data Visualization tools (Tableau, Power BI, Looker Studio), Statistics & Mathematics (Bachelors)
+
+Experience: I am currently working as a Data Analyst in the AI Industry, focusing on event organization. I have previously worked as a sports data analyst at a sports media company. 
+
+OMSA Program: This is my 6th class in the OMSA program.
+
+Availability: Evenings or weekends would work for me! 
+
+Project Topic: Sports also sounds good to me! I previously have finished a project in chess sports. I am open to other topics, pretty flexible with that! 
+
+Please let me know if you have other questions!
+
+    Comment from User 896437:
+    Hey Ye, I'd like to work with you and @Jiayu Yan if you are still interested!
+
+I'll send an email if you still are!
+
+  Comment from User 1133866:
+  Hi Rahim! My name is Katherine (Jiayu) Yan and I would love to form a team together!
+
+Time Zone: CST -  Austin, Texas
+
+Communication: Teams, Email - my email is jyan382@gatech.edu
+
+Skills: Python, Java, C, R, SQL, Data Engineering, CS background (Bachelors Degree)
+
+Experience: I am currently working as a Process Engineer in the Tech Industry and will rotate to a Data Science role within the same company in the next month.
+
+OMSA Program: This is my 8th class in the OMSA program.
+
+Project Topic: I can do sports! I'm interested in music industry as well so happy to explore other fields :)
+
+Feel free to reach out to my email if we can form into one group!
+
+    Comment from User 896437:
+    Hey Katherine, I'd like to work with you and @Ye Ban Choi if you are still interested!
+
+I'll send an email if you still are!
+

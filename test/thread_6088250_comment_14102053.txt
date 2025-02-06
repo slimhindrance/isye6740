@@ -1,0 +1,13 @@
+Thread ID: 6088250
+User 1517341 (Original Post) says:
+Hi! For work, I need to learn about neural networks to evaluate some tradeoffs between it and other algorithms my team is looking to implement. Would it be possible to get early access to the slides/lectures if they are pre-recorded from past semesters?
+
+We are evaluating using a LSTM subcategory of a RNN, and I would much prefer to learn it from this team than the internet! Thanks!
+
+(if you have any materials on LightGBM (framework of gradient boosting that uses tree-based learning) that would be awesome too! That's one of the approaches a vendor is proposing as well)
+
+Thank you so much!
+
+Comment from User 896413:
+All the lecture are available in the Media Gallery. I'll let the other TAs add their recommended materials for RNNs.
+

@@ -1,0 +1,37 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1232296:
+Time Zone: AEST, Sydney, Australia
+
+Communication: Discord, WhatsApp, or email
+
+Experience: 18 years Electrical Engineer
+
+Classes taken: 6501 (A), 6414 (B), HDDA (A), 6040 (A), DO (A), 6203 (A)
+
+Skills: Strong math background, proficient in Python, SQL and LaTeX.
+
+Effort: I put a lot of effort into my assignments and projects, and I usually try to start as soon as possible so I can have enough time to refine my work. 
+
+Project Topic: I'm open to work on any type of dataset. You can contact me on amoughnieh3@gatech.edu if you are in a similar time zone and you think we could be a good team
+

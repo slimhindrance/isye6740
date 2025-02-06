@@ -1,0 +1,12 @@
+Thread ID: 5996547
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q1 here.
+
+For 1.6, if you are using an example, you may use a PCA package.
+
+Comment from User 1229905:
+Not a question, but found this post which does an awesome job of explaining PCA, and thought I might share: Making sense of principal component analysis, eigenvectors & eigenvalues
+
+  Comment from User 1080381:
+  Thank you for this!!
+

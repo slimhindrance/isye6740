@@ -1,0 +1,67 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1316700:
+Hi everyone! My name is Dominique, and I'm currently living in Lexington, KY. 
+
+Time Zone: EST, but flexible 
+
+Communication: Text or Teams, but open to other platforms
+
+Skills: I've worked with R, SQL, Python, LaTeX and have several other skills stemming from my Operations Research degree. I feel I have a pretty strong Python background as I've worked with libraries for machine learning, simulation, web scraping, sentiment analysis, and interactive visualizations for several projects/assignments.
+
+Experience: I've done machine learning research projects in the past, mainly focusing on financial and real estate markets. I've done well in ISYE 6501, CSE 6040, and CSE 6242. Again, I did my undergrad in Operations Research at Columbia University, so I've taken machine learning, data visualization, simulation, optimization, statistical analysis, finance, and business-related classes recently.
+
+Project Topic: I would love to work on a project related to sports analytics (mainly interested in the NBA and soccer), but I'm also open to other areas of interest (e.g., gaming, media analysis, education, sociology, etc).
+
+That being said, I'm detail-oriented, insightful, and a fast learner. So if anyone wants to team up, you can reply to this message or shoot me an email at dmorris46@gatech.edu.
+
+  Comment from User 814295:
+  Hi Dominique! I'm interested in joining your group. My name is Kayla and I'm currently located in Boston, MA.
+
+Time Zone: EST
+
+Communication: Text, Teams, Outlook, Zoom, Discord-- whatever works best for you
+
+Skills: I've worked with R and Python throughout my time in the program. My last class worked with R so I'll be sure to dust off the Python syntax, haha.  I've also worked a bit with MATLAB in undergrad. I have a strong background in math and can learn very quickly. 
+
+Experience: I earned my undergrad in Physics where I worked with MATLAB in my computational physics course and others. This is my 8th class in the program and I've done well in all. 
+
+Project Topic: I'm open to any topic! All the ones you've listed sound interesting, especially media analysis, education, and sociology. I'm cool with sports analytics too since I've never studied that before :)
+
+I take pride in being able to communicate well and often. Let me know if you'd like to team up! (kmasozera3@gatech.edu)
+
+  Comment from User 1127895:
+  Hey Dominique and Kayla! If you are still open to a third I'd be interested in teaming up with you two. 
+
+Time Zone: I'm located in Michigan, so EST as well
+
+Communication: Whatever works! 
+
+Skills: SQL and Python are my jam and I use those pretty much daily in my 9-5. I have experience building linear programming and simulation models from scratch as well as using various packages for random other projects. 
+
+Experience: Senior Data Analyst in the financial lending space, currently working on transitioning to a Data Scientist role at my company. This is my 5th class in the program. 
+
+Project Topic: All in on sports analytics! I may have scrolled far enough to find the first person saying they were interested in sports analytics, who's to say :) 
+
+My email is cfryzel3@gatech.edu - looking forward to hearing from you!
+

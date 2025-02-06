@@ -1,0 +1,20 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1324673:
+The first part says to plot the eigenfaces. Am I supposed to put them on a plot somehow or do I just show a table of their images?
+
+  Comment from User 300188:
+  There are two subjects in this particular dataset. You should be able to treat the pictures for each subject as two small datasets and perform PCA on them.
+
+The eigenfaces then represent the weights obtained from these decompositions. From there you should be able to plot.
+
+    Comment from User 1324673:
+    This is my approach: for the 10 images for one subject, I'm treating the 10 images as the different dimensions and reducing the dimensions to 6 (by PCA). Then I do the projection with the weight vectors before displaying the six images in a grid. Is this correct? I can't do a scatter plot though because there are 4800 dimensions for each image, right?
+
+      Comment from User 1316826:
+      That sounds similar to what I did. I read the wording to "plot" the eigenfaces as just show them, which in my implementation meant calling plt.imshow. Imshow is essentially plotting the eigenface, just where the pixel value is the value from the corresponding position in the eigenface/vector. It's still "plotting" a vector in a way that makes it look like an image, just not a scatter plot.
+

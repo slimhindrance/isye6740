@@ -1,0 +1,37 @@
+Thread ID: 5996558
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q3 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+See #130 for additional notes.
+
+PCA package can be used as part of the ISOMAP algorithm. ISOMAP, MDS, and cmdscale (MATLAB) packages are not permitted for this question.
+
+Comment from User 1230133:
+When I submit order_of_faces.py to the autograder, I get this error. My pca() method is returning an array with shape (698, 2) - which is what it says to do in the scaffolding script - but it looks like Gradescope is telling me it's supposed to have shape (2, 4096)? Which shape is correct?
+
+  Comment from User 979414:
+  You may want to plot a single image from the original data source to understand the dataset. (data points vs features)
+
+    Comment from User 1133602:
+    Okay, I'm with Julia on the confusion over this. My understanding was that there were 4,096 features from the high dimensional space and 698 images (i.e., samples). Whether using ISOMAP or PCA to embed to lower dimensions, it doesn't make sense that Gradescope would be expecting a matrix with any dimension of 4,096. Some matrix of dimension (2, 698) or (698, 2) would seemingly make more sense.
+
+      Comment from User 979414:
+      Gradescope is expecting and testing the correct dimensions
+
+        Comment from User 979414:
+        Julia I see your point. Your PCA is not returning 698 features. You can print and verify the same
+
+          Comment from User 1133602:
+          This still doesn't make sense to me. The PCA is returning 2 features for 698 samples. The ISOMAP paper and Homework questions themselves say that this dataset consists of 698 samples in a 64 x 64 (i.e., = 4,096) dimensional space. We are using both ISOMAP and PCA to reduce that dimensionality of 4,096 for each of the 698 sample images. I don't understand why our function output dimensions would have the number 4,096 in them at all. I could see a case where it could be (2, 698) instead of (698, 2) (i.e., if it was expecting the features as rows and the samples as columns), but that's not how the scaffolding instructs us to output the data from our functions.
+
+            Comment from User 979414:
+            Kindly refer to my response above. Gradescope is testing for 698 datapoints
+
+              Comment from User 1133602:
+              OOOH! Okay, that makes much more sense. Thank you.
+
+                Comment from User 1230133:
+                Thank you Paresh! You're right, I was returning the wrong output.
+

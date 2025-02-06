@@ -1,0 +1,62 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1325800:
+Hi All,
+
+I'm Sadhana, working as a Senior Bioinformatician. This is my 4th semester and 5th course. I have experience with python (did well in CSE6040 and worked on a project in CSE6242) and used LaTex (in CSE6242). Good at math and MATLAB during my undergrad but haven't worked on it recently. I'm interested in working on a project related to biomedical science or biology but open to other ideas. My email: sgaddam38@gatech.edu
+
+Time zone : PST, I live in bay area, California.
+
+  Comment from User 1230062:
+  Hi Sadhana, my name is Brian and I come from a similar background working in biomedical research - although from a more bench-based approach. I am using this program to aid me in transitioning away from the bench and would love to form a group. Here are my details:
+
+Time Zone: PST, I live in Los Angeles.
+
+Communication: Discord, text, or email (blarkin31@gatech.edu) preferred
+
+Experience: This is my 6th OMSA course. Graduated undergrad in 2019 with a degree in Neuroscience. Previous experience as an Research Assistant in a few research labs from neuroscience to immunology, currently working as a marketing manager for a business and working in the entertainment industry.
+
+Skills: Skilled at written reports and verbal presentations, mid-experience in Python/Jupyter and R (I've done well in the program so far), little experience in MATLAB but am planning on attempting the homework projects using it to learn. Decent statistics background having just taken Simulation.
+
+ Effort: This is my only class this semester and I am highly motivated by investigating interesting biological/biomedical questions.
+
+Project Topic: Interested in the biomedical field, or data in healthcare.
+
+    Comment from User 1230113:
+    Hi guys, my name is Ashria Arora. I am currently a full time student, and have an undergraduate degree in bioinformatics! 
+
+Time Zone: EST, I live in Northern VA.
+
+Communication: Discord, text, or email (aarora368@gatech.edu)
+
+Experience: This is my 4th semester in OMSA. Graduated undergrad in 2018, and was pursuing dentistry while working in the dental field until I realized it was not for me. I started transitioning last year and started this masters as well. I have worked as a EDI Business analyst until I was laid off. Currently looking for new positions but fully focused on learning through OMSA.
+
+Skills: Skilled at written reports and presentations as well, experience in Python, R, and pretty good statistics background. I just finished taking CSE 6040, and absolutely loved it. 
+
+ Effort: I am fully dedicated to the class due to not working right now. 
+
+Project Topic: Interested in the bioinformatics field, and definitely in healthcare.
+
+    Comment from User 1230113:
+    Hey Brian, was wondering if you still were interested in joining our group? Sadhana and I have connected and wanted to reach out to make sure! Feel free to respond to the email I sent out or respond here, and we can resolve this thread as well! We have whatsapp and discord if that's easier for you to connect on.
+

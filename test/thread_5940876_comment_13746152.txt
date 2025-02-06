@@ -1,0 +1,70 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 908734:
+Hi everyone, my name is Jacky, and I live in Toronto. My email is kchan304@gatech.edu.
+
+Experience: I'm currently a Credit Risk Analyst at Sun Life Financial Ltd, responsible for probability of default modelling and loss given default modelling. I have an undergraduate degree in Economics and Finance.
+
+Communication: WhatsApp, Text, Discord, etc.
+
+Time Zone: EST (Toronto)
+
+Skills: Python, SQL, R. Mathematics for machine learning is also my strength. I use LaTeX to write notes, so I am familiar with it.
+
+Project Topic: Open to any and all topics.
+
+  Comment from User 1325825:
+  Hello Chan,
+
+My name is Dailu Hou, and I am in my second semester of the OMSA program. I am currently looking for a team member to collaborate with me and Yi for this project. I was wondering if you are interested in joining us.
+
+Feel free to reach out to me at dhou30@gatech.edu.
+
+Time Zone: I am flexible with EST, MST, or PST.
+
+
+
+Communication: I prefer Discord, text, or email for coordination.
+
+Experience:
+
+I completed my undergraduate degree at Georgia Tech in Biomedical Engineering.
+
+I currently work as a consultant for a healthcare company
+
+Skills:
+
+Strong math background
+
+Proficient in Power BI, Tableau, and data visualization tools
+
+Skilled in both Python and R
+
+Project Topic: I am open to exploring any topic and excited to contribute to a meaningful project.
+
+Best,
+
+
+
+Dailu
+

@@ -1,0 +1,10 @@
+Thread ID: 5941356
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q5 in this thread.
+
+Comment from User 896256:
+Trying to adapt my kmeans implementation from Q3 for Part 2 of this question since the kmeans scikit package only seems to use Euclidian. Do we initialize random centers that are either zero or 1 in this case? My implementation initialized k centers based on random sample of data. Getting some weird errors trying to run my implementation so just trying to look for things that might be wrong when inputting an array of only 0's or 1's.
+
+  Comment from User 799310:
+  Centroids are generally initialized with random values at which the points are then assigned based on the distance metric. Since the homework states that the kmeans package can be used for this question, consider checking out the inner workings of the package to see how they do it.
+

@@ -1,0 +1,15 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1325774:
+I am confused about how we are calculating Sij in 4.2. When I try and follow the formula listed in the question, I get a (61, 80) matrix, but the question indicates that we should get a single-number score for reporting. Thank you so much for your help!
+
+  Comment from User 962232:
+  If your image is (61, 80) you will first want to deconstruct that into a (1x4880) vector and then find the squared L2 norm of that vector to be your Sij.
+
+    Comment from User 1325774:
+    Thank you!
+

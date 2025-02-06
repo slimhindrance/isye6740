@@ -1,0 +1,30 @@
+Thread ID: 5940879
+User 134876 (Original Post) says:
+During this course, you will be responsible for delivering a research style final project report. This will involve a Project Proposal, The Final Project itself, and professional peer reviews on both.
+
+All official guidelines are posted on canvas, feel free to use this space to ask administrative questions related to the project.
+
+
+
+Some initial notes below:
+
+1. All students, whether completing the project individually or as part of a team (up to 3 students) must join a project group on canvas. This can be done by going to the left-hand navigation bar and clicking people -> Term Project Groups then selecting an empty team to join. Be sure to join the same team as your group mates should you be doing the project together with other students. See #29 for more details.
+
+2. For project submission, only the report itself is required. Code and data do not need to be submitted for the final project.
+
+Comment from User 136318:
+Can I use deep learning / LLMs for my project (i.e., doing some CV /.NLP things)
+
+  Comment from User 896413:
+  Sure, just make sure it is compliant with the AI Policy outlined in the course syllabus. If you want to talk through your idea with more specific guidance, feel free to make a private Ed post or ask during office hours.
+
+    Comment from User 136318:
+    Sure - I don't mean to use an existing commercial AI to do our task on behalf of me.
+Some example idea for me: fine-tune an existing open source LLM (i.e. BERT or Llama2) to do some NLP task (i.e., sentiment analysis, trading signal generation, anomaly detection, etc)
+The code and AI models will be either on my local machine or in my own cloud environment.
+
+      Comment from User 896413:
+      Yes, that's fine. Analysis is more important than the actual results, so be sure to discuss the theory, decisions, limitations, etc. behind each model you use. We want to avoid students treating libraries as a "black box" where they don't understand what is happening to the data they input into the model.
+
+It is common to run into roadblocks. If you run into any major issues, you may pivot or change the scope of the project.
+

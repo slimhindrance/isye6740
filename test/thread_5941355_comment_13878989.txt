@@ -1,0 +1,21 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 1080381:
+For 4.1 should we add in the pdf the table with all the mismatch rates for each cluster for each k? Or just the overall mismatch rate? I started adding it and realized it would take up a lot of space.
+
+  Comment from User 962232:
+  Yes, please include the mismatch rate for each cluster and the overall in the report PDF.
+
+    Comment from User 1080381:
+    Is it ok if we include the full table as an appendix in the PDF and reference it in the question? Just trying to make sure the PDF is easy to follow
+
+      Comment from User 962232:
+      Honestly you can just put it in with the question. I realize that it takes up a lot of real estate in the file, but it's easiest for the grader if it is there under the question. However, you may put it in an appendix as long as you clearly state that the answer is in the appendix under the question in the PDF.
+
+        Comment from User 1080381:
+        Thank you Evan!
+

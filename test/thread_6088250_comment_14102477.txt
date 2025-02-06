@@ -1,0 +1,20 @@
+Thread ID: 6088250
+User 1517341 (Original Post) says:
+Hi! For work, I need to learn about neural networks to evaluate some tradeoffs between it and other algorithms my team is looking to implement. Would it be possible to get early access to the slides/lectures if they are pre-recorded from past semesters?
+
+We are evaluating using a LSTM subcategory of a RNN, and I would much prefer to learn it from this team than the internet! Thanks!
+
+(if you have any materials on LightGBM (framework of gradient boosting that uses tree-based learning) that would be awesome too! That's one of the approaches a vendor is proposing as well)
+
+Thank you so much!
+
+Comment from User 134876:
+When I implemented an LGBM model at work, this was one of my go-to resources:
+https://www.geeksforgeeks.org/lightgbm-light-gradient-boosting-machine/
+
+Along with of course it's documentation page:
+https://lightgbm.readthedocs.io/en/stable/
+
+And this Kaggle resource consolidation:
+https://www.kaggle.com/discussions/getting-started/159077
+

@@ -1,0 +1,151 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1512042:
+Hi everyone, my name is Danny and I live in Delaware,
+
+Communication: Whatsapp, Text, Discord, Anything else needed - super flexible.
+
+My email is dtabach3@gatech.edu but it would be easier to work through gmail either through daniel.tabach007@gmail.com or danieltabach42@gmail.com
+
+Experience: I'm currently a 2 YOE Data Scientist at JPMC (not finance oriented ;) ) My undergrad is in Computer Information Systems and I have 2 prior YOE at a startup where I worked as a data analyst as well. 
+
+Skills: Python, SQL, R are the main languages I can use fluently. Worked with Latex before as well. 
+
+Project Topic: Open to any and all topics - would love to branch out from what I already know and explore new opportunities.
+
+  Comment from User 1512044:
+  Hi Daniel,
+
+I would like to form a group with you
+
+Time Zone: EST - Maryland
+
+Communication: Teams, texts, email,  Here's my email: vchupka3@gatech.edu
+
+Skills: Work with Python, SQL, data viz tools (Tableau, PowerBi) on a daily basis for work. I was a Mathematics+ Business analytics/operations management in undergrad, so I have a strong math background. I did a number of courses in ML in undergrad and am excited to gain a deeper, mathematical understanding of the algorithms.
+
+Experience: I've in data and reporting work at a consulting firm where I do a lot of work in data automation, synthetizes of data from multiple sources, and building out dashboards from complex data sources.
+
+    Comment from User 1512042:
+    Hi Victor! 
+What is your availability like (Days you are most likely to be available to meet / collab)?
+
+      Comment from User 1512044:
+      Hi Daniel,
+
+Free most M-Thu from 5:30/6PM-9:30/10 PM EST, and generally free all day Sunday  
+
+-Victor
+
+    Comment from User 506357:
+    Hi Victor! Do you still need a third group member? I'm still looking for a team if you need a last person!
+
+  Comment from User 962253:
+  Hi Daniel,
+
+I would like to form a group with you and Victor.
+
+Time Zone: EST - New York
+
+Communication: Discord or Teams - my email is khart44@gatech.edu
+
+Skills: Python, R, SQL, PowerBI, Tableau (better at PowerBI though), and LaTeX. 
+
+Experience: I am currently working as a Data Scientist for a credit union. Previously I worked as a commissions analyst in insurance and an HR data analyst in employment law.
+
+    Comment from User 1512042:
+    Hi Kristen! 
+
+What is your availability like (Days you are most likely to be available to meet / collab)?
+
+      Comment from User 962253:
+      I am free past 5pm on weekdays and fully open on the weekends!
+
+        Comment from User 1512042:
+        Lets connect ill send you an email!
+
+  Comment from User 1325825:
+  Hello Daniel,
+
+My name is Dailu Hou, and I am in my second semester of the OMSA program. I am currently looking for a team member to collaborate with me and Yi for this project. I was wondering if you are interested in joining us.
+
+Feel free to reach out to me at dhou30@gatech.edu.
+
+Time Zone: I am flexible with EST, MST, or PST.
+
+Communication: I prefer Discord, text, or email for coordination.
+
+Experience:
+
+I completed my undergraduate degree at Georgia Tech in Biomedical Engineering.
+
+I currently work as a consultant for a healthcare company
+
+Skills:
+
+Strong math background
+
+Proficient in Power BI, Tableau, and data visualization tools
+
+Skilled in both Python and R
+
+Project Topic: I am open to exploring any topic and excited to contribute to a meaningful project.
+
+Best,
+
+Dailu
+
+    Comment from User 1512042:
+    Hi Dailu! 
+What is your availability like (Days you are most likely to be available to meet / collab)?
+
+      Comment from User 1325825:
+      Hi Daniel,
+
+Thank you for getting back to me! My schedule is flexible, so I can meet at pretty much any time. Yi will also be available after 5 PM every day.
+
+Looking forward to coordinating further!
+
+Best,
+Dailu
+
+  Comment from User 896205:
+  My name is Soyadev Devadoss. I currently reside in Atlanta, GA.
+Email: sdevadoss6@gatech.edu
+Time Zone: EST (My schedule is flexible).
+
+Experience:
+I am a full-time OMSA student, and this is my 6th course. I have previously taken MGT 8803, CSE 6040, and ISYE 6501. Additionally, I am currently enrolled in CSE 6242 (Data and Visual Analytics) and MGT 6203 (Data Analytics for Business).
+
+Skills:
+Python, R, SQL, Tableau, and Excel.
+
+Communication Preference:
+I’m comfortable with WhatsApp, Discord, or Email for communication, no specific preference.
+
+Other:
+I am open to any project topic and willing to invest ample time to contribute effectively to the group project. Looking forward to working with the team and collaborating for a successful project outcome!
+
+Thank you,
+Soyadev
+

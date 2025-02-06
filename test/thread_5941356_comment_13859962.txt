@@ -1,0 +1,15 @@
+Thread ID: 5941356
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q5 in this thread.
+
+Comment from User 1497720:
+For 5.2 it says if the pixel values are above 128 they are assigned as '1'. 
+
+However shouldn't [128,255] inclusive be 1 and [0,127] inclusive be 0 if we were to make this an even split? Is there a reason why we tilt the odds towards 0?
+
+  Comment from User 134876:
+  This was more just for simplicity in wording sake, and realistically won't have a material impact on the data, but you're correct in actuality it should be an exact inclusive split.
+
+    Comment from User 1497720:
+    Thanks for resolving this!
+

@@ -1,0 +1,18 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 979414:
+def load_image(self, image_name="1.jpeg"):
+        """
+        Returns the image numpy array.
+        It is important that image_name parameter defaults to the choice image name.
+        """
+        pass
+
+
+
+If you are using scaffolding code , replace the image_name with the name of your selected and submitted image.
+

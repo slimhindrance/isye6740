@@ -1,0 +1,17 @@
+Thread ID: 5940878
+User 134876 (Original Post) says:
+Hey class,
+
+Setting up this space to allow our TAs to introduce themselves.
+
+We have a very diverse set of TAs this semester, each with their own experiences and perspectives to contribute to the course...so I think it would be good to let you know a bit about us/our backgrounds/what we're interested in.
+
+Comment from User 896413:
+Hi everyone, welcome to CDA!
+
+I'm an OMSA student and this is my third semester as a TA for this class. I just finished this class last Spring, so feel free to come to office hours and ask about how to succeed in this class. I will be holding the class intro, LaTeX tutorial, and project intro office hours (#10).
+
+Professionally, I'm currently a business analyst doing workforce analytics at a telecom company (basically how to staff data centers), and my undergrad degree was in mechanical engineering. I don't really use ML/AI at work just yet but I'll be trying a few things out soon. I'm located in the SF Bay Area in California. If you're around on the OMSA Slack, you've probably seen me around.
+
+Fun fact: I did dragonboat (龍舟, like sprinting in a 20-person canoe) for about a decade. It's a fun team sport.
+

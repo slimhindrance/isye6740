@@ -1,0 +1,132 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1229937:
+Hi, i am Desmond from Singapore. Looking to form a project team. Please email me to get in touch! 
+
+Time Zone: Singapore (SGT)
+
+Communication: Whatsapp, email (dlow8@gatech.edu)
+
+Skills: Python, Visualisation, ML techniques, Computer Vision etc.
+
+Background: Data Analyst
+
+Effort: This is my only course this semester
+
+Project Topic: Lets discuss and brainstorm together! 🤝
+
+  Comment from User 1325825:
+  Hi Desmond,
+
+My name is Dailu Hou, and I am in my second semester of the OMSA program. I am currently looking for a team member to collaborate with me and Yi for this project. I was wondering if you are interested in joining us.
+
+Feel free to reach out to me at dhou30@gatech.edu.
+
+Time Zone: I am flexible with EST, MST, or PST.
+
+
+
+Communication: I prefer Discord, text, or email for coordination.
+
+Experience:
+
+I completed my undergraduate degree at Georgia Tech in Biomedical Engineering.
+
+I currently work as a consultant for a healthcare company
+
+Skills:
+
+Strong math background
+
+Proficient in Power BI, Tableau, and data visualization tools
+
+Skilled in both Python and R
+
+Project Topic: I am open to exploring any topic and excited to contribute to a meaningful project.
+
+Best,
+Dailu
+
+    Comment from User 506357:
+    Hi Dailu! Do you still need a third member? I'm also skilled in Python and R and am proficient in Tableau (have some experience with Power BI) and also know how to use other various visualization tools. I would love to join your team and contribute! I'm on EST but am very flexible as I am a full time student. 
+
+My email is nhavanur6@gatech.edu
+
+  Comment from User 1321233:
+  Hi Desmond,
+
+My name is Ian. 
+
+If you haven't formed a project team yet, I would like to discuss forming a group with you.
+
+My email: ihuang39@gatech.edu
+
+Time Zone: EST (My schedule is flexible - I am willing to work with any time zone).
+
+Experience: I'm currently a full-time OMSA student. I was a physician in Singapore, headed the IT work group and lead a medical prescription error quality improvement project.
+
+Communication: WhatsApp, Discord, Email, no specific preference.
+
+Skills: I am most familiar with Python, Tableau, R, SQL, Excel.
+
+Other: This is my 4th/5th course. I have taken MGT8803, CSE 6040, and ISYE 6501. I am also taking CSE 6242 this semester. Otherwise, I will have ample time to invest in the project.
+
+Project Topic: Open to any and all topics.
+
+    Comment from User 1229937:
+    Hi Ian,
+
+I have dropped you an email.
+
+  Comment from User 1310408:
+  Hi Desmond and classmates,
+
+I'm Yanni from Chengdu, China. I worked in Singapore and US before moving to China. I'm looking for teammates!
+
+Time Zone: CST (UTC+8; China Standard Time) I prefer someone in similar time zone (+-3hr)
+
+Experience: I have background in investment and medical industry. I currently work as regional head in a medical group, overseeing 7 medical institutions in the area.
+
+Communication: Flexible with tools
+
+Skills: 
+
+familiar with python, excel (did pretty well in CSE6040)
+
+Strong business background
+
+Experience work on AI application in biz side; I currently collaborate with a AI company in Beijing as their industry expert
+
+Other: Native speaker of Korean and Mandarine; familiar with Japanese
+
+Project Topic: Open to any topics
+
+    Comment from User 1229937:
+    Hi Yanni,
+
+Do drop me an email at dlow8@gatech.edu if you are keen to join!
+
+Thanks
+
+Desmond
+

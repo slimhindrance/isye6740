@@ -1,0 +1,29 @@
+Thread ID: 5996547
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q1 here.
+
+For 1.6, if you are using an example, you may use a PCA package.
+
+Comment from User 1512055:
+I'm a little bit confused about exercise 3. I found two eigenvalues and their corresponding eigenvectors, which give me the first eigenvalue decomposition. What about the second one? Can someone give me a hint about how to find it?
+
+  Comment from User 300188:
+  If I multiply an eigenvector by a scalar is it still a valid eigenvector for that particular eigenvalue?
+
+    Comment from User 962052:
+    Question on this is that the Eigendecomposition formula we are given is for 
+
+$$U\wedge U^T$$
+
+and at least from one example I worked through, when multiplying the eigenvectors by a scalar so their magnitude is greater than one, does the Eigen decomposition formula need to be written as the more general
+
+$$U\wedge U^{-1}$$
+
+in order to hold?
+
+      Comment from User 300188:
+      Yes! Do note that $U^{T} = U^{-1}$ in the orthonormal case.
+
+        Comment from User 962052:
+        Yes, I see that specified in the notes for when it's written with the transpose. Thank you!
+

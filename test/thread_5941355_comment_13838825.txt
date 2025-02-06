@@ -1,0 +1,43 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 1316826:
+I seem to be running into an issue and can't figure out why. I load the edges, build an adjacency matrix, then degree matrix, then laplacian. I compute the eigenvalues and eigenvectors and use the first/smallest k for clustering.
+
+No matter how I vary k, almost all the nodes fall into a single cluster. Things I've considered are:
+
+1. Maybe there aren't clusters? But plotting the adjacency matrix makes it look like there are some clear patterns.
+
+2. Maybe the first eigenvector (or few) are trivial and messing things up? I see some near zero eigenvalues, and the corresponding eigenvectors are nearly constant. This could be because there is not perfect separation between blocks, but the seeming patterns make that surprising. I would expect kmeans to handle it anyways and just ignore those dimensions, but even if I make it skip the first few eigenvectors, I see the same behavior.
+
+3. Maybe there's a standardization step I'm missing somewhere that makes some eigenvectors get overwhelm everything else? I tried throwing in a normalization step to test with no change.
+
+The eigenvectors aren't matching my intuition, but the steps leading up to them, including np.linalg.eigh, seem pretty straightforward and the intermediate matrices all look good. Any tips would be great! I think I need a break from beating my head on this, too. Thanks!
+
+  Comment from User 1512040:
+  If you remove nodes that don't have any edges, this should help
+
+    Comment from User 1316826:
+    Yeah, I do remove nodes without edges.
+
+    Comment from User 1332979:
+    Hi, I have tried removing the nodes but encountered issue with index excceding matrix dimension. Is the general idea to remove nodes that dont have any edges and then try to remap/ relabel the nodes?
+
+      Comment from User 1316826:
+      Yeah you might have to reindex the nodes to account for the fact that you cleaned up isolated ones.
+
+  Comment from User 962039:
+  I think I was running into the same issue, also not positive why, but trying the variant of spectral clustering in lecture helped me
+
+    Comment from User 1316826:
+    That worked better, thanks for the tip!
+
+    Comment from User 1512035:
+    Which one was that? Did you ever figure out why the initial problem was happening?
+
+  Comment from User 672141:
+  As noted in the replies, there are two variants of the demo code for spectral clustering. One is normalizing D while the other is not. You can try either and see if that helps your results.
+

@@ -1,0 +1,17 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 121859:
+Q3.1
+
+Should the "image" attribute of the map output in pixels or it needs to be a file path?
+
+  Comment from User 979414:
+  I am assuming you mean *img* attribute on scaffolding code. It would be the image pixels of shape (l, b, 3) in range (0-255)
+
+    Comment from User 121859:
+    Thanks! yes I meant "img".
+

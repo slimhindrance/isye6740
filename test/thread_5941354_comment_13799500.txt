@@ -1,0 +1,12 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 568225:
+Is there a convergence criteria that we have to use for the distance between the new and old cluster to consider the implementation to be converged? I don't see this being mentioned in the lecture. Would a small number (e.g. 0.1) be sufficient?
+
+  Comment from User 979414:
+  You can use a very small number for that.
+

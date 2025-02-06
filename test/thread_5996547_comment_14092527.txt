@@ -1,0 +1,15 @@
+Thread ID: 5996547
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q1 here.
+
+For 1.6, if you are using an example, you may use a PCA package.
+
+Comment from User 780084:
+I am still a bit confused by 1.5, am i required to write code for an example or i can jsut explain this conceptually ?
+
+  Comment from User 300188:
+  Conceptually is fine.
+
+    Comment from User 780084:
+    thanks
+

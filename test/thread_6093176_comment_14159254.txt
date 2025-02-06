@@ -1,0 +1,16 @@
+Thread ID: 6093176
+User 134876 (Original Post) says:
+Please ask questions related to HW3 Q2 here.
+
+See Alfie's post #213
+
+Comment from User 1128044:
+2.4: Can you clarify conditional sample mean? Are we supposed to score the same data points use to fit the KDE for their weights and compute the average? Or should be use sample n points from a range (conditional set?...full data set?)
+
+2.5: Same sort of thinking for this question, are we supposed to show a contour plot with n sampled points across the entire data range or the conditional range?
+
+  Comment from User 215365:
+  The conditional sample mean is the sample mean of either the variable amygdala or acc with the orientation fixed at a certain value (2,3,4 or 5). So the first column of the table (c=2) would have the mean value for amygdala and acc of those students with an orientation = 2.
+
+Similarly, for Q2.5, conditioning on the orientation $c$ will involve looking at the joint distribution for those students with that orientation of $c$. This question should include four plots.
+

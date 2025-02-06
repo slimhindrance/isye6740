@@ -1,0 +1,12 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1230189:
+I am an avid backgammon player and have the world leading software for backgammon study on my laptop. I had this issue with the extra credit on HW1 but ignored it because it was just extra credit. But now that it is a real question, can someone help me understand what type of data this is and how I might potentially load it in? Because it just keeps trying to open my backgammon software and I can't quite get it into Python.
+
+  Comment from User 300188:
+  One is a .dat file and the other is a .mat file. Just open up the .mat file in Python using scipy.io.loadmat or something similar.
+

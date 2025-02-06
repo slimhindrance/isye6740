@@ -1,0 +1,35 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 486388:
+Hi, I’m Harsha, and this is my 9th course in the OMSA program. I might be a bit late to join the game, but if you’re still looking for a teammate for your project, please let me know. My interests lie in e-commerce and marketing, so I’m hoping to join a team with similar focus areas. I’m based in Seattle (PDT) and proficient in SQL, Python, Spark, R, and BI tools. Additionally, I have experience leading data science projects.
+
+  Comment from User 896440:
+  Hi Harshavardhan, I would love to team up with you. I'm based out of Seattle as well! I'm flexible with communicating with Whatsapp, email, or on teams. This is my 8th course in the program and I am skilled in Python, R (data viz and EDA), and SQL. I am working in Finance in the travel industry but have worked in manufacturing, mining, and construction industries. My email is ghan2022@gatech.edu.
+
+Grace
+
+    Comment from User 486388:
+    Hi Grace - I will send you an invite to your email id.
+
+Thanks
+

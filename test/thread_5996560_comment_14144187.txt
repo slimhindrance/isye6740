@@ -1,0 +1,12 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1133909:
+I cant seem to get the residual values to classify correctly. The subject 1 eigenspace has lower values for both of the test pictures than the subject 2 eigenspace. Im not sure what i am missing here.
+
+  Comment from User 799310:
+  It's hard to say for sure just based on the description, but I would recommend checking that your preprocessing steps are consistent and also to verify any eigenface/residual calculations
+

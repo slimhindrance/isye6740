@@ -1,0 +1,22 @@
+Thread ID: 5996558
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q3 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+See #130 for additional notes.
+
+PCA package can be used as part of the ISOMAP algorithm. ISOMAP, MDS, and cmdscale (MATLAB) packages are not permitted for this question.
+
+Comment from User 1131595:
+When performing PCA (on both this question and the food consumption one), I had been scaling the data which I know is common practice and is done in the demo code. However I realized in part 3 of this question, I can replicate the results in the lecture notes only when I don’t scale the data. For the purposes of grading, does it matter whether we scale or not, as long as the implementation is otherwise correct and we accurately interpret our results?
+
+  Comment from User 215365:
+  Since all the features (pixel values) are within the same range, scaling is not necessary. Creating the closest reproduction of the plot from the ISOMAP paper and the plot shown on slide 19 of the lecture will be most important.
+
+    Comment from User 1131595:
+    Following up on this, the plot in the isomap paper and lecture don’t appear to be the same. If my plot resembles the one from the lecture slides, but not the paper, is that okay?
+
+      Comment from User 215365:
+      Most students produce a plot more similar to the lecture slides, with that distinctive "Mickey Mouse" shape for the data points (this could have different orientations depending on the implementation--the lecture plot has an upside down Mickey Mouse shape). The Science paper actually performs a three dimensional embedding (the homework question specifies a two-dimensional embedding) projected into two dimensions, giving a slightly different scatterplot pattern. However, the general patterns with the images should be similar.
+

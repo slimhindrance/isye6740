@@ -1,0 +1,20 @@
+Thread ID: 6067777
+User 1512058 (Original Post) says:
+Hello,
+
+I am working through question 3.1 at the moment and having some difficulty with a few points.
+
+Finding my epsilon value: I plotted a histogram of the distance between each point, but it appears to be about a normal distribution. In this case, should I choose value that creates multiple neighborhoods of points or use mean(dist)- X std(dist)? How can I better tune epsilon here?
+
+When the question says "illustrate a few images corresponds to nodes at different parts of the graph": Are we just showing different graph neighborhoods? Does this want something from the underlying image's original luminosity?
+
+I was able to establish multiple neighborhoods with epsilon=7.5 that includes labeled indices of each point, but I wasn't confident that's what was desired given the wording of the question.
+
+
+
+Are you able to help clear this up for me or provide additional resources that can get me on the right path here?
+
+Comment from User 1512058:
+Apologies - I found this discussion which touches on using a heat map for my second question, but I'm still confused on the images to show here.
+https://edstem.org/us/courses/70719/discussion/6024567
+

@@ -1,0 +1,26 @@
+Thread ID: 5940879
+User 134876 (Original Post) says:
+During this course, you will be responsible for delivering a research style final project report. This will involve a Project Proposal, The Final Project itself, and professional peer reviews on both.
+
+All official guidelines are posted on canvas, feel free to use this space to ask administrative questions related to the project.
+
+
+
+Some initial notes below:
+
+1. All students, whether completing the project individually or as part of a team (up to 3 students) must join a project group on canvas. This can be done by going to the left-hand navigation bar and clicking people -> Term Project Groups then selecting an empty team to join. Be sure to join the same team as your group mates should you be doing the project together with other students. See #29 for more details.
+
+2. For project submission, only the report itself is required. Code and data do not need to be submitted for the final project.
+
+Comment from User 1230089:
+this may be silly question, but may double confirm each group only has to produce 1 report? or would each of us have to do 1 report for perhaps different methods we have undertaken to analyze the data? 
+
+In a group, if we have 3 members, would it then mean, 3 different method of analyzing the same dataset? or probably 3 steps (one person, does the EDA, one does feature selection and one analysis?) 
+
+TIA
+
+  Comment from User 896413:
+  Correct, only one person needs to submit the report. After the person submits, I recommend the other group members go to Canvas and check to see the submission. All group members should be able to see the submission in Canvas.
+
+You may split the work as you want, as long as the rubric and guidelines are followed and the scope of the project is sufficient for a larger group. The sample project should provide some idea of the scope. If you are unsure, feel free to drop into office hours or make an Ed post and we can give you a general idea of whether your plans are reasonably in scope.
+

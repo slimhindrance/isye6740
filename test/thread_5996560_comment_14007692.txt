@@ -1,0 +1,15 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 898337:
+Hi, "subject02-surprised.gif" file seems to be missing in the 'yalefaces' folder inside HW2 scaffolding. Was this intended? Otherwise, there's a mismatch of 11 subject 1 images to 10 subject 2 images.
+
+  Comment from User 896413:
+  That is correct, there are a total of 11 images for subject01 and 10 images for subject02. It is intentional.
+
+    Comment from User 898337:
+    Thank you!
+

@@ -1,0 +1,28 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 962039:
+For part 1 of this question for the report aspect are we mainly looking to display a table of sorts highlighting the mismatch rate for each cluster in each k iterations? (e.g
+
+             k=2          |       k =5         | ...
+
+1    mismatch           mismatch   
+
+2    mismatch           mismatch 
+
+3                                 mismatch 
+
+...)
+
+  Comment from User 213547:
+  Yes, also the overall weighted average mismatch rate for each k.
+
+    Comment from User 962039:
+    perfect, thanks!
+
+    Comment from User 1544230:
+    Sorry I didn't catch the weighted average in the homework file - where can i find this instruction? Thanks
+

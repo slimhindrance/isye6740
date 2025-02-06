@@ -1,0 +1,12 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1512044:
+For part 2, it instructs us to take the top eigenfaces of Subject 1 and Subject 2. Does this mean the first 6 eigenfaces, like in part 1, or just the first (1) eigenface  for each subject?
+
+  Comment from User 213547:
+  You can do either ( all 6 or the first one)
+

@@ -1,0 +1,21 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 1512041:
+1. Referencing the demo code, I've figured out an implementation for Kmeans for Q3 that uses 'csc_matrix' from the SciPy library - however, SciPy isn't in requirements.txt. Does this mean that we can't use 'csc_matrix' for our solutions, like the demo code does?
+
+2. Also, requirements.txt has 'pillow', whereas the starter code has 'from PIL import image' - my understanding is that Pillow and PIL are the same package (or one is a new/updated version of the other), is this correct?
+
+Thanks!
+
+  Comment from User 962232:
+  1. You can use scipy.sparse.csc_matrix. It does not matter what is in the requirements.txt for the assignment, you can install it yourself.
+
+2. Pillow is a fork of PIL. Either are acceptable for the assignment.
+
+  Comment from User 134876:
+  Scipy's csc_matrix is allowed to be used. It will be added to the gradescope requirements.txt file so there will be no penalties for using it.
+

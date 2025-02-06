@@ -1,0 +1,43 @@
+Thread ID: 5996558
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q3 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+See #130 for additional notes.
+
+PCA package can be used as part of the ISOMAP algorithm. ISOMAP, MDS, and cmdscale (MATLAB) packages are not permitted for this question.
+
+Comment from User 1232296:
+The provided scaffolding file suggests that epsilon is an integer, shouldn't the distance be a float? we are only doing e-ISOMAP not k-ISOMAP, right?
+
+  Comment from User 1232296:
+  Unless epsilon here is the number of points we need to check to determine the shortest distance? This part of the paper was a bit unclear, I thought we test against all points and determine the smallest.
+
+If that's the case, then the distance $\epsilon$ should still be a float and is also tunable, right?
+
+  Comment from User 215365:
+  We are doing $\epsilon$-ISOMAP and $\epsilon$ will be a float that can be tuned. The Science paper mentions that either $\epsilon$-ISOMAP or $k$-ISOMAP can be used for constructing the neighborhood graph. $\epsilon$ is more of a threshold to determine the neighborhood for each data point as shown on slide 6 of the Nonlinear Dimensionality Reduction slides.
+
+    Comment from User 1232296:
+    Ok thanks. Should I disregard this comment in the code?
+
+Inputs:
+    epsilon (int): kernel width
+
+      Comment from User 215365:
+      I looked at the scaffolding again. I think to stay consistent with the scaffolding, where one of the methods will return an epsilon value, it should probably be constrained to be an int.  However, when finding the neighborhood, it will technically need to be a float so that it can be compared with distances.
+
+        Comment from User 1232296:
+        What's the logic though?
+
+Are you referring to get_best_epsilon() method? I'm still not sure what this method does. Are you able to clarify please?
+
+          Comment from User 1232296:
+          I understand we need to look for the best epsilon, but I'm not sure why it is an internal method.
+
+Also, looking at the distances, it doesn't matter if epsilon is an integer, the numbers are big enough
+
+            Comment from User 134876:
+            This is a typo in the scaffolding code. Epsilon should be a float, and you should be tuning epsilon to recreate the results from the paper.
+

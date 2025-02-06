@@ -1,0 +1,18 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 962322:
+When calculating the mismatch rate, do we only consider the nodes that are not isolated?
+
+  Comment from User 979414:
+  The dataset edges.txt contains edges between the vertices. You may remove isolated nodes (nodes that are not connected to any other nodes) in the pre-processing.
+
+    Comment from User 1128189:
+    If a node is connected to itself, is this considered an "isolated node"?
+
+      Comment from User 979414:
+      Unless the node is connected to any other node, it will be considered isolated.
+

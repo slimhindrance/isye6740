@@ -1,0 +1,12 @@
+Thread ID: 5996547
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q1 here.
+
+For 1.6, if you are using an example, you may use a PCA package.
+
+Comment from User 1316216:
+Hello!  Can you please clarify what is being asked in 1.4?  More specifically, is the ask that we more fully explain each of these three points from the lecture?  Thanks!
+
+  Comment from User 213547:
+  yes. you expand the 3 points
+

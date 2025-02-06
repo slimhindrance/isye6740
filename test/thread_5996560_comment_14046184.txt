@@ -1,0 +1,15 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1230103:
+Can we use cv2 module for this question?
+
+  Comment from User 672141:
+  Yes.
+
+    Comment from User 1128189:
+    It seems the Gradescope autograder is not working with this package.
+

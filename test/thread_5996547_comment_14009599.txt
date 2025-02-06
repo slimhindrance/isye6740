@@ -1,0 +1,15 @@
+Thread ID: 5996547
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q1 here.
+
+For 1.6, if you are using an example, you may use a PCA package.
+
+Comment from User 1128057:
+Is question 1.5 asking us to explain how to decide the optimal k for our dataset ? Thank you.
+
+  Comment from User 213547:
+  optimal k for any dataset
+
+    Comment from User 1128057:
+    Thanks
+

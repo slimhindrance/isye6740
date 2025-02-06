@@ -1,0 +1,54 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1325816:
+Hi everyone, Nandhini here. This will be my 4th semester and 6th course. nkalyana3@gatech.edu is my email ID
+
+Time Zone: IST, based in India. I prefer teammates from CET, IST, and Asia time zones for smoother collaboration. 
+
+Communication: Text or emails preferred, with weekly calls for coordination. 
+
+Experience: I am currently working as a Technology Analyst in a major private bank, with significant experience in technology and analytics. 
+
+Skills: I have a strong math background, excellent practical experience with Python in my daily work, and expertise in building and implementing machine learning models. I am proficient in data visualization especially Tableau but inexperienced with MATLAB. I have worked with R. I have used basic Latex for final project in DVA course. I highly value well-documented projects and prefer teammates skilled in documentation to ensure the project is organized, polished, and easy to follow. 
+
+Effort: In this semester, I am taking only one course, I am fully committed to this project and can dedicate my undivided attention to it. I prioritize planning ahead and completing deliverables early to achieve outstanding results and avoid last-minute challenges. 
+
+Project Ideas: I am open to suggestions and flexible with topics. I am eager to work with the team to identify an idea that aligns with everyone’s interests and strengths, ensuring a rewarding and successful collaboration.
+
+  Comment from User 962117:
+  Hi Nandhini,
+
+Would love to collaborate on the project. My email id is - vmishra61@gatech.du
+
+IST timezone
+
+This is my 9th course in OMSA. 
+
+Working as a Software Developer at PwC
+
+I'm flexible with the communication channel and work timings .
+
+Skills - Python, SQL, R
+
+Open to any topic
+

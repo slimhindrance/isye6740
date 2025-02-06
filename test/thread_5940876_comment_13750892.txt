@@ -1,0 +1,59 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1321233:
+Hello everyone. My name is Ian. I currently reside in North Carolina. I've been in Singapore for the past 10 years. I moved to NC to join my SO. 
+
+My email: ihuang39@gatech.edu
+
+Time Zone: EST (My schedule is flexible - I am willing to work with any time zone).
+
+Experience: I'm currently a full-time OMSA student. I was a physician in Singapore, headed the IT work group and lead a medical prescription error quality improvement project.
+
+Communication: WhatsApp, Discord, Email, no specific preference.
+
+Skills: I am most familiar with Python, Tableau, R, SQL, Excel.
+
+Other: This is my 4th/5th course. I have taken MGT8803, CSE 6040, and ISYE 6501. I am also taking CSE 6242 this semester. Otherwise, I will have ample time to invest in the project.
+
+Project Topic: Open to any and all topics.
+
+  Comment from User 1512054:
+  Hi Ian,
+
+Are you in Charlotte by any chance? I'm leaning towards doing the project solo but if I find someone in Charlotte, I'd be interested in teaming up.
+
+Sean
+
+    Comment from User 1321233:
+    Hey Sean,
+
+I'm located in Raleigh.
+
+Unfortunately, I've teamed up with a couple of classmates already.
+
+Thank you for your interest in teaming up.
+
+All the best!
+
+- Ian
+

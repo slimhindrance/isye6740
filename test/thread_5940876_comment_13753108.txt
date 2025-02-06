@@ -1,0 +1,67 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1512056:
+Hi everyone! Looking forward to the course and excited to get a group together to work on a project we are all interested in:
+
+
+
+Time Zone: CST - Austin, Texas
+
+Communication: Whatsapp, Text, Slack, Email - nli830855@gmail.com
+
+Skills: Python, R, SQL, Tableau, Data Engineering, Bachelor - Mathematics (Statistics track)/Finance
+
+Experience: Recently pivoted to tech as a data analyst/data scientist. Prior to my current job, I worked as a research quant in investment management firms (long-only + hedge fund).
+
+OMSA Program: This is my 1st class in the OMSA program, but completed 3 courses from micro-masters during my non-compete.
+
+Project Topic: Would love to work on sports related analytics project (I referee soccer at the collegiate level, and plays/watch a ton of tennis). My work in investments focused on markets behavior as well as healthcare industry research, happy to explore those too.
+
+  Comment from User 136318:
+  Hi Ningwei, 
+
+I'm interested. I believe we share similar background (financial + tech) and I indeed did a soccer prediction project in my bachelor (maybe could be referred as a starting point). Let me know if you'd be interested in teaming up.
+
+My profile:
+Name: Michael Tang
+
+Location: New York, NY
+
+Academic Experience: Previously graduated from OMSCS and OMS Cyber. This is my 4th OMSA courses & 22nd OMS courses in total. Relevant courses taken: ML, DL, NLP, CV, AI, ML4T, DVA
+
+Work Experience: 6yr full time experience, currently working as a quant in a financial firm, previously worked as quant / software engineer in banks / hedge funds / FAANG tech firms. 
+
+Timezone: US Eastern, (OK with any US time zones)
+
+Skills: Python, R, SQL, Tableau, ML, CV, NLP, etc.
+
+Topic idea: Quite open, but slightly tilted towards financial industry.
+
+    Comment from User 1512056:
+    Great! Let's do it. Do you mind sending me an e-mail at nli830855@gmail.com and we can exchange numbers and start setting up meetings?
+
+    Comment from User 1229943:
+    Hi Ningwei - Let me know if you have one more spot available. I'm in NJ and I work for a  global financial firm as a Data Analyst. Skills: Alteryx, Python, SQL, Hadoop...
+
+rromulus3@gatech.edu
+

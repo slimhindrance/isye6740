@@ -1,0 +1,72 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1271302:
+Hi! I’m Tina, and I am looking to create or join a group! :)
+
+Background/ Experience: I’m a Risk Analyst at a bank with an undergrad background in Business Analytics. My work focuses on creating tables and views to support data analysis and decision-making. I work extensively with large datasets, ensuring they are structured effectively to generate actionable insights.
+
+Skills: Proficient in SQL, SAS, and Python with hands-on experience in data querying, manipulation, and analysis. From my undergrad studies, I have an understanding of statistical methods and predictive modeling.
+
+Courses Taken: ISYE6501, CSE6040, MGT6203, MGT8803
+
+Time Zone: PST
+
+If you’re interested, please feel free to reply this thread or email me at ywong66@gatech.edu. Looking forward to collaborating!
+
+  Comment from User 1321162:
+  Hi Tina!
+
+Are you still looking to create a group? I would like to join if it is still available!
+
+Background/Experience: I have been a data engineer for 2 years at an insurance company. I have also worked as a software engineer and have experience with cloud infrastructure and work with cleaning up large datasets. I have a Bachelor's in computer science and engineering with minors in mathematics and statistics. I have created quite a few models for my honors thesis in my undergrad years.
+
+Skills: SQL, Python, R - basic understanding in Java and SAS. In terms of machine learning in python packages, I am proficient in  Tensorflow, Scikit-Learn, Pandas, Numpy, PyTorch, and Keras
+
+Courses Taken: ISYE6501, CSE6040, MGT6203, MGT8803
+
+Time Zone: EST
+
+
+
+Feel free to email me if you are interested! nande3@gatech.edu
+
+  Comment from User 124718:
+  Hi Tina and Neha,
+
+Are y'all still looking for a third member to your group? I'd like to join if it's still open :)
+
+Background/Experience: I'm a procurement analyst at an investment firm with an undergrad background in industrial engineering concentrating in data analytics. 
+
+Skills: SQL, Python, PowerBI, R (mid)
+
+Courses Taken: CSE6040, ISYE6501, MGT8803, CSE6242, MGT6203, MGT8803(current)
+
+Time Zone: EST
+
+I'm sending an email to y'all as well
+
+    Comment from User 962339:
+    Hi, 
+
+Let me know if you are still looking to join a team. I have a post up with my details as well. You can reach me at: tkumar70@gatech.edu
+

@@ -1,0 +1,24 @@
+Thread ID: 5941352
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q1 in this thread.
+
+Comment from User 1519483:
+Question 1.6 
+
+Can I use a tool like Python to solve for the eigenvalues once I've come up with the Laplacian matrix? Or do we need to do it manually by hand for full points? Thanks!
+
+  Comment from User 134876:
+  You can use python to validate your calculations, but you should be showing your math in the report.
+
+    Comment from User 307023:
+    Thanks Mark, just to confirm, we need to manually resolve the 5x5 determinant calculation for the matrix of interest? I ask because the amount of effort to perform this calculation manually is higher when compared to other questions with the same points.
+
+      Comment from User 1133602:
+      Following because I also want to know.
+
+      Comment from User 1144014:
+      Neepa's office hour mentioned people have used Python to solve for the eigenvalues/vectors but I guess she didn't specify how to document that, so I am also confused now
+
+      Comment from User 134876:
+      Thank you for requesting clarification, I realize I wasn’t clear enough here. For the eigen decomposition/ eigen values themselves you can either compute manually or use python. You still need to show your steps regarding your matrices and graph laplacian.
+

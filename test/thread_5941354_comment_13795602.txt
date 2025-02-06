@@ -1,0 +1,15 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 121859:
+Q3.1
+I noticed the load_image() function provided in the scaffold code can return transparence in addition to the RGB. The formatting instructions say: "For image dataset, it contains 3 columns". Should we ignore the transparence? if yes, would you be able to confirm if transparence is the first or the last element of the array?
+
+In the Paresh OH, they mention that we can/sould treat the pixels param as (a,b,c) instead of (a,b,3) as in the code sample. But thats goes a little different from the exercise.
+
+  Comment from User 962232:
+  Yes please ignore the alpha layer/transparency column. It should be the last element in the array as the first 3 should be the R, G, B values.
+

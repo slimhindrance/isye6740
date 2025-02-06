@@ -1,0 +1,20 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 1128057:
+Hello,
+
+According to the HW1 Q3 instructions, our code must run across all k values and all three images for the L2 norm in less than 10 minutes total. What about the L1 norm runs , Is there a time limit we have to worry about? Thank you.
+
+  Comment from User 799310:
+  There is no specific time limit for the L1 norm runs, but it's good practice to ensure an efficient implementation
+
+    Comment from User 1128057:
+    Thank you.
+
+  Comment from User 134876:
+  While there isn't a specific limit stated, Your code still is expected to run efficiently, and you are expected to utilize an appropriate stopping criteria based on knowledge from the lectures. Code that runs for an excessive amount of time, or that uses overly lenient stopping criteria to support inefficient code, may be subject to point penalties at the discretion of your grading TA. The goal here is for students to learn proper vectorization for algorithm development, not force a for loop to run and make a solution.
+

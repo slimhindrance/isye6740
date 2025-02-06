@@ -1,0 +1,83 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1151733:
+Hello! My name is Kenji, and I live in California. I'm looking to form a project group, please leave a comment if you are interested in forming a team and think we'd be a good match!
+
+
+Experience: I work as a Data Scientist in Analytics at Airbnb. This is my 8th course in OMSA.
+
+Communication: Text, whatsapp, slack, discord
+
+Time Zone: PST (US) - I'm generally available most evenings and during the day on weekends 
+
+Skills: Python, SQL, Project Management
+
+Project Topic: Open to any topics.
+
+  Comment from User 319243:
+  Hi Kenji! I'd be interested in forming a team with you.
+
+Experience: Working as a Data Engineer and this is my 9th course (also taking Regression this semester)
+
+Communication: Text, GroupMe, Discord, etc.
+
+Time Zone: CST (US) - Available most evenings and weekends
+
+Skills: Python, R, SQL
+
+Project Topic: Open to any topics.
+
+Let me know if you'd like to work together (reply on this post or via email: shakani7@gatech.edu ). Thanks!
+
+  Comment from User 810555:
+  Hi Kenji 
+
+I am from South Africa (GMT+2) but I think the time difference could work well with your evenings being my mornings. 
+
+Experience: Independent consultant for data analytics & research. I have a background in the medical industry and experience in publishing academic articles. 
+
+Communication: Open to anything, Whatsapp preferred 
+
+Time Zone: GMT+2 - meetings during your evenings would work great 
+
+Skills: R, Python, SQL, academic writing 
+
+Project Topic: Open to any topics.
+
+My email is kgreenwood@gatech.edu
+
+  Comment from User 962357:
+  Hi, I would like to join in your group if available. My name is Jennie Jeong, and I am based in Atlanta.
+
+Experience: I have worked as a supply chain analyst in the aerospace industry for many years and hold a BS in Mathematics and Statistics. This is my 8th course in the OMSA program.
+
+Communication: I am available via Teams, WhatsApp, Email (kjeong43@gatech.edu), text, or any other platform that works for the team.
+
+Time Zone: EST (US) – I’m generally available most evenings and nights on weekdays, and anytime on weekends.
+
+Skills: R, Python, SQL, Statistics
+
+Project Topic: Open to any topics.
+
+Thanks!
+

@@ -1,0 +1,15 @@
+Thread ID: 6093176
+User 134876 (Original Post) says:
+Please ask questions related to HW3 Q2 here.
+
+See Alfie's post #213
+
+Comment from User 1497720:
+Why does the K function exist since it looks like the normal distribution notation N(xi,h^2) makes the (1/h)*K((xi-x)/h) term redundant? Can't we just write p(x) = 1/m sig_{i=1}^m N(xi,h) ?
+
+  Comment from User 799310:
+  I wouldn't necessarily call it redundant. You make a good point about the normal distribution notation, however keeping K the way it is emphasizes its general, nonparametric aspect and allows for different kernel choices beyond gaussian (although I believe this problem is just Gaussian)
+
+    Comment from User 1497720:
+    That makes sense, thanks.
+

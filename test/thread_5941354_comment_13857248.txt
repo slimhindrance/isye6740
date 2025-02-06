@@ -1,0 +1,23 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 1133602:
+I tried setting my seed and running my algorithm with fixed k and a fixed image (say k = 48 and the sea turtle image). Is it normal to get slightly different times each time you run? For example, I'll get like 52.4 seconds, 54.3 seconds, 58.1 seconds on different runs, but I'll still have the same number of iterations for convergence each time (i.e., 214 total iterations). If so, what number should we report for total time elapsed in our report if there's nothing we can do to keep it static? 
+
+
+For reference, I am using the technique used in the KMeans MNIST Demo: 
+
+
+
+
+And I'm also using the "while np.linalg.norm(c - c_old, ord='fro') > 1e-6:" line from the KMeans Animation Demo as my stopping criteria.
+
+  Comment from User 284691:
+  Getting slightly different times in the range you've shown is perfectly normal and can depend on many factors --- processes running on your machine, etc. Just report the time for the last run.
+
+    Comment from User 1133602:
+    Sounds good. Thanks!
+

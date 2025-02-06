@@ -1,0 +1,18 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1128044:
+I'm getting the opposite results that I would expect from my projection residuals. I.e. the numbers lead to the conclusion that eigenface 1 matches to test image 2 and vice versa.
+
+
+
+Any tips for debugging or verifying these results?
+
+Will I still receive credit for reporting and discussing my thoughts on the results and how they could be improved?
+
+  Comment from User 300188:
+  Couple of things. 1) Make sure you're making the right comparisons according the paper. If you take a closer look at the paper and look at the way $s_{i,j}$ is defined you'll know exactly which ones to compare. 2) Make sure the comparisons are fair. Are you using the correct subject for centering when you're doing your projection residuals and comparisons?
+

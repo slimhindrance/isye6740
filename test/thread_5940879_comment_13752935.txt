@@ -1,0 +1,33 @@
+Thread ID: 5940879
+User 134876 (Original Post) says:
+During this course, you will be responsible for delivering a research style final project report. This will involve a Project Proposal, The Final Project itself, and professional peer reviews on both.
+
+All official guidelines are posted on canvas, feel free to use this space to ask administrative questions related to the project.
+
+
+
+Some initial notes below:
+
+1. All students, whether completing the project individually or as part of a team (up to 3 students) must join a project group on canvas. This can be done by going to the left-hand navigation bar and clicking people -> Term Project Groups then selecting an empty team to join. Be sure to join the same team as your group mates should you be doing the project together with other students. See #29 for more details.
+
+2. For project submission, only the report itself is required. Code and data do not need to be submitted for the final project.
+
+Comment from User 1325753:
+A few questions on the project:
+
+Can the project be something related to a project I'm doing at work?
+
+That is, assuming I can get my manager's approval, can I write a report on a data science/analytics project I did at work for this class' project.
+
+I'm working on a task right now and with some additional effort it would be a nice study that explores data science in a very relevant to me task.
+
+Can I do the project in R or does it need to be in Python or Matlab.
+
+The project I'm working on is being done in R, but I can convert if needed, I'd just rather not if possible
+
+  Comment from User 213547:
+  Yes for both the questions. You do not need to submit the code for the project.
+
+    Comment from User 1325753:
+    Thanks! That was the answer I was hoping for.
+

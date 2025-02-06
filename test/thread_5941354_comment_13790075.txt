@@ -1,0 +1,14 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 962322:
+For Q3, there's a note that says that all images for the L2 norm must run in less than 10 minutes total. How long should it take for the football image for the L1 norm? I notice it's taking a lot longer than 10 minutes for me personally.
+
+  Comment from User 134876:
+  In a good implementation, it’s possible to have everything, both L2 and L1, for all images running in less than 5 minutes. Do keep in mind you can use distance functions from numpy and some let you easily switch between L2 and L1 with minimal impact to your code.
+
+Keep in mind that TAs need to run every students code individually, so runtime needs to be reasonable.
+

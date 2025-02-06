@@ -1,0 +1,55 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1350876:
+Hi, I’m Ahmed, and this is my 8th class. I’m looking forward to form a group for an existing project. 
+
+Time Zone: PST - Bay Area, California
+
+Experience: I’m a Technical Program Manager at Apple Maps, with many years of development experience.
+
+Skills: Python, R, SQL, Data Visualization, etc. applied in multiple industries: Mapping, Telecommunications, Design Automation.
+
+Communication: WhatsApp, Slack, Email (aelsemary3@gatech.edu), etc. I’m flexible.
+
+Project Topic: I’ve a cool idea for a project in the Geo-Mapping space. I’m also open for other ideas in the Mapping space.
+
+  Comment from User 578087:
+  Hello Ahmed,
+
+I am Pankaj, this is my 8th class as well and interested in knowing more about your project and working with you on it.
+
+Time Zone: Central - Minnesota
+
+Skills: Data Engineering, Data Warehouse, Business Intelligence, Python, SQL, Databricks, AWS etc.
+
+Communication: Email (pshrestha31@gatech.edu), Teams and can use other apps as needed
+
+    Comment from User 1350876:
+    Great!! I'll send you and Omar an email to arrange our meetings.
+
+  Comment from User 1229905:
+  Hi, I'm Omar - this is my 6th class. If you are still looking for a third member, I'm interested in hearing more about your project idea. I am in the EST but pretty flexible. I am comfortable with Python, R, SQL, and data visualization. My email is omasood3@gatech.edu.
+
+    Comment from User 1350876:
+    Great!! I'll send you and Pankaj an email to arrange our meetings.
+

@@ -1,0 +1,12 @@
+Thread ID: 5996551
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q2 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1133015:
+do we need to standardize the data?
+
+  Comment from User 215365:
+  The values of this data set are within the same general range, so you will not need to divide by the standard deviation of the feature values to preprocess the data. It will depend on your implementation (also, whether you use packages) if you subtract by some mean, $\mu$.
+

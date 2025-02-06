@@ -1,0 +1,54 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 896430:
+Hello, My name is Song and I am looking for someone with experience and interests in finance to form a project team. 
+
+Location: Atlanta, GA
+
+Experience: the 6th OMSA course. Previous courses taken: MGT8803,MGT6203,CSE6040,CS7646,CSE6242
+
+Skills: Python, R, SQL, etc.
+
+Topic idea: Stock price or trading related .
+
+Communication: Email(ywang4213@gatech.edu), teams, etc.
+
+  Comment from User 896205:
+  If you're available, would you like to join our group?
+
+  Comment from User 1133886:
+  Hi Yuesong, 
+
+
+I would be very much interested in the topics of stock analysis. Please let me know if I can join you. 
+
+Time Zone: CST, in Houston, TX
+
+Communication: Text or email, Ahatsapp
+
+Experience: Data Analyst, Customer Analysis, and Pricing and Margin Optimization
+
+Skills: Python and R, SQL. This is my 6th course in the program. 
+
+Email: Shayansabahi@gatech.edu
+

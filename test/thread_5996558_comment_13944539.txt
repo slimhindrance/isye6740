@@ -1,0 +1,20 @@
+Thread ID: 5996558
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q3 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+See #130 for additional notes.
+
+PCA package can be used as part of the ISOMAP algorithm. ISOMAP, MDS, and cmdscale (MATLAB) packages are not permitted for this question.
+
+Comment from User 1316216:
+I’ve been thinking about ways to pick a good (optimal?) epsilon and the adjacency matrix has a similar feel to the graph laplacian from the first assignment.  Theoretically we could construct a graph laplacian utilizing the adjacency matrix and count the zero eigenvalues to determine the number of disconnected components.  If we search for the smallest epsilon where the graph laplacian has only one zero eigenvalue, is this optimal?
+
+Feels like a cool idea but am I making a bad assumption that connectedness with minimal connections is an optimal way to think of how we represent the manifold for ISOMAP?
+
+  Comment from User 672141:
+  Considering this from a graph point of view, epsilon is a threshold to connect nodes. Less connections leads to more isolated nodes and a more sparse graph.
+
+Now, the next part of the algorithm asks for traversing the nodes through the edges. As you are reducing the connections, you are reducing the roads to traverse, therefore unable to compute certain distances. In short, it can cause the algorithm to fail, but your intuition is correct about reducing epsilon.
+

@@ -1,0 +1,25 @@
+Thread ID: 5996547
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q1 here.
+
+For 1.6, if you are using an example, you may use a PCA package.
+
+Comment from User 1512061:
+Hi, I just wanted to double check for 1.1, are the proof steps from Lecture 4 Slides 17-19 (starting with title "Solving the PCA problem")? 
+
+And for 1.6, does this require a mathematical explanation or can we just explain conceptually?
+
+  Comment from User 497513:
+  1. you can use any lecture material you find approperiate.
+
+2. Yes.
+
+    Comment from User 1512061:
+    For the second point, do you mean that either suffice?
+
+      Comment from User 896413:
+      Either is fine. You can use code to show an example, prove it using math, or explain it conceptually.
+
+        Comment from User 1512061:
+        Thanks!
+

@@ -1,0 +1,61 @@
+Thread ID: 5996551
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q2 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1324673:
+I'm having trouble understanding this part of the lecture. Are we supposed to do this for output for question 2? It's looking better to me when I plot the w vectors instead of the z vectors. And what about for question 3?
+
+  Comment from User 1497720:
+  The w vectors are the principal vectors/eigenvectors onto which we intend to project each original datapoint xi. We normalize them by dividing them by the sqrt(lamda). The mean-centered xi is xi - mu. To find the projection of our mean centred datapoints onto the principal vectors we do the above dot products. Its like if you had a datapoint in x,y plane lets say v = [5,2] to find its projection on the x-axis i.e. the [1,0] vector we dot them to get [5,0] which makes sense since 5 is the x-coordinate of v. In that sense instead of the x-coordinate of v we want to find the wi-coordinate of v where v = xi - mu (and wi are orthonormal to each other just how x,y and z axis are)
+
+    Comment from User 1324673:
+    Thanks! Also, do I do this for the order of faces problem [3] as well? When I just plotted the eigenvectors how did I get the same scatter plots as in the lecture?
+
+      Comment from User 1497720:
+      Yes this concept is key to any dimensionality reduction technique because no matter how you find the w depending on the dataset shape etc. eventually you will need to project your original points onto the reduced dimension space. Understanding projections and dot products is key.
+
+        Comment from User 1324673:
+        okay thanks, I see now that was missing one step in the SVD
+
+    Comment from User 1229972:
+    "We normalize them by dividing them by the sqrt(lamda)"
+
+Can you expand on this? Is it necessary? If not, when is it desired? This does not appear to be the default for PCA functions in python and I have not found this normalization included in any online resources for PCA. I seem to have gotten reasonable results for Q2 without it.
+
+      Comment from User 1497720:
+      Great question! ... numpy.linalg.eig normalizes them to unit length by default however the 'further' normalization shown in lecture by dividing them by sqrt(lambda) is not quite intuitive at first glance. It does make sense because very small lambdas don't contribute much to explaining the variation in the data so zi components that don't contribute much will have points that are 'off the chart' in that direction. However I'm not too sure if this info is too helpful other than in  (1) identifying that maybe by error we picked the lowest eigenvalues instead of highest ones because everything is off the charts and (2)  re-confirming that negative eigenvalues don't exist. 
+
+So if you got good/similar results without it, your eigenvalues are close together however if both your eigenvalues were an order of magnitude apart your results wouldn't reflect that however plotting it with the further normalization would reflect that.
+
+Requesting a TA to confirm/correct this.
+
+        Comment from User 979414:
+        This is correct. We divide by $\sqrt{\lambda_i}$ for 2 reasons 
+
+1. We want to cover for normalization / scale of data projection on the new reduced dimension. 
+
+2. Why $\sqrt{\lambda_i}$ ?
+because the variance of this new dimension is represented by the covariance matrix, hence we scale down by $\sqrt{\lambda_i}$.
+
+
+
+RE: (2) re-confirming that negative eigenvalues don't exist.
+
+Negative eigen values can exist and can result in complex eigen vectors
+
+          Comment from User 979414:
+          To add further to this, the magnitude of $\lambda$ are the reason we pick eigen vectors corresponding to top (k << n) eigen values. Because they are able to capture enough true variance to explain the data and also help possibly avoid overfitting to noise by ML models.
+
+    Comment from User 1133909:
+    The documentation for linalg.eig implies that the eigenvectors it returns are already normalized, do you know if this refers to the same thing we're talking about, ie does that mean they are divided by the root of the sigma already?
+
+So, do we not need to divide by the root-sigma again?
+
+      Comment from User 1497720:
+      The returned eigenvectors are unit normalized however the further normalization of dividing by root-sigma would have to be explicitly done.
+
+        Comment from User 1133909:
+        Is the extra normalization step called "whitening"
+

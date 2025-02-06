@@ -1,0 +1,32 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 896437:
+Are we allowed to use the collections library to find the majority label? specifically the Counter function or should I find a different method to do so?
+
+  Comment from User 300188:
+  yes, you can use the counter function.
+
+    Comment from User 896437:
+    Thank you!
+
+    Comment from User 1497720:
+    Will gradescope allow this?
+
+      Comment from User 300188:
+      No, because collections is not in the requirements.txt for political blogs
+
+        Comment from User 1497720:
+        Even Sklearn is not allowed so can we not run kmeans for gradescope and just give a matching output type? Or should we copy paste our own kmeans from Q3 and do it that way?
+
+          Comment from User 300188:
+          https://edstem.org/us/courses/70719/discussion/5941355?comment=13852071
+
+You're also free to use your own implementation as well, but you can use sklearn kmeans
+
+            Comment from User 1497720:
+            Thank you!
+

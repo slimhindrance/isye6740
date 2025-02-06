@@ -1,0 +1,32 @@
+Thread ID: 5996551
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q2 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1316216:
+For both the problems themselves and gradescope, I wanted to confirm:
+
+2.1:  Perform PCA "on countries", meaning we reduce the number of food features to 2 principal components.  We will have a scatter plot with points labeled with country names, and submit the code in gradescope as food_pca().
+
+2.2:  Perform PCA "on foods"; reduce the number of countries to 2 principal components.  Scatter plot is labeled with food names, code in gradescope is named countries_pca()
+
+Is that correct?  I think maybe the gradescope method naming is throwing me based on what it seems to expect as an upload.
+
+Thanks!
+
+  Comment from User 215365:
+  Your understanding of the PCA procedure and the format of the scatter plots appears correct. I believe you submit food_consumption.py to Gradescope which includes both of the methods, food_pca and  country_pca.  This Post in Ed further describes the Gradescope procedures for HW2.
+
+    Comment from User 1230133:
+    I think this is actually backwards -- based on the feedback I'm getting from Gradescope, it looks like country_pca should correspond to Q 2.1 and food_pca should correspond to Q 2.2. Brent, can you confirm? I think it might be confusing people (including me) because of the way the demo code transposes A after determining m and n.
+
+      Comment from User 215365:
+      Yes, country_pca corresponds to Q2.1 and food_pca corresponds to Q2.2. When I initially answered the question (the second sentence), I was focusing on the fact that the python file should be submitted rather than the methods in isolation, but I see now that the original post did, in general, switch those methods around. I apologize for the confusion.
+
+        Comment from User 1316216:
+        Thank you both, you got to what I should have asked more pointedly initially.  When I was submitting to gradescope the food vs country pca method outputs seemed swapped in terms of what gradescope wanted.  That’s why I made the original post: to confirm the gradescope version was correct because it was the opposite of what I expected.  Regardless I’ll double check my submission tomorrow.
+
+          Comment from User 1230133:
+          Thank you Brent for the clarification!
+

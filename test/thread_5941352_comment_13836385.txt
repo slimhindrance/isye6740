@@ -1,0 +1,18 @@
+Thread ID: 5941352
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q1 in this thread.
+
+Comment from User 1544230:
+Hi, I am posting about question 3, part 3. The question asks us to describe how to find the best k. I am wondering if the best k means that the best k out of 3,6,12,24,48 or best k in general? And is any calculation needed or does description suffice? Thank you so much!
+
+  Comment from User 215365:
+  Anna's answer in the HW1 Q3 thread is relevant
+
+    Comment from User 1544230:
+    Thank you Brent! I am also wondering do we need to present the code of us testing for best seed in the code file as well? if that's the case, how do we know if your test only test for the time of running the k mean function? should i include ALL my seed tests in the code file? THank you
+
+      Comment from User 215365:
+      You should just include code that uses the best seed that you found. This will be consistent with the note in the homework question:
+
+Setting a random seed will ensure reproducibility and is good best practice.
+

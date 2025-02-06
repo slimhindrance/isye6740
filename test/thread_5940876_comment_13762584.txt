@@ -1,0 +1,60 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1128217:
+Hey Everyone!
+
+Background: I'm Rishi Joseph and this will be my 8th course in the OMSA program. My background includes BS in Mechanical Engineering with a Minor in Data Science and am currently working as a Senior Manufacturing Engineer in the Biotech/Med Device Manufacturing Industry. I'm based out of Philadelphia, PA (EST) so would ideally like to form a group of 3 members that are all in EST but am open to other time zones as well! I'm comfortable with Python, R, SQL, and using Tableau and PowerBI to create visual dashboards. 
+
+Project Topics: Interested in sports, stocks, manufacturing, and healthcare but open to others as well!
+
+If you are interested in forming a team, please feel free to reach out by replying here or through my email at rjoseph78@gatech.edu!
+
+  Comment from User 942845:
+  Hi Rishi, if you are still looking for members, I would love to join your team!
+This is my last course in the OMSA program in the computation track, aside from the practicum :)
+
+Time Zone: CST (Dallas, TX)
+
+Experience: I'm currently a data scientist at a lottery game company. Previously, I worked for Home Depot supporting marketing analytics. Collectively, I have 9 years of experience in analytics!
+
+Communication: Teams, Email (melaniebonawitz@gatech.edu), happy to download another app though
+
+Skills: Python, SQL, Tableau, R, Excel
+
+Project Topic: Open to any topic, but very interested in something sports or stock related (listened to some interesting podcasts on how data science has affected sports betting and found it fascinating!)
+
+    Comment from User 301842:
+    Hi all, I'd love to join your team as well if you are still looking.
+
+I am Vrinda and this is my 7th course in OMSA. 
+
+Time Zone: EST
+
+Experience: I'm currently a data analyst in Finance. Collectively, I have 4 years of experience in analytics!
+
+Communication: Teams, Email (vnaik4@gatech.edu)
+
+Skills: Python, SQL, Tableau, R, Excel
+
+Project Topic: I am also open to any topic, my interests lie in supply chain, finance and tech.
+

@@ -1,0 +1,21 @@
+Thread ID: 5941352
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q1 in this thread.
+
+Comment from User 652074:
+Hello, 
+
+I have questions about HW1. I saw we can submit the HW by Assignments and Gradesscope. For questions 3,4,5, if we submit by gradescope, do we still need to resubmit by assgiment as well?
+
+  Comment from User 300188:
+  Yes. Per #34 , you submit to both Canvas and Gradescope.
+
+    Comment from User 652074:
+    For the pdf document we need to submit for HW1, do we need to list question and answer it under each questions?
+
+      Comment from User 300188:
+      You don't have to retype the question, but you need to indicate which question you're answering in the report.
+
+    Comment from User 307528:
+    Submitting to Gradescope is optional, correct?
+

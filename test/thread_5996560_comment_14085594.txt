@@ -1,0 +1,21 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 898337:
+Hi, I'm sure it's a small detail, but I noticed that the way I downsampled my data for Q4 results in having one more row of values than Gradescope's rubric expects (I added an extra row of values because the total number was not exactly divisible by 4). I think the justification for my method isn't necessarily wrong, but does this mean I won't get the full credit on Gradescope unless I revise my code, or is there a process where TA's will take a look at the Gradescope errors and give credit when reasonable? Thanks!
+
+  Comment from User 962232:
+  What is the extra row that you added? Is it a blank row as in like a margin for the image or is it an additional row that was previously removed in the downsampling? Either way, you can downsample the image to the nearest value if it's not divisible by 4.
+
+    Comment from User 898337:
+    Sorry, when I said I "added extra row" I meant I downsampled by rounding up to the nearest value, not rounding down (61 rows instead of 60). Now that I think about it, I don't think it has a significant impact on the results. In the files I submitted to Gradescope, I made sure to round down since it kept giving me error messages about the expected dimensions. Thank you for the response!
+
+      Comment from User 121859:
+      I got the same problem. I think the gradescope is not correct. the images seem to have (243, 320). not 240,320...
+
+      Comment from User 1325798:
+      I had the same issue. I tinkered with my code to make it round down instead and managed to pass the Gradescope.
+

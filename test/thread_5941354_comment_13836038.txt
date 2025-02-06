@@ -1,0 +1,15 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 1512040:
+For question 3.3, do we need to mathematically define a method for finding the best k or is a qualitative method based on our metrics (iterations, time to convergence, quality of photo) ok?
+
+  Comment from User 215365:
+  Anna's answer is relevant to this question.
+
+    Comment from User 1512040:
+    thank you, missed that
+

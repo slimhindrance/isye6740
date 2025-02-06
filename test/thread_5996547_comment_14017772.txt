@@ -1,0 +1,18 @@
+Thread ID: 5996547
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q1 here.
+
+For 1.6, if you are using an example, you may use a PCA package.
+
+Comment from User 1489130:
+Q1.1 reads, "Please prove the first principle component direction $v$ corresponds to the largest eigenvector of the sample covariance matrix,"  which doesn't quite make sense to me.  The optimization problem constrains any eigenvectors' magnitude to $||w||\leq1$.  Therefore, the largest magnitude of any eigenvector is 1, but any vector can be normalized to unit length, $||w||=1$.  Since larger magnitudes will help maximize the objective function, I'd assume that all eigenvectors would end up having unit length, and there would be no way to distinguish one eigenvector from another on the basis of "largeness".  
+
+Additionally, the bottom of Lecture 4 Slide 18 (shown below) states, "The problem becomes finding the largest eigenvalue of $C$."
+
+Using the eigenvalue to distinguish one eigenvector from another does make sense to me.  Also, it's my understanding that when you form a Lagrangian dual problem, you introduce dual variables, which in this case would be $\lambda$, and those become your new decision variables that you solve for.
+
+Given my assumption from earlier that all eigenvectors would end up having unit length and how the new decision variable in the dual problem is $\lambda$, should Q1.1, perhaps read, "Please prove the first principle component direction $v$ corresponds to the largest eigenvalue of the sample covariance matrix," instead?
+
+  Comment from User 213547:
+  You need to show that maximizing the variance along a unit vector "v" is equivalent to finding the eigenvector associated with the largest eigenvalue of the covariance matrix;
+

@@ -1,0 +1,27 @@
+Thread ID: 5996558
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q3 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+See #130 for additional notes.
+
+PCA package can be used as part of the ISOMAP algorithm. ISOMAP, MDS, and cmdscale (MATLAB) packages are not permitted for this question.
+
+Comment from User 896256:
+Struggling with coming up with a procedure to tune epsilon without resorting to brute force comparisons of the resulting scatter plot with what is shown in the paper. Saw the following snippet in the paper:
+
+
+
+
+Would $r_0$ be the minimum value from the Distance matrix, $D$? Trying to relate manifold, M, to the various constructs mentioned in the lecture slides.
+
+  Comment from User 213547:
+  Please refer to these discussions on how to tune the epsilon
+
+https://edstem.org/us/courses/70719/discussion/5996558?comment=13983996
+
+https://edstem.org/us/courses/70719/discussion/5996558?comment=13946072
+
+https://edstem.org/us/courses/70719/discussion/5996558?comment=13925703
+

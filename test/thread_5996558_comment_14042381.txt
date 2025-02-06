@@ -1,0 +1,22 @@
+Thread ID: 5996558
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q3 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+See #130 for additional notes.
+
+PCA package can be used as part of the ISOMAP algorithm. ISOMAP, MDS, and cmdscale (MATLAB) packages are not permitted for this question.
+
+Comment from User 1519483:
+For 3.1, so far I've visualized the adjacency matrix, but not sure what you mean by "illustrating images corresponds to nodes at different parts of the graph". Are you asking us to choose some nodes at random and show what their corresponding image looks like?
+
+  Comment from User 215365:
+  A post by Anna explains this well.
+
+    Comment from User 1519483:
+    When I clicked the link, it says I don't have permission to view
+
+  Comment from User 215365:
+  Sorry about the permission issue. Yes, you should just choose some random nodes and show the images. The images (three is fine) can go on the diagonal of a heat map, or somewhere on a graph visualization.
+

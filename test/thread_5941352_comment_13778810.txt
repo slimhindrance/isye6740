@@ -1,0 +1,13 @@
+Thread ID: 5941352
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q1 in this thread.
+
+Comment from User 1323477:
+Is normalization required for the similarity function? (q2)
+
+  Comment from User 284691:
+  There are a variety of reasonable ways to construct the similarity function and to combine the binary and real-valued features. Depending on how you choose to combine the features, normalization may be necessary so that some features don't dominate the results.
+
+    Comment from User 1512055:
+    I'm struggling with this question as well... thought about calculating the Hamming distance for the first terms and then calculating the Euclidean distance for the other one, normalizing the result (so that the third value will be closer to the first ones), and summing both afterwards. Is something like that enough?
+

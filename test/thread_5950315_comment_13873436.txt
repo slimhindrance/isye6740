@@ -1,0 +1,106 @@
+Thread ID: 5950315
+User 134876 (Original Post) says:
+Hello Students, 
+
+This semester our team is working on introducing new GradeScope grading for specific coding questions. Because this is in very early stages, we do not want to overwhelm students and punish them for our testing, so it is an optional additional step. We have decided to offer students that participate in this GradeScope testing 5 bonus points. Any submission to gradescope will receive half points, and submissions that pass all of the GradeScope tests will receive the full 5 points.
+
+Submitting to Gradescope will involve setting up your code in a specific format to support the autograder. It's important to know that this is an ADDITIONAL submission, your primary submission will still be through canvas, and your PDF and code submitted to canvas still must include all of your answers.
+
+For this first assignment, we will share the required code scaffolding here in this thread. This code scaffolding will assist students in setting up their algorithms in the way that the GradeScope autograder will require. This means also using only the specific packages listed in the requirements.txt for each question. The provided requirements.txt will exactly match the gradescope environment, any packages not in this will not work. Additionally, Students must submit the files with specific file names, I've listed below the specific file needs of each question.
+
+Paresh will host a 30 minute office hour to review this code scaffolding and answer questions tomorrow, January 9th, 1PM EST. This session will be recorded, and of course any further questions can be posted to ED.
+
+HW1Q3 - Image Compression
+
+
+
+KMeans.py
+
+football.bmp
+
+sea-turtle-400x225.png
+
+custom image
+
+HW1Q4 - Political Blogs
+
+
+
+political_blogs_clustering.py
+
+edges.txt
+
+nodes.txt
+
+HW1Q5 - MNIST Clustering
+
+
+
+mnist_clustering.py
+
+mnist_10digits.mat
+
+Clarifying breakdown of potential bonus points for HW1:
+
+
+
+Q3: 2 Points (Submission worth 1, Correct tests worth 1)
+
+Q4: 2 Points (Submission worth 1, Correct tests worth 1)
+
+Q5: 1 Points (Submission worth 0.5, Correct Tests worth 0.5)
+
+Important Notices
+
+Passing the Gradescope questions tests is only an indication that your code is running successfully within the parameters of our tests. It does not necessarily mean that your assignment is correct, and it will still be graded by your TA. This is an initial test, and we have the long term goal of integrating more tests to assist us with the tedious grading of coding questions.
+
+Gradescope submission will be allowed until the end of the 7 day extension period and  it will use your homework extension days.
+
+There are situations that a students code can "Pass" Gradescope even with an improper algorithm. While unintentional situations will not be penalized, any students caught intentionally trying to cheat the Gradescope system to pass the tests without doing the work will receive a -5 point penalty on their assignment.
+
+Comment from User 896256:
+For the scaffolding provided for gradescope are we just writing out the class and gradescope is passing the inputs into it once we submit or do we need to write additional code outside of the class to invoke the class and pass the necessary inputs?
+
+  Comment from User 979414:
+  no that is not how it should be used. 
+you are still required to submit a fully working code in your canvas assignment submission. 
+Gradescope is still very much relying on your code completely working.
+
+    Comment from User 896256:
+    Paresh I am aware we still need to submit working code separate from gradescope. I am asking more about how to submit for gradescope specifically. Does that help clarify my question? This is strictly with regards to how to submit to gradescope using the scaffolding provided. Are we just submitting the completed class in the scaffold or do we also need to invoke the class within the scaffold we submit with the provided input files?
+
+      Comment from User 979414:
+      The instructions for submitting for individual question are above. 
+If you are passing gradescope, you should be fine
+
+        Comment from User 896256:
+        Apologies, I don't understand your response. Which instructions specifically above address my question? Thanks in advance for your patience!
+
+          Comment from User 979414:
+          Additionally, Students must submit the files with specific file names, I've listed below the specific file needs of each question.
+
+For each question the files are listed slightly below
+
+  Comment from User 896256:
+  I am going to try this question one more time. Apologies if I am not being clear enough. I am not very experienced with working with Python classes. It looks like based on scaffolding we are to code our solution within the class structure. My question is when we submit the files for Q4, for example: 
+
+
+political_blogs_clustering.py
+
+edges.txt
+
+nodes.txt
+
+HW1Q5 - MNIST Clustering
+
+Is gradescope just looking at the class in political_blogs_clustering.py and passing the required inputs as detailed in the scaffolding. OR within political_blogs_clustering.py do we need to be invoking the class function within the body of the code (e.g. writing lines to create the class and run the calculations using the input files edges.txt and nodes.txt).
+
+    Comment from User 979414:
+    No worries. 
+
+It is looking for the specific class given in political_blogs_clustering.py file. 
+Yes you need to write code within the methods provided. You can create your own methods , but gradescope tests will call the methods within the class provided.
+
+      Comment from User 896256:
+      Great, thanks, Paresh. I understand now. I appreciate it!!
+

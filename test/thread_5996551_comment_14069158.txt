@@ -1,0 +1,17 @@
+Thread ID: 5996551
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q2 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1512040:
+Hi, I am getting slightly different results for my PCA when I rerun it for both the first part and second part of this question. Is this to be expected? I am standardizing my data when this perhaps isn't necessary, but am mostly using the demo code provided from class
+
+Upon further investigation, it seems that the magnitude of the primary components is staying the same, but only the sign changes. for example (made up numbers) if my primary components for Switzerland were 1.0 and 0.5 for one iteration, they might be 1 and -0.5, of -1 and -0.5 the next.
+
+  Comment from User 300188:
+  Yes. Multiplying an eigenvector by a scalar is still a valid eigenvector. So orientation doesn't matter as much -- just where the points are at in relation to each other.
+
+    Comment from User 1512040:
+    Thanks! distance between points stays the same, so seems like it is implemented correctly
+

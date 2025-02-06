@@ -1,0 +1,93 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 962316:
+Hi everyone! I am looking for teammates or to join a team, here is some information about me:
+
+
+
+Time Zone: CST - Chicago
+
+Typical Study Hours: I usually study all day Sunday, and then after work M-W as needed. 
+
+Communication: Text or Email preferred - my email is nhellmer3@gatech.edu
+
+Skills: Python, R, SQL, Math background (Bachelors Degree)
+
+Experience: I am currently working as a Data Analytics consultant in the data governance and controls space. 
+
+OMSA Program: This is my 7th class in the OMSA program.
+
+Project Topic: I am looking to focus on either music (like music matching algorithms and/or music sharing), or sports (predictive analytics).
+
+  Comment from User 896320:
+  Hi Nicholas,
+
+Both of your topics of choice sound interesting and I would love to join your team if you have an open spot.
+
+Time Zone: EST - Located east of Philadelphia, PA in NJ. 
+
+Typical Study Hours: After 7pm EST Mon-Thurs and weekends as needed.
+
+Communication: Text, Email, Slack, Zoom, etc...no preference. Email is tfindley3@gatech.edu
+
+Skills: R, SQL, Python
+
+Experience: I work as a DB Manager for an e-commerce company. I also have experience working part time for two separate sports analytics companies. 
+
+OMSA Program: This is my 8th class in the OMSA program.
+
+  Comment from User 1512058:
+  Hey Nicholas,
+
+I'm very excited about all sports analytics and also enjoy the idea of a music matching algorithm. If you are looking for another partner, I'd love to join as well!
+
+Time Zone: CT - Chicago, IL
+
+Typical Study Hours: After 5 CT on weekdays and a half day of the weekend
+
+Communication: Text, email, slack, zoom - email: tguerrettaz3@gatech.edu
+
+Skills: Python, R, SQL with a math/stat Bachelors
+
+Experience: I currently work as a Trade Data Analyst primarily working in R and SQL 
+
+OMSA Program: This is my 4th class in the OMSA program.
+
+  Comment from User 1512055:
+  Hey Nicholas,
+
+I would love to do something related to music. Let me know if you still didn't find enough partners yet! 
+
+
+Time Zone: UTC-3 - São Paulo
+
+Typical Study Hours: After 8pm on weekdays and weekends as needed
+
+Communication: Email, Zoom, WhatsApp - email: liviaa.mlopes@gmail.com (I prefer using my personal email as I check it more often)
+
+Skills: Python, C, SQL and PysPark with a Math Bachelors and a Data Science/AI specialization.
+
+Experience: I've been working as a Data Scientist in the financial market in the past 3 and a half years. Before that, I worked as a Data Analyst in the same industry.
+
+OMSA Program: This is my 2nd class in the OMSA program.
+

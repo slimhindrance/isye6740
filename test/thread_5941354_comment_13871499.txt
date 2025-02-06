@@ -1,0 +1,14 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 1128222:
+I apologize if I've missed something here. For Question 3 part 2, are we implementing the k medoids algorithm? Specifically, are we starting out with randomly chosen data points in our data set (not just randomly chosen in the RGB space [0, 255]^3), then updating the cluster medoids by taking the point in the dataset (in the cluster) which has the closest L1 squared distance to all other points in the cluster? From Question 2 part 1 we know that updating with the mean of the cluster minimizes the sum of the squared L2 distances to all points in the dataset, but it is not obvious to me that the same is true for the squared L1 norm (and I'm not convinced that this is the case). Thank you.
+
+  Comment from User 672141:
+  1. The centroids are randomly initialized in the N dataset space, not in the RGB space[0,255]. Then you assign datapoints to clusters based on each datapoint's distance to each centroid. 
+
+2. You are right, the L2 and L1 norm behave slightly different in the algorithm. For the L1 norm, you are updating the centroid's location based on the median.
+

@@ -1,0 +1,60 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1128317:
+Hello, I'm looking to team up with a couple people on a sports related project.
+
+Time Zone: EST (D.C. Area)
+
+Availability:  I'm fine working weekdays or weekends as long as it's not late at night. I'll be traveling internationally the last week of class, so I'd love to finish the project early.
+
+Experience: I have a computer engineering degree from the University of Kentucky. I've worked as a digital systems engineer at Cummins for 2.5 years, but I don't do much data analysis.
+
+OMSA Program: This is my 7th class in the OMSA program. My favorite classes have been Simulation and Intro Analytics Modeling
+
+Skills: Proficient in Python, R, SQL and Excel
+
+Project Interests: Any sport is fine, but I have a lot of background knowledge about baseball and betting. Possible topics are predicting player salaries granted in arbitration (or free agency), predicting award winners, and projecting pitcher performance based on raw underlying metrics.
+
+  Comment from User 1123072:
+  Hi Cooper,
+
+I'd love to join your group for the project. I'm open to any topic you have in mind. I'm based in Ohio in the EST time zone. Feel free to reach out to me at jpoudel3@gatech.edu.
+
+  Comment from User 696983:
+  Hi Cooper,
+
+Would love to work on a sports related project. If you still have a spot, please let me know (ezulkifly3@gatech.edu). 
+
+
+Time Zone: EST (Toronto Canada)
+
+Availability: Weekdays  (between 5pm-9pm) and weekends (between 10am-6pm)
+
+Experience: Data Engineer with experience in retail analytics and cloud infrastructure
+
+OMSA Program: CDA is my 9th class + practicum this semester
+
+Skills: Tableau, Python, SQL, Github ,Github Actions, Google Cloud (BigQuery, Cloud storage)
+
+Project Interests: Any sport is fine. My bias is towards soccer and fantasy premier league.
+

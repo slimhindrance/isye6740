@@ -1,0 +1,21 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 1230051:
+Do we get points off if our k-means algorithm converges early? For example, I set my max iterations at a certain number but it converges early at k=24.
+
+  Comment from User 672141:
+  The k-means algorithm should converge on its own and shouldn't need to reach a max iteration number. Points will be taken off if the stopping criteria is max iterations. Consider instead setting a threshold where the centroids are barely changing as a stopping criteria for convergence (an example of this is shown in the demo code).
+
+    Comment from User 1230051:
+    Got it ok thanks for that info! I think I managed to do that now. Is there a max iterations that our algorithm should converge under?  I'm getting over 200 iterations for k=48 and I'm not sure if that's too high.
+
+      Comment from User 672141:
+      You can increase the value of your threshold to reduce iterations. Depending on the image size, I think over 200 iterations is not unusual, it's more important to focus the runtime remains small.
+
+        Comment from User 1230051:
+        Understood thanks for the insight Patricia! Very helpful
+

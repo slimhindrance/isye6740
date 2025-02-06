@@ -1,0 +1,91 @@
+Thread ID: 5940882
+User 134876 (Original Post) says:
+Please refer to the below table showing all of the TA Office hours for the semester.You are not required to attend all office hours, and you can attend the office hour of any TA, whichever works best for you. Unless specified, all office hours are open Q&A format.
+
+Office hours can be accessed on Canvas through Zoom in the left-hand sidebar. Recordings of office hours will be in the Canvas Media Gallery.
+
+All times are in EST, and office hours will not be held on standard US Holidays.
+
+Specialized Office hours:
+
+Below we will list off when a TA has covered a specific topic in their office hour outside of general Q&A. This can be related to Linear algebra review, Tool tips, Demo code, HW Walkthroughs, etc. All times listed are in ET (Eastern Time)
+
+Homework Walkthroughs Guided by Neepa
+
+All of Neepa's OHs are at 10 AM EST
+
+HW1 Walkthrough 1/7/25 
+
+HW2 Walkthrough 1/21/25
+
+HW3 Walkthrough 2/4/25
+
+HW4 walkthrough 2/18/25
+
+HW5 walkthrough 3/4/25
+
+HW6 walkthrough 3/25/25
+
+Homework Solutions Guided by Chris
+
+All are during Chris's regular office hours at 5:15pm Eastern time.
+
+HW1 Solutions Review: 2/6/25
+
+HW2 Solutions Review: TBD
+
+HW3 Solutions Review: TBD
+
+HW4 Solutions Review: TBD
+
+HW5 Solutions Review: TBD 
+
+HW6 Solutions Review: TBD
+
+General Topics by Anna
+
+All office hours are Mondays at 10pm ET at regular office hours time. Click here to join.
+
+Class Introduction Office Hours: 1/6
+
+Tips for success (syllabus, Canvas resources, Ed, Office Hours, citing your sources, submitting homework),  AI policy, brief overview on the project, Q&A
+
+LaTeX Tutorial: 1/13
+
+LaTeX basics and structure, sample code you can use on homework, Overleaf tutorial, Q&A
+
+Project Overview: TBD
+
+
+
+Demo Code Reviews by Evan
+
+All office hours are Sundays at 9 PM ET at regular office hours time. Click here to join.
+
+K-Means Demo Code: 1/12
+
+kmeans_digit.py
+
+PCA Demo Code: 1/19
+
+PCA_demo.py
+
+Additional Topics:
+
+Vectorization for ML Models 1/11 by Paresh
+
+Linear Algebra Review by Alfie #167
+
+Office Hour Topic Requests
+
+We are open to topic suggestions, both about course material and machine learning in general. If you have any topics you would like to learn about, please comment below and we will do our best to accommodate your request.
+
+Comment from User 1493073:
+I am online waiting for Paresh's OH today 1/13/25 at 10 am EST. Is it still being held?
+
+  Comment from User 979414:
+  Hi Julie 
+
+I had to reschedule the OH at 5 pm ET. 
+If you have any questions in mean time please feel free to make a post on ed.
+

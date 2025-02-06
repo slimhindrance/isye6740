@@ -1,0 +1,12 @@
+Thread ID: 5941352
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q1 in this thread.
+
+Comment from User 1144014:
+Q1.2:
+
+Is it correct to interpret the question as simply stating what similarity function we would want to use for the given data points and our rationale for why we pick that similarity function? Are mathematical derivations required to support our rationale?
+
+  Comment from User 213547:
+  You can state the similarity function as well show how that works for this question with the results in numerical value.
+

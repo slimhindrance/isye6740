@@ -1,0 +1,15 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 1230133:
+Apologies if someone has already asked this, but when I submit to Gradescope, I get this error (No module named 'scipy') -- here's how I load it in my script: from scipy.sparse import csc_matrix. I know this is supposed to be added to requirements.txt so that it's allowed to be used but does this mean it hasn't been added yet?
+
+  Comment from User 979414:
+  We will add scipy support to gradescope in 2 hours.
+
+    Comment from User 979414:
+    This is resolved now
+

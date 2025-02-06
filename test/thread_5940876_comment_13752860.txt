@@ -1,0 +1,59 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 814024:
+Hello everyone, my name is Eric.
+
+Time Zone: PST from Southern California, Inland Empire.  However, I work second shift from 3PM to 11:30PM. (That would be 6PM to 2:30AM EST) I wish to team up with anyone PST, CST, or EST.
+
+Communication: Flexible.
+
+Skills: Taken intro core courses and ISYE 6669 which I took last sem. This will be my 6th course. Confident in Python/R. Growing interest in mathematics.
+
+Background: I'm a clinical laboratory scientist and have been for 8 years now.
+
+Project topic: I'd like to explore a health topic but I'm open to any topic. My hobbies include running, tennis, I grow hydroponic tomatoes and basil, 3d printing, stock and options trading (and personal finance), video games, eating, hiking, traveling, never ends really next will be trying to learn a few languages, we learn by doing! (I'm sure these all could have their own data project somehow)
+
+  Comment from User 1128232:
+  Hi Eric! My name is Heidi and I'd love to form a team/become teammates with you. I am also in the PST zone (Washington), and also flexible about communication platform. This is my 7th course and I am also comfortable with Python/R. I've been a data analyst for 2.5 years in public health research. I'm very interested in exploring a health topic as well but, similarly, open to other ideas.
+
+    Comment from User 814024:
+    Nice! I'm down. Send me an email or Microsoft teams at echreng3@gatech.edu. I might have spotty communications the next couple days as they're doing possible power shutoffs in my area due to high winds!
+
+      Comment from User 1333011:
+      Hi Eric, 
+
+My name is Nikhil and I am interested in exploring  health related topic as well.  Do you have availability in your team?
+
+I am a PhD in ChemE and so far I have taken 2 courses in OMSA program. I live in Southern California as well, so that timing would work out for us too. 
+
+I have strong skills in python and maths as well as in research so I would be be able to contribute well to the project. Thanks and let me know. 
+
+Nikhil Raj
+
+        Comment from User 814024:
+        Hi Nikhil, 
+
+If you are still available, we are still open for a 3rd member to our team. Right now we are thinking of communicating through discord if that's okay with you. Send me an email if you are interested.
+
+Eric
+

@@ -1,0 +1,52 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1316826:
+Hi folks! This is my 2nd semester. I work full time but can meet most evenings or on weekends.
+
+Time Zone: CST (Madison, WI)
+
+Communication: flexible
+
+Experience: 4yr experience as software dev on DS team at a healthcare company. Studied CS at BYU.
+
+Skills: Strong in Python, various experience in SQL, R, other languages
+
+Project Topic: Lots of experience with healthcare data, but happy to mix it up as well!
+
+  Comment from User 1493073:
+  Hey Benjamin, 
+
+I am interested in forming a group with you if you are interested. Doing a project with healthcare data would be awesome
+
+Thanks,
+Julie
+
+    Comment from User 1080381:
+    Hi Benjamin and Julie! I would be interested in joining you for the project if there's still space!
+
+      Comment from User 1316826:
+      Sounds good to me! I sent you both a message on Slack.
+
+        Comment from User 1493073:
+        cool, texted you on Slack
+

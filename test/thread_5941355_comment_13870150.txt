@@ -1,0 +1,20 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 896430:
+In this question, true label is 0 or 1.  I have one question for the majority_index. 
+
+For example, k =5, 
+
+The majority_index = 0,1,2,3, or 4 (This is my approach)? 
+
+Or, majority_index = 0 or 1 same as in the True labels (in this one, I need combine all mismatches from each k value 0 to 5 to majority_index 0 or 1)? 
+
+Thanks!
+
+  Comment from User 962232:
+  The majority index should be {0, ..., k-1}. The True label is a boolean of {0, 1} if the point is in clustered into that particular majority index element.
+

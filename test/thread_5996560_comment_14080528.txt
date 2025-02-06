@@ -1,0 +1,33 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 898337:
+I was reading TA Brent's response about doing (eigenface)T*​(testimage) first before multiplying with (eigenface) regarding Q4 part 2. This got me wondering about how to translate a math formula that involves multiple sequential matrix multiplications into Python.
+
+For example, if I want to write ISOMAP's C = -1/2 * H (D)^2 H in Python, should I do C = -1/2 * H @ ((D)^2 @ H) instead of -1/2 * H @ (D)^2 @ H because the latter matrices get multiplied first?
+
+  Comment from User 1489130:
+  I was under the impression that matrix multiplication is associative, therefore the order in which multiplication occurs doesn't matter, i.e.:
+
+$(AB)C = A(BC)$
+
+ On the other hand, matrix multiplication is not commutative, therefore:
+
+$AB \neq BA$
+
+but Brent's comment seems to center around the associative property.  
+
+Brent, could you please elaborate further on why we have to multiply from right to left when the associative property says multiplying from left to right should produce the same result?
+
+    Comment from User 215365:
+    You are correct that the associative property applies to matrices. In the context of the original question, I was focusing on that particular order of multiplication to help with understanding that the first vector multiplication ($(eigenface)_i(eigenface)^{T}_{i}$) does not become 1. However, I should have not implied that associativity does not work in this case. The focus was more that things operate from right to left. The first calculation is a projection or inner product (the transpose of a vector multiplied with a column vector), and the second would be the vector being multiplied with a scalar. The first multiplication would show sort of a similarity between the eigenface vector and the test image as a projection. This will give you one scalar that weights the same eigenvector again to compare it to the test image.  However, the associative property is true for matrices. I apologize for the confusion.
+
+      Comment from User 1489130:
+      Got it.  I was unaware that reading from right to left helps interpret what the matrix multiplication is doing, so that's great to know.  Thanks so much for the detailed clarification!
+
+    Comment from User 898337:
+    Thank you Jonathan and Brent! I was confused for a moment on whether associative property would not work in this case. I took some time to compare results of matrix multiplications in different orders and confirmed the same as you guys have mentioned. Thanks again!
+

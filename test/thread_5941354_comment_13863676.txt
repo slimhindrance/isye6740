@@ -1,0 +1,19 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 780084:
+Is it normal if i reduce the cluster size whenever encountering an empty cluster, my total number of cluster will keep reducing to a much smaller number ?
+this is very apparent when using L1 norm where my total cluster tend to reduce to single digit.
+
+  Comment from User 307595:
+  Curious as well!  For one of my tests I start with 24 clusters and it slowly reduces to 12.  In another test if I keep all 24 sometimes a cluster will become un-empty later in the processing.  Some guidance on removing empty clusters during processing versus at the end as a clean-up action would be great!
+
+    Comment from User 814300:
+    https://edstem.org/us/courses/70719/discussion/5941354?comment=13860906
+
+      Comment from User 307595:
+      Thank you!!  My output looks much better now after following that advice.
+

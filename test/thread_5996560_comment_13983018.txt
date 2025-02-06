@@ -1,0 +1,16 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1325815:
+Remark: You will have to perform downsampling of the image by a factor of 4 to turn them into a lower
+resolution image as a preprocessing (e.g., reduce a picture of size 16-by-16 to 4-by-4). In this question, you
+can implement your own code or call packages.
+
+Is there a preferred technique for the downsampling?
+
+  Comment from User 497513:
+  The easiest way is to save every forth row/column and discard the rest.
+

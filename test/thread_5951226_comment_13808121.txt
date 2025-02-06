@@ -1,0 +1,15 @@
+Thread ID: 5951226
+User 134876 (Original Post) says:
+Our TA team has been actively working on designing a course website as a better place to store and present demo code along with other resources/notebooks we share over the semester. This is still an active work in process and we will add demo code to it as the semester progresses, but we wanted to share this with students as an additional resource.
+
+Note: Currently, there is nothing on this website that does not exist in other places. We are just working on a more user friendly way to present some of this information.
+
+https://github.gatech.edu/pages/ISYE6740/CDA-handbook/intro.html
+
+
+
+As always, Feedback is welcome!
+
+Comment from User 1230157:
+Thank you for all the hard work that went into compiling this excellent source!
+

@@ -1,0 +1,48 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1230031:
+Hi everyone, 
+
+Rahim (rlalani8@gatech.edu) and I are looking for a third team member to join us on our project! We’re both based in the CST timezone but are open to collaborating across timezones. While we share an interest in sports analytics, we’re flexible and excited to explore other project ideas as well.
+
+Our common skills include Python and R, and we’ve each completed at least five courses in the OMSA program. If you’re interested in teaming up, feel free to reach out(ychoi450@gatech.edu)—thanks!
+
+  Comment from User 990464:
+  Hi Ye - I'm looking for a team as well and would be interested in joining. I've actually done a project with Rahim in a previous class, also on sports analytics.
+
+Time Zone: PST (San Diego)
+
+Communication: Anything works, email: eitokazu3@gatech.edu
+
+Availability: I work full time on weekdays so after 4PM PST is ideal, but I'm flexible.
+
+Experience: I am currently a Data Scientist doing R&D on golf club performance/design at one of the major golf companies. My background is Mechanical Engineering, which I did for some years (same company) before transitioning to Data Science.
+
+OMSA Program: This is my 8th class in the program.
+
+Project Interests: I gravitate toward sports, but open to explore any other interesting options.
+
+Let me know if this works for you. 
+
+Thanks!
+

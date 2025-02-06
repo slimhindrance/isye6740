@@ -1,0 +1,23 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 805441:
+I have a basic question about the problem set up. 
+
+The homework states that the output should be a column vector with size(pixels, 1) elements. Based on my understanding, this is not right. 
+
+Shouldn't the dimension be size(pixels, 0)? (== # of pixels)
+
+A quick reply would be helpful.
+
+  Comment from User 213547:
+  The dimension of the column vector will be  ( pixels, 1)
+
+    Comment from User 805441:
+    Thanks, but I don't believe so unless the pixels are transposed. 
+
+It is strange, because my code runs and passed the gradescope with my understanding.
+

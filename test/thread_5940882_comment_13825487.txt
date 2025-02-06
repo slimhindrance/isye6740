@@ -1,0 +1,104 @@
+Thread ID: 5940882
+User 134876 (Original Post) says:
+Please refer to the below table showing all of the TA Office hours for the semester.You are not required to attend all office hours, and you can attend the office hour of any TA, whichever works best for you. Unless specified, all office hours are open Q&A format.
+
+Office hours can be accessed on Canvas through Zoom in the left-hand sidebar. Recordings of office hours will be in the Canvas Media Gallery.
+
+All times are in EST, and office hours will not be held on standard US Holidays.
+
+Specialized Office hours:
+
+Below we will list off when a TA has covered a specific topic in their office hour outside of general Q&A. This can be related to Linear algebra review, Tool tips, Demo code, HW Walkthroughs, etc. All times listed are in ET (Eastern Time)
+
+Homework Walkthroughs Guided by Neepa
+
+All of Neepa's OHs are at 10 AM EST
+
+HW1 Walkthrough 1/7/25 
+
+HW2 Walkthrough 1/21/25
+
+HW3 Walkthrough 2/4/25
+
+HW4 walkthrough 2/18/25
+
+HW5 walkthrough 3/4/25
+
+HW6 walkthrough 3/25/25
+
+Homework Solutions Guided by Chris
+
+All are during Chris's regular office hours at 5:15pm Eastern time.
+
+HW1 Solutions Review: 2/6/25
+
+HW2 Solutions Review: TBD
+
+HW3 Solutions Review: TBD
+
+HW4 Solutions Review: TBD
+
+HW5 Solutions Review: TBD 
+
+HW6 Solutions Review: TBD
+
+General Topics by Anna
+
+All office hours are Mondays at 10pm ET at regular office hours time. Click here to join.
+
+Class Introduction Office Hours: 1/6
+
+Tips for success (syllabus, Canvas resources, Ed, Office Hours, citing your sources, submitting homework),  AI policy, brief overview on the project, Q&A
+
+LaTeX Tutorial: 1/13
+
+LaTeX basics and structure, sample code you can use on homework, Overleaf tutorial, Q&A
+
+Project Overview: TBD
+
+
+
+Demo Code Reviews by Evan
+
+All office hours are Sundays at 9 PM ET at regular office hours time. Click here to join.
+
+K-Means Demo Code: 1/12
+
+kmeans_digit.py
+
+PCA Demo Code: 1/19
+
+PCA_demo.py
+
+Additional Topics:
+
+Vectorization for ML Models 1/11 by Paresh
+
+Linear Algebra Review by Alfie #167
+
+Office Hour Topic Requests
+
+We are open to topic suggestions, both about course material and machine learning in general. If you have any topics you would like to learn about, please comment below and we will do our best to accommodate your request.
+
+Comment from User 896430:
+Videos from TAs' office hours are really helpful to us!
+
+Could we standardize the filenames for all Teaching Assistants (TAs) in the Media Gallery? Including the date and a brief note in the filename could let us to follow the videos much easier. For example:
+
+TA_OH_25_0113_Anna_LaTeX_Tutorial.*
+
+TA_OH_25_0***_TAName_Vectorization_for_Implementing_ML_Models.*
+
+Thanks!
+
+  Comment from User 799310:
+  I'll bring up this suggestion with the TAs. For now, we've removed the accidentally started office hours (those that lasted only a few seconds) from the media gallery. This should hopefully make it easier to navigate
+
+  Comment from User 134876:
+  Unfortunately, Unless we schedule office hours 1 by 1, Zoom has an automatic naming convention that assigns the recording name for every scheduled session.
+
+We do plan to link directly to the sessions that target specific topics in this post to more easily find them.
+
+    Comment from User 1232277:
+    I second @Yuesong Wang comment. It is very painful to navigate the media galley and know which video talks about what topics/hws. A general categorization or sorting/labeling would be very much appreciated and would save a lot of time!
+

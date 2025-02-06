@@ -1,0 +1,10 @@
+Thread ID: 5941353
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q2 in this thread.
+
+Comment from User 898337:
+Hi, the distortion function J in Q2 has the coefficient 1/(mk) that I am not seeing on other sources. The lecture notes state that the k-means objective has 1/m as the coefficient, which I assume is a way to normalize the score across the whole data set. The Introduction to Statistical Learning presents the objective function with the coefficient 1/(number of points in cluster j) as a way to derive the centroid. I'm having trouble connecting the dots, or figuring out the intention behind the 1/(mk). Could someone provide an explanation as to why this is added?
+
+  Comment from User 213547:
+  It is a normalization constant.
+

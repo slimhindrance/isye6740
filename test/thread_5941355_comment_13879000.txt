@@ -1,0 +1,25 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 1230051:
+Just want to confirm that for Q4, you are looking for the following:
+
+2 mismatch rates for k=2,
+5 mismatch rates for k=5,
+10 mismatch rates for k=10,
+30 mismatch rates for k=30,
+50 mismatch rates for k=50
+
+as well as 
+
+5 weighted overall mismatch rates for each K (2,5,10,30,50)?
+
+  Comment from User 962232:
+  Yes this is correct.
+
+    Comment from User 1230051:
+    Great thanks!
+

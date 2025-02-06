@@ -1,0 +1,14 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 307048:
+I have two different algorithms implemented that work, but they're very slow. I'm using a nested for loop to calculate distance for every pair of pixels/centroids using linalg.norm (which I figured would be best in order to switch between Euclidean and Manhattan). But looping through each is slowing it down and I'm struggling to figure out a way to convert this to a matrix calculation. I already examined the demo code and don't really see how to apply it to this example. Is there an operation I'm missing that can compute pair-wise distance without using nested loops? 
+
+Edit: When I run linalg.norm on the full 3D vectors, there's a dim problem which made me think it's not possible to compute pair-wise with this method. I can run it when comparing two points, like one RGB set of pixels to one centroid, but I am at a loss for making it more efficient and computing all at once...
+
+  Comment from User 672141:
+  By using the dimensions as a guide, you can certainly reduce the nested loop to one loop at least. Your thinking is in the right direction when considering the vector and matrix dimensions to compute these operations. Check the documentation of linalg.norm as some of these features are embedded into the function.
+

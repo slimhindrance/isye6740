@@ -1,0 +1,18 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 1318186:
+Hi guys, 
+While performing kmeans, I'm getting a value error stating that the numbers are too complex. The eigen values and eigen vectors have numbers that are complex. Can anyone help me on how to fix this issue?
+
+  Comment from User 1497720:
+  Are you sure that the complex part is non-zero? you can check the real value by doing variable.real and the complex part by doing variable.complex
+
+I would first check if the complex part is actually non-zero. For a positive semi definite matrix the complex part should be 0. If you did your Laplacian computation correctly the above should hold.
+
+    Comment from User 1318186:
+    Thanks! The imag part was zero. Fixed it and it works now.
+

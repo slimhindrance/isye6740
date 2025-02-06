@@ -1,0 +1,14 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 1230103:
+Do we need to export (save) the compressed images to the zip folder, or is printing them in the Jupyter notebook sufficient?
+
+  Comment from User 284691:
+  Please be sure that all of the material to be graded, including the compressed images, appears in the .pdf report, which can be generated from your notebook. 
+
+You are not required to save the compressed images separately in the zip folder. We'll run the script in the zip folder, and the script should generate the images.
+

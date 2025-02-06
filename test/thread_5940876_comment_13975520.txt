@@ -1,0 +1,52 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 896113:
+Hi Everyone,
+
+My name is Ruben Mircin, I'm a data engineer specialized in SAP technologies. I'm based in Lima, Peru and have experience with Python, SQL, SAP HANA and Power BI. I'm looking to join a team for ISYE 6740. 
+
+Time Zone: EST
+
+Experience: I currently work as a data engineer for an American electic device manufacturer
+
+Communication: Teams, Slack, Email, Whatsapp.
+
+Skills: I'm comfortable working with Python, SQL, Power Bi and Tableau
+
+Other: I've taken 7 courses so far
+
+Project Topic: Open to any topic.
+
+  Comment from User 1229889:
+  Time Zone: CST
+
+Experience: I currently work as a programmer analyst
+
+Communication: Teams, Slack, Email, Text, Whatsapp
+
+Skills: Python, SQL, C#
+
+Other: This is my 8th class.
+
+Project Topic: Open to any topic
+

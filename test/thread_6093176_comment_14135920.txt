@@ -1,0 +1,26 @@
+Thread ID: 6093176
+User 134876 (Original Post) says:
+Please ask questions related to HW3 Q2 here.
+
+See Alfie's post #213
+
+Comment from User 896123:
+For Q2.1, I want to clarify the wording of the question "Form the 1-dimensional histogram and KDE to estimate the distributions of amygdala and acc, respectively." Does this mean form a 1-D histogram of the amygdala variable and a 1-D KDE of the acc variable? Or should we form a 1-D histogram and a 1-D KDE for each variable?
+
+  Comment from User 1128373:
+  I interpreted it as the latter, so 4 graphs:
+
+1-D histogram for amygdala
+
+1-D histogram for acc
+
+1-D KDE for amygdala
+
+1-D KDE for acc
+
+    Comment from User 213547:
+    correct
+
+      Comment from User 896123:
+      Thank you Neepa and Zubair!
+

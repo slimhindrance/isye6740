@@ -1,0 +1,12 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 897194:
+For "sea-turtle-400x225.png" can we convert the image from .png to .bmp which will drop the forth channel or do you want us to handle this is in the code?
+
+  Comment from User 284691:
+  I'd recommend dropping the fourth channel in the code, as conversion could potentially introduce other issues. You can safely ignore the fourth channel.
+

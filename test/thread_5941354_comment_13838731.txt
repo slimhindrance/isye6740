@@ -1,0 +1,58 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 962021:
+Hi, I'm starting with the Q3.1 and in confusion -   compress() function takes pixels as (a,b,3) format, but the formatting instruction says  - Each row contains one data point (pixel). 
+
+Should we reshape the input to (n_pixels, 3) for processing and then reshape back? or should we keep it in (a,b,3) format throughout the implementation?
+
+Any help would be appreciated.
+
+  Comment from User 672141:
+  Your intuition is correct, you should reshape the image to (n_pixels, 3) for input to the model, then reshape it back to see the image output.
+
+    Comment from User 962021:
+    This helps, Thank you! Another Q - To handle empty clusters , can we modify number of clusters  and restart  or can we reinitialize that specific centroid  or am i getting this wrong ? should we do something else?
+
+      Comment from User 672141:
+      You can note and keep track if you are running into empty clusters. You shouldn't modify the number of clusters if you run into this. You can try a different seed and rerun the model.
+
+        Comment from User 1512057:
+        Wait I'm a little confused on this answer because the notes in the homework say "You may see errors caused by empty clusters when you use too large k. Your implementation should treat this exception as well. That is, do not terminate even if you have an empty cluster, but automatically decrement to a smaller number of clusters." So I am modifying the number of clusters - is this the wrong approach?
+
+          Comment from User 672141:
+          You are correct, I misspoke for this part, you can handle the empty clusters as noted in the instructions by reducing the cluster number.
+
+            Comment from User 1133602:
+            Hi Patricia, 
+
+On this note about reducing the cluster number when we find empty clusters, do you mean that for a given image and norm (i.e., L2 vs. L1), if we try running, say, k=48 and we get 3 empty clusters, we would try running it again with k=45 or until we have no more empty clusters? Just trying to know if the idea is to reduce k until we have absolutely no more empty clusters.
+
+              Comment from User 896413:
+              Yes, do not terminate if you have an empty cluster, but automatically
+decrement to a smaller number of clusters. Think about what this means in the context of the image compression problem, what makes up and image and why might a cluster be empty.
+
+You still want to keep your kmeans algorithm running until it reaches a valid definition of convergence (i.e. do not set a maximum iteration cap). That is the main idea of this problem. It just so happens that you may come across empty clusters and when you do, remove them.
+
+                Comment from User 1133602:
+                Thanks, Anna. In my example above, would it be better to have my algorithm automatically reset from k = 48 to k = 47 and run again, seeing if any empty clusters remain, or if there were 3 empty clusters when k = 48, resetting my k to be 48 - 3 = 45 and rerunning the algorithm from there? I'm not entirely sure why empty clusters would happen in this context.
+
+                  Comment from User 896413:
+                  Do not reset, do not terminate. Remove the empty cluster and continue that run until it reaches convergence. If you start at $k=48$ and reach an empty cluster, remove it so you have $k=47$, and continue the next iteration of kmeans. If you reach another empty cluster, remove it so you now have $k=46$ in that run. Rinse and repeat.
+
+If you are unsure, try setting $k=2, 3, 4$ and see what results you get in your image. This line of questions should help you think through what empty clusters mean.
+
+What does changing the clusters do to your resulting image?
+
+What does it mean when points in your image fall in a cluster?
+
+What does it mean when there are no points in a particular cluster?
+
+How do kmeans centroids get initialized?
+
+                    Comment from User 1133602:
+                    Thanks, Anna. I get it now.
+

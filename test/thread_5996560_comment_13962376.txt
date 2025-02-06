@@ -1,0 +1,12 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1232296:
+I'm using sklearn for PCA and standardizing, are we not supposed to use them?
+
+  Comment from User 979414:
+  We are fixing the gradescope right now.
+

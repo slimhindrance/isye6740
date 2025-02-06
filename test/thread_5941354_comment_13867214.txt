@@ -1,0 +1,12 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 1519483:
+Can k-means converge faster with higher initial centroids? The reason I ask is because I'm noticing for every seed I test out, the time and # of iterations is lower at 48 centroids vs. 24 centroids. Which is counter-intuitive for me at first glace. I figured more clusters mean more computations are required.
+
+  Comment from User 672141:
+  This is likely dependent on the dataset (type of image) you are using. You may find varying runtime results by seed and image, so I would not be too hung up on this. Try testing different images with varying pixel saturation (simple vs. complex images) and see how the trend is. This other post mentions this topic.
+

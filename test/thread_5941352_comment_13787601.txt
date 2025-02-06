@@ -1,0 +1,10 @@
+Thread ID: 5941352
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q1 in this thread.
+
+Comment from User 1512040:
+Question 1.1 on the homework for this week asks for 3 advantages and 2 limitations of supervised and unsupervised learning. Do we need to pull this directly from lecture, or are all correct answers acceptable?
+
+  Comment from User 896413:
+  All correct answers are acceptable, although it is recommended to answer it using your understanding from the lecture.
+

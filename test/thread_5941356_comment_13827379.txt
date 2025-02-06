@@ -1,0 +1,10 @@
+Thread ID: 5941356
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q5 in this thread.
+
+Comment from User 1498558:
+For this question, are we expected to report the purity scores on the test set, the training set, or both?
+
+  Comment from User 213547:
+  training
+

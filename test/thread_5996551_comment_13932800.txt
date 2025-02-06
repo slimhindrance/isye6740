@@ -1,0 +1,27 @@
+Thread ID: 5996551
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q2 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1512055:
+I'm having some trouble to understand exactly how to implement the algorithm. For what I understood from the lecture, the covariance matrix is equivalent to $\frac{1}{m}X X^T$, where $X = [x^1 - \mu, ..., x^m - \mu]$, and by applying the SVD on it we conclude that the eigenvectors of $C$ will be the left singular vectors of $X$ and the eigenvalues will be the squared singular values obtained by the decomposition. With that, we have enough information to perform PCA.
+
+However, in the slide 28 (lecture 4) we have:
+
+"Eigenvectors of 𝐶 corresponds to left singular vectors of 𝑋
+Find the weight vectors {𝑤 ! , 𝑤 " , ⋯ , 𝑤 1 } as the 𝑟 left singular vectors
+of the data matrix 𝑋 (𝑟 is the number of principle components)"
+
+With that in mind, I'm confused. Should I perform the SVD on $X$ itself or on $\frac{1}{m}X X^T$?
+
+  Comment from User 672141:
+  Eigendecomposition and SVD are two different ways to perform PCA on the data. For the purposes of this question, you will perform eigendecomposition using the covariance matrix C. 
+
+About SVD, the slide mentions the input to be X but through derivation you can connect it to C= $\frac{1}{m}XX^T$ .
+
+    Comment from User 1512055:
+    "About SVD, the slide mentions the input to be X but through derivation you can connect it to C= $\frac{1}{m}X X^T$ ."
+
+That helped! Just read the slides and my notes again and it's clear now. Thanks :)
+

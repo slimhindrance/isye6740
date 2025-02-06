@@ -1,0 +1,10 @@
+Thread ID: 5941353
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q2 in this thread.
+
+Comment from User 1324673:
+Not a question, but here is a fun visualization that I got from another class that is a demonstration of k-means.
+
+  Comment from User 1497720:
+  Thanks for sharing this! Hitting "new" lets us change the initial state of each cluster!
+

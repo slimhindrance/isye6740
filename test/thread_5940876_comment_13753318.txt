@@ -1,0 +1,43 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 0:
+
+
+  Comment from User 506357:
+  Hi Tanisha! I'd love to join your team if you still need members. My time zone is EST so our time zones match! I'm very comfortable with R, Excel, and Tableau and also have experience with Power BI, Python, and SQL. I'm a full-time student so my schedule is very flexible! My email is nhavanur6@gatech.edu
+
+  Comment from User 942845:
+  Hi Tanisha, if you are still looking for members, I would love to join your team!
+
+Time Zone: CST (Dallas, TX)
+
+Experience: I'm currently a data scientist at a lottery game company.  Previously, I worked for Home Depot supporting marketing analytics.
+
+Communication: Teams, Email (melaniebonawitz@gatech.edu), happy to download another app though
+
+Skills: Python, SQL, Tableau, R, Excel
+
+Other: This is my last course in the OMSA program in the computation track, aside from the practicum :)
+
+Project Topic: Open to any topic as well!
+

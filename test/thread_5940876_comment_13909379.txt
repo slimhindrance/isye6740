@@ -1,0 +1,100 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 814286:
+Hi everyone,
+
+My name is Carlos, and I’m currently in my 8th class in the OMSA program. I’m based in Tempe, Arizona, and work as a data scientist with professional experience in Python, R, SQL, Spark, Databricks, Azure, and big data. I’ve worked on projects involving time series analysis, transactional data, and data modeling techniques.
+
+I’m looking to join or form a team after my previous teammate had to drop the course. I’m open to a wide range of project ideas and look forward to collaborating with motivated peers.
+
+If you’re interested in teaming up, feel free to contact me at cgonzalez303@gatech.edu
+
+  Comment from User 896437:
+  Hey Carlos! My partner also dropped the class, I am also looking for a teammate and I've sent you an email if you wanted to team up.
+
+Here is some info about me:
+Time Zone: CST - Dallas-Fort Worth, Texas
+
+Communication: Discord, Teams, Email - my email is rlalani8@gatech.edu
+
+Skills: Python, R, SQL, Data Engineering, Math background (Bachelors Degree)
+
+Experience: I am currently working as a Data Engineer in the Telecommunications Industry and previously worked in the financial industry with the same title.
+
+OMSA Program: This is my 9th class in the OMSA program.
+
+Project Topic: I am open to any topic that can be done, would love to do something with sports if that is feasible!
+
+    Comment from User 962324:
+    Hello Rahim + Carlos,
+
+
+
+If you are looking for a third member to team up with then let me know! I am a data scientist based out of Chicago and am also interested in a wide range of topics, especially one with sports potentially!
+
+  Comment from User 1133602:
+  Hi Carlos, 
+
+I am based in Phoenix and work for SRP! 
+
+Phillip McElroy and I are interested in doing a project related to the energy industry if that interests you. Please shoot us an email at justin.rodriguez110@gatech.edu and pmcelroy3@gatech.edu. Thank you! 
+
+About me: 
+
+I live in Phoenix, AZ, and I currently work as a senior data scientist / energy demand forecaster for a major utility company. I'm looking to work on something related to the energy sector (more details below). Please reach out if you're interested in learning more about me and interested in possibly working together! 
+
+Time Zone: Mountain Standard Time (Phoenix, AZ)
+
+Communication: Ed, Slack, Teams, FaceTime, Email, Phone,
+
+Experience: Currently work as a data scientist forecasting energy demand for a major utility company. Previous experience in data analytics in emergency management. Undergraduate degree in Econ and Math. Graduated Highest Honors.
+
+Classes taken: ISYE 6501, CSE 6040, ISYE 6644 (Simulation), ISYE 6420 (Bayes), ISYE 6203 - As in all
+
+Skills: Proficient in Python (NumPy, Pandas, several other packages), SQL, Tableau / Power BI, and Microsoft Office Suite (including advanced Excel). Also strong with R but may take me a minute to get back into the swing of things with that language. Strong quantitative / mathematical background in general. 
+
+Project Topic: I am interested in just about anything related to the energy sector - forecasting energy demand, optimizing generation resources, analyzing renewable energy resources (e.g., solar and wind), etc. I'm also interested in the intersection of public utilities and emergency management such as using machine learning algorithms to better plan for and mitigate disasters such as the wildfires we are sadly seeing in Southern California right now. (I think some image detection algorithms could be applied here? Not too familiar with the tech at the moment, but it interests me.)
+
+
+
+About Phillip:
+
+Background:
+
+Time Zone: CST (Dallas, TX)
+
+Communication: Microsoft Teams, FaceTime, Email, Phone, Slack
+
+Experience: I’m currently working as a Petroleum Engineer and applying machine learning techniques to various projects. I have a strong quantitative background and am currently in my 7th class in the OMSA program.
+
+Skills: Proficient in Python, MATLAB, R, and well-versed in machine learning.
+
+Project Interests: I’m interested in anything energy-related, including forecasting, optimization, and renewable energy analysis, and I’m open to exploring other topics as well.
+
+    Comment from User 307038:
+    Hi Justin! 
+
+I am still looking for a team to join, and would love to work with you and Phillip.
+
+I can send the two of you an email!
+

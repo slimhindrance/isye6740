@@ -1,0 +1,27 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 1316826:
+My understanding is that the k values to explore just refer to the number of clusters in the kmeans component of the algorithm, not the number of the smallest eigenvalues to use. Is that correct? The lecture video uses k in regards to eigenvalues as well, but it doesn't seem like there is a specific connection between the number of eigenvalues and clusters.
+
+If that's correct, do you have recommendations for choosing the number of eigenvalues? I was surprised that none of the subquestions mention reporting on that. I don't see an obvious eigengap, so I'm considering some kind of seed + j grid search per k value where j is the number of eigenvalues. Wanted to see if I'm missing something before going down that road.
+
+  Comment from User 213547:
+  v, s, _=np.linalg.svd(L)
+v = np.flip(v, 1)
+
+K = 2
+v = v[:, 0:K].real
+kmeans = KMeans(n_clusters=K).fit(v)
+
+Please refer to this demo code. 
+
+K refers to the number of clusters and eigenvectors. 
+Hope this helps.
+
+    Comment from User 307595:
+    Why the choice of linalg.svd over linalg.eig function?
+

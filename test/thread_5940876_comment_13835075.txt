@@ -1,0 +1,50 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 898338:
+Hi. I am Makarand and am located in New Jersey. This is my 7th class in OMSA. I am looking to form/join a group that can work in EST time zone. 
+
+Experience : Data Engineering, Architecture, Integration, working in Banking sector. Proficient with Python and R.
+
+Communication : Email, WhatsApp, Text
+
+Time Zone : EST (New Jersey, US)
+
+Efforts: Can meet regularly on Weekdays evening and Weekends.
+
+If you are looking for a project group, please reply to this post or let me know via email ( mmagare3@gatech.edu )  and we can team up. Thanks.
+
+  Comment from User 962021:
+  Hi Makarand, I'm Suganya Natarajan, based in Atlanta. We are a 2 member team now both are EST and we are open for a third team member. Please email me if you are interested  to team up - suganya.natarajan@gatech.edu.
+
+About me : 
+
+This is my 7th course in OMSA. 
+
+Working as Principal Data Engineer in Banking Domain AI/ML Enablement. Also have 10+ yrs experience in Retail Industry as a Data Engineer. 
+
+I'm flexible with communication channel and work timings .
+
+I'm strong in Python and looking forward to learn MATLAB.
+
+I'm  open to project topics .
+

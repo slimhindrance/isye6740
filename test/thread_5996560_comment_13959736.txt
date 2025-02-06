@@ -1,0 +1,21 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1232296:
+My understanding is that the eigenfaces are the principal components of the images, not the images themselves. The first question is asking to plot the eigenfaces, which cannot be reshaped to the original size because their dimension is different. Is it actually asking to plot the projection onto the principal components? and which image should we project?
+
+  Comment from User 1232296:
+  I think I got myself confused. What I was describing is the eigenvectors of the matrix of vectorized images, whereas for PCA we're working with the eigenvectors of the covariance matrix, which is 16x16 not 12x16. All good now
+
+    Comment from User 300188:
+    Okay. Will marked as resolved if you think you've figured it out. If something pops up about plotting the eigenfaces in particular just look at this: https://edstem.org/us/courses/70719/discussion/5996560?comment=13960549
+
+      Comment from User 1232296:
+      Thanks, it's fine now, I got the ghost faces plotted
+
+      Comment from User 1497720:
+      We have to plot the 6 'highest' eigenvectors of the covariance matrix in each case?
+

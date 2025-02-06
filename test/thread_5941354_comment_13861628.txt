@@ -1,0 +1,15 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 780084:
+Sorry i have a basic question, how come the third dimension of the turtle image is 4 ? Shouldnt it be 3 ? shall i just drop the fourth column ?
+
+  Comment from User 1133602:
+  Yes, for this image, you drop the last column.
+
+  Comment from User 672141:
+  Certain image formats have an additional channel besides the 3 channels for RGB. The 4th channel is the alpha channel for pixel transparency.
+

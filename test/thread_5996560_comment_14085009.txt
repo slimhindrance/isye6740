@@ -1,0 +1,23 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1325815:
+When I take the standard deviation, some dimensions have no deviation, resulting in 0. Then when I divide my standard deviation matrix by my data matrix to standardize the data, I get an error. So I add machine epsilon to those values but the end result it seems to mess up the eigenfaces, especially the first one. (Or I think it does? I don't know, I"m second guessing myself now. I've also tried setting the 0 values to 1 and they look better).
+
+I had done this without standardizing and was getting good results. I looked back at my code and realized I wasn't doing standardizing and opened a whole can of worms.
+
+  Comment from User 962067:
+  I'm also facing this issue. I centered my data and got good results but when I go back and try standardizing it brings up errors. Do we need to standardize the data for this question?
+
+    Comment from User 307906:
+    same question for me, not sure if we need to standardize after resizing
+
+  Comment from User 300188:
+  You don't have to scale by the standard deviation if all your data is on the same scale (which is the case here)...remember while mean centering is absolutely necessary for PCA, scaling isn't.
+
+    Comment from User 1325815:
+    Thank you, Samuel!
+

@@ -1,0 +1,30 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 1131595:
+In the demo code for spectral clustering, k means was implemented using existing packages. Is that okay for Q4 or should we implement from scratch like we did in Q3?
+
+  Comment from User 962039:
+  Had this same question and was just about to post
+
+  Comment from User 1321233:
+  I would also like to know! Specifically regarding the KMeans from sklearn and sparse from scipy.
+
+  Comment from User 962232:
+  You are allowed to use the scipy.sparse package and whatever packages the demo code uses. You are not allowed to use the sklearn.cluster.KMeans package or any other package that does the entire KMeans algorithm for you.
+
+    Comment from User 134876:
+    Just to add additional clarification here. For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+      Comment from User 962039:
+      Thanks for clarifying!
+
+      Comment from User 1321233:
+      Thank you Mark!
+
+    Comment from User 1321233:
+    Thank you Evan for the clarification!
+

@@ -1,0 +1,34 @@
+Thread ID: 5941352
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q1 in this thread.
+
+Comment from User 896416:
+Hello, I'm posting about question 2. I've gone over the section in the lecture that discusses similarity functions. I get that generally euclidian distance is used for numerical data, and hamming distance is used for categorical data for measuring the distance between a data point and centroid.
+
+In the lecture, "d(x, y) = formula" is basically saying "distance = formula" correct? 
+
+Overall I'm really trying but I don't get how to approach answering this question. I can't really find anywhere in the lectures where the instructor talks about combining similarity functions. I wish I could provide more of a question besides "where do I even begin here?" but that's where I'm at after spending a couple hours trying to research this.
+
+I suppose I should also state that my math is just terrible... I can tell this is gonna be a huge issue for me in this course. While I studied the pre-requisites intensely before starting this program (about 2 years ago), I've never done math derivations before and don't even know where to begin answering those types of questions. Sorry I know this is unrelated but I'm already starting to feel pretty overwhelmed and we're not even through the first week. I feel I don't really struggle with the programming and understanding how these models work, but the the actual nitty gritty math... I'm legitimately questioning if I'm capable of doing this.
+
+Sorry, I know this is kinda all over the place but I'm willing to bet there are other students feeling similarly right now.
+
+  Comment from User 1489130:
+  Hey Keith,
+
+Your first point is correct.  d(x,y) is just the math way of referring to some kind of distance function, but the right hand side of the equal sign tells you which specific function it's referring to.  For instance,
+
+$$d(x,y)=\sqrt{\sum_{i=1}^{n}(x_i-y_i)^2}$$
+
+basically says, "my distance function is the Euclidean one," or
+
+$$d(x,y)=\min_{i=1}^{n}\big|x_i-y_i\big|$$
+
+means, "my distance function is the inf-distance one," (L2-Slide 24).
+
+Next, the act of combining can refer to different things mathematically, but think about situations in real life where you combine things together.  What math might be appropriate if you combined 2 apples with 3 apples?  Or, what math might you need if you had to find the combined cost of 3 apples @ $5/apple with 2 oranges @ $4/orange?  
+
+These are just food for thought -- there are lots of other ways to "combine" things in real life and depending on the circumstances they can use kinds of different math.
+
+Hopefully that helps.  You can do it :)
+

@@ -1,0 +1,25 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1512062:
+I would like to clarify about Q4.2 about test scores and Sij
+1. We only need the top eigenfaces for Subject 1 and Subject 2? Meaning for each Subject1, we just take the first eigenface? If thats the case, does i=1 mean first Eigenface for Subject 1 and i=2 mean first Eigenface for Subject 2?
+2. Do we need to center the test image when we are computing the projection residuals? I see https://edstem.org/us/courses/70719/discussion/5996560?comment=13958705 stating we need to center while doing projection residuals
+-> To this, I tried finding in lecture notes but they dont mention on calculating projection residuals. Can anyone guide me on how we should center them please?
+
+Thanks team
+
+  Comment from User 497513:
+  1. That's correct
+
+2. You need to center the test image w.r.t. the data mean of the current eigenface. Keep in mind, PCA provides a new set of coordinates centered at the corresponding data mean. Thus, all projection with PCA must be shifted accordingly.
+
+3. The projection residual definition is provided in the hw description. Simply follow the formula as it is.
+
+    Comment from User 1512062:
+    Can I clarify if you're able to elaborate more wrt to point 2 on centering
+- Say if we are calculating the residual scores of S21 for example (Top Eigenface for Subject 2, Subject 1 Test image). Does this mean we center Subject 1 Test image wrt to the mean of Subject 2 data matrix (All 9 images of Subject 2)? Or how does this work specifically?
+

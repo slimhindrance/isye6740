@@ -1,0 +1,18 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1316216:
+Should residuals be reproducible?  Every time I run my code I get something different, despite setting seeds inside the gradescope class, the gradescope methods, and outside where I run the code.  The overall decisions are the same as to where things match/don't match.
+
+My residuals are often on the order of 10^-20 or even smaller; could it be machine epsilon interfering?
+
+  Comment from User 497513:
+  Technically, your reported result in the report should match the output from your code.
+
+I can't be sure about the random result issue as you described. It shouldn't be difference since there is no randomness in this problem, thus the result should be deterministic too. Please double-check your implementation at this point.
+
+The residual magnitude doesn't sound quite right to me. (Even though it could be quite different based on your scaling strategy.)
+

@@ -1,0 +1,20 @@
+Thread ID: 5996551
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q2 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 307048:
+What shape is the leaf.mat data in when you first ingest it? I can't open the file so just making sure I'm projecting the right direction using the demo code. Are the 16 leaf attributes the rows or columns in the demo code?
+
+leaf = spio.loadmat('leaf.mat',squeeze_me=True)['M']
+
+# extract attributes from raw data
+Anew = leaf[:,2:17]
+m,n = Anew.shape
+
+Just trying to double check where I should/shouldn't transpose. Thanks!
+
+  Comment from User 962232:
+  Looks like you are doing it correctly. There should be 16 leaf features as columns (which you will reduce using PCA).
+

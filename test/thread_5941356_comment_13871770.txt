@@ -1,0 +1,16 @@
+Thread ID: 5941356
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q5 in this thread.
+
+Comment from User 1128057:
+Since the manhattan distance is equivalent to the hamming distance for binary features, I am planning on using my kmeans implementation using manhattan distance for 5.2. Is anything flawed in this approach ? Thank you.
+
+  Comment from User 1133602:
+  Following because also interested. Are you using SciKit Learn to do your clustering here? I'm wondering how easy it is to do this Manhattan distance or other custom distance function. For the Gradescope submission, we are even more restricted on what packages we can use. If you don't mind me asking, are you importing additional SciKit Learn packages to do this?
+
+    Comment from User 1128057:
+    Hello, I decided to update my Kmeans algorithm to reflect hamming distance and used it instead of the one using manhattan distance.
+
+      Comment from User 1133602:
+      Thank you! Yeah, I found the easiest thing to do was just reuse my code for Q3.
+

@@ -1,0 +1,70 @@
+Thread ID: 5950315
+User 134876 (Original Post) says:
+Hello Students, 
+
+This semester our team is working on introducing new GradeScope grading for specific coding questions. Because this is in very early stages, we do not want to overwhelm students and punish them for our testing, so it is an optional additional step. We have decided to offer students that participate in this GradeScope testing 5 bonus points. Any submission to gradescope will receive half points, and submissions that pass all of the GradeScope tests will receive the full 5 points.
+
+Submitting to Gradescope will involve setting up your code in a specific format to support the autograder. It's important to know that this is an ADDITIONAL submission, your primary submission will still be through canvas, and your PDF and code submitted to canvas still must include all of your answers.
+
+For this first assignment, we will share the required code scaffolding here in this thread. This code scaffolding will assist students in setting up their algorithms in the way that the GradeScope autograder will require. This means also using only the specific packages listed in the requirements.txt for each question. The provided requirements.txt will exactly match the gradescope environment, any packages not in this will not work. Additionally, Students must submit the files with specific file names, I've listed below the specific file needs of each question.
+
+Paresh will host a 30 minute office hour to review this code scaffolding and answer questions tomorrow, January 9th, 1PM EST. This session will be recorded, and of course any further questions can be posted to ED.
+
+HW1Q3 - Image Compression
+
+
+
+KMeans.py
+
+football.bmp
+
+sea-turtle-400x225.png
+
+custom image
+
+HW1Q4 - Political Blogs
+
+
+
+political_blogs_clustering.py
+
+edges.txt
+
+nodes.txt
+
+HW1Q5 - MNIST Clustering
+
+
+
+mnist_clustering.py
+
+mnist_10digits.mat
+
+Clarifying breakdown of potential bonus points for HW1:
+
+
+
+Q3: 2 Points (Submission worth 1, Correct tests worth 1)
+
+Q4: 2 Points (Submission worth 1, Correct tests worth 1)
+
+Q5: 1 Points (Submission worth 0.5, Correct Tests worth 0.5)
+
+Important Notices
+
+Passing the Gradescope questions tests is only an indication that your code is running successfully within the parameters of our tests. It does not necessarily mean that your assignment is correct, and it will still be graded by your TA. This is an initial test, and we have the long term goal of integrating more tests to assist us with the tedious grading of coding questions.
+
+Gradescope submission will be allowed until the end of the 7 day extension period and  it will use your homework extension days.
+
+There are situations that a students code can "Pass" Gradescope even with an improper algorithm. While unintentional situations will not be penalized, any students caught intentionally trying to cheat the Gradescope system to pass the tests without doing the work will receive a -5 point penalty on their assignment.
+
+Comment from User 1133602:
+Sorry I keep asking so many questions today, TAs! But wondering how Gradescope specifically is going to handle cases if there are empty clusters for Q3. I imagine that it's probably expecting a specific number/order of cluster assignments from the "class" output variable. If there are empty clusters, one has several options on how to deal with them. Let's say for a certain image (e.g., "sea turtle") we run K-means using L2 norm distance function with k=48 and we get 3 empty clusters. Do we then set k=45 and try running again until we have absolutely no empty clusters? What will Gradescope do then if it gets a "class" output variable that has less than k=48 distinct values in it? Just trying to understand the best practice for dealing with these annoying empty clusters as they pop up if we want to submit through Gradescope for the bonus points.
+
+  Comment from User 134876:
+  Currently, Gradescope is focused primarily on checking that results are in the correct format and things are running within the appropriate runtimes. This post by Anna has some great tips for handling empty clusters:
+https://edstem.org/us/courses/70719/discussion/5941354?comment=13860906
+
+    Comment from User 1133602:
+    Yes, I saw that one and incorporated it into my code. Thank you!
+

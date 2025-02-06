@@ -1,0 +1,14 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 896416:
+I can't get my algorithm to complete in under 10 minutes. I'm computing distances using numpy on matrices, so I don't see why it's taking so long. any tips or suggestions on how to calculate distances and assign labels efficiently?
+
+  Comment from User 672141:
+  You can take a look at the week 2 demo code and other notebooks the TAs wrote on vectorization examples here. 
+
+Besides these resources, you can isolate parts of the algorithm into helper functions or code blocks and time each section to identify where your code is running slow.
+

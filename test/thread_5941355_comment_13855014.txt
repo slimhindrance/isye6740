@@ -1,0 +1,30 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 652074:
+Hello, 
+
+I need some help for my Q4. I submitted the Q4 documents by gradescope and I got result like link shows below.
+
+https://gatech.instructure.com/courses/437944/external_tools/23345
+
+It doesn't have any issue when I run my code locally and I got my result.
+
+  Comment from User 300188:
+  Not going to do any debugging since this is a bonus, but based off your tests. You need to make sure you're formatting your code to the appropriate structure and only using the packages found in the requirements text file.
+
+    Comment from User 652074:
+    I would like to double check if we are allow to use packages below for Q4.
+scipy.sparse
+
+sklearn.cluster kmeans 
+
+scipy.sparse.linalg
+
+      Comment from User 979414:
+      Yes these packages work for Q4 in gradescope. 
+Your gradescope error suggests some other issue.
+

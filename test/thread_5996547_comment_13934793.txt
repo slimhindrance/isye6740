@@ -1,0 +1,12 @@
+Thread ID: 5996547
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q1 here.
+
+For 1.6, if you are using an example, you may use a PCA package.
+
+Comment from User 1497720:
+For 1.3 would the identity matrix count as a valid U for the decomposition or did you only want non-I solutions?
+
+  Comment from User 134876:
+  Prof X confirmed that the identify matrix can be used for one of your decompositions, and the other should be a non-identity matrix solution.
+

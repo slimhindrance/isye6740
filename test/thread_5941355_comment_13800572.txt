@@ -1,0 +1,17 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 568225:
+There are cases where the clusters are empty for larger k values (e.g. k=10 and above), how do we report the mismatch rate in such scenarios? The error message I get is "Number of distinct clusters (7) found smaller than n_clusters (10). Possibly due to duplicate points in X."
+
+  Comment from User 979414:
+  you can ignore any empty clusters.
+
+    Comment from User 1133602:
+    How would we report this then? I am modeling my main submission off the Gradescope syntax to try to get the bonus points, and it looks like Gradescope is asking for a list of dictionaries of the following format: 
+
+So for any values of k where the corresponding cluster is empty, do we just not add it to this list of dictionaries (i.e., skip it when constructing this list of dictionaries) or do we add it and report something like {"majority_index": None, "mismatch_rate": None}?
+

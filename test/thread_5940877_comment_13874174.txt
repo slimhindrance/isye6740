@@ -1,0 +1,56 @@
+Thread ID: 5940877
+User 134876 (Original Post) says:
+Often students have some questions about our homework policies. Please use this post as a guide as you begin to work through our homework assignments.
+
+Submission Guidelines:
+
+As the syllabus highlights, we will expect you to provide two different files within a homework submission on Canvas.
+
+1. A pdf file, with the following naming convention: 'GTUsername_HWx_report.pdf'. This pdf should represent the a summary of the work you did on the assignment, including derivations, useful plots, and written explanation/analysis where prompted by the assignment. This must be provided as a separate file...Canvas gives your graders a lot of useful tools for pdfs which make it much easier for us to grade you. When everyone does this, we can provide you more feedback, in a more timely manner.
+2. A zip file with the name 'GTUsername_HWx.zip'. This zip file must have all of your code and the data it requires to run. In other words, a TA should be able to run your code as is from the zip file and reproduce your results, without any modification required.
+
+If there are any issues with the submission format above for any assignment, you will lose 11 points. As the syllabus says, please stick to the requested format to avoid unnecessary loss of points. You might think this is unfair, but it's very important for us; students who don't follow this policy make it harder for the TAs to finish grading on time.
+
+Your homework report must contain all plots, images, analysis, and question answers in the PDF report. Anything present in code/files in your zip but not in your report will not receive points.
+
+For the pdf, you are free to use any markdown tool you like. That said, as the syllabus notes...we don't want you to just provide code! Your analysis is most important in these reports...and you should always approach these assignments with an eye toward demonstrating your knowledge of the underlying workings of the techniques Prof X will introduce. Assuming your handwriting is legible, you may also provide hand-written work in your pdf, particularly for derivations.
+
+Second, one issue we often notice students encounter is ensuring reproducibility. You can trust that your TAs will have the right Python/MATLAB packages installed to run your code, but the most common mistake involves using absolute paths that reference a local filesystem. Your TA's system isn't the same as yours, so naturally, such code would immediately break, and you'll lose points! In other words, don't do: C://Users/me/HW1/data/file.csv, do data/file.csv instead! As long as your code is run in a place where a 'data' folder exists, with a 'file.csv' file inside...you'll have no trouble. You can assume the TAs will always run your code from directly inside your unzipped zip file.
+
+Extensions:
+
+We know that students can have unforeseen challenges, especially since many of you work a full time job. Therefore, we provide each student a 10 day bank of extension time for the entire semester. You don't need to request an extension for individual assignments. You do need to keep track of your total used extension days. Your grading TA will keep track of the time you used, and grade accordingly. Note that you may only use 7 of your 10 days for any given assignment.
+
+If your submission exceeds 7 days for a single assignment or your extension days are used up, a penalty will be applied, at 25% of the total grade for each day. Past 3 days late without extension, you will receive no credit.
+
+Regrading:
+
+Believe it or not, the TAs are human too. We do make mistakes. In such cases, if you have an issue with your grade on an assignment, you have two weeks after grades are published for that assignment to email your grading TA (and cc the Head TA). We will review, and update your grade if the change is warranted.
+
+Some notes on the regrading policy:
+
+- Make sure you are able to justify your request for a re-grade in terms of genuine mistakes your grading TA made. Sometimes students argue that grading is 'too harsh', but if the amount of credit you lost aligns with the rubric (posted alongside the solutions) such complaints will not help you in the regrading process. Any concerns re: the rubric should be brought to the Head TA. 
+- Keep in mind that while regrading can raise your score, it is still the case that your score could go down. A regrade request implies a second review of your assignment...not simply a correction to the items you highlight. That said, there's no need to worry about this, as long as you make sure to check your work against the solutions first.
+
+The Honor Code:
+
+It should go without saying that plagiarism is unacceptable in our course, and that if we notice you presenting other people's work as your own, you will lose credit at Professor Xie's discretion, and potentially be referred to the Office of Student Integrity. Additionally, Please be aware of the AI usage policy posted in the syllabus.
+
+That said, there is a small subset of outside resources that we allow, as long as they are cited, such as...
+
+- Any use of the sample code Professor Xie provides 
+- You are allowed to copy yourself. For instance, if you happened to implement k-means for another course, and we ask you to implement k-means...you may use that previous work.
+- Utility logic. In other words, you can refer to outside resources for any operation that is not directly involved in implementing the requested algorithm. Referring to our k-means example, we would not allow you to copy a k-means implementation, but you could reference a code snippet that reads in your data, and transforms it into the necessary structure for your k-means algorithm.
+
+Comment from User 962021:
+Hello! I'm using LaTex for the report. 
+
+Question - 1. Should we include .tex files and any image files like written notes embedded into the .tex used in the report ? 
+
+2. I'm panning to create a zip file  for the report as I have the reports split by the Questions . Is that ok ?
+
+  Comment from User 962232:
+  You do not need to include the .tex files or the files used for the LaTeX as long as all of the images and deliverables are all included in the PDF.
+
+You need to have a single report PDF file will all answers to all questions (with all the work/output/deliverables included) uploaded alongside but not inside of the zip file.
+

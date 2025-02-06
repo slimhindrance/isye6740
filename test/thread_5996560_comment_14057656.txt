@@ -1,0 +1,35 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1512055:
+In question 2:
+
+1) Before applying the formula, I'm centering the data in test image (after vectorizing it) considering the mean of the vector. Is that correct?
+
+2) In the formula, calling eigenface_1 is equivalent to getting the vector corresponding to the first eigenface obtained in PCA for the first set of images (something like U_1[: , 0]), right? 
+
+My results are not making a lot of sense so I think I'm missing something here.
+
+  Comment from User 672141:
+  1) Yes, you are subtracting the mean from the test image (mean centering).
+
+2) Yes, first eigenface -> first PCA eigenvector.
+
+Check if you are plugging the right variables into the formula (processed and scaled images, right test subject, etc). The order of operations is important inside the formula as noted by Brent here.
+
+    Comment from User 1512055:
+    In 2), there is something I'm still missing... 
+
+When multiplying U_1[:, 0] by it's transpose, I'm getting 1 as a result (which makes sense, as it's the same as calculating the norm of the vector and they were obtained through SVD). That said, my calculation still not making sense. Should I get U_1[:, 0:6] (the top 6 eigenvectors, just like in question 1) instead?
+
+After that, I would have U with shape (4880, 6) and a test image vector with shape (4880,).
+
+      Comment from User 672141:
+      Check Brent's note about the order of operations of the matrices. The calculation you mentioned doesn't sound right.
+
+        Comment from User 1512055:
+        Thanks! Things are making more sense now.
+

@@ -1,0 +1,48 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 962291:
+Hi everyone! My name is Tanisha, and I live in Connecticut.
+
+
+Experience: I work as a data analyst/business engineer in the semiconductor industry and have a BS in Statistics from Michigan. This is my 6th course in the OMSA program.
+
+Communication: Email (tpardasani3@gatech.edu), Text, etc
+
+Time Zone: EST (US) - I'm generally available most evenings and nights on weekends and weekdays.
+
+Skills: R, Python, PowerBi, Statistics 
+
+Project Topic: Open to any topics.
+
+  Comment from User 490310:
+  Hi Tanisha. I'm interested in working with you. I'm a recently retired database developer, administrator, and IT manager so I should have a good bit of time to devote to our project. I'm in the Atlanta area so I'm also in EST. I have only this course this semester and the practicum in the fall to finish the program. I also have R, Python, and some statistics skills developed mostly in this program and a little bit of Power BI at work in the year before retirement. I also have SQL, PL/SQL, and general relational database skills as well as a software engineering background.
+
+I'm also fairly open as to topic. Were you thinking a two or three person group? Let me know if you would like to work together.
+
+  Comment from User 1327290:
+  Hi Tanisha! If you're open to a group of three I'm in EST and would be interested in joining. 
+
+Some Background on me is that I finished my undergraduate degree in Information Systems and Analytics in the spring of last year, and I am a full time OMSA student. I have experience in Python, SQL, Tableau, R, and I'm certified in Excel. Some ideas for a topic would be either in politics or maybe epidemiology. Let me know if you'd like to work together.
+
+Thanks!
+

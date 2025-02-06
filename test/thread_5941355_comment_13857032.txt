@@ -1,0 +1,12 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 1497720:
+When np generates eigenvalues and corresponding eigenvectors is there a way to find out how many eigenvectors are generated for each eigenvalue?
+
+  Comment from User 300188:
+  You'll have to do some extra coding to figure out multiplicity.
+

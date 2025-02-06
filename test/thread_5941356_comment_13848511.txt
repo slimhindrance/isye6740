@@ -1,0 +1,33 @@
+Thread ID: 5941356
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q5 in this thread.
+
+Comment from User 307595:
+Regarding the returned dictionary entries what should "true_label" be?  We have 10 clusters (0 to 9), each cluster after running kmeans contains a mix of correct and incorrect assignments, and each cluster is assigned a majority-based prediction label.  If I predict 1 for cluster 0 do I report "true_label=0" in the dictionary or do I have a bigger problem?
+
+Also, what if more than one cluster has the same prediction?
+
+  Comment from User 217529:
+  Example:
+{0:1,1:3,2:2,4:6,5:5,6:4,…}
+A cluster should be unique across ks
+
+    Comment from User 307595:
+    But what if I have a duplicate cluster?  Do I have something wrong or pick the next most-popular cluster?
+
+    Comment from User 1489130:
+    Joshua: First, you may need to mark your original question as unresolved for a TA to notice and respond.  Second, I'm getting similar results as you where more than one cluster has the same prediction.  I've checked my code over and over and over, and I can't seem to find a mistake.  However, I ran my code through GradeScope, and...it passed.  Additionally, I found an article where someone else using kmeans on the MNIST data had similar results -- kmeans seems to have trouble distinguishing certain digits from one another.
+
+      Comment from User 307595:
+      Thanks for the confirmation.  Regarding gradescope they have stated a pass means your return format is correct, not the results within.
+
+    Comment from User 1489130:
+    Christopher: If "a cluster should be unique across ks", do you mean that each cluster should have a unique prediction, as in, no two clusters should have the same digit for their majority label?
+
+If so, then I'm unsure how my code passed the GradeScope autograder because I'm experiencing the same issue as Josh -- I have two clusters that have the same digit for their majority label.  Additionally, why would articles exist stating that the majority labels in different clusters can be the same digit when using kmeans on the MNIST dataset -- i.e. cluster 1 has majority label 4 and cluster 2 also has majority label 4, therefore both clusters predict the same digit 4? 
+
+Are Joshua and I perhaps misunderstanding your comment?  If we are, can you please clarify your meaning?
+
+      Comment from User 1133602:
+      Following because my code is doing the same thing! LOL
+

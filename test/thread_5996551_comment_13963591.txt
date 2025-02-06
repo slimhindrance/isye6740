@@ -1,0 +1,15 @@
+Thread ID: 5996551
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q2 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 814300:
+Is there a reason the number of dimensions is an input to food_pca() and not country_pca()?
+
+  Comment from User 979414:
+  Hi Christian,
+
+Scaffolding is WIP. 
+You can ignore this parameter.
+

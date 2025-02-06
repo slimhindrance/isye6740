@@ -1,0 +1,16 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 814148:
+I'm hitting this error while extracting HW2 zip file. It seems to be in relation to the naming convention used for the images. What's the recommended workaround? I can't rename the files before extraction, and the image files won't extract because the paths aren't writable. I haven't seen anyone else mention this issue which is surprising.
+
+  Comment from User 979414:
+  Is it possible you are downloading this to a subfolder which has a long path already ?
+Can you try downloading / extracting to your downloads folder ?
+
+    Comment from User 814148:
+    Brilliant! Thanks Paresh.
+

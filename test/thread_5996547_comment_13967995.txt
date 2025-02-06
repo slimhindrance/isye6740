@@ -1,0 +1,19 @@
+Thread ID: 5996547
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q1 here.
+
+For 1.6, if you are using an example, you may use a PCA package.
+
+Comment from User 962052:
+Why do we divide the covariance matrix by m and not m-1? I know the formula for sample covariance would divide by m-1, but just curious of the intuition here.
+
+  Comment from User 979414:
+  This is a great question. 
+
+In the grand scheme of things, m is usually a sufficiently large number, hence dividing by m keeps the math / formula simpler.
+
+    Comment from User 979414:
+    I am assuming your question was in reference to sample covariance, where m is already sufficiently large.
+
+for true covariance i.e when we calculate this on actual data divide by m is actually correct
+

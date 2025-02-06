@@ -1,0 +1,24 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 1325753:
+For Part 3 of Question 3, it asks us to describe a method to find the best k. It also asks what is my best k? Am I just supposed to describe how to identify the best k or is it asking me to calculate and show which one is the best k? If I am to calculate it, for which image should it be calculated for?
+
+  Comment from User 896413:
+  You may use any analytical methods or heuristics to find the best $k$ and provide a value for the best $k$ based on your method. You can mention visual quality, but that alone is not quite rigorous enough as a method. You may choose any image to evaluate, although some choose to use all 3 images because you may have different $k$ values for each image.
+
+    Comment from User 1325753:
+    Follow up question for this, do we have to modify our kmeans functions to output additional information for identifying the idea k value or can we use a package that has a prebuilt kmeans function?
+
+      Comment from User 896413:
+      Unfortunately you can't use a package for this. There are ways to incorporate that additional information in your kmeans function with minimal additional computation time.
+
+        Comment from User 1544230:
+        Hi Anna, just a follow up question. Are we expected to look at values of ks other than the ones that we tested in part 1 and 2 of Question 3?
+
+          Comment from User 896413:
+          No, you are not expected to, but you can if you want to. You can experiment with different methods and additional $k$ values to determine the best $k$.
+

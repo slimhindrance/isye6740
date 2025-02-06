@@ -1,0 +1,79 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1501553:
+Hello! I am hoping to join/form a group :) 
+
+Timezone: PST
+
+Communication: flexible
+
+Experience: Interned at Intel for a few years and was also a systems programmer. I've also worked at Meta as a software engineer. 
+
+Skills: Python, Hack
+
+Project topic: open
+
+  Comment from User 663381:
+  Hello Jose, I'd like to join your group as I am also in the PST timezone
+
+Timezone: PST
+
+Communication: flexible (vye6@gatech.edu)
+
+Experience: Investment Analytics Engineering Manager. Also, my 10th course in the program.
+
+Skills: Python, SQL, R
+
+Availability: Work full time, but available evenings and weekends.
+
+Project topic: Open to anything
+
+    Comment from User 1501553:
+    Awesome! Anyone else interested in joining our team?
+
+      Comment from User 1128373:
+      Hey Jose and Victor!
+
+Jose you remember me from 6203? :) 
+
+Would be down to join your team if you haven't found someone yet!
+
+
+Timezone: PST
+
+Communication: flexible (zlakhia3@gatech.edu
+
+Experience: Data Analyst at a Healthcare company. This is my 8th course
+
+Skills: Python, SQL, R
+
+Availability: Work full time, but available evenings and weekends.
+
+Project topic: Open to anything
+
+  Comment from User 663381:
+  Hey Jose, what is your email?
+
+    Comment from User 1501553:
+    jperez349@gatech.edu
+

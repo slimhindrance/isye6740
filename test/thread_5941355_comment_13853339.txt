@@ -1,0 +1,12 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 1512070:
+should we care about the last column in nodes.txt?  if so, what is it?  seems to be a list of what blog platforms or frameworks they use like "Blogarama", but I don't see any parts of the homework requiring us to use that
+
+  Comment from User 284691:
+  You can safely ignore the last column of notes.txt; it is not required for any part of the homework.
+

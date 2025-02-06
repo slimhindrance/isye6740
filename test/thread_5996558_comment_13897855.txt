@@ -1,0 +1,46 @@
+Thread ID: 5996558
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q3 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+See #130 for additional notes.
+
+PCA package can be used as part of the ISOMAP algorithm. ISOMAP, MDS, and cmdscale (MATLAB) packages are not permitted for this question.
+
+Comment from User 568225:
+I am confused by the shape of the data in isomap.dat. When I retrieve the images, the shape is (4096, 698). The question states that each datapoint is represented by 4096 features based on luminosity. Based on the shape, this indicates that the rows of the matrix are the features and the columns corresponds to each image. However, the question says that "This vector is stored as a row in the file." Am I missing something obvious? Or do we need to transpose the original data?
+
+  Comment from User 979414:
+  I suggest trying to plot image for first face in dataset and it should make things clearer
+
+    Comment from User 653395:
+    Hi! For the first face, I extracted the first column data as the feature vector and reshaped (64, 64), imshow as cmap='gray'.  I got an image like counter-clockwise 90 degree.  After I transposed data, I extracted the first row and got the same thing.  Did I miss anything?
+
+      Comment from User 1316216:
+      Hi Min,
+
+I ran into the same issue today but found a way to rotate back.  I’m not sure if this was intended or not and there may be smarter ways to handle it but I think the issue comes down to the way the reshape occurs relative to the way data is initially stored.
+
+Check out numpy.rot90 function.
+
+Hope that helps!
+
+        Comment from User 653395:
+        Thanks, that is a good idea.  Transpose works, too!
+
+        Comment from User 962039:
+        Having a similar issue and my isomap plot is also mirrored which makes it feel like I'm reading in the data wrong somehow. Was your initial isomap plot similar to lecture or also mirrored?
+
+          Comment from User 1316216:
+          My initial plots were rotated or mirrored, but I figured this probably doesn’t matter since distances should be invariant under rotation or reflection.  I rotated/reflected as needed to match lecture slides for easier grading, but I’m definitely not a TA so take anything I say with a grain of salt!
+
+            Comment from User 962039:
+            Appreciate the response and makes sense, will probably post a separate thread in here and see if there's any other advice from the TA's, thanks!
+
+    Comment from User 962021:
+    I also see the same .Only when I transpose the data  (4096, 698) , I'm able to read in each row as an image. And the image is rotated 90 degree. So I'm transposing the image .
+
+  Comment from User 307528:
+  The eigenvalues should correspond to the covariance matrix derived from 698 samples, not 4096 features.
+

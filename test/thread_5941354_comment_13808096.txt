@@ -1,0 +1,21 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 307528:
+Is "sklearn.metrics" library acceptable for HW1Q3?
+
+  Comment from User 979414:
+  for this Question no library should be used.
+
+    Comment from User 307528:
+    I am using these below packages. Are they ok?
+
+import numpy as np
+from PIL import Image
+import time
+import matplotlib.pyplot as plt
+from sklearn.metrics import silhouette_score
+

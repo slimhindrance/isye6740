@@ -1,0 +1,12 @@
+Thread ID: 5996551
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q2 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1232296:
+I'm assuming for this question we are allowed to use packages that can perform eigendecomposition? or are we expected to code that part too?
+
+  Comment from User 213547:
+  Yes you may use package for eigendecompostion
+

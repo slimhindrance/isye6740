@@ -1,0 +1,108 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1133850:
+Hi everyone, my name is Carrie, and I live in the Washington DC Area. My email is cwilliams498@gatech.edu
+
+Time Zone: EST 
+
+Experience: I'm currently a data scientist on a government contract; my latest project mainly focused on NLP and geospatial data, plus I took a lead role in conducting code reviews. 
+
+Communication: WhatsApp, Teams, Email
+
+Skills: Python, data viz, HTML, CSS, and JS. Comfortable intermediate for R; rusty intermediate for SQL; wiz at Excel
+
+Other: This is my only course this semester, but I will be taking a language class at another institute at the same time.
+
+Project Topic: Open to any and all topics.
+
+
+
+5:48pm EST UPDATE: I have captured two people as my team members, so I am now placing my post on resolved status. Thank you to those who responded to my post and offered to be my teammate, I was both overwhelmed and excited that finding a team wasn't going to be as hard as finding my glasses when they are not on my face.
+
+  Comment from User 990448:
+  Hi Carrie, 
+
+I'm Patalee. and I live in the EST time zone. My email is bappuhamilage3@gatech.edu
+
+Experience: I am an applied econometrician with a strong background in analytics.
+
+Communication: Whatsapp, GT Email, Teams 
+
+Skills: R, Python
+
+Project Topic: I am open to any topic but interested in health data.
+
+Please let me know if you are interested in joining me in your group.
+
+  Comment from User 578087:
+  Hello Carrie,
+
+I am Pankaj, live in Minnesota, CST time zone, email : pshrestha31@gatech.edu and interested in being part of the the group project.
+
+Time Zone: CST
+
+Experience: I am a Data Engineer working on a SaaS fintech company with experience in Data Warehouse/Data Lake/Lake house, Business Intelligence area. This is my 8th course.
+
+Communication: Teams, Email, anything else that is needed
+
+Skills: Python, SQL, Databricks, AWS
+
+Other: This is also my only course this semester.
+
+Project Topic: Also open to any and all topics.
+
+    Comment from User 1133850:
+    I tag you in
+
+  Comment from User 1325825:
+  Hello Carrie,
+
+My name is Dailu Hou, and I am in my second semester of the OMSA program. I am currently looking for a team member to collaborate with me and Yi for this project. I was wondering if you are interested in joining us.
+
+Feel free to reach out to me at dhou30@gatech.edu.
+
+Time Zone: I am flexible with EST, MST, or PST.
+
+
+
+Communication: I prefer Discord, text, or email for coordination.
+
+Experience:
+
+I completed my undergraduate degree at Georgia Tech in Biomedical Engineering.
+
+I currently work as a consultant for a healthcare company
+
+Skills:
+
+Strong math background
+
+Proficient in Power BI, Tableau, and data visualization tools
+
+Skilled in both Python and R
+
+Project Topic: I am open to exploring any topic and excited to contribute to a meaningful project.
+
+Best,
+Dailu
+

@@ -1,0 +1,17 @@
+Thread ID: 5940878
+User 134876 (Original Post) says:
+Hey class,
+
+Setting up this space to allow our TAs to introduce themselves.
+
+We have a very diverse set of TAs this semester, each with their own experiences and perspectives to contribute to the course...so I think it would be good to let you know a bit about us/our backgrounds/what we're interested in.
+
+Comment from User 134876:
+Hello Everyone,
+
+I finished OMSA in Fall 2022, and have been a TA for ISYE6740 for just as long. Currently, I work as a Data Scientist on a finance data science team with Corning, Inc. I used this degree to transition from more traditional accounting/finance roles, and now my work involves essentially full-stack data science work in terms of data engineering and pipelining, productionalizing models and tracking results, all with a focus on how modeling can be applied to corporate finance.
+
+Fun fact: I spent two years after high school as a traveling carnival worker.
+
+Good luck to everyone, let's have a great semester!
+

@@ -1,0 +1,41 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 1512062:
+Hi team, for Q3, I got a few questions:
+
+1. Are we allowed to use the Demo-Code Kmeans_v1.zip (https://gatech.instructure.com/courses/437944/files/57418671?module_item_id=4604652) as a skeleton code first and we build upon there? Meaning we copy but make modifications to our liking and so to answer the question
+2. Are we allowed to use Scipy packages (E.g. Cdist) to calculate L2 and L1 distance metrics?
+
+Thanks team
+
+  Comment from User 1497720:
+  If this helps - I tried doing this however when I saw the gradescope skeleton I realised that the skeleton is much clearer to work with and also scipy is not allowed for gradescope so I suggest not looking at the democode at all because it wont really help in fact it might confuse you more than anything - its output plotting/reconstruction is somewhat different to what is expected on this assignment, plus the stopping condition is k=200 however the assignment requires us to implement a better stopping condition. Also the democode doesnt account for if one of the clusters 'dies' i.e. has no more associated nodes to it.  
+
+I spent time to understand what's going on in the democode sparse matrix section as well and I don't see how its runtime complexity is any better than if you did it sort of from first principles. It saves a few lines of code for sure but in terms of runtime I'm not sure. 
+
+correction: the democode even without using the scipy part does give a significant speed-up. Would like to understand why exactly as a part of next OH!
+
+    Comment from User 1133602:
+    Just wanted to write that I concur. I can appreciate the demo code and want to learn more about why it may be faster, but it wasn't so much faster to justify struggling to understand how to translate it to this problem. I also advise looking into other resources because using kmeans to compress images is a common algorithm that people code up from scratch. 
+
+I deviated from the demo and still had pretty fast convergence. I think the key is to just always vectorize and try to stick to NumPy operations as opposed to base python data structures such as lists, dictionaries, tuples, etc.
+
+      Comment from User 1497720:
+      I still can't figure out a numpy efficient way to calculate the manhattan distances... my code for this part takes a few minutes to run and for the L2 part a few seconds. Although on my system the overall time is less than 10 minutes.
+
+        Comment from User 307595:
+        Did you try using the linalg.norm function with the ord value set to 1?
+
+          Comment from User 1497720:
+          yes however the main challenge was to get the dims to match. I figured out how to 'extend' the nparray in a certain direction so it works now!
+
+          Comment from User 1133602:
+          Yes. I also used np.linalg.norm and swear by it.
+
+  Comment from User 896413:
+  Yes you may use cdist and demo code. You just cannot use is a kmeans package since that is the primary algorithm.
+

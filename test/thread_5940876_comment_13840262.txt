@@ -1,0 +1,75 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1133912:
+Hi, my name is Kitaek and I am looking for a team to join :)
+
+Professional Experience: Biz/Tech Consulting at Big 4
+--> Worked on various projects and deliverables for big corporate clients
+
+Skills: 
+- Drafting proposals, documents, and presentation slides
+- Midrange proficiency in Python and SQL
+
+Timezone: KST (Korea, EST+14, UTC+9)
+--> I do not have a problem working in any timezone.
+
+Program Progress Status: This is my 7th class
+
+Please feel free to reach out to me at klee875@gatech.edu or ktlee927@gmail.com
+
+Thank you.
+
+  Comment from User 307257:
+  Hi Kitaek, 
+
+let me know if you're interested in forming a team!
+
+Details: Currently work as an analyst in tech sector but open up to any topic. For my practicum, my team analyzed telematic data and used machine models to provide solution to the company. 
+
+Time Zone: PST
+
+Preferred Communication: Text or email (Xinyinglu14@gmail.com)
+
+Experience: 3 Years Data Analyst for tech, data visualization and modeling
+
+Skills: Proficient in Python and SQL
+
+Topic Interest: Open to various topics.
+
+    Comment from User 307038:
+    Hi Xinying and Kitaek! 
+
+I am still looking for a team to join, are you guys interested in teaming up? 
+
+Details: I am a data scientist at MLS and am interested in Sports or Healthcare for the project, but open to other areas!
+
+Time Zone: EST but open to other timezones!
+
+Email: sdharmasankar@gmail.com
+
+Experience: Data Scientist for 7 years
+
+Skills: Proficient in Python and SQL
+
+Topic Interest: Open to topics
+

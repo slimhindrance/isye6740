@@ -1,0 +1,23 @@
+Thread ID: 5996558
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q3 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+See #130 for additional notes.
+
+PCA package can be used as part of the ISOMAP algorithm. ISOMAP, MDS, and cmdscale (MATLAB) packages are not permitted for this question.
+
+Comment from User 652074:
+I would like to double check what pakcage we are allow to use for Q3. 
+
+
+
+Are we allow to load scipy.spatial.distance?
+
+  Comment from User 896256:
+  I know we can use a PCA package as part of the ISOMAP algorithm we code up. Just can't use an ISOMAP package.
+
+  Comment from User 213547:
+  yes you may. use scipy.spatial.distance
+

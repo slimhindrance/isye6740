@@ -1,0 +1,17 @@
+Thread ID: 6093176
+User 134876 (Original Post) says:
+Please ask questions related to HW3 Q2 here.
+
+See Alfie's post #213
+
+Comment from User 1497720:
+For 2.1 can the h be different for each? I know that in 2.2 this is not physically possible however in the 1D case should we tune individually for better results? 
+
+(edit: I think it is physically possible to have different 1/Delta1 and 1/Delta2 for the histogram and even h1 and h2 for the KDE however I think the KDE in the assingment is a special case of h1 = h2  ? Is this true? )
+
+  Comment from User 215365:
+  Since you are dealing with each variable, amygdala and acc, individually (the 1D case as you said), the optimal value of h could be different for each variable with Q2.1. These variables are measuring the volumes of brain regions so they could be on different scales.
+
+    Comment from User 1497720:
+    Thanks!
+

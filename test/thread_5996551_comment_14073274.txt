@@ -1,0 +1,19 @@
+Thread ID: 5996551
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q2 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 962021:
+I have normalized the data (zero mean & unit variance) , although the range is 1 to 99  before PCA. I thought it shouldn't hurt to normalize and went ahead with it as in the PCA_demo.py. 
+
+Any thoughts ? Should we use the data as is ?
+
+  Comment from User 284691:
+  A range of approaches are possible; see this post for an earlier question and answer. 
+
+What you've described sounds like a reasonable approach.
+
+    Comment from User 962021:
+    THANK YOU!
+

@@ -1,0 +1,26 @@
+Thread ID: 5996558
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q3 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+See #130 for additional notes.
+
+PCA package can be used as part of the ISOMAP algorithm. ISOMAP, MDS, and cmdscale (MATLAB) packages are not permitted for this question.
+
+Comment from User 1230185:
+sklearn PCA acceptable for Q 3.3?
+
+  Comment from User 979414:
+  Yes it is acceptable.
+
+    Comment from User 1133602:
+    Hi Paresh, 
+In that case, will Gradescope allow scikit learn for this question?
+
+      Comment from User 896413:
+      Yes, sklearn has been added to Gradescope for this question.
+
+        Comment from User 1133602:
+        Thanks for confirming, Anna!
+

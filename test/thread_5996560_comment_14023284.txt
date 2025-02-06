@@ -1,0 +1,19 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 814148:
+We learned in the lecture that eigenvectors are ortho-normal, so wouldn't we always simplify the " (eigenface)_i(eigenface)^T_i" portion of Q4.2's formula to a constant of 1, thus always returning the projection residual of 0? i.e ||(test image) - 1(test image)||^2_2
+
+I'm assuming we want to project (test image)_j against (eigenface)^T_i first and then solve for the residual but it seems to go against the intuitive structure of the formula. 
+
+Any advice/commentary here is appreciated.
+
+  Comment from User 215365:
+  With linear algebra operations, you will want to move from right to left with the calculations. So the first calculation will be $(eigenface)^{T}_{i}(test image)_j$, then you will take this result and multiply with $(eigenface_i)$. Also, the question states to vectorize each image, producing a column vector $(test image)_j$, so the expression that you are subtracting will also be a column vector with the same length as $(test image)_j$ (the eigenfaces are also column vectors). You are correct in general that the inner product of a orthonormal eigenvector with itself will be 1.
+
+  Comment from User 1497720:
+  The way I thought about it was that eigenfacei is a column vector not a row vector. In this case eigenfacei*eigenfaceiT is a nxn matrix.
+

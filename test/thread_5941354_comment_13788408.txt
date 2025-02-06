@@ -1,0 +1,12 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 814148:
+For Q1.3, I'm not understanding how the demo code for the classification of ones and zeros is transferable to the RGB classification. I see that it's recommended we use the demo code to meet the expectations for the question solution. Some guidance on how to translate these two would be appreciated. Thanks.
+
+  Comment from User 962232:
+  Instead of using distances between two numerical values for the grayscale of the pixel, try using the distances between two tuples each containing a vector of numerical values for the R, G, B pixels.
+

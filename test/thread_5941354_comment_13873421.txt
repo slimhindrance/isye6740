@@ -1,0 +1,12 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 307048:
+Hi! When I set my output variable to "class" I get a syntax error because the code is seeing it as trying to define a class rather than assigning a variable. If I submit to Gradescope, if I call the output variable a different name, will that break the grader? I assume submitting normally would be fine to change it to "class_vector" or something like that.
+
+  Comment from User 979414:
+  you might want to wrap it as string "class"
+

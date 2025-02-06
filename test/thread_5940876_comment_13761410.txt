@@ -1,0 +1,59 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 642298:
+Hi Folks, my names is Juan Carlos. This is my last class of the program, hoping to end with a bang and partner with some folks passionate of data.  :)  
+
+TIME ZONE:  I am in Finland ( GMT+2)
+
+OMSA: [CSE 6040, ISYE 6040, MGT 6203, ISYE 6420, CSE 6242, MGT 8803, ISYE 6669, CSE 8803, ISYE 6414]
+
+WORK EXPERIENCE: I have worked in market research for CPG and Retail (10 years) and the last (4 years) I have been working on the mobile gaming industry (Angry Birds). 
+
+·SKILLS: A mix of technical (analytics and coding)  and product/project management. 
+
+·PROJECT TOPIC: Open to ideas and working with the team, nothing set in stone.
+
+  Comment from User 652262:
+  Hey Juancarlos! Have you found a team yet? Just noticed that our timezones are not too far apart
+
+Time Zone: EAT (GMT + 3) - Nairobi, Kenya
+
+Typical Study Hours: 4a-7a on weekdays + Saturday 5a-11a. Also open to some weekday evenings where necessary
+
+Communication: WhatsApp, Email, Slack - my email is mugweru@gatech.edu
+
+Skills: Python, R, SQL
+
+Experience: I work as a data analyst for an energy fintech, with previous experience in Analytics consulting in Financial services and Operations management in the food delivery space
+
+OMSA Program: This is my 8th class of the program, taking it with another, so I have 2 classes this semester
+
+    Comment from User 642298:
+    Hi Kevin, 
+
+Terribly sorry for the late reply I am travelling at the moment. As the project can be done individually I decided to do that instead of having a group. I currently have new born hence my time is tied to the baby. I also want to work with some of the data from my current work. 
+
+All the best in this semester and  hope you are having a good learning time. 
+
+Regards - Juan
+

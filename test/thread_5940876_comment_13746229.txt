@@ -1,0 +1,69 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 979061:
+Hi everyone, my name is Albert and I'm based in San Francisco (PST).
+
+Communication: Whatever is needed, my email is aliu443@gatech.edu
+
+Experience: I'm an AI/ML dev at a consulting firm currently working a lot with LLMs and building LLM applications. This is my 9th course in the program. I have an undergraduate degree in Biomedical Engineering.
+
+Skills: Python is the main language I use for work. Although I am comfortable with SQL and R as well. I have used LaTex to write research papers in the past. 
+
+Project Topic: Open to any suggestions!
+
+  Comment from User 1229645:
+  Hi Albert!
+
+Sounds like you have some interesting experience. My name is Eli and I'm also in PST (Sacramento). I would be interested in working together and am flexible. See below for some more details.
+
+Time Zone: PST
+
+Communication: Discord, slack, email, etc. (rsarabia@gatech.edu)
+
+Skills: Data Analyst/Business Analyst with coding background in languages like Python, R, SQL, Javascript
+
+Classes taken: Basic and Advanced courses
+
+Background: Data Analyst in Semiconductor industry and now Business Analyst in Education. 6 years of experience
+
+Effort: Part-Time OMSA student with a 9-5, but I can meet at any time during the day and pretty much everyday.
+
+Project Topic: Open to suggestions! I have an interest in Audio Data and Deep Learning but have nothing specific in mind as of now.
+
+  Comment from User 805459:
+  Hi Albert,
+
+My name is Sid and I'm also in PST (Sacramento as well). I would be interested in working together and am flexible. 
+
+Time Zone: PST
+
+Communication: Discord, slack, email, etc. (vgrandhi3@gatech.edu)
+
+Skills: Data Scientist with coding background in languages like Python, R, SQL
+
+Classes taken: This is my 7th course in the program. I have a Masters in Product Management
+
+Background: Data Scientist in Retail Media Network working on measurement science. 8 years of experience
+
+Project Topic: Open to suggestions.
+

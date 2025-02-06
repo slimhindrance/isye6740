@@ -1,0 +1,10 @@
+Thread ID: 5941356
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q5 in this thread.
+
+Comment from User 307595:
+PSA:  gradescope is requiring the large .mat file to be uploaded with each submission.  Figured the TAs may want to change this so hundreds of large files aren't placed on the grading server.
+
+  Comment from User 979414:
+  Thats a fair callout and will not be a problem for future gradescope questions.
+

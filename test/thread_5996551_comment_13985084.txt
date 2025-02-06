@@ -1,0 +1,12 @@
+Thread ID: 5996551
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q2 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 307906:
+for part 1 of this question, will each country have it's own color in the scatter plot?
+
+  Comment from User 896413:
+  You don't need to color the points differently, but you can if you want to.
+

@@ -1,0 +1,18 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 1497720:
+Is it okay if we do not remove isolated nodes in preprocessing? If one of them does become a centroid it would just mean that its a cluster of nodes that are either fully isolated or almost isolated however as the algo progresses this centroid would stabilize  ? However I was also thinking that if they do not form their own cluster then they would move the bar of other clusters by reducing their avg so to speak but at the same time a loosely connected node could have near zero values in the eigenvectors so its not like we are defining a connectivity threshold below which we exclude nodes... Is there a critical flaw with including these?
+
+  Comment from User 300188:
+  In spectral clustering you typically want to identify communities in a graph, so including them wouldn't necessarily help with that and increase noise. So unless there's some niche domain reason to keep them, you probably want to remove them.
+
+    Comment from User 1497720:
+    Thanks!
+
+    Comment from User 1497720:
+    Treating negative eigenvalues to the order of 10^(-15) can safely be said to be 0 right? What is the general threshold for this?
+

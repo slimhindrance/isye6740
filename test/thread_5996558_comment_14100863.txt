@@ -1,0 +1,24 @@
+Thread ID: 5996558
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q3 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+See #130 for additional notes.
+
+PCA package can be used as part of the ISOMAP algorithm. ISOMAP, MDS, and cmdscale (MATLAB) packages are not permitted for this question.
+
+Comment from User 307048:
+For 3.1, I'm a little confused on what's needed based on the scaffolding. For the get_adjacency_matrix() function, it says to return a "2d numpy array which can directly be used with plt.imshow(...)" But in the 3.1 directions, it says to visualize (1) the adjacency matrix as an image or (2) visualize the graph similar to the lecture slides using graph visualization packages and illustrate a few images corresponding to nodes at different parts of the graph.
+
+I assume we would print this outside of the scaffolding for the report, is that correct? Or should we print it inside the function?
+
+But when it comes to if we want to pick option (1) to visualize the adjacency matrix as an image, is that just a heatmap? Or are we supposed to show mini example images like with the scatterplot in the lecture? Also if we go with (2)... isn't that AFTER ISOMAP is performed? It wouldn't be the adjacency matrix, it would be the final reduced dimension scatterplot, right?
+
+I guess I'm having trouble visualizing what visualizing this adjacency matrix is supposed to look like. Am I overthinking it and is it just a Graph... like a bunch of nodes and connected edges in empty space? 
+
+Thanks!
+
+  Comment from User 962232:
+  It will basically look like a scatter plot with points on it with varying color to show adjacency, so it could be a heatmap, so you can expect that when x=y, there will be a dot since they are equivalent values thus always close together in distance. But also other values that are adjacent will have dots as well. You can still show images by getting the index of that data point and then grabbing the data from your matrix which will be a 1x(number of pixels) vector that you can construct into a HeightxWidth matrix which will represent the grayscale image.
+

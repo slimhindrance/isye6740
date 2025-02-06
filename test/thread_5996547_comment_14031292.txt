@@ -1,0 +1,12 @@
+Thread ID: 5996547
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q1 here.
+
+For 1.6, if you are using an example, you may use a PCA package.
+
+Comment from User 1323477:
+Any tips for 1.5? I can't find the information anywhere, especially not in lecture
+
+  Comment from User 215365:
+  Section 14.5 (Principal Components, Curves, and Surfaces) of Elements of Statistical Learning could help. This reference can be found in Canvas under Modules.
+

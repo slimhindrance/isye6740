@@ -1,0 +1,78 @@
+Thread ID: 5996578
+User 134876 (Original Post) says:
+Hello Students, 
+
+We again have an additional bonus point opportunity for HW2 via GradeScope submission. This will again be 5 points total, Split evenly across the 3 submitted problems. All additional details regarding this submission are below, please ask any follow up questions in this thread.
+
+
+
+For HW2, the required materials are provided in the HW2 assignment zip file. Please follow the instructions below carefully to complete and submit your assignment.
+ 
+
+Gradescope will store the data files under a data folder. Please ensure your code reads any files originating from `data` as root folder. 
+
+For Example, if you need to read a file like abc.txt using pandas, you should read it as:
+
+## Read abc.txt file
+import pandas as pd
+data = pd.read_csv('data/abc.txt')
+
+This will ensure that your code works properly with the data stored in the data folder on Gradescope.
+
+1. Files Provided
+The scaffolding in your HW2 zip file includes the following:
+
+food_consumption.py
+
+order_of_faces.py
+
+eigen_faces.py
+
+In addition, there is a data folder, which contains the necessary data files for all the questions in this assignment.
+
+2. What’s Not Allowed
+
+Please do not make the following changes:
+
+Do not modify the filenames of the provided Python files: food_consumption.py, order_of_faces.py, eigen_faces.py.
+
+Do not change the method names that have been pre-defined in the files.
+
+Do not add extra parameters to any method unless those parameters have default values specified.
+
+Any deviation from these instructions will lead to a failed gradescope submission.
+
+3. What’s Allowed (but Not Required)
+
+You may add more Python files if you need to organize your code further, but this is not required.  If you do add new files, ensure they are clearly named and maintain the overall structure.
+
+4. Submission Instructions
+
+Submit only Python files for the assignment.
+
+This includes food_consumption.py, order_of_faces.py, eigen_faces.py, and any additional Python files you may have created.
+
+Do not submit the data folder. The data files are not needed for submission, as Gradescope already has the data folder loaded for grading purposes.
+
+Gradescope will only test Python files. Any non-Python files (such as text files, notebooks, etc.) will be ignored. Ensure you are only submitting .py files.
+
+Please double-check your submission to ensure compliance with these guidelines. If you have any questions, feel free to ask! 
+
+Good luck!
+
+
+
+Note: Gradescope submissions and your homework submissions share the same extension days. So late gradescope submissions and on-time homework submissions will still utilize extension days.
+
+Comment from User 962039:
+For Q4, I'm getting a shape error, it seems to be looking for (6,60,80), but with the downsampling package I'm using to reduce by 4, it's not rounding down the 243 pixels to 60, but to 61 (e.g. (6,61,80). Is this also an acceptable answer or does it have to downsample the 243 by 4 and round it down to the nearest integer as opposed to just rounding to the nearest integer?
+
+  Comment from User 979414:
+  It has to be matching gradescope test dimensions
+
+    Comment from User 962039:
+    Does it matter for the actual submission since it’s not explicitly stated if when downsizing to round up or round down with an odd pixel dimension?
+
+      Comment from User 979414:
+      no for actual submission it wont be a problem / penalty. Gradescope does rely on testing the shape as expected.
+

@@ -1,0 +1,47 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1512067:
+Hi Everyone, 
+My name is Jathuson. I currently live in Toronto.
+
+Experience: I'm currently a Data Analyst at Magellan Aerospace. I have an undergraduate degree in Materials Science & Engineering. This is my 5th course (Intro courses and SIM). 
+
+Communication: Email (jjeykumar7@gatech.edu), WhatsApp, Text, etc.
+
+Time Zone: EST (Toronto)
+
+Skills: Python, SQL, R. Tableau/PowerBI, 
+
+Project Topic: Open to any topics.
+
+  Comment from User 1333011:
+  Hi Jathuson, 
+
+My name is Nikhil and I am interested in exploring  health related or environment related topic. However, if there is any other topic that you find are more interesting then I am open to other ideas.  Do you have availability in your team?
+
+I am a PhD in ChemE and so far I have taken 2 courses in OMSA program. I live in Southern California. 
+
+I have strong skills in python and maths as well as in research so I would be be able to contribute well to the project. Thanks and let me know. 
+
+Nikhil Raj
+

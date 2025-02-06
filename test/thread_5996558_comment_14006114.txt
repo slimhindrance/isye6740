@@ -1,0 +1,27 @@
+Thread ID: 5996558
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q3 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+See #130 for additional notes.
+
+PCA package can be used as part of the ISOMAP algorithm. ISOMAP, MDS, and cmdscale (MATLAB) packages are not permitted for this question.
+
+Comment from User 1512031:
+I'm running into an issue where scipy's shortest_path function is returning infinite values when applied to the adjacency matrix A... I'm not quite understanding why this is happening. Is the issue with my adjacency matrix, or am I implementing the shortest_path function incorrectly?
+
+  Comment from User 896413:
+  Try tuning your epsilon (higher).
+
+  Comment from User 1519483:
+  I came across this issue too and I think it may be because some images are completely isolated when applying a specific ε. Like if we apply a low enough threshold, there are some images that just don't have any neighbours. And if there is no connection between two images, the geodesic distance between them is infinity which MDS cannot handle. Is this correct to say? 
+
+If so, instead of choosing an arbitrary high epsilon value could we do something like replacing all the infinity geodesic distances with the highest non-infinity distance that was found in the graph?
+
+    Comment from User 814148:
+    Came to pose this same question. It's a bit unclear from the lecture how we'd adjust for these cases in implementation. This is the only solution that seemed reasonable. Looking forward to a response on this.
+
+      Comment from User 672141:
+      If you come across these cases, I would follow Anna's advice of tuning epsilon higher. I'm not sure if by putting the max distance to the infinite ones you will be able to arrive at the desired shape from lecture.
+

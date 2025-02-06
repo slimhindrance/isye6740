@@ -1,0 +1,30 @@
+Thread ID: 5941352
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q1 in this thread.
+
+Comment from User 896416:
+Any tips for students who've never written a proof before on how to approach question 3?
+
+  Comment from User 215365:
+  The word show used in the homework gives a hint that this will involve mathematically going step by step to demonstrate that the two mathematical expressions are equivalent. Proofs can involve definitions and algebraic manipulations and other steps. You should be able to justify why you can make the change that happens to the mathematical expression at each step and for some important steps, you may need to explicitly state that reason.
+
+    Comment from User 1127895:
+    Is it okay to say "and after some algebra" and skip ahead a few steps (Assuming it's fairly obvious/simple algebra)? Thinking something like:
+
+$$0\ =\ 2\sum_{ }^{ }xy\ -\ 2\sum_{ }^{ }xz$$
+
+And after some algebra
+
+$$\frac{\sum_{ }^{ }xy}{\sum_{ }^{ }x}=\ z$$
+
+Would that be okay?
+
+      Comment from User 215365:
+      Each question will of course be different, but I think a step like that would be acceptable--you just want to show that you have an understanding of the logical flow of the proof. For example, it's possible that some students, in their head,  can perform some complicated derivative, but it may be a good idea to show some of those steps explicitly.
+
+        Comment from User 896416:
+        For finding derivatives, do we need to show every step we took to arrive at the derivative? Does the same general idea stated above apply to that as well?
+
+          Comment from User 896413:
+          Yes. Show reasonable steps, like you don't need to show moving a constant around in the derivative but you should show if you are making an assumption that greatly simplifies the expression. It's fine to talk your way through each derivation step as well if you feel that it helps explain your methodology.
+

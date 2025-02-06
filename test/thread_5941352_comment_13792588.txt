@@ -1,0 +1,14 @@
+Thread ID: 5941352
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q1 in this thread.
+
+Comment from User 121859:
+Q1.3
+Trying to solve the Q1.3 but kind of lost here. I tried chapter 14.3.6 page 509 of the ESLII book, also the chapter 9.1 page 424 of Bishop - Pattern Recognition with no success. Can anyone point me to the right place to find the explanation for this question?
+
+  Comment from User 1497720:
+  It would help if you understand that minimising over a variable means that you may ignore other independent variables. Also minimising z is the same as minimising z/10. Also basic algebraic identities!
+
+  Comment from User 1512055:
+  If you rewrite the terms as vectors (paying close attention to the squared terms) you might be able to find the solution.
+

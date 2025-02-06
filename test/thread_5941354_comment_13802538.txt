@@ -1,0 +1,23 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 307528:
+Hello TAs - I am running my codes on Spyder (Anaconda). I am getting below output and error messages. Can you guide me what mistake I am making again and again? Next question - for Analyzing Manhattan distance, do I need to do all 3 images, or just 1 is good enough to complete HQ1Q3? Do we need to resize the football.bmp image into 400x225?
+
+  Comment from User 979414:
+  Now adjust your k-means implementation to use the Manhattan distance (ℓ1 norm) metric. Please provide all of the same above deliverables for only the football.bmp image.
+
+This is very clearly mentioned in the homework question. 
+
+
+- There should not be any resize of image needed. For sea turtle you can ignore the 4th channel though.
+
+    Comment from User 979414:
+    from the error It looks like your code is having some dimension mismatch issues.
+
+  Comment from User 962196:
+  I ran into this as well. It looks like the sea turtle image is coded as RGBA. So it's a 225x400x4 image instead of a 225x400x3. The 4th dimension is the transparency, which is 255 for the entire thing. You should be able to safely remove that 4th dimension to get a 225x400x3 image.
+

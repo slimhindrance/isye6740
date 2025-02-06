@@ -1,0 +1,12 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 307048:
+For the projection residuals, I'm getting values in the 100millions/low billions. Does that magnitude sound right or should I revisit my equation? For 4.2 the equation given, do you square everything after calculating test_image - (eigenface)(eigenface.T)(test_image) ?
+
+  Comment from User 213547:
+  We are interested in the relative numbers of S11, S12, S21, S22,. Magnitude in the range is acceptable.
+

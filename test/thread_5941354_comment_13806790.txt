@@ -1,0 +1,14 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 814300:
+If I use a reference from Stack Overflow for some minor portion in my code, do I need to cite it in the PDF or is a comment in the code with the URL sufficient?
+
+For example, I looked up someone converting a np array to a PIL image
+
+  Comment from User 979414:
+  A comment in code should be sufficient.
+

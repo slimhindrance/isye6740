@@ -1,0 +1,15 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 307595:
+I'm using the scaffolding code for my implementations to submit to Gradescope and to Canvas.  Can we add "import random" to our package requirements to randomize centroid starting points?  Meaning how do we know Gradescope will have this or not?
+
+  Comment from User 307595:
+  Nm, I see numpy has a random function and numpy is already imported.
+
+    Comment from User 979414:
+    random is provided by python runtime and can be imported too
+

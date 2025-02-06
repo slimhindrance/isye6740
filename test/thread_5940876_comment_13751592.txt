@@ -1,0 +1,85 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 1325688:
+Hi Everyone,
+
+My name is Philip, and I currently live in Jacksonville, FL.
+
+Experience
+
+I’m a Senior Data Analyst at Mazda North American Operations. This is my 6th course in the program. Last semester, I completed DVA, where I led the modeling efforts for our group project. I was responsible for building and implementing several machine learning models, evaluating their accuracy metrics, and comparing their performance. Using scraped data provided by other team members, I troubleshot issues to ensure the models produced clean, reliable results, which we analyzed for our final project.
+
+Communication
+
+I’m flexible with communication methods—email (plam35@gatech.edu), Slack, WhatsApp, text, or others. However, I believe Slack would work best as our primary communication tool.
+
+Time Zone
+
+Eastern Standard Time (EST)
+I’m available for daily, weekly, or biweekly meetings as needed during most evenings after 5 PM, Monday through Friday. I’m also flexible on weekends with proper scheduling.
+
+Skills
+
+Programming: Python, SQL, R
+
+Visualization Tools: Tableau, Power BI
+
+Project Topic
+
+I’m open to exploring any project topics and excited to collaborate with you all!
+
+Looking forward to working with everyone!
+
+Best,
+Philip
+
+  Comment from User 1512065:
+  Hey Philip,
+
+My name is Hemil, and I currently live in Pennsylvania, let me know if you want to join up!
+
+Time Zone: EST
+
+Communication: Teams, Slack, Email: hray32@gatech.edu
+
+Skills: Python, SQL, R, Java, PowerBi, Tableau, etc.
+
+Background: Currently a Data Analyst with a bachelor's in physics, this is my 5th course!
+
+Project Topic: Open to anything!
+
+  Comment from User 280091:
+  Hi Philip,
+
+My name is Melody, I live in Atlanta,GA
+
+Time Zone: EST, my schedule is very flexible, All of my commitments are asynchronous. 
+
+Communication: I'm also very flexible. You name it, I have it! Email: spogula3@gatech.edu
+
+Skills: Python, SQL, R, Tableau
+
+Background: I work part time as a Data Analyst with a BS in ISyE from GT with a concentration in analytics and data science, this is my 4th course! I also took DVA last semester and handled everything related to the data(finding, scraping, cleaning, etc.) and a little over half of the modeling
+
+Project Topic: Open to anything! I have a few rough ideas in mind already
+

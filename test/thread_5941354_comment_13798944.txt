@@ -1,0 +1,32 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 578087:
+Appreciate clarification on 
+
+Run your k-means implementation (with squared-ℓ2 norm) with random initialization centroids. Due
+to the nature of randomness, Please try multiple times and report the only the best seed (in terms of
+image quality).
+
+
+
+My understanding is that, for each value of K, we want to run k-means with random centroids multiple times, but did not follow how we choose the "best" one. Seems to suggest "in terms of image quality" but not sure what this is alluding to? Are we looking at the compressed file size with the smallest being the "best"?
+
+
+
+Regards
+
+Pankaj
+
+  Comment from User 979414:
+  The best image is subjective here. The factors that could play in your implementation could be your centroid initiation, algorithm cut off condition.
+
+    Comment from User 1133015:
+    Do we need to find the best seed for each k for the same image (eg: k=3 use seed 0, k=6 use seed 3, etc.), or can we use the same seed for the same image and all k values (eg: sea turtle image Kmeans uses seed 0 for all different k values)?
+
+      Comment from User 979414:
+      I think same seed for all should be fine
+

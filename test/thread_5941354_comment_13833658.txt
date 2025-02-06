@@ -1,0 +1,14 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 1512053:
+Q3.1 - are we expected to include all 15 images in the PDF report or will the printed result in the notebook suffice?
+
+  Comment from User 799310:
+  Yes, you should include them in the report.
+
+Per the Homework Policies: "Your homework report must contain all plots, images, analysis, and question answers in the PDF report. Anything present in code/files in your zip but not in your report will not receive points."
+

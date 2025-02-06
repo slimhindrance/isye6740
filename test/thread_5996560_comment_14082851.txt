@@ -1,0 +1,15 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1230051:
+For Q4.1, we are supposed to get 6 different images correct? The first two for subject 1 appear to  be the same for me. Same thing for subject 2 for two photos.
+
+  Comment from User 672141:
+  Yes, you plot the first 6 eigenfaces. About the first two eigenfaces, they should not be the same if you consider principal components are projections of variance in the data. There are some notable differences between them. If this is not the case, check the steps of computing the eigenface.
+
+    Comment from User 1230051:
+    Ok yeah that was my understanding as well. For subject 1, it seems like the first 2 eigenfaces are the same. For subject 2, I think I'm on the right track as the noglasses and normal pictures are actually the exact same. Thanks!
+

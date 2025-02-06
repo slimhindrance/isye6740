@@ -1,0 +1,24 @@
+Thread ID: 5941353
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q2 in this thread.
+
+Comment from User 1497720:
+$$For\ 2.2\ we\ know\ that\ x^{i\ }and\ \mu^j\ are\ given.$$
+
+Thus we can treat them as constants. Doesn't that make the problem trivial? Am I missing something?
+
+  Comment from User 962232:
+  u^j is a fixed centroid, x^j is a variable of the given point. Knowing what you know about J and how to find the cluster assignments, how would you determine r^{ij}?
+
+    Comment from User 1497720:
+    I think I was/am lacking an intuitive understanding here. So in 2.2, x^i is not really fixed because the centroid is fixed time and we have to determine which datapoint x^i should join jth cluster in order to minimize J. 
+
+In 2.1 we were already given the assignment of jth cluster of x^ith datapoint and we had to determine the best centroid for each cluster that minimizes J. 
+
+In simpler words, in Q2.1 the cluster <-> datapoint pairings were given and we had to determine the centroid for each cluster that minimized J. In 2.2 we have to determine the cluster <-> datapoint pairings for each given centroid/cluster in order to minimize J.
+
+Thank you I think that I get it now, please correct me if otherwise.
+
+    Comment from User 1497720:
+    In 2.2, is it possible for a cluster to not have any datapoints? I am thinking of a case where all the datapoints are skewed towards one of the fixed centroids - in this case to minimize J we would have to assign all the datapoints to that centroid !?
+

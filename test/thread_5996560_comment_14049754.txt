@@ -1,0 +1,12 @@
+Thread ID: 5996560
+User 134876 (Original Post) says:
+Please ask all questions related to HW2 Q4 here.
+
+There are no runtime requirements for this question, however please keep it reasonable (<10min).
+
+Comment from User 1128222:
+Are the eigenfaces the eigenvectors which have been scaled by the reciprocal of the square root of the variance of the data in that direction (the square root of the eigenvalue)? In the usual PCA setup, from my understanding we scale by the reciprocal of the eigenvalues so that the resulting data has variance 1 in each of the coordinate directions, and this is what is outlined in the lecture slides on page 6. Are we following the same convention here?
+
+  Comment from User 672141:
+  Yes, you can follow the same convention as slide 6.
+

@@ -1,0 +1,37 @@
+Thread ID: 5940876
+User 134876 (Original Post) says:
+Hi class!
+
+Please feel free to use this space to find potential team members for your project! 
+
+Please remember to resolve your comment when you've set up your team, so anyone reading knows you already have found team members to work with.
+
+You can use the following template:
+
+Time Zone: EST
+
+Experience: I currently work as a XXX, with experience in YYY.
+
+Communication: Teams, Slack, Email, etc.
+
+Skills: XXX
+
+Other: I've taken XXX courses
+
+Project Topic: Open to any topic, or topics specific to X topic.
+
+Comment from User 318771:
+Hello 
+
+I am based in Atlanta, GA (EST timezone) and would be like to join a team. Ideally with the folks in EST or CST timezone.
+
+This is my 8th course in OMSA, and I am a working professional for over a decade. I have expertise in Databricks, Python, PowerBI and various other data analytics tools/technologies. I have strong programing, management and communication skills and I can use help on math. 
+
+I am open to any topic for the project. I am free during most of the evenings.
+
+I can be reached at adarsh.gupta@gatech.edu
+
+Thanks!
+
+Adarsh
+

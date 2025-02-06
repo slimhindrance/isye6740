@@ -1,0 +1,18 @@
+Thread ID: 5941352
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q1 in this thread.
+
+Comment from User 962158:
+For Q1.2,
+
+Do we need to come up with a way to account for every possible city in our binary representation of the city feature or are we just concerned with using the first binary feature to represent either Atlanta or Dallas?
+
+  Comment from User 896413:
+  You may interpret it any way you wish, as long as it accounts for the two given data points $x^1$ and $x^2$. What is more important is your explanation and computation for the final similarity measure.
+
+    Comment from User 1230103:
+    For Q1.2, should we assume that the first two features each have only two possible values (e.g., at most two different cities or house types in the dataset) since binary vectors are being used?
+
+      Comment from User 896413:
+      Sure, that is a valid assumption. If you want only two possible values in the dataset, then define it as such. You can choose to define as many values as you like. As long as you have a reasonable interpretation of the data and it matches with your similarity calculation, it will be acceptable.
+

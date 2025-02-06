@@ -1,0 +1,19 @@
+Thread ID: 5941354
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q3 in this thread.
+
+All demo code walkthroughs are on #10
+
+Comment from User 1133602:
+I know that Gradescope will clearly check our request outputs for "class" (i.e., the cluster assignment vector) and the "centroid" matrix, but how exactly will the original Canvass submission test this? I'm asking because I am currently looping over all of my k-values, images, and types of norm to use (i.e, L1 vs L2 norm), and these variables are treated as local variables within this loop. In my script, I print out the rendered compressed image as well as the number of iterations and time to convergence for each image/value of k/type of norm combination. 
+
+Does this really matter as long as I am reporting what is requested in the .PDF report? I just wanted to know if the TA needed to be able to directly access the "class" and "centroid" outputs from our script without editing any of it on their end to be able to view those objects.
+
+  Comment from User 672141:
+  If your code outputs all the images (displayed or saved to folder), iterations and runtimes without the need of altering the code, that meets the requirements for the code submission to Canvas. 
+
+We are not necessarily going to review classes or centroid outputs, but we will read through the code and ask questions if necessary. Hope this helps.
+
+    Comment from User 1133602:
+    Awesome, thank you, Patricia!
+

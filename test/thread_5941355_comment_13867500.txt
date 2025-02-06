@@ -1,0 +1,17 @@
+Thread ID: 5941355
+User 134876 (Original Post) says:
+Please ask all questions related to HW1 Q4 in this thread.
+
+For spectral clustering specifically you can use the sklearn kmeans package for the kmeans portion only, but you must implement the spectral clustering portion of the code yourselves. We allow this because the primary algorithm in this problem is spectral clustering, not kmeans. In general, when an algorithm is a smaller part of a larger algorithm, we allow package use for the smaller piece while you code the larger piece.
+
+Comment from User 1230051:
+Do the values in edges.txt consist of the identifiers of the nodes that are connected to each other? For example, the first value appears to be 267, 1394. Does this mean that node 267 is connected to 1394 and vice versa? 
+
+If so, is it safe to assume that the node identifiers are the same ones in nodes.txt? I believe the answer to this question is yes but just want to double check.
+
+  Comment from User 672141:
+  Yes, the edges.txt represent the connections between nodes. The identifiers (index) are the same as nodes.txt.
+
+    Comment from User 1230051:
+    Great thank you!
+
