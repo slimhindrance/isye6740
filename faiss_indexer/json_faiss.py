@@ -15,6 +15,8 @@ load_dotenv()
 # Define paths
 json_folder = os.getenv("JSON_THREADS_DIR", "/app/json_threads")
 faiss_index_path = os.getenv("JSON_FAISS_INDEX_PATH", "/app/faiss")
+docx_folder = os.getenv("DOCX_DIR", "/app/json_threads")
+pdf_folder = os.getenv("PDF_DIR", "/app/json_threads")
 
 # Load the embedding model
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
@@ -35,7 +37,7 @@ vector_store = FAISS(
 
 # Process JSON, DOCX, and PDF files
 documents = []
-for filename in tqdm(os.listdir(json_folder), desc="Processing Files", unit="file"):
+for filename in tqdm(os.listdir(json_folder), desc="Processing JSON Files", unit="file"):
 
     # Processing JSON Threads
     if filename.endswith(".json"):
@@ -60,9 +62,11 @@ for filename in tqdm(os.listdir(json_folder), desc="Processing Files", unit="fil
             # Add JSON threads with medium authority
             documents.append(Document(page_content=thread_content, metadata={"source": filename, "authority_level": 1}))
 
+documents = []
+for filename in tqdm(os.listdir(docx_folder), desc="Processing DOCX Files", unit="file"):
     # Processing DOCX Files
-    elif filename.endswith(".docx"):
-        docx_path = os.path.join(json_folder, filename)
+    if filename.endswith(".docx"):
+        docx_path = os.path.join(docx_folder, filename)
         docx = DocxDocument(docx_path)
 
         # Extract text from all paragraphs
@@ -71,9 +75,11 @@ for filename in tqdm(os.listdir(json_folder), desc="Processing Files", unit="fil
         # Add DOCX files with the highest authority
         documents.append(Document(page_content=docx_text, metadata={"source": filename, "authority_level": 3}))
 
+documents = []
+for filename in tqdm(os.listdir(pdf_folder), desc="Processing DOCX Files", unit="file"):
     # Processing PDF Files
-    elif filename.endswith(".pdf"):
-        pdf_path = os.path.join(json_folder, filename)
+    if filename.endswith(".pdf"):
+        pdf_path = os.path.join(pdf_folder, filename)
         pdf_doc = fitz.open(pdf_path)
 
         pdf_text = ""
