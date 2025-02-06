@@ -14,6 +14,18 @@ from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 from helpers.rag_helper import generate_rag_response
+import sys, gc, signal, torch
+
+def cleanup_and_exit(signum, frame):
+    print("Releasing GPU memory and exiting...")
+    torch.cuda.empty_cache()
+    gc.collect()
+    sys.exit(0)
+
+# Catch termination signals
+signal.signal(signal.SIGINT, cleanup_and_exit)
+signal.signal(signal.SIGTERM, cleanup_and_exit)
+
 
 class GenerateRequest(BaseModel):
     prompt: str

@@ -30,7 +30,7 @@ def load_faiss_index():
     print("🔄 Loading FAISS vector store...")
     try:
         vector_store = FAISS.load_local(faiss_index_path, embeddings, allow_dangerous_deserialization=True)
-        retriever = vector_store.as_retriever(search_kwargs={"k": 3})  # Retrieve top k relevant docs
+        retriever = vector_store.as_retriever(search_kwargs={"k": 5})  # Retrieve top k relevant docs
         print("✅ FAISS vector store loaded successfully!")
         return retriever
     except Exception as e:
