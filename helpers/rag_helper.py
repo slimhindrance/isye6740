@@ -98,7 +98,7 @@ def generate_rag_response(query):
         with torch.no_grad():
             output = model.generate(
                 **inputs,
-                max_new_tokens=100,  # Increased tokens for more comprehensive responses
+                max_new_tokens=150,  # Increased tokens for more comprehensive responses
                 pad_token_id=tokenizer.eos_token_id
             )
 
@@ -116,6 +116,9 @@ def generate_rag_response(query):
         return response_cleaned if response_cleaned else "I don't have enough information to answer this question."
 
     except Exception as e:
+        # Clear memory
+        torch.cuda.empty_cache()
+        gc.collect()
         return f"❌ ERROR: {str(e)}"
     
     finally:

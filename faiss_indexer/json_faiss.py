@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 from tqdm import tqdm
 from docx import Document as DocxDocument  # For DOCX processing
 import fitz  # PyMuPDF for PDF processing
-
+import torch, gc
 load_dotenv()
 
 # Define paths
@@ -106,18 +106,27 @@ for filename in tqdm(os.listdir(pdf_folder), desc="Processing PDF Files", unit="
 if json_documents:
     vector_store.add_documents(json_documents)
     vector_store.save_local(faiss_index_path)
+    # Clear memory
+    torch.cuda.empty_cache()
+    gc.collect()
     print(f"✅ FAISS index updated with {len(json_documents)} JSON documents!")
 
 # Add documents to FAISS and save index
 if docx_documents:
     vector_store.add_documents(docx_documents)
     vector_store.save_local(faiss_index_path)
+    # Clear memory
+    torch.cuda.empty_cache()
+    gc.collect()
     print(f"✅ FAISS index updated with {len(docx_documents)} DOCX documents!")
 
 # Add documents to FAISS and save index
 if pdf_documents:
     vector_store.add_documents(pdf_documents)
     vector_store.save_local(faiss_index_path)
+    # Clear memory
+    torch.cuda.empty_cache()
+    gc.collect()
     print(f"✅ FAISS index updated with {len(pdf_documents)} PDF documents!")
 
 else:
