@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  ed_downloader:
+    build: .
+    container_name: ed_downloader
+    env_file: /home/lindeman/isye6740/.env
+    volumes:
+      - ./threads:/app/threads  # Persist data locally
+    restart: "no"

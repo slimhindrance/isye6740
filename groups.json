@@ -1,0 +1,13 @@
+{
+    "admin": [
+        "test",
+        "test1"
+    ],
+    "editor": [
+        "editoruser"
+    ],
+    "viewer": [
+        "vieweruser",
+        "testuser"
+    ]
+}

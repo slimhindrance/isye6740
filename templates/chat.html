@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Developer: Chris Lindeman-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example RAG LLM Chat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .chat-container {
+            width: 50%;
+            margin: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .chat-box {
+            height: 400px;
+            overflow-y: auto;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .message {
+            padding: 8px;
+            border-radius: 5px;
+            margin: 5px 0;
+        }
+
+        .user-message {
+            background-color: #d1e7fd;
+            text-align: right;
+        }
+
+        .bot-message {
+            background-color: #e3f2c1;
+            text-align: left;
+        }
+
+        input,
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align: center;">LLM Chat Interface</h2>
+    <h3 style="text-align: center;">For Computational Data Analysis course ISYE6740</h3>
+    <div class="chat-container">
+        <div id="chat-box" class="chat-box"></div>
+        <input type="text" id="user-input" placeholder="Ask me anything..." onkeypress="handleKeyPress(event)">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        function handleKeyPress(event) {
+            if (event.key === "Enter") {
+                sendMessage();
+            }
+        }
+
+        async function sendMessage() {
+            let userInput = document.getElementById("user-input").value;
+            if (!userInput) return;
+
+            let chatBox = document.getElementById("chat-box");
+
+            // Display user message
+            let userMessage = document.createElement("div");
+            userMessage.className = "message user-message";
+            userMessage.innerText = userInput;
+            chatBox.appendChild(userMessage);
+            document.getElementById("user-input").value = "";
+
+            // Send request to FastAPI server
+            let response = await fetch("/generate", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ prompt: userInput, max_length: 100 })  // Ensure correct JSON structure
+            });
+
+            let data = await response.json();
+
+            // Display bot response
+            let botMessage = document.createElement("div");
+            botMessage.className = "message bot-message";
+            botMessage.innerText = data.generated_text || "Error: No response";
+            chatBox.appendChild(botMessage);
+
+            // Scroll to the latest message
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+        console.log("Developed by Chris Lindeman");
+    </script>
+</body>
+
+</html>

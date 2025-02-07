@@ -1,0 +1,14 @@
+{
+    "test": {
+        "username": "test",
+        "password": "test"
+    },
+    "editoruser": {
+        "username": "editoruser",
+        "password": "$2b$12$JtREs9DWhIVRGlUO7JfUoO52W4.YZmVMeUQkqsO6iw3XeVmgBbfKy"
+    },
+    "test1": {
+        "username": "test1",
+        "password": "$2b$12$H2ZFDH1VpJoFNqNWrZQ0x.uD48n2P1qrj5gVuUxzsr0rADE99vMW2"
+    }
+}

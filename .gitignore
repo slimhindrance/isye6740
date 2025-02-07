@@ -1,0 +1,9 @@
+ed/threads/
+ed/clean_threads/
+json_threads/
+threads/
+docx/
+pdf/
+.env
+ed/__pycache__/
+__pycache__/
