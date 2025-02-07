@@ -1,9 +1,0 @@
-Thread ID: 6005999
-User 1131595 (Parent Post) says:
-<document version="2.0"><paragraph>Hello, making this question private as I don't want to give away too much information. I'm trying to get some clarity on what is meant by two different eigendecompositions. At first, I thought the second decomposition was SVD but it appears from watching Neepa's office hours, we should be referring to slides 17-19.</paragraph><paragraph>It's clear to me that one eigendecomposition is C = UΛU^T where U is the eigenvectors and Λ is eigenvalues, but based on reading those slides, the only other formulation I see is Cu = λu for each of the eigenvectors and eigenvalues, which I think of more as a property of eigenvectors/values, not so much a decomposition. </paragraph><paragraph>Without giving too much away, is it possible to let me know if I'm on the right track or provide some clarity on what's being asked?</paragraph><paragraph>Thank you!</paragraph></document>
-
-Answer from User 215365:
-You are correct that SVD wouldn't apply since eigendecomposition is $U\Lambda U^T$  (this is at the bottom of slide 19). Also $Cu=\lambda u$ is more of a definition of an eigenvector and eigenvalue. So there should be a way to show that there are two distinct expressions that are eigenvalue decompositions of the matrix $A$.
-
-
-

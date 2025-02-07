@@ -1,9 +1,0 @@
-Thread ID: 6102081
-User 1133909 (Parent Post) says:
-<document version="2.0"><paragraph>When you use ISOMAP do you end up with a model you can apply to new data points? Or will you need to run it all over again, incorporating the new data point? It seems like its just based on the data point relationships to one another, so I'm not really understanding if, once the owrk is done, if it will be useful for new data?<break/><break/>For example, in regression you end up with a  set of Betas that can be applied to new data points to generate predicted values?</paragraph><paragraph/><paragraph/></document>
-
-Answer from User 213547:
-Yes, an Isomap model can be used on new datasets, as long as the new data shares a similar underlying manifold structure with the data used to train the Isomap model.
-
-
-

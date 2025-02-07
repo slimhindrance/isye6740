@@ -1,7 +1,0 @@
-Thread ID: 6007217
-User 1519483 (Parent Post) says:
-<document version="2.0"><paragraph>Hi there, </paragraph><paragraph>When I submitted the homework, it appears that canvas added a 1 and 2 at the end of the file name. I think this might be because I had to resubmit the attachments (due to the zip file accidentally containing a copy of the report the first time around). </paragraph><paragraph>Hopefully it isn't an issue for grading? </paragraph><figure><image src="https://static.us.edusercontent.com/files/Jm49WTcPAzd0b5aXqB2NmgbL" width="261" height="132"/></figure></document>
-
-Answer from User 213547:
-Not a problem. we will only look at the most updated file
-

@@ -1,7 +1,0 @@
-Thread ID: 6091955
-User 1512049 (Parent Post) says:
-<document version="2.0"><paragraph>Hello,</paragraph><paragraph>Will there be HW3 code templates to use for gradescope on HW3? Because I am looking at ED Discussion right now and I don't see anything relating to the code?</paragraph><paragraph>Thanks,</paragraph><paragraph>Thushar Garipalli</paragraph></document>
-
-Answer from User 134876:
-Due to the highly subjective nature of the plots for HW3, we've decided not to utilize gradescope for this assignment.
-

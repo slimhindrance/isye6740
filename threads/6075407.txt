@@ -1,9 +1,0 @@
-Thread ID: 6075407
-User 1512058 (Parent Post) says:
-<document version="2.0"><paragraph>Hello,</paragraph><paragraph>When I download the face .gif files, they are all 320x243 and I'm not sure how to get this down to a 16x16 image as the directions state we should be seeing in the preprocessing remark. </paragraph><paragraph>Am I looking at the wrong images or is there a way to get each image into a 16x16 format before finding eigenfaces?</paragraph><paragraph/><paragraph>Thanks!</paragraph></document>
-
-Answer from User 300188:
-No. The instructions say "e.g" which means for example turning a 16 by 16 to a 4 by 4 not that you end up with a 16 by 16 in this problem.
-
-You can downsize each image by taking every 4th column and 4th row. 
-
