@@ -5,3 +5,4 @@ threads/
 docx/
 pdf/
 test/
+.env

@@ -405,3 +405,107 @@ Skipping 'anonymous_comments' for thread 6006413 as it is not a list.
 Skipping 'anonymous_comments' for thread 6006398 as it is not a list.
 {'id': 6005999, 'user_id': 1131595, 'course_id': 70719, 'original_id': None, 'editor_id': 1131595, 'accepted_id': 13913530, 'duplicate_id': None, 'number': 142, 'type': 'question', 'title': 'HW2 Q1.3', 'content': '<document version="2.0"><paragraph>Hello, making this question private as I don\'t want to give away too much information. I\'m trying to get some clarity on what is meant by two different eigendecompositions. At first, I thought the second decomposition was SVD but it appears from watching Neepa\'s office hours, we should be referring to slides 17-19.</paragraph><paragraph>It\'s clear to me that one eigendecomposition is C = UΛU^T where U is the eigenvectors and Λ is eigenvalues, but based on reading those slides, the only other formulation I see is Cu = λu for each of the eigenvectors and eigenvalues, which I think of more as a property of eigenvectors/values, not so much a decomposition. </paragraph><paragraph>Without giving too much away, is it possible to let me know if I\'m on the right track or provide some clarity on what\'s being asked?</paragraph><paragraph>Thank you!</paragraph></document>', 'document': "Hello, making this question private as I don't want to give away too much information. I'm trying to get some clarity on what is meant by two different eigendecompositions. At first, I thought the second decomposition was SVD but it appears from watching Neepa's office hours, we should be referring to slides 17-19.\n\nIt's clear to me that one eigendecomposition is C = UΛU^T where U is the eigenvectors and Λ is eigenvalues, but based on reading those slides, the only other formulation I see is Cu = λu for each of the eigenvectors and eigenvalues, which I think of more as a property of eigenvectors/values, not so much a decomposition. \n\nWithout giving too much away, is it possible to let me know if I'm on the right track or provide some clarity on what's being asked?\n\nThank you!", 'category': 'Assignments', 'subcategory': 'HW2', 'subsubcategory': '', 'flag_count': 0, 'star_count': 0, 'view_count': 35, 'unique_view_count': 10, 'vote_count': 0, 'reply_count': 1, 'unresolved_count': 0, 'is_locked': False, 'is_pinned': False, 'is_private': True, 'is_endorsed': False, 'is_answered': True, 'is_student_answered': False, 'is_staff_answered': True, 'is_archived': False, 'is_anonymous': False, 'is_megathread': False, 'anonymous_comments': False, 'approved_status': 'approved', 'created_at': '2025-01-22T12:45:02.380941+11:00', 'updated_at': '2025-01-30T06:23:16.153948+11:00', 'deleted_at': None, 'pinned_at': None, 'anonymous_id': 0, 'vote': 0, 'is_seen': True, 'is_starred': False, 'is_watched': None, 'glanced_at': '2025-01-23T04:41:28.138888+11:00', 'new_reply_count': 0, 'duplicate_title': None, 'answers': [{'id': 13913530, 'user_id': 215365, 'course_id': 70719, 'thread_id': 6005999, 'original_id': None, 'parent_id': None, 'editor_id': None, 'number': 1, 'type': 'answer', 'kind': 'normal', 'content': '<document version="2.0"><paragraph>You are correct that SVD wouldn\'t apply since eigendecomposition is $U\\Lambda U^T$  (this is at the bottom of slide 19). Also $Cu=\\lambda u$ is more of a definition of an eigenvector and eigenvalue. So there should be a way to show that there are two distinct expressions that are eigenvalue decompositions of the matrix $A$.</paragraph><paragraph/></document>', 'document': "You are correct that SVD wouldn't apply since eigendecomposition is $U\\Lambda U^T$  (this is at the bottom of slide 19). Also $Cu=\\lambda u$ is more of a definition of an eigenvector and eigenvalue. So there should be a way to show that there are two distinct expressions that are eigenvalue decompositions of the matrix $A$.\n\n", 'flag_count': 0, 'vote_count': 0, 'is_endorsed': False, 'is_anonymous': False, 'is_private': False, 'is_resolved': False, 'created_at': '2025-01-23T02:06:21.368897+11:00', 'updated_at': None, 'deleted_at': None, 'anonymous_id': 0, 'vote': 0, 'comments': []}], 'comments': []}
 Skipping 'anonymous_comments' for thread 6005999 as it is not a list.
+✅ Authenticated as Christopher W Lindeman
+Hello Christopher W Lindeman!
+('ID: 70719', 'Computational Data Analysis', '2025', 'Spring')
+Processing Threads:   0%|          | 0/100 [00:00<?, ?thread/s]Processing Threads:   3%|▎         | 3/100 [00:00<00:04, 23.66thread/s]Processing Threads:   6%|▌         | 6/100 [00:00<00:03, 23.52thread/s]Processing Threads:   9%|▉         | 9/100 [00:00<00:03, 26.06thread/s]Processing Threads:  12%|█▏        | 12/100 [00:00<00:03, 24.77thread/s]Processing Threads:  15%|█▌        | 15/100 [00:00<00:03, 24.28thread/s]Processing Threads:  18%|█▊        | 18/100 [00:00<00:03, 24.69thread/s]Processing Threads:  21%|██        | 21/100 [00:00<00:03, 24.26thread/s]Processing Threads:  24%|██▍       | 24/100 [00:00<00:03, 24.55thread/s]Processing Threads:  27%|██▋       | 27/100 [00:01<00:03, 24.14thread/s]Processing Threads:  30%|███       | 30/100 [00:01<00:02, 24.50thread/s]Processing Threads:  33%|███▎      | 33/100 [00:01<00:02, 23.26thread/s]Processing Threads:  37%|███▋      | 37/100 [00:01<00:02, 25.27thread/s]Processing Threads:  41%|████      | 41/100 [00:01<00:02, 27.45thread/s]Processing Threads:  44%|████▍     | 44/100 [00:01<00:02, 27.67thread/s]Processing Threads:  47%|████▋     | 47/100 [00:01<00:01, 27.69thread/s]Processing Threads:  51%|█████     | 51/100 [00:01<00:01, 29.05thread/s]Processing Threads:  54%|█████▍    | 54/100 [00:02<00:01, 27.78thread/s]Processing Threads:  57%|█████▋    | 57/100 [00:02<00:01, 28.09thread/s]Processing Threads:  60%|██████    | 60/100 [00:02<00:01, 27.73thread/s]Processing Threads:  63%|██████▎   | 63/100 [00:02<00:01, 28.31thread/s]Processing Threads:  67%|██████▋   | 67/100 [00:02<00:01, 29.36thread/s]Processing Threads:  71%|███████   | 71/100 [00:02<00:00, 29.80thread/s]Processing Threads:  75%|███████▌  | 75/100 [00:02<00:00, 30.91thread/s]Processing Threads:  79%|███████▉  | 79/100 [00:02<00:00, 30.92thread/s]Processing Threads:  83%|████████▎ | 83/100 [00:03<00:00, 29.70thread/s]Processing Threads:  86%|████████▌ | 86/100 [00:03<00:00, 27.97thread/s]Processing Threads:  89%|████████▉ | 89/100 [00:03<00:00, 26.82thread/s]Processing Threads:  92%|█████████▏| 92/100 [00:03<00:00, 27.61thread/s]Processing Threads:  96%|█████████▌| 96/100 [00:03<00:00, 29.06thread/s]Processing Threads: 100%|██████████| 100/100 [00:03<00:00, 30.38thread/s]Processing Threads: 100%|██████████| 100/100 [00:03<00:00, 27.41thread/s]
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
