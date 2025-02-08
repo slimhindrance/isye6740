@@ -9,5 +9,6 @@ ed/__pycache__/
 __pycache__/
 test/
 .env
+txt/
 
 helpers/__pycache__/
