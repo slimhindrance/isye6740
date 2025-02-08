@@ -405,3 +405,108 @@ Skipping 'anonymous_comments' for thread 6006413 as it is not a list.
 Skipping 'anonymous_comments' for thread 6006398 as it is not a list.
 {'id': 6005999, 'user_id': 1131595, 'course_id': 70719, 'original_id': None, 'editor_id': 1131595, 'accepted_id': 13913530, 'duplicate_id': None, 'number': 142, 'type': 'question', 'title': 'HW2 Q1.3', 'content': '<document version="2.0"><paragraph>Hello, making this question private as I don\'t want to give away too much information. I\'m trying to get some clarity on what is meant by two different eigendecompositions. At first, I thought the second decomposition was SVD but it appears from watching Neepa\'s office hours, we should be referring to slides 17-19.</paragraph><paragraph>It\'s clear to me that one eigendecomposition is C = UΛU^T where U is the eigenvectors and Λ is eigenvalues, but based on reading those slides, the only other formulation I see is Cu = λu for each of the eigenvectors and eigenvalues, which I think of more as a property of eigenvectors/values, not so much a decomposition. </paragraph><paragraph>Without giving too much away, is it possible to let me know if I\'m on the right track or provide some clarity on what\'s being asked?</paragraph><paragraph>Thank you!</paragraph></document>', 'document': "Hello, making this question private as I don't want to give away too much information. I'm trying to get some clarity on what is meant by two different eigendecompositions. At first, I thought the second decomposition was SVD but it appears from watching Neepa's office hours, we should be referring to slides 17-19.\n\nIt's clear to me that one eigendecomposition is C = UΛU^T where U is the eigenvectors and Λ is eigenvalues, but based on reading those slides, the only other formulation I see is Cu = λu for each of the eigenvectors and eigenvalues, which I think of more as a property of eigenvectors/values, not so much a decomposition. \n\nWithout giving too much away, is it possible to let me know if I'm on the right track or provide some clarity on what's being asked?\n\nThank you!", 'category': 'Assignments', 'subcategory': 'HW2', 'subsubcategory': '', 'flag_count': 0, 'star_count': 0, 'view_count': 35, 'unique_view_count': 10, 'vote_count': 0, 'reply_count': 1, 'unresolved_count': 0, 'is_locked': False, 'is_pinned': False, 'is_private': True, 'is_endorsed': False, 'is_answered': True, 'is_student_answered': False, 'is_staff_answered': True, 'is_archived': False, 'is_anonymous': False, 'is_megathread': False, 'anonymous_comments': False, 'approved_status': 'approved', 'created_at': '2025-01-22T12:45:02.380941+11:00', 'updated_at': '2025-01-30T06:23:16.153948+11:00', 'deleted_at': None, 'pinned_at': None, 'anonymous_id': 0, 'vote': 0, 'is_seen': True, 'is_starred': False, 'is_watched': None, 'glanced_at': '2025-01-23T04:41:28.138888+11:00', 'new_reply_count': 0, 'duplicate_title': None, 'answers': [{'id': 13913530, 'user_id': 215365, 'course_id': 70719, 'thread_id': 6005999, 'original_id': None, 'parent_id': None, 'editor_id': None, 'number': 1, 'type': 'answer', 'kind': 'normal', 'content': '<document version="2.0"><paragraph>You are correct that SVD wouldn\'t apply since eigendecomposition is $U\\Lambda U^T$  (this is at the bottom of slide 19). Also $Cu=\\lambda u$ is more of a definition of an eigenvector and eigenvalue. So there should be a way to show that there are two distinct expressions that are eigenvalue decompositions of the matrix $A$.</paragraph><paragraph/></document>', 'document': "You are correct that SVD wouldn't apply since eigendecomposition is $U\\Lambda U^T$  (this is at the bottom of slide 19). Also $Cu=\\lambda u$ is more of a definition of an eigenvector and eigenvalue. So there should be a way to show that there are two distinct expressions that are eigenvalue decompositions of the matrix $A$.\n\n", 'flag_count': 0, 'vote_count': 0, 'is_endorsed': False, 'is_anonymous': False, 'is_private': False, 'is_resolved': False, 'created_at': '2025-01-23T02:06:21.368897+11:00', 'updated_at': None, 'deleted_at': None, 'anonymous_id': 0, 'vote': 0, 'comments': []}], 'comments': []}
 Skipping 'anonymous_comments' for thread 6005999 as it is not a list.
+✅ Authenticated as Christopher W Lindeman
+Hello Christopher W Lindeman!
+('ID: 70719', 'Computational Data Analysis', '2025', 'Spring')
+Processing Threads:   0%|          | 0/100 [00:00<?, ?thread/s]Processing Threads:   3%|▎         | 3/100 [00:00<00:03, 27.42thread/s]Processing Threads:   6%|▌         | 6/100 [00:00<00:03, 27.54thread/s]Processing Threads:   9%|▉         | 9/100 [00:00<00:03, 27.73thread/s]Processing Threads:  12%|█▏        | 12/100 [00:00<00:03, 28.00thread/s]Processing Threads:  15%|█▌        | 15/100 [00:00<00:03, 27.44thread/s]Processing Threads:  19%|█▉        | 19/100 [00:00<00:02, 29.36thread/s]Processing Threads:  22%|██▏       | 22/100 [00:00<00:02, 28.80thread/s]Processing Threads:  25%|██▌       | 25/100 [00:00<00:03, 23.95thread/s]Processing Threads:  28%|██▊       | 28/100 [00:01<00:03, 22.92thread/s]Processing Threads:  31%|███       | 31/100 [00:01<00:02, 23.83thread/s]Processing Threads:  34%|███▍      | 34/100 [00:01<00:02, 22.40thread/s]Processing Threads:  37%|███▋      | 37/100 [00:01<00:02, 24.00thread/s]Processing Threads:  40%|████      | 40/100 [00:01<00:02, 24.79thread/s]Processing Threads:  44%|████▍     | 44/100 [00:01<00:02, 27.00thread/s]Processing Threads:  48%|████▊     | 48/100 [00:01<00:01, 29.68thread/s]Processing Threads:  52%|█████▏    | 52/100 [00:01<00:01, 31.25thread/s]Processing Threads:  56%|█████▌    | 56/100 [00:02<00:01, 30.46thread/s]Processing Threads:  60%|██████    | 60/100 [00:02<00:01, 31.43thread/s]Processing Threads:  64%|██████▍   | 64/100 [00:02<00:01, 31.79thread/s]Processing Threads:  68%|██████▊   | 68/100 [00:02<00:01, 30.24thread/s]Processing Threads:  72%|███████▏  | 72/100 [00:02<00:00, 30.38thread/s]Processing Threads:  76%|███████▌  | 76/100 [00:02<00:00, 31.30thread/s]Processing Threads:  80%|████████  | 80/100 [00:02<00:00, 32.64thread/s]Processing Threads:  84%|████████▍ | 84/100 [00:02<00:00, 32.31thread/s]Processing Threads:  88%|████████▊ | 88/100 [00:03<00:00, 32.45thread/s]Processing Threads:  92%|█████████▏| 92/100 [00:03<00:00, 33.59thread/s]Processing Threads:  96%|█████████▌| 96/100 [00:03<00:00, 33.68thread/s]Processing Threads: 100%|██████████| 100/100 [00:03<00:00, 34.38thread/s]Processing Threads: 100%|██████████| 100/100 [00:03<00:00, 29.44thread/s]
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+continue
+/usr/bin/python: can't open file '/home/lindeman/isye6740/indexer/json_faiss.py': [Errno 2] No such file or directory

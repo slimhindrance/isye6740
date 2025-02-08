@@ -14,10 +14,10 @@ import fitz  # PyMuPDF for PDF processing
 load_dotenv()
 
 # Define paths
-json_folder = os.getenv("JSON_THREADS_DIR", "/app/json_threads")
-faiss_index_path = os.getenv("FAISS_INDEX_PATH", "/app/faiss")
-docx_folder = os.getenv("DOCX_DIR", "/app/json_threads")
-pdf_folder = os.getenv("PDF_DIR", "/app/json_threads")
+json_folder = os.getenv("JSON_THREADS_DIR")#, "/app/json_threads")
+faiss_index_path = os.getenv("FAISS_INDEX_PATH")#, "/app/faiss")
+docx_folder = os.getenv("DOCX_DIR")#, "/app/json_threads")
+pdf_folder = os.getenv("PDF_DIR")#, "/app/json_threads")
 
 # Load the embedding model
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
