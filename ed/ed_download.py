@@ -77,20 +77,26 @@ def course_query(year=year):
 
 def get_thread_ids(course_id):
     offset = 0
-    limit = 1000  # Adjust based on API's pagination limit
+    limit = 100  # Adjust this if the API allows more per request
     all_threads = []
 
-    while True:
-        threads = ed.list_threads(course_id=course_id, offset=offset, limit=limit)
-        #for thread in threads:
-            #print(f"Thread ID: {thread['id']}, Title: {thread.get('title')}") 
-        if not threads:
-            break  # No more threads to fetch
-        all_threads.extend(threads)
-        offset += limit  # Move to the next page
+    print(f"Retrieving threads for Course ID: {course_id}")
 
-    thread_ids = [thread['id'] for thread in all_threads]
-    return thread_ids
+    while True:
+        # Retrieve a batch of threads
+        threads = ed.list_threads(course_id=course_id, offset=offset, limit=limit)
+        
+        if not threads:
+            print("✅ All threads retrieved.")
+            break  # Exit loop when no more threads are returned
+        
+        print(f"Retrieved {len(threads)} threads (offset: {offset})")
+
+        all_threads.extend(threads)  # Add threads to the list
+        offset += limit  # Move to the next batch
+
+    print(f"Total threads retrieved: {len(all_threads)}")
+    return [thread['id'] for thread in all_threads]
 
 
 def extract_all_nested_comments(thread_content):
