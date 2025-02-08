@@ -14,10 +14,13 @@ import fitz  # PyMuPDF for PDF processing
 load_dotenv()
 
 # Define paths
-json_folder = os.getenv("JSON_THREADS_DIR")#, "/app/json_threads")
 faiss_index_path = os.getenv("FAISS_INDEX_PATH")#, "/app/faiss")
+
+json_folder = os.getenv("JSON_THREADS_DIR")#, "/app/json_threads")
 docx_folder = os.getenv("DOCX_DIR")#, "/app/json_threads")
 pdf_folder = os.getenv("PDF_DIR")#, "/app/json_threads")
+txt_folder = os.getenv("TXT_DIR")
+
 
 # Load the embedding model
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
@@ -102,6 +105,22 @@ for filename in tqdm(os.listdir(pdf_folder), desc="Processing PDF Files", unit="
         for chunk in chunks:
             pdf_documents.append(Document(page_content=chunk, metadata={"source": filename, "authority_level": 3}))
 
+txt_documents = []
+for filename in tqdm(os.listdir(txt_folder), desc="Processing TXT Files", unit="file"):
+    if filename.endswith(".txt"):
+        txt_path = os.path.join(txt_folder, filename)
+
+        # Open and read the TXT file
+        with open(txt_path, 'r', encoding='utf-8') as file:
+            txt_text = file.read()
+
+        # Split TXT text into manageable chunks
+        chunks = text_splitter.split_text(txt_text)
+
+        # Append each chunk to the document list with metadata
+        for chunk in chunks:
+            txt_documents.append(Document(page_content=chunk, metadata={"source": filename, "authority_level": 3}))
+
 # Add documents to FAISS and save index
 if json_documents:
     vector_store.add_documents(json_documents)
@@ -119,6 +138,12 @@ if pdf_documents:
     vector_store.add_documents(pdf_documents)
     vector_store.save_local(faiss_index_path)
     print(f"✅ FAISS index updated with {len(pdf_documents)} PDF documents!")
+
+# Add documents to FAISS and save index
+if txt_documents:
+    vector_store.add_documents(txt_documents)
+    vector_store.save_local(faiss_index_path)
+    print(f"✅ FAISS index updated with {len(txt_documents)} TXT documents!")
 
 else:
     print("❌ No documents found to add.")

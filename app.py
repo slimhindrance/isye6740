@@ -39,7 +39,7 @@ USER_FILE = "users.json"
 GROUP_FILE = "groups.json"
 
 # Directories
-BASE_DIR = "/home/lindeman/"
+BASE_DIR = "/home/chris"
 UPLOAD_DIR = os.path.join(BASE_DIR, "uploads")
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 

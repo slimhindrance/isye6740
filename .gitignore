@@ -4,13 +4,10 @@ json_threads/
 threads/
 docx/
 pdf/
-<<<<<<< HEAD
 .env
 ed/__pycache__/
 __pycache__/
-=======
 test/
 .env
 
->>>>>>> 4e543fa (check)
 helpers/__pycache__/
