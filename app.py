@@ -15,6 +15,27 @@ from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 from helpers.rag_helper import generate_rag_response
 
+import chainlit as cl
+from helpers.rag_helper import generate_rag_response
+
+# Initialize Chainlit app
+@cl.on_chat_start
+async def on_chat_start():
+    await cl.Message(content="Welcome! How can I assist you today?").send()
+
+# Handle user messages
+@cl.on_message
+async def handle_message(message: cl.Message):
+    user_input = message.content
+    
+    try:
+        # Generate response using RAG
+        response = generate_rag_response(user_input)
+        await cl.Message(content=response).send()
+    except Exception as e:
+        await cl.Message(content=f"An error occurred: {str(e)}").send()
+
+
 class GenerateRequest(BaseModel):
     prompt: str
     max_length: int = 3000  # Default value if not provided
