@@ -204,7 +204,7 @@ def save_threads_as_json(thread_ids):
             thread_content = ed.get_thread(thread_id)
             
             # Define the file path
-            filename = os.path.join(json_output_dir, f"{thread_id}.json")
+            filename = os.path.join(raw_json_output_dir, f"{thread_id}.json")
             
             # Ensure the file doesn't already exist
             if os.path.exists(filename):
@@ -232,6 +232,6 @@ course_query()
 #course_id = int(input("Enter ID of the Course from Above: "))
 thread_ids = get_thread_ids(course_id)
 
-doc_from_threads(thread_ids)
+# doc_from_threads(thread_ids)
 
 save_threads_as_json(thread_ids)
