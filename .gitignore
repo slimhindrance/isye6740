@@ -12,3 +12,4 @@ test/
 txt/
 
 helpers/__pycache__/
+raw_json/
