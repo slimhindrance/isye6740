@@ -1,5 +1,12 @@
 {
   "features": {
     "show_readme": false
-  }
+  },
+  
+    "theme": {
+      "name": "custom",
+      "css": "style.css",
+      "js": "custom.js"
+    }
+  
 }

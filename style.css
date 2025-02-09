@@ -1,0 +1,21 @@
+/* Hide the Chainlit watermark */
+a.watermark {
+    display: none !important;
+}
+
+/* Replace 'Chainlit' text with 'TA Assist' */
+.image-overlay-text::before {
+    content: "TA Assist";  /* New text to display */
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0) scale(1, 1);  /* Reset any scaling or positioning */
+    color: #000;  /* Customize text color */
+    font-size: 16px;  /* Adjust font size */
+    z-index: 10;
+}
+
+/* Hide the original 'Chainlit' text */
+.image-overlay-text {
+    color: transparent !important;  /* Hide the existing text */
+}
