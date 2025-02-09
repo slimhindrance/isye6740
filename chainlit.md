@@ -1,4 +1,4 @@
-# Welcome to Chainlit! 🚀🤖
+# Welcome to Computational Data Analysis! 🚀🤖
 
 Hi there! 👋 This is a chatbot designed to help you navigate the amazing Georgia Tech graduate course ISYE6740. It was developed by Chris and Mark as an experiement that shows what we can do with applications of ML/AI.
 
