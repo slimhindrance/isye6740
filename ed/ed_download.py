@@ -146,7 +146,7 @@ def doc_from_threads(thread_ids):
         
         # Start the document with the parent thread content
         content = f"Thread ID: {thread_id}\n"
-        content += f"User {thread_content['user_id']} (Parent Post) says:\n{thread_content['content']}\n\n"
+        content += f"User {thread_content['user_id']} (Parent Post) says:\n{thread_content['document']}\n\n"
 
         # Process all answers
         for answer in thread_content.get('answers', []):
@@ -231,7 +231,11 @@ course_query()
 #Enter course ID 
 #course_id = int(input("Enter ID of the Course from Above: "))
 thread_ids = get_thread_ids(course_id)
-
-# doc_from_threads(thread_ids)
-
-save_threads_as_json(thread_ids)
+try:
+    doc_from_threads(thread_ids)
+except:
+    pass
+try:    
+    save_threads_as_json(thread_ids)
+except:
+    pass
