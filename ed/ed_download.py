@@ -27,6 +27,7 @@ if not api_token:
 # Ensure output directory exists
 output_dir = os.getenv("OUTPUT_DIR", "/app/threads")  # Default to /app/threads in Docker
 json_output_dir = os.getenv("JSON_THREADS_DIR", "/app/json_threads")
+raw_json_output_dir = os.getenv("RAW_JSON_THREADS_DIR", "/app/json_threads")
 os.makedirs(output_dir, exist_ok=True)  # ✅ Creates directory if missing
 os.makedirs(json_output_dir, exist_ok=True)  # ✅ Creates directory if missing
 
@@ -192,6 +193,31 @@ def doc_from_threads(thread_ids):
         with open(filename, "w", encoding="utf-8") as file:
             json.dump(thread_content, file, indent=4)
 
+def save_threads_as_json(thread_ids):
+    """
+    Fetches raw JSON for each thread and saves it locally.
+    :param thread_ids: List of thread IDs to process
+    """
+    for thread_id in tqdm(thread_ids, desc="Downloading Threads", unit="thread"):
+        try:
+            # Fetch the raw thread JSON from the API
+            thread_content = ed.get_thread(thread_id)
+            
+            # Define the file path
+            filename = os.path.join(json_output_dir, f"{thread_id}.json")
+            
+            # Ensure the file doesn't already exist
+            if os.path.exists(filename):
+                os.remove(filename)
+            
+            # Save the JSON to a file
+            with open(filename, "w", encoding="utf-8") as file:
+                json.dump(thread_content, file, indent=4)
+            
+            print(f"✅ Thread {thread_id} saved to {filename}")
+        
+        except Exception as e:
+            print(f"❌ Failed to fetch thread {thread_id}: {e}")
 
 try:
     course_id = os.getenv("ED_COURSEID")
@@ -208,3 +234,4 @@ thread_ids = get_thread_ids(course_id)
 
 doc_from_threads(thread_ids)
 
+save_threads_as_json(thread_ids)
